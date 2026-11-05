@@ -1,0 +1,4238 @@
+[
+ {
+  "entity_id": "co:junostack",
+  "type": "company",
+  "name": "JunoStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:0"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "JunoStack builds vector database for retrieval augmented generation.",
+   "description": "JunoStack is a AI Infrastructure startup that builds vector database for retrieval augmented generation. Founded in 2019, based in New York.",
+   "batch": "W24",
+   "team_size": 81,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://junostack.example"
+  },
+  "founders": [
+   {
+    "name": "Dev Pryce",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ben Garnet",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Redwood Arc",
+    "round": "Series A",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:atlasmind",
+  "type": "company",
+  "name": "AtlasMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:1"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "AtlasMind builds grid-scale battery analytics.",
+   "description": "AtlasMind is a Climate Tech startup that builds grid-scale battery analytics. Founded in 2019, based in New York.",
+   "batch": "W24",
+   "team_size": 53,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://atlasmind.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Pryce",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Chloe Frost",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000001-25-000001",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 10000000.0,
+    "total_offering_amount": 12000000.0,
+    "date_first_sale": "2023-09-15",
+    "related_persons": [
+     {
+      "name": "Mateo Pryce",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:onyxworks",
+  "type": "company",
+  "name": "OnyxWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:2"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "OnyxWorks builds treasury management for startups.",
+   "description": "OnyxWorks is a Fintech startup that builds treasury management for startups. Founded in 2019, based in Austin.",
+   "batch": "W24",
+   "team_size": 90,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://onyxworks.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Hale",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Elena Calder",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Harbor Light Capital",
+    "round": "Series A",
+    "amount": 4000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000002-25-000002",
+    "industry_group": "Fintech",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2023-04-15",
+    "related_persons": [
+     {
+      "name": "Mateo Hale",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:lumenai",
+  "type": "company",
+  "name": "LumenAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:3"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "LumenAI builds prior authorization automation for clinics.",
+   "description": "LumenAI is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2019, based in Boston.",
+   "batch": "W24",
+   "team_size": 71,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://lumenai.example"
+  },
+  "founders": [
+   {
+    "name": "Lena Tamsin",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Sofia Kerr",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Series A",
+    "amount": 666666.6666666666
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Series A",
+    "amount": 666666.6666666666
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Series A",
+    "amount": 666666.6666666666
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:velamind",
+  "type": "company",
+  "name": "VelaMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:4"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "VelaMind builds AI code review bot.",
+   "description": "VelaMind is a Developer Tools startup that builds AI code review bot. Founded in 2019, based in Boston.",
+   "batch": "W24",
+   "team_size": 53,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://velamind.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Marsh",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Uma Marsh",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000004-25-000004",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2023-02-15",
+    "related_persons": [
+     {
+      "name": "Mateo Marsh",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:flintai",
+  "type": "company",
+  "name": "FlintAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:5"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "FlintAI builds autonomous inspection drones.",
+   "description": "FlintAI is a Robotics startup that builds autonomous inspection drones. Founded in 2019, based in New York.",
+   "batch": "W24",
+   "team_size": 81,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://flintai.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Ellison",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Uma Iver",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Series A",
+    "amount": 500000.0
+   },
+   {
+    "name": "Bluefjord Capital",
+    "round": "Series A",
+    "amount": 500000.0
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 500000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:orbitpath",
+  "type": "company",
+  "name": "OrbitPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:6"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "OrbitPath builds vector database for retrieval augmented generation.",
+   "description": "OrbitPath is a AI Infrastructure startup that builds vector database for retrieval augmented generation. Founded in 2019, based in Boston.",
+   "batch": "W24",
+   "team_size": 42,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://orbitpath.example"
+  },
+  "founders": [
+   {
+    "name": "Chloe Ellison",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Dev Yarrow",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Meridian Seed",
+    "round": "Series A",
+    "amount": 4000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000006-25-000006",
+    "industry_group": "AI Infrastructure",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2023-05-15",
+    "related_persons": [
+     {
+      "name": "Chloe Ellison",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:halomind",
+  "type": "company",
+  "name": "HaloMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:7"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "HaloMind builds EV fleet charging optimization.",
+   "description": "HaloMind is a Climate Tech startup that builds EV fleet charging optimization. Founded in 2019, based in Toronto.",
+   "batch": "W24",
+   "team_size": 23,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://halomind.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Arden",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Gabe Quill",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000007-25-000007",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 15000000.0,
+    "total_offering_amount": 18000000.0,
+    "date_first_sale": "2023-12-15",
+    "related_persons": [
+     {
+      "name": "Quinn Arden",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:ionpath",
+  "type": "company",
+  "name": "IonPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:8"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "IonPath builds embedded payments API for vertical SaaS.",
+   "description": "IonPath is a Fintech startup that builds embedded payments API for vertical SaaS. Founded in 2019, based in Austin.",
+   "batch": "W24",
+   "team_size": 69,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://ionpath.example"
+  },
+  "founders": [
+   {
+    "name": "Lena Frost",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Lena Hale",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 7500000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Series A",
+    "amount": 7500000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000008-25-000008",
+    "industry_group": "Fintech",
+    "total_amount_sold": 15000000.0,
+    "total_offering_amount": 18000000.0,
+    "date_first_sale": "2023-09-15",
+    "related_persons": [
+     {
+      "name": "Lena Frost",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:lumenforge",
+  "type": "company",
+  "name": "LumenForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:9"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "LumenForge builds radiology triage with computer vision.",
+   "description": "LumenForge is a Healthcare AI startup that builds radiology triage with computer vision. Founded in 2019, based in New York.",
+   "batch": "W24",
+   "team_size": 107,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://lumenforge.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Yarrow",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Zoe Hale",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000009-25-000009",
+    "industry_group": "Healthcare AI",
+    "total_amount_sold": 2000000.0,
+    "total_offering_amount": 2400000.0,
+    "date_first_sale": "2023-08-15",
+    "related_persons": [
+     {
+      "name": "Mateo Yarrow",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:driftforge",
+  "type": "company",
+  "name": "DriftForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:10"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "DriftForge builds feature flag platform.",
+   "description": "DriftForge is a Developer Tools startup that builds feature flag platform. Founded in 2019, based in Toronto.",
+   "batch": "W24",
+   "team_size": 80,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://driftforge.example"
+  },
+  "founders": [
+   {
+    "name": "Lena Oakes",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Zoe Yarrow",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:prismforge",
+  "type": "company",
+  "name": "PrismForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:11"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "PrismForge builds robotic kitchen automation.",
+   "description": "PrismForge is a Robotics startup that builds robotic kitchen automation. Founded in 2019, based in Austin.",
+   "batch": "W24",
+   "team_size": 105,
+   "status": "Active",
+   "founded_year": 2019,
+   "website": "https://prismforge.example"
+  },
+  "founders": [
+   {
+    "name": "Uma Calder",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Victor Dane",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Series A",
+    "amount": 3333333.3333333335
+   },
+   {
+    "name": "Bluefjord Capital",
+    "round": "Series A",
+    "amount": 3333333.3333333335
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 3333333.3333333335
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:quarkforge",
+  "type": "company",
+  "name": "QuarkForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:12"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "QuarkForge builds low-latency LLM inference serving.",
+   "description": "QuarkForge is a AI Infrastructure startup that builds low-latency LLM inference serving. Founded in 2020, based in Toronto.",
+   "batch": "W24",
+   "team_size": 53,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://quarkforge.example"
+  },
+  "founders": [
+   {
+    "name": "Omar Marsh",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ximena Calder",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Meridian Seed",
+    "round": "Series A",
+    "amount": 7500000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Series A",
+    "amount": 7500000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:orbitai",
+  "type": "company",
+  "name": "OrbitAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:13"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "OrbitAI builds grid-scale battery analytics.",
+   "description": "OrbitAI is a Climate Tech startup that builds grid-scale battery analytics. Founded in 2020, based in San Francisco.",
+   "batch": "W24",
+   "team_size": 22,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://orbitai.example"
+  },
+  "founders": [
+   {
+    "name": "Sofia Oakes",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Zoe Ueda",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000013-25-000013",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 2000000.0,
+    "total_offering_amount": 2400000.0,
+    "date_first_sale": "2023-10-15",
+    "related_persons": [
+     {
+      "name": "Sofia Oakes",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:latticeworks",
+  "type": "company",
+  "name": "LatticeWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:14"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "LatticeWorks builds fraud detection for real-time payments.",
+   "description": "LatticeWorks is a Fintech startup that builds fraud detection for real-time payments. Founded in 2020, based in Toronto.",
+   "batch": "W24",
+   "team_size": 86,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://latticeworks.example"
+  },
+  "founders": [
+   {
+    "name": "Dev Quill",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ximena Ellison",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 750000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Series A",
+    "amount": 750000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000014-25-000014",
+    "industry_group": "Fintech",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2023-04-15",
+    "related_persons": [
+     {
+      "name": "Dev Quill",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:mosaicai",
+  "type": "company",
+  "name": "MosaicAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:15"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "MosaicAI builds prior authorization automation for clinics.",
+   "description": "MosaicAI is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2020, based in Austin.",
+   "batch": "W24",
+   "team_size": 72,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://mosaicai.example"
+  },
+  "founders": [
+   {
+    "name": "Nadia Ellison",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ben Yarrow",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Series A",
+    "amount": 1500000.0
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Series A",
+    "amount": 1500000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000015-25-000015",
+    "industry_group": "Healthcare AI",
+    "total_amount_sold": 3000000.0,
+    "total_offering_amount": 3600000.0,
+    "date_first_sale": "2023-08-15",
+    "related_persons": [
+     {
+      "name": "Nadia Ellison",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:velastack",
+  "type": "company",
+  "name": "VelaStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:16"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "VelaStack builds end-to-end test generation with LLMs.",
+   "description": "VelaStack is a Developer Tools startup that builds end-to-end test generation with LLMs. Founded in 2020, based in San Francisco.",
+   "batch": "W24",
+   "team_size": 114,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://velastack.example"
+  },
+  "founders": [
+   {
+    "name": "Omar Frost",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Theo Arden",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Copperline Ventures",
+    "round": "Series A",
+    "amount": 3000000.0
+   },
+   {
+    "name": "Polaris Fieldworks",
+    "round": "Series A",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:emberlabs",
+  "type": "company",
+  "name": "EmberLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:17"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "EmberLabs builds autonomous inspection drones.",
+   "description": "EmberLabs is a Robotics startup that builds autonomous inspection drones. Founded in 2020, based in London.",
+   "batch": "W24",
+   "team_size": 10,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://emberlabs.example"
+  },
+  "founders": [
+   {
+    "name": "Hana Garnet",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ivan Brook",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Series A",
+    "amount": 750000.0
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Series A",
+    "amount": 750000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:orbitgrid",
+  "type": "company",
+  "name": "OrbitGrid",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:18"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "OrbitGrid builds evaluation platform for LLM agents.",
+   "description": "OrbitGrid is a AI Infrastructure startup that builds evaluation platform for LLM agents. Founded in 2020, based in London.",
+   "batch": "S24",
+   "team_size": 80,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://orbitgrid.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Garnet",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Wen Iver",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Harbor Light Capital",
+    "round": "Series A",
+    "amount": 6000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000018-25-000018",
+    "industry_group": "AI Infrastructure",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2023-09-15",
+    "related_persons": [
+     {
+      "name": "Quinn Garnet",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:groveworks",
+  "type": "company",
+  "name": "GroveWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:19"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "GroveWorks builds EV fleet charging optimization.",
+   "description": "GroveWorks is a Climate Tech startup that builds EV fleet charging optimization. Founded in 2020, based in New York.",
+   "batch": "S24",
+   "team_size": 92,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://groveworks.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Iver",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ravi Garnet",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:mosaicmind",
+  "type": "company",
+  "name": "MosaicMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:20"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "MosaicMind builds AI underwriting for small business loans.",
+   "description": "MosaicMind is a Fintech startup that builds AI underwriting for small business loans. Founded in 2020, based in San Francisco.",
+   "batch": "S24",
+   "team_size": 30,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://mosaicmind.example"
+  },
+  "founders": [
+   {
+    "name": "Victor Jett",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Zoe Dane",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Kestrel Partners",
+    "round": "Series A",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Series A",
+    "amount": 1333333.3333333333
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:velaly",
+  "type": "company",
+  "name": "Velaly",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:21"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "Velaly builds prior authorization automation for clinics.",
+   "description": "Velaly is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2020, based in Boston.",
+   "batch": "S24",
+   "team_size": 31,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://velaly.example"
+  },
+  "founders": [
+   {
+    "name": "Ximena Dane",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Farah Vance",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Glasswing Angels",
+    "round": "Series A",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Series A",
+    "amount": 1000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:groveforge",
+  "type": "company",
+  "name": "GroveForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:22"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "GroveForge builds observability for serverless apps.",
+   "description": "GroveForge is a Developer Tools startup that builds observability for serverless apps. Founded in 2020, based in Austin.",
+   "batch": "S24",
+   "team_size": 14,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://groveforge.example"
+  },
+  "founders": [
+   {
+    "name": "Ximena Lowe",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ava Kerr",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Copperline Ventures",
+    "round": "Series A",
+    "amount": 1500000.0
+   },
+   {
+    "name": "Polaris Fieldworks",
+    "round": "Series A",
+    "amount": 1500000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000022-25-000022",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 3000000.0,
+    "total_offering_amount": 3600000.0,
+    "date_first_sale": "2023-08-15",
+    "related_persons": [
+     {
+      "name": "Ximena Lowe",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:fernlabs",
+  "type": "company",
+  "name": "FernLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:23"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "FernLabs builds warehouse picking robots.",
+   "description": "FernLabs is a Robotics startup that builds warehouse picking robots. Founded in 2020, based in Austin.",
+   "batch": "S24",
+   "team_size": 37,
+   "status": "Active",
+   "founded_year": 2020,
+   "website": "https://fernlabs.example"
+  },
+  "founders": [
+   {
+    "name": "Ben Frost",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ivan Ellison",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Series A",
+    "amount": 500000.0
+   },
+   {
+    "name": "Kestrel Partners",
+    "round": "Series A",
+    "amount": 500000.0
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Series A",
+    "amount": 500000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:tidalai",
+  "type": "company",
+  "name": "TidalAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:24"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "TidalAI builds vector database for retrieval augmented generation.",
+   "description": "TidalAI is a AI Infrastructure startup that builds vector database for retrieval augmented generation. Founded in 2021, based in San Francisco.",
+   "batch": "S24",
+   "team_size": 38,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://tidalai.example"
+  },
+  "founders": [
+   {
+    "name": "Ben Wilde",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:ionpath",
+      "company_name": "IonPath",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Farah Noor",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Series A",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:velaio",
+  "type": "company",
+  "name": "Velaio",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:25"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "Velaio builds methane leak detection with satellites.",
+   "description": "Velaio is a Climate Tech startup that builds methane leak detection with satellites. Founded in 2021, based in Toronto.",
+   "batch": "S24",
+   "team_size": 14,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://velaio.example"
+  },
+  "founders": [
+   {
+    "name": "Zoe Iver",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Chloe Tamsin",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:ionstack",
+  "type": "company",
+  "name": "IonStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:26"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "IonStack builds embedded payments API for vertical SaaS.",
+   "description": "IonStack is a Fintech startup that builds embedded payments API for vertical SaaS. Founded in 2021, based in Austin.",
+   "batch": "S24",
+   "team_size": 82,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://ionstack.example"
+  },
+  "founders": [
+   {
+    "name": "Elena Brook",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Quinn Wilde",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Kestrel Partners",
+    "round": "Series A",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Series A",
+    "amount": 1333333.3333333333
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000026-25-000026",
+    "industry_group": "Fintech",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2024-02-15",
+    "related_persons": [
+     {
+      "name": "Elena Brook",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:ionforge",
+  "type": "company",
+  "name": "IonForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:27"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "IonForge builds prior authorization automation for clinics.",
+   "description": "IonForge is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2021, based in New York.",
+   "batch": "S24",
+   "team_size": 40,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://ionforge.example"
+  },
+  "founders": [
+   {
+    "name": "Omar Quill",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Victor Frost",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:junostack",
+      "company_name": "JunoStack",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Series A",
+    "amount": 3000000.0
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Series A",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000027-25-000027",
+    "industry_group": "Healthcare AI",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2024-01-15",
+    "related_persons": [
+     {
+      "name": "Omar Quill",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:onyxlabs",
+  "type": "company",
+  "name": "OnyxLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:28"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "OnyxLabs builds feature flag platform.",
+   "description": "OnyxLabs is a Developer Tools startup that builds feature flag platform. Founded in 2021, based in Boston.",
+   "batch": "S24",
+   "team_size": 34,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://onyxlabs.example"
+  },
+  "founders": [
+   {
+    "name": "Omar Dane",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Victor Ueda",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Series A",
+    "amount": 3000000.0
+   },
+   {
+    "name": "Ironleaf VC",
+    "round": "Series A",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000028-25-000028",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2024-08-15",
+    "related_persons": [
+     {
+      "name": "Omar Dane",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:lumenstack",
+  "type": "company",
+  "name": "LumenStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:29"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "LumenStack builds humanoid robot teleoperation data.",
+   "description": "LumenStack is a Robotics startup that builds humanoid robot teleoperation data. Founded in 2021, based in San Francisco.",
+   "batch": "S24",
+   "team_size": 110,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://lumenstack.example"
+  },
+  "founders": [
+   {
+    "name": "Elena Arden",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Chloe Ueda",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Series A",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Kestrel Partners",
+    "round": "Series A",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 1000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:tidallabs",
+  "type": "company",
+  "name": "TidalLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:30"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "TidalLabs builds vector database for retrieval augmented generation.",
+   "description": "TidalLabs is a AI Infrastructure startup that builds vector database for retrieval augmented generation. Founded in 2021, based in Toronto.",
+   "batch": "S24",
+   "team_size": 39,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://tidallabs.example"
+  },
+  "founders": [
+   {
+    "name": "Theo Hale",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Wen Jett",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Series A",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Series A",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Series A",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000030-25-000030",
+    "industry_group": "AI Infrastructure",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2024-03-15",
+    "related_persons": [
+     {
+      "name": "Theo Hale",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:lumenlabs",
+  "type": "company",
+  "name": "LumenLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:31"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "LumenLabs builds grid-scale battery analytics.",
+   "description": "LumenLabs is a Climate Tech startup that builds grid-scale battery analytics. Founded in 2021, based in Boston.",
+   "batch": "S24",
+   "team_size": 3,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://lumenlabs.example"
+  },
+  "founders": [
+   {
+    "name": "Ivan Lowe",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Kofi Rhee",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:atlasmind",
+      "company_name": "AtlasMind",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000031-25-000031",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 3000000.0,
+    "total_offering_amount": 3600000.0,
+    "date_first_sale": "2024-01-15",
+    "related_persons": [
+     {
+      "name": "Ivan Lowe",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:grovestack",
+  "type": "company",
+  "name": "GroveStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:32"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "GroveStack builds treasury management for startups.",
+   "description": "GroveStack is a Fintech startup that builds treasury management for startups. Founded in 2021, based in London.",
+   "batch": "S24",
+   "team_size": 86,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://grovestack.example"
+  },
+  "founders": [
+   {
+    "name": "Gabe Hale",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Chloe Iver",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Kestrel Partners",
+    "round": "Series A",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Series A",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Series A",
+    "amount": 1000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:fernpath",
+  "type": "company",
+  "name": "FernPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:33"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "FernPath builds prior authorization automation for clinics.",
+   "description": "FernPath is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2021, based in San Francisco.",
+   "batch": "S24",
+   "team_size": 77,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://fernpath.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Ellison",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Victor Wilde",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:orbitpath",
+      "company_name": "OrbitPath",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Series A",
+    "amount": 666666.6666666666
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Series A",
+    "amount": 666666.6666666666
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Series A",
+    "amount": 666666.6666666666
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:pylonpath",
+  "type": "company",
+  "name": "PylonPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:34"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "PylonPath builds end-to-end test generation with LLMs.",
+   "description": "PylonPath is a Developer Tools startup that builds end-to-end test generation with LLMs. Founded in 2021, based in Toronto.",
+   "batch": "S24",
+   "team_size": 21,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://pylonpath.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Ueda",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Nadia Yarrow",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Polaris Fieldworks",
+    "round": "Series A",
+    "amount": 6000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:atlaslabs",
+  "type": "company",
+  "name": "AtlasLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:35"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "AtlasLabs builds autonomous inspection drones.",
+   "description": "AtlasLabs is a Robotics startup that builds autonomous inspection drones. Founded in 2021, based in Toronto.",
+   "batch": "S24",
+   "team_size": 32,
+   "status": "Active",
+   "founded_year": 2021,
+   "website": "https://atlaslabs.example"
+  },
+  "founders": [
+   {
+    "name": "Chloe Arden",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:pylonpath",
+      "company_name": "PylonPath",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Ben Ellison",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Meridian Seed",
+    "round": "Series A",
+    "amount": 10000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:flintgrid",
+  "type": "company",
+  "name": "FlintGrid",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:36"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "FlintGrid builds GPU cluster scheduling for model training.",
+   "description": "FlintGrid is a AI Infrastructure startup that builds GPU cluster scheduling for model training. Founded in 2022, based in Toronto.",
+   "batch": "W25",
+   "team_size": 34,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://flintgrid.example"
+  },
+  "founders": [
+   {
+    "name": "Priya Iver",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ava Oakes",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Redwood Arc",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Seed",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:fernly",
+  "type": "company",
+  "name": "Fernly",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:37"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "Fernly builds carbon accounting software for manufacturers.",
+   "description": "Fernly is a Climate Tech startup that builds carbon accounting software for manufacturers. Founded in 2022, based in London.",
+   "batch": "W25",
+   "team_size": 11,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://fernly.example"
+  },
+  "founders": [
+   {
+    "name": "Ximena Yarrow",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Zoe Calder",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:ionworks",
+  "type": "company",
+  "name": "IonWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:38"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "IonWorks builds AI underwriting for small business loans.",
+   "description": "IonWorks is a Fintech startup that builds AI underwriting for small business loans. Founded in 2022, based in Boston.",
+   "batch": "W25",
+   "team_size": 12,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://ionworks.example"
+  },
+  "founders": [
+   {
+    "name": "Priya Vance",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Jia Brook",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:orbitgrid",
+      "company_name": "OrbitGrid",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Seed",
+    "amount": 4000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:sablemind",
+  "type": "company",
+  "name": "SableMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:39"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "SableMind builds prior authorization automation for clinics.",
+   "description": "SableMind is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2022, based in London.",
+   "batch": "W25",
+   "team_size": 75,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://sablemind.example"
+  },
+  "founders": [
+   {
+    "name": "Priya Brook",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Wen Garnet",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Seed",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Seed",
+    "amount": 1000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:grovegrid",
+  "type": "company",
+  "name": "GroveGrid",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:40"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "GroveGrid builds feature flag platform.",
+   "description": "GroveGrid is a Developer Tools startup that builds feature flag platform. Founded in 2022, based in New York.",
+   "batch": "W25",
+   "team_size": 42,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://grovegrid.example"
+  },
+  "founders": [
+   {
+    "name": "Chloe Pryce",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ava Jett",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:flintgrid",
+      "company_name": "FlintGrid",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 6000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000040-25-000040",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2024-09-15",
+    "related_persons": [
+     {
+      "name": "Chloe Pryce",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:kiteworks",
+  "type": "company",
+  "name": "KiteWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:41"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "KiteWorks builds humanoid robot teleoperation data.",
+   "description": "KiteWorks is a Robotics startup that builds humanoid robot teleoperation data. Founded in 2022, based in New York.",
+   "batch": "W25",
+   "team_size": 80,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://kiteworks.example"
+  },
+  "founders": [
+   {
+    "name": "Uma Quill",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ivan Dane",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 1000000.0
+   },
+   {
+    "name": "Redwood Arc",
+    "round": "Seed",
+    "amount": 1000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:cobaltworks",
+  "type": "company",
+  "name": "CobaltWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:42"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "CobaltWorks builds low-latency LLM inference serving.",
+   "description": "CobaltWorks is a AI Infrastructure startup that builds low-latency LLM inference serving. Founded in 2022, based in Toronto.",
+   "batch": "W25",
+   "team_size": 60,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://cobaltworks.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Jett",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:fernlabs",
+      "company_name": "FernLabs",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Nadia Lowe",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Redwood Arc",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Seed",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000042-25-000042",
+    "industry_group": "AI Infrastructure",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2024-02-15",
+    "related_persons": [
+     {
+      "name": "Mateo Jett",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:ionmind",
+  "type": "company",
+  "name": "IonMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:43"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "IonMind builds methane leak detection with satellites.",
+   "description": "IonMind is a Climate Tech startup that builds methane leak detection with satellites. Founded in 2022, based in Austin.",
+   "batch": "W25",
+   "team_size": 99,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://ionmind.example"
+  },
+  "founders": [
+   {
+    "name": "Kofi Marsh",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Dev Garnet",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:kitegrid",
+  "type": "company",
+  "name": "KiteGrid",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:44"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "KiteGrid builds treasury management for startups.",
+   "description": "KiteGrid is a Fintech startup that builds treasury management for startups. Founded in 2022, based in Austin.",
+   "batch": "W25",
+   "team_size": 57,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://kitegrid.example"
+  },
+  "founders": [
+   {
+    "name": "Yusuf Iver",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ben Iver",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Kestrel Partners",
+    "round": "Seed",
+    "amount": 500000.0
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Seed",
+    "amount": 500000.0
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Seed",
+    "amount": 500000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000044-25-000044",
+    "industry_group": "Fintech",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2024-11-15",
+    "related_persons": [
+     {
+      "name": "Yusuf Iver",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:zephyrly",
+  "type": "company",
+  "name": "Zephyrly",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:45"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "Zephyrly builds radiology triage with computer vision.",
+   "description": "Zephyrly is a Healthcare AI startup that builds radiology triage with computer vision. Founded in 2022, based in New York.",
+   "batch": "W25",
+   "team_size": 101,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://zephyrly.example"
+  },
+  "founders": [
+   {
+    "name": "Lena Noor",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ava Ueda",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Copperline Ventures",
+    "round": "Seed",
+    "amount": 1500000.0
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Seed",
+    "amount": 1500000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000045-25-000045",
+    "industry_group": "Healthcare AI",
+    "total_amount_sold": 3000000.0,
+    "total_offering_amount": 3600000.0,
+    "date_first_sale": "2024-09-15",
+    "related_persons": [
+     {
+      "name": "Lena Noor",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:orbitforge",
+  "type": "company",
+  "name": "OrbitForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:46"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "OrbitForge builds observability for serverless apps.",
+   "description": "OrbitForge is a Developer Tools startup that builds observability for serverless apps. Founded in 2022, based in New York.",
+   "batch": "W25",
+   "team_size": 85,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://orbitforge.example"
+  },
+  "founders": [
+   {
+    "name": "Jia Pryce",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ben Rhee",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 15000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000046-25-000046",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 15000000.0,
+    "total_offering_amount": 18000000.0,
+    "date_first_sale": "2024-08-15",
+    "related_persons": [
+     {
+      "name": "Jia Pryce",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:grovely",
+  "type": "company",
+  "name": "Grovely",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:47"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "Grovely builds humanoid robot teleoperation data.",
+   "description": "Grovely is a Robotics startup that builds humanoid robot teleoperation data. Founded in 2022, based in San Francisco.",
+   "batch": "W25",
+   "team_size": 24,
+   "status": "Active",
+   "founded_year": 2022,
+   "website": "https://grovely.example"
+  },
+  "founders": [
+   {
+    "name": "Uma Frost",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:halomind",
+      "company_name": "HaloMind",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Chloe Garnet",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Seed",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 1333333.3333333333
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000047-25-000047",
+    "industry_group": "Robotics",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2024-08-15",
+    "related_persons": [
+     {
+      "name": "Uma Frost",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:velaworks",
+  "type": "company",
+  "name": "VelaWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:48"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "VelaWorks builds low-latency LLM inference serving.",
+   "description": "VelaWorks is a AI Infrastructure startup that builds low-latency LLM inference serving. Founded in 2023, based in New York.",
+   "batch": "W25",
+   "team_size": 34,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://velaworks.example"
+  },
+  "founders": [
+   {
+    "name": "Chloe Kerr",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Hana Lowe",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 3000000.0
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Seed",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000048-25-000048",
+    "industry_group": "AI Infrastructure",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2025-10-15",
+    "related_persons": [
+     {
+      "name": "Chloe Kerr",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:grovepath",
+  "type": "company",
+  "name": "GrovePath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:49"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "GrovePath builds grid-scale battery analytics.",
+   "description": "GrovePath is a Climate Tech startup that builds grid-scale battery analytics. Founded in 2023, based in Toronto.",
+   "batch": "W25",
+   "team_size": 114,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://grovepath.example"
+  },
+  "founders": [
+   {
+    "name": "Nadia Marsh",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Mateo Iver",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000049-25-000049",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2025-01-15",
+    "related_persons": [
+     {
+      "name": "Nadia Marsh",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:prismstack",
+  "type": "company",
+  "name": "PrismStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:50"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "PrismStack builds fraud detection for real-time payments.",
+   "description": "PrismStack is a Fintech startup that builds fraud detection for real-time payments. Founded in 2023, based in New York.",
+   "batch": "W25",
+   "team_size": 14,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://prismstack.example"
+  },
+  "founders": [
+   {
+    "name": "Ivan Hale",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Uma Oakes",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Kestrel Partners",
+    "round": "Seed",
+    "amount": 5000000.0
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Seed",
+    "amount": 5000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000050-25-000050",
+    "industry_group": "Fintech",
+    "total_amount_sold": 10000000.0,
+    "total_offering_amount": 12000000.0,
+    "date_first_sale": "2025-05-15",
+    "related_persons": [
+     {
+      "name": "Ivan Hale",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:driftai",
+  "type": "company",
+  "name": "DriftAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:51"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "DriftAI builds ambient clinical note generation.",
+   "description": "DriftAI is a Healthcare AI startup that builds ambient clinical note generation. Founded in 2023, based in Boston.",
+   "batch": "W25",
+   "team_size": 3,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://driftai.example"
+  },
+  "founders": [
+   {
+    "name": "Chloe Marsh",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:junostack",
+      "company_name": "JunoStack",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Quinn Oakes",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 3000000.0
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Seed",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:flintworks",
+  "type": "company",
+  "name": "FlintWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:52"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "FlintWorks builds observability for serverless apps.",
+   "description": "FlintWorks is a Developer Tools startup that builds observability for serverless apps. Founded in 2023, based in Toronto.",
+   "batch": "W25",
+   "team_size": 92,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://flintworks.example"
+  },
+  "founders": [
+   {
+    "name": "Chloe Rhee",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Yusuf Brook",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 750000.0
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Seed",
+    "amount": 750000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000052-25-000052",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2025-03-15",
+    "related_persons": [
+     {
+      "name": "Chloe Rhee",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:mosaicpath",
+  "type": "company",
+  "name": "MosaicPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:53"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "MosaicPath builds autonomous inspection drones.",
+   "description": "MosaicPath is a Robotics startup that builds autonomous inspection drones. Founded in 2023, based in San Francisco.",
+   "batch": "W25",
+   "team_size": 41,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://mosaicpath.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Stroud",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Gabe Marsh",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 750000.0
+   },
+   {
+    "name": "Polaris Fieldworks",
+    "round": "Seed",
+    "amount": 750000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000053-25-000053",
+    "industry_group": "Robotics",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2025-10-15",
+    "related_persons": [
+     {
+      "name": "Quinn Stroud",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:junoly",
+  "type": "company",
+  "name": "Junoly",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:54"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "Junoly builds GPU cluster scheduling for model training.",
+   "description": "Junoly is a AI Infrastructure startup that builds GPU cluster scheduling for model training. Founded in 2023, based in New York.",
+   "batch": "S25",
+   "team_size": 63,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://junoly.example"
+  },
+  "founders": [
+   {
+    "name": "Quinn Hale",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ravi Hale",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Seed",
+    "amount": 5000000.0
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 5000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000054-25-000054",
+    "industry_group": "AI Infrastructure",
+    "total_amount_sold": 10000000.0,
+    "total_offering_amount": 12000000.0,
+    "date_first_sale": "2025-07-15",
+    "related_persons": [
+     {
+      "name": "Quinn Hale",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:beaconpath",
+  "type": "company",
+  "name": "BeaconPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:55"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "BeaconPath builds methane leak detection with satellites.",
+   "description": "BeaconPath is a Climate Tech startup that builds methane leak detection with satellites. Founded in 2023, based in San Francisco.",
+   "batch": "S25",
+   "team_size": 27,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://beaconpath.example"
+  },
+  "founders": [
+   {
+    "name": "Uma Noor",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Hana Vance",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:sablemind",
+      "company_name": "SableMind",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000055-25-000055",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2025-06-15",
+    "related_persons": [
+     {
+      "name": "Uma Noor",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:beaconworks",
+  "type": "company",
+  "name": "BeaconWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:56"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "BeaconWorks builds AI underwriting for small business loans.",
+   "description": "BeaconWorks is a Fintech startup that builds AI underwriting for small business loans. Founded in 2023, based in New York.",
+   "batch": "S25",
+   "team_size": 3,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://beaconworks.example"
+  },
+  "founders": [
+   {
+    "name": "Zoe Jett",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ximena Quill",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Harbor Light Capital",
+    "round": "Seed",
+    "amount": 4000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000056-25-000056",
+    "industry_group": "Fintech",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2025-08-15",
+    "related_persons": [
+     {
+      "name": "Zoe Jett",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:halostack",
+  "type": "company",
+  "name": "HaloStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:57"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "HaloStack builds prior authorization automation for clinics.",
+   "description": "HaloStack is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2023, based in Austin.",
+   "batch": "S25",
+   "team_size": 16,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://halostack.example"
+  },
+  "founders": [
+   {
+    "name": "Theo Pryce",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Theo Frost",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:groveforge",
+      "company_name": "GroveForge",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 5000000.0
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Seed",
+    "amount": 5000000.0
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Seed",
+    "amount": 5000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:sablelabs",
+  "type": "company",
+  "name": "SableLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:58"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "SableLabs builds end-to-end test generation with LLMs.",
+   "description": "SableLabs is a Developer Tools startup that builds end-to-end test generation with LLMs. Founded in 2023, based in San Francisco.",
+   "batch": "S25",
+   "team_size": 30,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://sablelabs.example"
+  },
+  "founders": [
+   {
+    "name": "Ava Tamsin",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:driftforge",
+      "company_name": "DriftForge",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Elena Noor",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Polaris Fieldworks",
+    "round": "Seed",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000058-25-000058",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 4000000.0,
+    "total_offering_amount": 4800000.0,
+    "date_first_sale": "2025-01-15",
+    "related_persons": [
+     {
+      "name": "Ava Tamsin",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:embermind",
+  "type": "company",
+  "name": "EmberMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:59"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "EmberMind builds autonomous inspection drones.",
+   "description": "EmberMind is a Robotics startup that builds autonomous inspection drones. Founded in 2023, based in Toronto.",
+   "batch": "S25",
+   "team_size": 62,
+   "status": "Active",
+   "founded_year": 2023,
+   "website": "https://embermind.example"
+  },
+  "founders": [
+   {
+    "name": "Ben Jett",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:lumenlabs",
+      "company_name": "LumenLabs",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Victor Yarrow",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Polaris Fieldworks",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Seed",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000059-25-000059",
+    "industry_group": "Robotics",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2025-06-15",
+    "related_persons": [
+     {
+      "name": "Ben Jett",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:emberai",
+  "type": "company",
+  "name": "EmberAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:60"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "EmberAI builds vector database for retrieval augmented generation.",
+   "description": "EmberAI is a AI Infrastructure startup that builds vector database for retrieval augmented generation. Founded in 2024, based in San Francisco.",
+   "batch": "S25",
+   "team_size": 74,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://emberai.example"
+  },
+  "founders": [
+   {
+    "name": "Yusuf Garnet",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:mosaicpath",
+      "company_name": "MosaicPath",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Mateo Lowe",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Northpeak Ventures",
+    "round": "Seed",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 1333333.3333333333
+   },
+   {
+    "name": "Redwood Arc",
+    "round": "Seed",
+    "amount": 1333333.3333333333
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:orbitio",
+  "type": "company",
+  "name": "Orbitio",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:61"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "Orbitio builds methane leak detection with satellites.",
+   "description": "Orbitio is a Climate Tech startup that builds methane leak detection with satellites. Founded in 2024, based in Boston.",
+   "batch": "S25",
+   "team_size": 14,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://orbitio.example"
+  },
+  "founders": [
+   {
+    "name": "Priya Garnet",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Lena Rhee",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:ionai",
+  "type": "company",
+  "name": "IonAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:62"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "IonAI builds AI underwriting for small business loans.",
+   "description": "IonAI is a Fintech startup that builds AI underwriting for small business loans. Founded in 2024, based in Toronto.",
+   "batch": "S25",
+   "team_size": 101,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://ionai.example"
+  },
+  "founders": [
+   {
+    "name": "Mateo Brook",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Omar Calder",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Kestrel Partners",
+    "round": "Seed",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:echopath",
+  "type": "company",
+  "name": "EchoPath",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:63"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "EchoPath builds ambient clinical note generation.",
+   "description": "EchoPath is a Healthcare AI startup that builds ambient clinical note generation. Founded in 2024, based in Austin.",
+   "batch": "S25",
+   "team_size": 81,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://echopath.example"
+  },
+  "founders": [
+   {
+    "name": "Ximena Wilde",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Wen Kerr",
+    "title": "CTO",
+    "previously": [
+     {
+      "company_id": "co:embermind",
+      "company_name": "EmberMind",
+      "role": "Engineer"
+     }
+    ]
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 1500000.0
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Seed",
+    "amount": 1500000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:driftlabs",
+  "type": "company",
+  "name": "DriftLabs",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:64"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "DriftLabs builds feature flag platform.",
+   "description": "DriftLabs is a Developer Tools startup that builds feature flag platform. Founded in 2024, based in San Francisco.",
+   "batch": "S25",
+   "team_size": 108,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://driftlabs.example"
+  },
+  "founders": [
+   {
+    "name": "Hana Dane",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:mosaicmind",
+      "company_name": "MosaicMind",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Priya Wilde",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 1500000.0
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:rivetstack",
+  "type": "company",
+  "name": "RivetStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:65"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "RivetStack builds humanoid robot teleoperation data.",
+   "description": "RivetStack is a Robotics startup that builds humanoid robot teleoperation data. Founded in 2024, based in New York.",
+   "batch": "S25",
+   "team_size": 80,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://rivetstack.example"
+  },
+  "founders": [
+   {
+    "name": "Hana Kerr",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Kofi Oakes",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Seed",
+    "amount": 3333333.3333333335
+   },
+   {
+    "name": "Redwood Arc",
+    "round": "Seed",
+    "amount": 3333333.3333333335
+   },
+   {
+    "name": "Tern Street Ventures",
+    "round": "Seed",
+    "amount": 3333333.3333333335
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000065-25-000065",
+    "industry_group": "Robotics",
+    "total_amount_sold": 10000000.0,
+    "total_offering_amount": 12000000.0,
+    "date_first_sale": "2025-10-15",
+    "related_persons": [
+     {
+      "name": "Hana Kerr",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:latticeforge",
+  "type": "company",
+  "name": "LatticeForge",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:66"
+  ],
+  "sectors": [
+   "AI Infrastructure"
+  ],
+  "attrs": {
+   "one_liner": "LatticeForge builds GPU cluster scheduling for model training.",
+   "description": "LatticeForge is a AI Infrastructure startup that builds GPU cluster scheduling for model training. Founded in 2024, based in San Francisco.",
+   "batch": "S25",
+   "team_size": 64,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://latticeforge.example"
+  },
+  "founders": [
+   {
+    "name": "Ravi Rhee",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Kofi Frost",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 3333333.3333333335
+   },
+   {
+    "name": "Redwood Arc",
+    "round": "Seed",
+    "amount": 3333333.3333333335
+   },
+   {
+    "name": "Harbor Light Capital",
+    "round": "Seed",
+    "amount": 3333333.3333333335
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:pylonmind",
+  "type": "company",
+  "name": "PylonMind",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:67"
+  ],
+  "sectors": [
+   "Climate Tech"
+  ],
+  "attrs": {
+   "one_liner": "PylonMind builds carbon accounting software for manufacturers.",
+   "description": "PylonMind is a Climate Tech startup that builds carbon accounting software for manufacturers. Founded in 2024, based in Austin.",
+   "batch": "S25",
+   "team_size": 82,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://pylonmind.example"
+  },
+  "founders": [
+   {
+    "name": "Dev Noor",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:emberai",
+      "company_name": "EmberAI",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Hana Ellison",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [],
+  "filings": [
+   {
+    "accession": "0009000067-25-000067",
+    "industry_group": "Climate Tech",
+    "total_amount_sold": 1500000.0,
+    "total_offering_amount": 1800000.0,
+    "date_first_sale": "2025-10-15",
+    "related_persons": [
+     {
+      "name": "Dev Noor",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:echoworks",
+  "type": "company",
+  "name": "EchoWorks",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:68"
+  ],
+  "sectors": [
+   "Fintech"
+  ],
+  "attrs": {
+   "one_liner": "EchoWorks builds AI underwriting for small business loans.",
+   "description": "EchoWorks is a Fintech startup that builds AI underwriting for small business loans. Founded in 2024, based in Austin.",
+   "batch": "S25",
+   "team_size": 40,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://echoworks.example"
+  },
+  "founders": [
+   {
+    "name": "Ivan Stroud",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Ivan Yarrow",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Harbor Light Capital",
+    "round": "Seed",
+    "amount": 15000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000068-25-000068",
+    "industry_group": "Fintech",
+    "total_amount_sold": 15000000.0,
+    "total_offering_amount": 18000000.0,
+    "date_first_sale": "2025-08-15",
+    "related_persons": [
+     {
+      "name": "Ivan Stroud",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:helixai",
+  "type": "company",
+  "name": "HelixAI",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:69"
+  ],
+  "sectors": [
+   "Healthcare AI"
+  ],
+  "attrs": {
+   "one_liner": "HelixAI builds prior authorization automation for clinics.",
+   "description": "HelixAI is a Healthcare AI startup that builds prior authorization automation for clinics. Founded in 2024, based in Austin.",
+   "batch": "S25",
+   "team_size": 11,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://helixai.example"
+  },
+  "founders": [
+   {
+    "name": "Hana Quill",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:latticeforge",
+      "company_name": "LatticeForge",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Uma Dane",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Ironleaf VC",
+    "round": "Seed",
+    "amount": 666666.6666666666
+   },
+   {
+    "name": "Copperline Ventures",
+    "round": "Seed",
+    "amount": 666666.6666666666
+   },
+   {
+    "name": "Glasswing Angels",
+    "round": "Seed",
+    "amount": 666666.6666666666
+   }
+  ],
+  "filings": [],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:driftly",
+  "type": "company",
+  "name": "Driftly",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:70"
+  ],
+  "sectors": [
+   "Developer Tools"
+  ],
+  "attrs": {
+   "one_liner": "Driftly builds AI code review bot.",
+   "description": "Driftly is a Developer Tools startup that builds AI code review bot. Founded in 2024, based in San Francisco.",
+   "batch": "S25",
+   "team_size": 115,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://driftly.example"
+  },
+  "founders": [
+   {
+    "name": "Jia Hale",
+    "title": "CEO",
+    "previously": []
+   },
+   {
+    "name": "Dev Brook",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 3000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000070-25-000070",
+    "industry_group": "Developer Tools",
+    "total_amount_sold": 3000000.0,
+    "total_offering_amount": 3600000.0,
+    "date_first_sale": "2025-10-15",
+    "related_persons": [
+     {
+      "name": "Jia Hale",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ },
+ {
+  "entity_id": "co:mosaicstack",
+  "type": "company",
+  "name": "MosaicStack",
+  "aliases": [],
+  "sources": [
+   "demo"
+  ],
+  "source_ids": [
+   "demo:71"
+  ],
+  "sectors": [
+   "Robotics"
+  ],
+  "attrs": {
+   "one_liner": "MosaicStack builds autonomous inspection drones.",
+   "description": "MosaicStack is a Robotics startup that builds autonomous inspection drones. Founded in 2024, based in Toronto.",
+   "batch": "S25",
+   "team_size": 82,
+   "status": "Active",
+   "founded_year": 2024,
+   "website": "https://mosaicstack.example"
+  },
+  "founders": [
+   {
+    "name": "Lena Garnet",
+    "title": "CEO",
+    "previously": [
+     {
+      "company_id": "co:lumenlabs",
+      "company_name": "LumenLabs",
+      "role": "Engineer"
+     }
+    ]
+   },
+   {
+    "name": "Ben Lowe",
+    "title": "CTO",
+    "previously": []
+   }
+  ],
+  "investors": [
+   {
+    "name": "Bluefjord Capital",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Saltmarsh Fund",
+    "round": "Seed",
+    "amount": 2000000.0
+   },
+   {
+    "name": "Meridian Seed",
+    "round": "Seed",
+    "amount": 2000000.0
+   }
+  ],
+  "filings": [
+   {
+    "accession": "0009000071-25-000071",
+    "industry_group": "Robotics",
+    "total_amount_sold": 6000000.0,
+    "total_offering_amount": 7200000.0,
+    "date_first_sale": "2025-01-15",
+    "related_persons": [
+     {
+      "name": "Lena Garnet",
+      "roles": [
+       "Executive Officer",
+       "Director"
+      ]
+     }
+    ]
+   }
+  ],
+  "legal_entities": []
+ }
+]

@@ -1,0 +1,25 @@
+# Orchestration
+# (langgraph 1.x needs langchain-core 1.x, but ragas 0.2 needs langchain-core 0.3 -> pin the 0.x line)
+langgraph>=0.2.50,<0.7
+# Crawling (run `crawl4ai-setup` once after install to fetch Playwright browsers)
+crawl4ai>=0.4.24
+# Storage
+pymongo>=4.6
+neo4j>=5.20
+# LLMs (OpenAI SDK talks to both GPT-4o and Ollama's OpenAI-compatible /v1 endpoint)
+openai>=1.40
+tiktoken>=0.7
+# Utils
+httpx>=0.27
+pydantic>=2.6
+rapidfuzz>=3.6
+numpy>=1.26
+python-dotenv>=1.0
+pandas>=2.0
+# Evaluation
+ragas>=0.2.6,<0.3
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-openai>=0.2,<0.4
+# Tests
+pytest>=8.0

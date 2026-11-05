@@ -1,0 +1,215 @@
+model,mode,qid,qtype,question,reference,answer,retrieval_precision,retrieval_recall,citation_precision,citation_recall,ttft_s,e2e_latency_s,walk_time_s,walk_iters,walk_iter_p95_s,walk_iter_max_s,total_tokens,context_tokens,full_context_tokens,cypher_valid,cypher_first_try,cypher_non_empty
+llama3.1:8b,walk,comp-junostack,competitors,Which startups compete with JunoStack?,"JunoStack builds vector database for retrieval augmented generation. Competitors building the same thing: OrbitPath, TidalAI, TidalLabs, EmberAI.","Based on the provided evidence, the startups that compete with JunoStack are:
+
+* TidalLabs [co:tidallabs]
+* EmberAI [co:emberai]
+* TidalAI [co:tidalai]
+* OrbitPath [co:orbitpath]
+* Junoly [co:junoly]
+
+These startups are similar to JunoStack as they all build vector databases for retrieval augmented generation, which is the same technology area that JunoStack operates in.",0.2,1.0,0.8,1.0,3.9893,15.2185,0.1413,24,0.0173,0.0175,3779,1903,15896,,,
+llama3.1:8b,walk,comp-atlasmind,competitors,Which startups compete with AtlasMind?,"AtlasMind builds grid-scale battery analytics. Competitors building the same thing: OrbitAI, LumenLabs, GrovePath.","AtlasMind is not explicitly mentioned in the evidence, so I will assume it is a placeholder for a company that needs to be identified. Based on the similarity edges, the companies that compete with AtlasMind (assuming it is a Climate Tech startup) are:
+
+* [co:pylonmind] (carbon accounting software)
+* [co:halomind] (EV fleet charging optimization)
+* [co:ionmind] (methane leak detection with satellites)
+* [co:orbitio] (methane leak detection with satellites)
+
+These companies are similar to AtlasMind based on the similarity edges.",0.08333333333333333,0.3333333333333333,0.0,0.0,2.2958,12.4327,0.0916,12,0.0175,0.0187,2790,1103,15868,,,
+llama3.1:8b,walk,comp-onyxworks,competitors,Which startups compete with OnyxWorks?,"OnyxWorks builds treasury management for startups. Competitors building the same thing: GroveStack, KiteGrid.","Based on the provided evidence, the startups that compete with OnyxWorks are:
+
+* GroveStack [co:grovestack] (similar to OnyxWorks in treasury management for startups)
+* KiteGrid [co:kitegrid] (similar to OnyxWorks in treasury management for startups)
+* EchoWorks [co:echoworks] (similar to OnyxWorks in AI underwriting for small business loans)
+* IonWorks [co:ionworks] (similar to OnyxWorks in AI underwriting for small business loans)
+* IonAI [co:ionai] (similar to OnyxWorks in AI underwriting for small business loans)
+
+Note that the similarity relationships are based on the edges labeled as -SIMILAR_TO->.",0.1111111111111111,1.0,0.4,1.0,3.8479,16.6406,0.1188,19,0.0113,0.0135,3822,1941,12399,,,
+llama3.1:8b,walk,comp-lumenai,competitors,Which startups compete with LumenAI?,"LumenAI builds prior authorization automation for clinics. Competitors building the same thing: MosaicAI, Velaly, IonForge, FernPath, SableMind, HaloStack, HelixAI.","Based on the provided evidence, the startups that compete with LumenAI are:
+
+* MosaicAI [co:mosaicai] (similar to LumenAI in prior authorization automation for clinics)
+* HelixAI [co:helixai] (similar to LumenAI in prior authorization automation for clinics)
+* Velaly [co:velaly] (similar to LumenAI in prior authorization automation for clinics)
+* HaloStack [co:halostack] (similar to LumenAI in prior authorization automation for clinics)
+* FernPath [co:fernpath] (similar to HelixAI and LumenAI in prior authorization automation for clinics)
+* EchoPath [co:echopath] (similar to DriftAI, which is similar to LumenAI)
+* IonForge [co:ionforge] (similar to HelixAI and LumenAI in prior authorization automation for clinics)
+
+Note that the ""SIMILAR_TO"" edges indicate that these startups have similar technologies or offerings to LumenAI.",0.3333333333333333,0.8571428571428571,0.8571428571428571,0.8571428571428571,4.1974,19.8336,0.1165,16,0.0143,0.0146,3882,1889,15507,,,
+llama3.1:8b,walk,comp-velamind,competitors,Which startups compete with VelaMind?,VelaMind builds AI code review bot. Competitors building the same thing: Driftly.,"Based on the provided evidence, the startups that compete with VelaMind are:
+
+* Driftly [co:driftly] (Developer Tools, AI code review bot)
+* DriftAI [co:driftai] (Healthcare AI, ambient clinical note generation)
+* DriftLabs [co:driftlabs] (Developer Tools, feature flag platform)
+
+These startups are similar to VelaMind based on the ""SIMILAR_TO"" edges in the graph.",0.08333333333333333,1.0,0.3333333333333333,1.0,2.5025,11.9502,0.1064,12,0.0166,0.0185,2963,1198,13921,,,
+llama3.1:8b,walk,comp-flintai,competitors,Which startups compete with FlintAI?,"FlintAI builds autonomous inspection drones. Competitors building the same thing: EmberLabs, AtlasLabs, MosaicPath, EmberMind, MosaicStack.","Based on the provided evidence, the startups that compete with FlintAI are:
+
+* MosaicStack [co:mosaicstack] (autonomous inspection drones)
+* AtlasLabs [co:atlaslabs] (autonomous inspection drones)
+* EmberLabs [co:emberlabs] (autonomous inspection drones)
+* MosaicPath [co:mosaicpath] (autonomous inspection drones)
+* EmberMind [co:embermind] (autonomous inspection drones)
+
+These startups are similar to FlintAI in terms of their focus on robotics and autonomous inspection drones.",0.4166666666666667,1.0,1.0,1.0,2.5571,12.7469,0.0708,6,0.0171,0.0176,3076,1248,14320,,,
+llama3.1:8b,walk,inv-ai-infrastructure,investors,Which investors are most active in AI Infrastructure startups?,"Investors that backed AI Infrastructure companies: Harbor Light Capital, Meridian Seed, Northpeak Ventures, Redwood Arc.","Based on the provided evidence, the most active investors in AI Infrastructure startups are:
+
+* Northpeak Ventures [inv:northpeak-ventures] with investments in TidalAI [co:tidalai], EmberAI [co:emberai], and FlintGrid [co:flintgrid]
+* Redwood Arc [inv:redwood-arc] with investments in EmberAI [co:emberai] and FlintGrid [co:flintgrid]
+* Harbor Light Capital [inv:harbor-light-capital] with investments in OrbitGrid [co:orbitgrid] and FlintGrid [co:flintgrid]
+
+These investors have demonstrated a strong interest in AI Infrastructure startups, with multiple investments in the sector.",0.2,1.0,0.42857142857142855,0.75,2.0812,13.4985,0.1091,17,0.0179,0.0271,2177,995,15038,,,
+llama3.1:8b,walk,inv-fintech,investors,Which investors are most active in Fintech startups?,"Investors that backed Fintech companies: Glasswing Angels, Harbor Light Capital, Kestrel Partners, Saltmarsh Fund.","Based on the provided evidence, the most active investors in Fintech startups are:
+
+* Kestrel Partners [inv:kestrel-partners] with investments in [co:ionstack], [co:mosaicmind], and [co:prismstack]
+* Glasswing Angels [inv:glasswing-angels] with investments in [co:ionstack], [co:mosaicmind], and [co:prismstack]
+* Saltmarsh Fund [inv:saltmarsh-fund] with investments in [co:mosaicmind] and [co:ionstack]
+
+These investors have demonstrated a strong interest in Fintech startups, with multiple investments in the space.",0.3333333333333333,1.0,0.5,0.75,1.8584,12.3336,0.0919,12,0.0137,0.0158,2065,724,11335,,,
+llama3.1:8b,walk,inv-healthcare-ai,investors,Which investors are most active in Healthcare AI startups?,"Investors that backed Healthcare AI companies: Copperline Ventures, Glasswing Angels, Ironleaf VC, Tern Street Ventures.","Based on the provided evidence, the most active investors in Healthcare AI startups are:
+
+* [inv:ironleaf-vc] Ironleaf VC, with investments in [co:ionforge], [co:helixai], [co:driftai], and [co:mosaicai]
+* [inv:copperline-ventures] Copperline Ventures, with investments in [co:ionforge], [co:fernpath], [co:helixai], and [co:driftai]
+* [inv:glasswing-angels] Glasswing Angels, with investments in [co:velaly], [co:sablemind], [co:helixai], and [co:fernpath]
+* [inv:tern-street-ventures] Tern Street Ventures, with investments in [co:velaly] and [co:zephyrly]
+* [inv:kestrel-partners] Kestrel Partners, with an investment in [co:ionai]
+
+These investors have demonstrated a strong interest in Healthcare AI startups, with multiple investments in companies within this sector.",0.2222222222222222,1.0,0.2857142857142857,1.0,3.6093,18.6397,0.102,19,0.0118,0.0119,3418,1785,12341,,,
+llama3.1:8b,walk,coinv-northpeak-ventures,investors,Who has co-invested alongside Northpeak Ventures?,"Co-investors of Northpeak Ventures: Bluefjord Capital, Harbor Light Capital, Kestrel Partners, Meridian Seed, Polaris Fieldworks, Redwood Arc, Saltmarsh Fund, Tern Street Ventures.","Northpeak Ventures has co-invested alongside:
+
+* Tern Street Ventures [inv:tern-street-ventures] in [co:embermind]
+* Redwood Arc [inv:redwood-arc] in [co:rivetstack]
+* Saltmarsh Fund [inv:saltmarsh-fund] in [co:rivetstack]",0.5,1.0,0.6,0.375,1.6872,9.9603,0.1066,18,0.0158,0.0255,1891,761,16053,,,
+llama3.1:8b,walk,coinv-bluefjord-capital,investors,Who has co-invested alongside Bluefjord Capital?,"Co-investors of Bluefjord Capital: Ironleaf VC, Kestrel Partners, Meridian Seed, Northpeak Ventures, Polaris Fieldworks, Redwood Arc, Saltmarsh Fund.","Based on the evidence, the following companies have co-invested alongside Bluefjord Capital:
+
+* None, as there is no edge indicating that Bluefjord Capital co-invested with any other investor. However, Bluefjord Capital has invested in PrismForge [co:prismforge].",0.4375,1.0,0.0,0.0,1.6798,9.8768,0.1133,18,0.0175,0.0252,2027,776,18482,,,
+llama3.1:8b,walk,coinv-kestrel-partners,investors,Who has co-invested alongside Kestrel Partners?,"Co-investors of Kestrel Partners: Bluefjord Capital, Glasswing Angels, Meridian Seed, Northpeak Ventures, Saltmarsh Fund.","Kestrel Partners has co-invested alongside the following investors:
+
+* Copperline Ventures (co-invested in [co:kitegrid])
+* Glasswing Angels (co-invested in [co:kitegrid] and [co:prismstack])
+* Saltmarsh Fund (co-invested in [co:kitegrid])",0.29411764705882354,1.0,0.0,0.0,2.2622,10.4212,0.1265,24,0.0185,0.0222,1991,858,15947,,,
+llama3.1:8b,walk,founder-ben-wilde,founders,Who founded TidalAI and what is their background?,TidalAI was founded by Ben Wilde and Farah Noor. Ben Wilde previously worked at IonPath.,"Based on the evidence, it appears that TidalAI was founded by Ben Wilde [person:ben-wilde] and Farah Noor [person:farah-noor]. 
+
+Here are the relevant edges:
+- [person:farah-noor] -FOUNDED-> [co:tidalai]
+- [person:ben-wilde] -FOUNDED-> [co:tidalai]
+
+There is no information provided about the background of the founders.",0.1111111111111111,1.0,0.6666666666666666,0.6666666666666666,1.4589,12.1024,0.0954,29,0.0081,0.0124,2307,650,11152,,,
+llama3.1:8b,walk,founder-victor-frost,founders,Who founded IonForge and what is their background?,IonForge was founded by Omar Quill and Victor Frost. Victor Frost previously worked at JunoStack.,"According to the evidence, Victor Frost [person:victor-frost] is one of the founders of IonForge [co:ionforge]. 
+
+Additionally, the background of the founders of IonForge is not explicitly mentioned in the evidence. However, we can infer that Omar Quill [person:omar-quill] and Victor Frost [person:victor-frost] are the co-founders, as both have a FOUNDED edge to IonForge [co:ionforge].",0.11538461538461539,1.0,0.6666666666666666,0.6666666666666666,1.6845,12.1989,0.103,22,0.0105,0.0115,2427,781,9535,,,
+llama3.1:8b,walk,founder-kofi-rhee,founders,Who founded LumenLabs and what is their background?,LumenLabs was founded by Ivan Lowe and Kofi Rhee. Kofi Rhee previously worked at AtlasMind.,"According to the evidence, Ivan Lowe [person:ivan-lowe] is the founder of LumenLabs [co:lumenlabs]. The background information for Ivan Lowe is not provided in the evidence.",0.15,1.0,0.5,0.3333333333333333,1.4376,9.1537,0.052,21,0.0081,0.0097,1890,664,10291,,,
+llama3.1:8b,walk,founder-victor-wilde,founders,Who founded FernPath and what is their background?,FernPath was founded by Quinn Ellison and Victor Wilde. Victor Wilde previously worked at OrbitPath.,"FernPath was founded by Victor Wilde and Quinn Ellison. 
+
+* Victor Wilde's background is not explicitly mentioned in the evidence.
+* Quinn Ellison's background is also not mentioned in the evidence.",0.15789473684210525,1.0,0.0,0.0,2.2545,10.3463,0.0653,22,0.0095,0.01,2259,857,6870,,,
+llama3.1:8b,walk,emerging-ai-infrastructure,market_signal,What are the emerging early-stage startups in AI Infrastructure from the most recent batches?,Recent (W25/S25) AI Infrastructure startups: FlintGrid (FlintGrid builds GPU cluster scheduling for model training.); CobaltWorks (CobaltWorks builds low-latency LLM inference serving.); VelaWorks (VelaWorks builds low-latency LLM inference serving.); Junoly (Junoly builds GPU cluster scheduling for model training.); EmberAI (EmberAI builds vector database for retrieval augmented generation.); LatticeForge (LatticeForge builds GPU cluster scheduling for model training.),"Based on the provided evidence, the emerging early-stage startups in AI Infrastructure from the most recent batches (S25) are:
+
+* HelixAI [co:helixai]
+* Junoly [co:junoly]
+* EmberAI [co:emberai]
+* LatticeForge [co:latticeforge]
+
+These startups are all part of the AI Infrastructure sector [sector:ai-infrastructure] and were founded in 2024, making them part of the most recent batch (S25).",0.3,1.0,0.6,0.5,3.9429,15.8801,0.1218,24,0.0151,0.0155,4193,1954,13725,,,
+llama3.1:8b,walk,emerging-climate-tech,market_signal,What are the emerging early-stage startups in Climate Tech from the most recent batches?,Recent (W25/S25) Climate Tech startups: Fernly (Fernly builds carbon accounting software for manufacturers.); IonMind (IonMind builds methane leak detection with satellites.); GrovePath (GrovePath builds grid-scale battery analytics.); BeaconPath (BeaconPath builds methane leak detection with satellites.); Orbitio (Orbitio builds methane leak detection with satellites.); PylonMind (PylonMind builds carbon accounting software for manufacturers.),"Based on the provided evidence, the emerging early-stage startups in Climate Tech from the most recent batches are:
+
+* [co:beaconpath] BeaconPath (batch S25)
+* [co:ionmind] IonMind (batch W25)
+* [co:grovepath] GrovePath (batch W25)
+* [co:prismstack] PrismStack (batch W25)
+* [co:junoly] Junoly (batch S25)
+
+These startups are identified as Climate Tech companies from the most recent batches (S25 and W25) and are listed as active companies with recent funding activity.",0.125,0.5,0.6,0.5,4.1259,15.3802,0.1136,17,0.0123,0.0164,3529,1827,17777,,,
+llama3.1:8b,walk,emerging-fintech,market_signal,What are the emerging early-stage startups in Fintech from the most recent batches?,Recent (W25/S25) Fintech startups: IonWorks (IonWorks builds AI underwriting for small business loans.); KiteGrid (KiteGrid builds treasury management for startups.); PrismStack (PrismStack builds fraud detection for real-time payments.); BeaconWorks (BeaconWorks builds AI underwriting for small business loans.); IonAI (IonAI builds AI underwriting for small business loans.); EchoWorks (EchoWorks builds AI underwriting for small business loans.),"Based on the provided evidence, the emerging early-stage startups in Fintech from the most recent batches are:
+
+* [co:ionai] (IonAI) - Founded in 2024, builds AI underwriting for small business loans.
+* [co:echoworks] (EchoWorks) - Founded in 2024, builds AI underwriting for small business loans.
+* [co:beaconworks] (BeaconWorks) - Founded in 2023, builds AI underwriting for small business loans.
+* [co:prismstack] (PrismStack) - Founded in 2023, builds fraud detection for real-time payments.
+* [co:kitegrid] (KiteGrid) - Founded in 2022, builds treasury management for startups.
+
+These startups are from the most recent batches (S25 and W25) and are focused on Fintech solutions.",0.3333333333333333,1.0,1.0,0.8333333333333334,4.0017,18.0314,0.1028,18,0.0141,0.0175,3797,1975,11334,,,
+qwen2.5:14b,walk,comp-junostack,competitors,Which startups compete with JunoStack?,"JunoStack builds vector database for retrieval augmented generation. Competitors building the same thing: OrbitPath, TidalAI, TidalLabs, EmberAI.","The evidence provided does not mention JunoStack or any direct competitors of JunoStack. Therefore, I cannot determine which startups compete with JunoStack based on the given information.",0.2222222222222222,1.0,0.0,0.0,8.0228,23.3573,0.1073,23,0.0143,0.0153,3807,1944,15123,,,
+qwen2.5:14b,walk,comp-atlasmind,competitors,Which startups compete with AtlasMind?,"AtlasMind builds grid-scale battery analytics. Competitors building the same thing: OrbitAI, LumenLabs, GrovePath.","Based on the provided evidence, the startups that compete with AtlasMind are:
+
+- [co:orbitai] OrbitAI [co:orbitai] - builds grid-scale battery analytics.
+- [co:halomind] HaloMind [co:halomind] - builds EV fleet charging optimization.
+- [co:ionmind] IonMind [co:ionmind] - builds methane leak detection with satellites.
+- [co:pylonmind] PylonMind [co:pylonmind] - builds carbon accounting software for manufacturers.
+- [co:orbitio] Orbitio [co:orbitio] - builds methane leak detection with satellites.",0.14285714285714285,1.0,0.2,0.3333333333333333,7.3551,28.5608,0.1244,24,0.0182,0.0193,3573,1777,15868,,,
+qwen2.5:14b,walk,comp-onyxworks,competitors,Which startups compete with OnyxWorks?,"OnyxWorks builds treasury management for startups. Competitors building the same thing: GroveStack, KiteGrid.","Startups that compete with OnyxWorks based on similar activities and focus areas are:
+
+- [co:kitegrid] KiteGrid
+- [co:grovestack] GroveStack
+
+Both companies are Fintech startups that build treasury management solutions for startups. [co:kitegrid] and [co:grovestack] are directly connected to [co:onyxworks] via the SIMILAR_TO edge, indicating they are in the same competitive space.",0.10526315789473684,1.0,0.6666666666666666,1.0,8.0811,27.4569,0.0952,19,0.0139,0.014,3701,1893,10532,,,
+qwen2.5:14b,walk,comp-lumenai,competitors,Which startups compete with LumenAI?,"LumenAI builds prior authorization automation for clinics. Competitors building the same thing: MosaicAI, Velaly, IonForge, FernPath, SableMind, HaloStack, HelixAI.","Startups that compete with LumenAI include:
+- [co:mosaicai] [co:velaly] [co:helixai] [co:fernpath] [co:halostack] [co:ionforge]",0.3333333333333333,0.8571428571428571,1.0,0.8571428571428571,8.1276,23.8211,0.1188,20,0.0135,0.0158,3758,2028,13942,,,
+qwen2.5:14b,walk,comp-velamind,competitors,Which startups compete with VelaMind?,VelaMind builds AI code review bot. Competitors building the same thing: Driftly.,"Startups that compete with VelaMind, which builds AI code review bots, are:
+
+- [co:driftly] Driftly, a Developer Tools startup that builds AI code review bot.
+- [co:velaworks] VelaWorks, an AI Infrastructure startup that builds low-latency LLM inference serving, though it may also compete in the AI code review space.",0.05263157894736842,1.0,0.5,1.0,8.0099,26.4561,0.1311,23,0.0154,0.0198,3715,1928,15632,,,
+qwen2.5:14b,walk,comp-flintai,competitors,Which startups compete with FlintAI?,"FlintAI builds autonomous inspection drones. Competitors building the same thing: EmberLabs, AtlasLabs, MosaicPath, EmberMind, MosaicStack.","Based on the evidence provided, the startups that compete with FlintAI (assuming FlintAI is a Fintech startup that builds AI underwriting for small business loans) are:
+
+- [co:ionai]
+- [co:ionworks]
+- [co:echoworks]
+- [co:mosaicmind]
+- [co:beaconworks]",0.15,0.6,0.0,0.0,7.5248,24.662,0.0993,13,0.018,0.0211,3583,1824,16794,,,
+qwen2.5:14b,walk,inv-ai-infrastructure,investors,Which investors are most active in AI Infrastructure startups?,"Investors that backed AI Infrastructure companies: Harbor Light Capital, Meridian Seed, Northpeak Ventures, Redwood Arc.","Based on the evidence provided, the most active investors in AI Infrastructure startups are:
+
+- [inv:northpeak-ventures]
+- [inv:meridian-seed]
+- [inv:harbor-light-capital]
+- [inv:redwood-arc]
+
+These investors have invested in multiple AI Infrastructure startups.",0.2222222222222222,1.0,1.0,1.0,6.02,21.3747,0.1291,19,0.0158,0.0159,2670,1406,14328,,,
+qwen2.5:14b,walk,inv-fintech,investors,Which investors are most active in Fintech startups?,"Investors that backed Fintech companies: Glasswing Angels, Harbor Light Capital, Kestrel Partners, Saltmarsh Fund.","Based on the provided evidence, the most active investors in Fintech startups are:
+
+- [inv:kestrel-partners] (Kestrel Partners)
+- [inv:glasswing-angels] (Glasswing Angels)
+
+These investors have invested in multiple Fintech startups listed in the evidence.",0.26666666666666666,1.0,1.0,0.5,4.716,19.5749,0.1036,18,0.0143,0.0173,1997,792,17223,,,
+qwen2.5:14b,walk,inv-healthcare-ai,investors,Which investors are most active in Healthcare AI startups?,"Investors that backed Healthcare AI companies: Copperline Ventures, Glasswing Angels, Ironleaf VC, Tern Street Ventures.","Based on the evidence provided, the most active investors in Healthcare AI startups are:
+
+- [inv:ironleaf-vc] Ironleaf VC
+- [inv:glasswing-angels] Glasswing Angels
+- [inv:copperline-ventures] Copperline Ventures
+
+These investors have multiple investments in companies within the Healthcare AI sector.",0.2222222222222222,1.0,1.0,0.75,6.6753,23.09,0.1411,21,0.0149,0.0301,2815,1565,11493,,,
+qwen2.5:14b,walk,coinv-northpeak-ventures,investors,Who has co-invested alongside Northpeak Ventures?,"Co-investors of Northpeak Ventures: Bluefjord Capital, Harbor Light Capital, Kestrel Partners, Meridian Seed, Polaris Fieldworks, Redwood Arc, Saltmarsh Fund, Tern Street Ventures.","Based on the provided evidence, the investors who have co-invested alongside Northpeak Ventures in EmberMind are:
+
+- Polaris Fieldworks [inv:polaris-fieldworks]
+- Tern Street Ventures [inv:tern-street-ventures]",0.5,1.0,1.0,0.25,3.7246,17.1549,0.1133,19,0.0157,0.0306,1751,671,18514,,,
+qwen2.5:14b,walk,coinv-bluefjord-capital,investors,Who has co-invested alongside Bluefjord Capital?,"Co-investors of Bluefjord Capital: Ironleaf VC, Kestrel Partners, Meridian Seed, Northpeak Ventures, Polaris Fieldworks, Redwood Arc, Saltmarsh Fund.","The evidence does not provide information about co-investments alongside Bluefjord Capital. [inv:bluefjord-capital] is listed, but there are no edges indicating its investments or co-investments.",0.4666666666666667,1.0,0.0,0.0,2.9708,15.7727,0.1181,22,0.0153,0.0251,1613,574,18482,,,
+qwen2.5:14b,walk,coinv-kestrel-partners,investors,Who has co-invested alongside Kestrel Partners?,"Co-investors of Kestrel Partners: Bluefjord Capital, Glasswing Angels, Meridian Seed, Northpeak Ventures, Saltmarsh Fund.","The investors who have co-invested alongside Kestrel Partners are:
+
+- Saltmarsh Fund [inv:saltmarsh-fund]
+- Glasswing Angels [inv:glasswing-angels]
+- Bluefjord Capital [inv:bluefjord-capital] (only for LumenStack)",0.2777777777777778,1.0,1.0,0.6,3.925,20.1414,0.1171,24,0.0156,0.0249,2119,917,17119,,,
+qwen2.5:14b,walk,founder-ben-wilde,founders,Who founded TidalAI and what is their background?,TidalAI was founded by Ben Wilde and Farah Noor. Ben Wilde previously worked at IonPath.,The founders of TidalAI are Farah Noor [person:farah-noor] and Ben Wilde [person:ben-wilde]. Their background is not provided in the given evidence.,0.17647058823529413,1.0,1.0,0.6666666666666666,4.3974,16.3993,0.0687,24,0.0072,0.0078,2094,1002,6396,,,
+qwen2.5:14b,walk,founder-victor-frost,founders,Who founded IonForge and what is their background?,IonForge was founded by Omar Quill and Victor Frost. Victor Frost previously worked at JunoStack.,"Based on the provided evidence, IonForge was founded by Victor Frost and Omar Quill [person:victor-frost], [person:omar-quill]. Their specific backgrounds are not detailed in the evidence.",0.15789473684210525,1.0,1.0,0.6666666666666666,4.312,16.4216,0.0789,24,0.0092,0.017,2151,1002,10637,,,
+qwen2.5:14b,walk,founder-kofi-rhee,founders,Who founded LumenLabs and what is their background?,LumenLabs was founded by Ivan Lowe and Kofi Rhee. Kofi Rhee previously worked at AtlasMind.,LumenLabs was founded by Ivan Lowe [person:ivan-lowe] and Kofi Rhee [person:kofi-rhee]. The evidence does not provide specific background information about the founders.,0.15789473684210525,1.0,1.0,0.6666666666666666,3.9432,15.7933,0.0482,15,0.0102,0.0113,1921,934,11863,,,
+qwen2.5:14b,walk,founder-victor-wilde,founders,Who founded FernPath and what is their background?,FernPath was founded by Quinn Ellison and Victor Wilde. Victor Wilde previously worked at OrbitPath.,"Based on the provided evidence, FernPath was founded by [person:quinn-ellison] and [person:victor-wilde]. However, their backgrounds are not detailed in the given information. [person:victor-wilde] is also noted to have worked at [co:orbitpath], but no further background details are provided for either founder.",0.16666666666666666,1.0,1.0,1.0,4.8646,19.6885,0.0586,16,0.0089,0.0126,2040,813,11271,,,
+qwen2.5:14b,walk,emerging-ai-infrastructure,market_signal,What are the emerging early-stage startups in AI Infrastructure from the most recent batches?,Recent (W25/S25) AI Infrastructure startups: FlintGrid (FlintGrid builds GPU cluster scheduling for model training.); CobaltWorks (CobaltWorks builds low-latency LLM inference serving.); VelaWorks (VelaWorks builds low-latency LLM inference serving.); Junoly (Junoly builds GPU cluster scheduling for model training.); EmberAI (EmberAI builds vector database for retrieval augmented generation.); LatticeForge (LatticeForge builds GPU cluster scheduling for model training.),"The emerging early-stage startups in AI Infrastructure from the most recent batches are:
+
+- [co:junoly] Junoly (S25 batch, 2023 founding)
+- [co:latticeforge] LatticeForge (S25 batch, 2024 founding)
+- [co:emberai] EmberAI (S25 batch, 2024 founding)
+- [co:flintgrid] FlintGrid (W25 batch, 2022 founding) [Note: This company is from the most recent batch but slightly older than the others listed]
+
+These companies are focused on GPU cluster scheduling and vector database technologies. [co:junoly], [co:latticeforge], and [co:emberai] are specifically from the most recent S25 batch.",0.25,0.8333333333333334,1.0,0.6666666666666666,7.6789,33.4881,0.1203,17,0.0167,0.022,3762,1916,13928,,,
+qwen2.5:14b,walk,emerging-climate-tech,market_signal,What are the emerging early-stage startups in Climate Tech from the most recent batches?,Recent (W25/S25) Climate Tech startups: Fernly (Fernly builds carbon accounting software for manufacturers.); IonMind (IonMind builds methane leak detection with satellites.); GrovePath (GrovePath builds grid-scale battery analytics.); BeaconPath (BeaconPath builds methane leak detection with satellites.); Orbitio (Orbitio builds methane leak detection with satellites.); PylonMind (PylonMind builds carbon accounting software for manufacturers.),"The emerging early-stage startups in Climate Tech from the most recent batches are:
+
+- [co:pylonmind] PylonMind (S25 batch, 2024)
+- [co:beaconpath] BeaconPath (S25 batch, 2023)
+- [co:fernly] Fernly (W25 batch, 2022)
+- [co:orbitio] Orbitio (S25 batch, 2024)
+- [co:grovepath] GrovePath (W25 batch, 2023)",0.3333333333333333,1.0,1.0,0.8333333333333334,9.5686,31.1553,0.0927,16,0.0138,0.0211,4031,2107,10238,,,
+qwen2.5:14b,walk,emerging-fintech,market_signal,What are the emerging early-stage startups in Fintech from the most recent batches?,Recent (W25/S25) Fintech startups: IonWorks (IonWorks builds AI underwriting for small business loans.); KiteGrid (KiteGrid builds treasury management for startups.); PrismStack (PrismStack builds fraud detection for real-time payments.); BeaconWorks (BeaconWorks builds AI underwriting for small business loans.); IonAI (IonAI builds AI underwriting for small business loans.); EchoWorks (EchoWorks builds AI underwriting for small business loans.),"The emerging early-stage startups in Fintech from the most recent batches are:
+
+- [co:ionai] (S25 batch, founded 2024)
+- [co:echoworks] (S25 batch, founded 2024)
+- [co:beaconworks] (S25 batch, founded 2023)
+- [co:prismstack] (W25 batch, founded 2023)
+- [co:ionworks] (W25 batch, founded 2022)",0.3333333333333333,1.0,1.0,0.8333333333333334,9.4423,31.0096,0.1048,20,0.0155,0.0159,3872,2014,11334,,,

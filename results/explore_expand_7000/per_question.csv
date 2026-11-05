@@ -1,0 +1,293 @@
+model,mode,qid,qtype,question,reference,answer,retrieval_precision,retrieval_recall,citation_precision,citation_recall,ttft_s,e2e_latency_s,walk_time_s,walk_iters,walk_iter_p95_s,walk_iter_max_s,total_tokens,context_tokens,full_context_tokens,cypher_valid,cypher_first_try,cypher_non_empty,expand_truncated,expand_full_tokens_est
+llama3.1:8b,expand,open-home-services,exploration,Which YC startups are working on Home Services?,YC startups tagged Home Services: Feldy (Field-First AI for home services); Terrakotta (AI platform for phone-first sellers); Drillbit (Automating Office Work for Residential Contractors.); Serve AI (AI for Field Service Enterprises); Ladder (AI personal assistant for in-home sales); Cactus (All-In-One AI Growth Partner. Built for Trades.); Bravi (AI operating system for home improvement manufacturers); CentralComs (AI agent platform for home services companies.); Kebra (AI For The Skilled Workforce); Bernard (AI employees that run home appliance repair companies); Vestris (AI native platform for real estate closings).,"Based on the provided evidence, the following YC startups are working on Home Services:
+
+* None are explicitly mentioned as working on Home Services.",0.0,0.0,0.0,0.0,14.7839,18.1717,,0,,,7413,7006,,,,,True,62873
+llama3.1:8b,expand,open-procurement,exploration,Which YC startups are working on Procurement?,YC startups tagged Procurement: Hazel (AI-enabled procurement for government); Saldor (Making procurement easy); Dexter (Spend Intelligence for Complex Enterprises); Alara (Procurement Platform for Dental Offices); Waybill (Agentic procurement & inventory for deep tech teams.); Derya (AI Brokers for Industrial Trade).,"Here are the YC startups working on Procurement:
+
+* Waybill [co:waybill]
+* Saldor [co:saldor]
+* Lumari [co:lumari]
+* Derya [co:derya]
+* Alara [co:alara]
+* Whitespace [co:whitespace]
+* Donkey [co:donkey]
+* SpaceFlow Technologies, Inc. [co:spaceflow-technologies-inc]
+* Spherecast [co:spherecast]
+
+These startups are all tagged with ""Procurement"" or have similar descriptions related to procurement.",0.07936507936507936,0.8333333333333334,0.4444444444444444,0.6666666666666666,14.7735,22.24,,0,,,7489,6990,,,,,True,55309
+llama3.1:8b,expand,open-social-network,exploration,Which YC startups are working on Social Network?,YC startups tagged Social Network: Whip (A social feed for interactive AI Creations); Deep24 (AI coach for your entire life); CrowdVolt (The integration layer for live events infrastructure ); Text.ai (Alfi - your group chat with social skills to bring friends closer); Digipals (The future of Social in the age of AI).,"Here are the YC startups working on Social Network:
+
+* [co:whip] - Whip: a mobile app for creating and discovering interactive mini apps and games
+* [co:digipals] - Digipals: a social network that aims to revive social media by making it more social and less media-focused
+* [co:a1zap-by-a1base] - A1Zap by A1Base: a social network layer for AI apps
+* [co:text-ai] - Text.ai: a group chat with social skills that understands each person and creates custom interactions
+* [co:pops] - Pops: a platform for creating and playing AI games with friends
+
+These startups are all working on social network-related projects, and are listed as such in the provided evidence.",0.09375,0.6,0.6,0.6,6.8103,15.4998,,0,,,3906,3366,,,,,False,2710
+llama3.1:8b,expand,open-recruiting,exploration,Which YC startups are working on Recruiting?,YC startups tagged Recruiting: Alex (Alex is the AI recruiter for hiring great people.); Deep24 (AI coach for your entire life); Matcha (The best way to hire clinical talent.); Outship (Hire amazing engineers by seeing how they use AI); Contrario (AI hiring platform powered by expert recruiters); Elip AI (Cooking something sweet and salty! ); CLODO (Planet-scale people discovery.); Sorce (Tinder for jobs); Dreach (staffing firms with dreach know before they hire.); Tsenta (AI career agent that finds matching jobs & applies on your behalf); Litmus (Evals for humans).,"Here are the YC startups working on Recruiting:
+
+* [co:perfectly] - AI-native Recruiting OS
+* [co:ovlo] - Founder-led hiring for London startups
+* [co:contrario] - AI recruiting and hiring platform
+* [co:alex-com] - AI recruiter for hiring great people
+* [co:standout] - Agentic hiring marketplace
+* [co:sorce] - Tinder for Jobs, AI applies on your behalf
+
+These startups are all working on various aspects of recruiting, including AI-powered recruiting platforms, agentic hiring marketplaces, and AI recruiters.",0.05,0.2727272727272727,0.5,0.2727272727272727,14.8778,22.5953,,0,,,7517,7013,,,,,True,53076
+llama3.1:8b,expand,open-sustainability,exploration,Which YC startups are working on Sustainability?,YC startups tagged Sustainability: Vista Power (Batteries and solar for $0 upfront to help businesses save money); Molagri (Resistance free pesticides.); Grip (Robots for waste manipulation).,"Here are the YC startups working on Sustainability:
+
+* [co:meteoric] - Building drones that clear clouds over solar farms and ultimately weaken severe storms and hurricanes.
+* [co:vista-power] - Designs, finances, installs, and manages energy storage and solar at commercial, industrial, and multifamily properties for $0 upfront, helping businesses save up to 30% on their energy bills.
+* [co:silurian] - Building foundation models for simulating Earth, starting with weather.
+* [co:sorcerer] - Deploying a global network of persistent airborne sensors to fuel advanced weather forecasting.
+* [co:aernata] - Producing clean fuel from industrial emissions.
+* [co:voxel-energy] - Building vertically integrated energy generation and storage systems for data centers that bypass utility connection delays.
+* [co:rise-reforming] - Turning waste gases into supply-secure chemicals.
+* [co:duranium] - Producing Titanium, Magnesium, Aluminum, Zirconium & Hafnium in the U.S. more profitably than any existing process, and carbon neutrally via co-production.
+* [co:ornadyne] - Building flapping-wing drones for reconnaissance that look, fly, and sound like birds.
+* [co:subvysion] - Building centimeter-accurate 3D maps of underground utilities to help construction contractors dig safer and faster.
+* [co:instinct-space] - Making the Moon the new LEO with small lunar landers.
+* [co:salem-robotics-inc] - Deploying robots to replace workers in hazardous spaces.
+* [co:pacific] - Mass-producing modular data centers that deploy on stalled infrastructure projects losing billions per week.
+* [co:enact] - Creating the physical environments to benchmark and hill climb robotics models on high-value tasks.",0.014705882352941176,0.3333333333333333,0.07142857142857142,0.3333333333333333,14.8156,34.227,,0,,,7751,6995,,,,,True,56822
+llama3.1:8b,expand,open-edge-computing-semiconductors,exploration,Which YC startups are working on Edge Computing Semiconductors?,YC startups tagged Edge Computing Semiconductors: deepsilicon (Software and hardware to run neural networks faster and cheaper); Stellon Labs (Building tiny frontier AI models that run on edge devices); Synapse Semiconductor (New semiconductors that merge compute and vision).,"Based on the provided evidence, the following YC startups are working on Edge Computing Semiconductors:
+
+* [co:synapse-semiconductor] - Synapse Semiconductor
+* [co:zettascale-computing] - Zettascale Computing
+* [co:deepsilicon] - deepsilicon
+* [co:baud] - Baud
+* [co:discovered-materials] - Discovered Materials
+
+These companies are all tagged with ""Edge Computing Semiconductors"" and are listed as working on related technologies.",0.03636363636363636,0.6666666666666666,0.4,0.6666666666666666,14.5519,21.9606,,0,,,7507,7003,,,,,True,48753
+llama3.1:8b,expand,open-advanced-materials,exploration,Which YC startups are working on Advanced Materials?,YC startups tagged Advanced Materials: Duranium (Reshoring critical metal production); Kara (Making Diamond Semiconductors); 83 Sciences (AI-native materials discovery powered by unpublished experimental data).,"Here are the YC startups working on Advanced Materials:
+
+* 83 Sciences [co:83-sciences] - uses AI to mine discarded experimental data and drive scientific breakthroughs in Advanced Materials.
+* Discovered Materials [co:discovered-materials] - uses AI to discover new materials for the semiconductor industry.
+* Aerogen Systems [co:aerogen-systems] - building the future of chip manufacturing, focusing on Advanced Materials.
+* Duranium [co:duranium] - producing Titanium, Magnesium, Aluminum, Zirconium & Hafnium in the U.S. more profitably than any existing process, and carbon neutrally via co-production.
+* Mass Magnetics [co:mass-magnetics] - turns recycled rare-earth scrap into high-performance permanent magnets, made in America.
+
+These startups are working on various aspects of Advanced Materials, including materials discovery, manufacturing, and production.",0.029411764705882353,0.6666666666666666,0.4,0.6666666666666666,14.466,27.6257,,0,,,7649,7019,,,,,True,85912
+llama3.1:8b,expand,open-search,exploration,Which YC startups are working on Search?,"YC startups tagged Search: Onyx (Open Source AI Chat); Reducto (The complete agentic document platform); Glimmer (AI search for massive PDFs); Trieve (All-in-one API for search, RAG, & recommendations); Lumona (AI-enabled search engine featuring insights from social media.); Undermind (An AI agent for scientific research); Origami (Enter your domain & Origami gets you customers.); Serafis (Deep intelligence for private markets); Pally (Your personal AI Assistant); Captain (Self-tuning search for products and files).","Here are the YC startups working on Search:
+
+* [co:captain] - makes product catalogs and complex, multimodal files searchable for customers and AI agents.
+* [co:trieve] - infrastructure for search teams building retrieval and RAG, combining search language models with tools for tuning ranking and relevance.
+* [co:undermind] - building a search engine that can handle extremely complex questions, geared at experts who need to find very specific resources to solve high-stakes problems.
+
+These three startups are working on search-related technologies, with Captain and Undermind focusing on search engines and Retrieve focusing on infrastructure for search teams.",0.06779661016949153,0.4,1.0,0.3,14.5803,22.3393,,0,,,7506,7005,,,,,True,61745
+llama3.1:8b,expand,open-regtech,exploration,Which YC startups are working on Regtech?,YC startups tagged Regtech: ROE (AI for risk and compliance); Arva AI (AI for critical banking operations); Luthor (Real-time governance for enterprise communications); Cardamon (AI compliance co-pilot for regulated financial businesses); TovenAI (AI agents for compliance at institutional trading firms).,"Here are the YC startups working on Regtech:
+
+* [co:inth] - monitors pull requests, codebase, and website to catch privacy issues and turns them into fixes and evidence.
+* [co:manicule] - helps companies get discovered and used by AI agents, tracking how often AI recommends their product.
+* [co:inventor] - not present in the evidence, but [co:inth] and [co:manicule] are Regtech startups.
+* [co:inth] and [co:manicule] are Regtech startups.",0.0,0.0,0.0,0.0,14.6195,22.0476,,0,,,7493,6998,,,,,True,60689
+llama3.1:8b,expand,open-electronics,exploration,Which YC startups are working on Electronics?,"YC startups tagged Electronics: Tuesday Labs (Delightful robots); Diode Computers, Inc. (Automate circuit board design using AI); Revise Robotics (Automating refurbishment of $1T in consumer electronics); Steinmetz (Next-Generation Power Electronics); Stillwind (PCB component librarian); Axal (We assemble PCBs in under 48 hours for quantities under 10); NODI Energy (Distributed energy infrastructure unlocking grid power to data centers); Tenet Industries (AI-automated factory for PCBAs); ProvenMetal (AI-native electronics manufacturing for the American industrial base).","Here are the YC startups working on Electronics:
+
+* None of the companies in the evidence have ""Electronics"" in their tags or descriptions.
+* However, [co:camfer] is an AI CAD tool, which is related to electronics design.
+* [co:visibl-semiconductors] makes custom silicon accessible to hardware companies, which is related to electronics manufacturing.
+* [co:camfer] and [co:visibl-semiconductors] are the only two companies that have some relation to electronics.",0.0,0.0,0.0,0.0,14.5203,21.529,,0,,,7481,6996,,,,,True,54999
+llama3.1:8b,expand,open-restaurant-tech,exploration,Which YC startups are working on Restaurant Tech?,YC startups tagged Restaurant Tech: Forge Rewards (Starbucks app for restaurants); Certus AI (Replacing the restaurant phone line with Voice AI); Marble (The autonomous back-of-house for restaurants.); TryNearby (Local creators for local businesses).,"Here are the YC startups working on Restaurant Tech:
+
+* [co:elyra] Elyra: AI reservation system for restaurants
+* [co:certus-ai] Certus AI: Replacing the restaurant phone line with Voice AI
+* [co:joinmarble] Marble: AI-native operating system for the restaurant back-of-house
+* [co:forge-rewards] Forge Rewards: Starbucks app for restaurants
+* [co:the-vibe-company] The Vibe Company: AI-native agency that builds custom products and internal tools for companies, including restaurants
+
+Note that some of these companies may not exclusively focus on Restaurant Tech, but they all have a significant component related to the industry.",0.06557377049180328,1.0,0.6,0.75,14.5783,25.9567,,0,,,7596,7005,,,,,True,115690
+llama3.1:8b,expand,open-chat,exploration,Which YC startups are working on Chat?,YC startups tagged Chat: assistant-ui (Open Source React.js Library for AI Chat); RowFlow (Replacing forms with AI conversations); Linzumi (Team chat to command all your company's coding agents).,"Here are the YC startups working on Chat:
+
+* [co:assistant-ui] - Open Source React.js Library for AI Chat
+* [co:open] - Enterprise AI customer support
+* [co:heyclicky] - The simplest interface in the world to talk AI models + spawn agents
+* [co:co:onyx] - Open Source chat UI connected to your company’s docs, apps, and people
+* [co:promptless] - An AI teammate that automatically updates your customer-facing docs
+* [co:chert] - iMessage infrastructure for business
+* [co:chronicle-labs] - Staging Environments for Enterprise AI Agents
+* [co:tasklet-2] - Agents that own the work",0.017543859649122806,0.3333333333333333,0.125,0.3333333333333333,14.6116,23.736,,0,,,7518,6988,,,,,True,68990
+llama3.1:8b,expand,multihop-openvector,multihop,Which other YC companies share a founder or executive with OpenVector?,OpenVector shares a founder or executive with: Nuntius.,"Based on the provided evidence, the following companies share a founder or executive with OpenVector:
+
+* Bucket Robotics [co:bucket-robotics] (similar to OpenVector)
+* Dragoneye [co:dragoneye] (similar to OpenVector)
+* OnDeck AI [co:ondeck-ai] (similar to OpenVector)
+* Avea Robotics [co:avea-robotics] (similar to OpenVector)
+
+Note that the evidence only mentions similarity or shared characteristics between these companies and OpenVector, but does not explicitly state that they share a founder or executive.",0.014925373134328358,1.0,0.0,0.0,14.7134,23.8412,,0,,,7521,6975,,,,,True,35689
+llama3.1:8b,expand,multihop-oxus,multihop,Which other YC companies share a founder or executive with Oxus?,Oxus shares a founder or executive with: General Learning.,"Based on the provided evidence, the following companies share a founder or executive with Oxus:
+
+* None are explicitly mentioned in the provided evidence.",0.0,0.0,0.0,0.0,14.8409,18.3371,,0,,,7414,6993,,,,,True,24964
+llama3.1:8b,expand,multihop-deepgrove,multihop,Which other YC companies share a founder or executive with DeepGrove?,DeepGrove shares a founder or executive with: Tiny.,"Based on the provided evidence, the following companies share a founder or executive with DeepGrove:
+
+* None are explicitly mentioned in the provided evidence.",0.0,0.0,0.0,0.0,14.588,19.5849,,0,,,7441,6981,,,,,True,26958
+llama3.1:8b,expand,multihop-hey-revia,multihop,Which other YC companies share a founder or executive with Hey Revia?,Hey Revia shares a founder or executive with: Percival.,"Based on the provided evidence, I found that the following companies share a founder or executive with Hey Revia:
+
+* Opalite Health [co:opalite-health] (similar to Hey Revia)
+* VoxOps AI [co:voxops-ai] (similar to Hey Revia)
+* Carecycle [co:carecycle] (similar to Hey Revia)
+
+These companies are connected to Hey Revia through the ""SIMILAR_TO"" edge, indicating that they are similar in some way.",0.01639344262295082,1.0,0.0,0.0,14.7194,22.8576,,0,,,7525,6996,,,,,True,32103
+llama3.1:8b,expand,multihop-gbrain,multihop,Which other YC companies share a founder or executive with GBrain?,GBrain shares a founder or executive with: Mango Health.,"Based on the provided evidence, the following companies share a founder or executive with GBrain:
+
+* Diana: [co:diana] -SIMILAR_TO-> [co:gbrain]
+* Almanac: [co:almanac] -SIMILAR_TO-> [co:gbrain]
+* Brad Gessler: [person:brad-gessler] -FOUNDED-> [co:gbrain]
+
+These are the only connections found between GBrain and other YC companies.",0.0,0.0,0.0,0.0,14.5718,21.1311,,0,,,7476,6987,,,,,True,29836
+llama3.1:8b,expand,multihop-onlook,multihop,Which other YC companies share a founder or executive with Onlook?,Onlook shares a founder or executive with: Paradev (formerly Superset).,"Based on the provided evidence, the following companies share a founder or executive with Onlook (co:onlook):
+
+* None are explicitly mentioned in the edges as sharing a founder or executive with Onlook.
+* However, the edges do indicate that Onlook is similar to several other companies, including:
+	+ renderlet (co:renderlet) - SIMILAR_TO-> [co:onlook]
+	+ toolify (co:toolify) - SIMILAR_TO-> [co:onlook]
+	+ agentic-labs-2 (co:agentic-labs-2) - SIMILAR_TO-> [co:onlook]
+	+ a0-dev (co:a0-dev) - SIMILAR_TO-> [co:onlook]
+
+These similarities suggest that these companies may share some commonalities in their technology or approach, but it does not necessarily imply a shared founder or executive.",0.0,0.0,0.0,0.0,14.5341,25.1606,,0,,,7560,6982,,,,,True,37861
+llama3.1:8b,expand,multihop-mango-health,multihop,Which other YC companies share a founder or executive with Mango Health?,Mango Health shares a founder or executive with: GBrain.,"Based on the provided evidence, I found that [co:mango-health] shares a founder or executive with [co:sonia]. The edge [person:jamison-mercurio] -FOUNDED-> [co:mango-health] indicates that Jamison Mercurio is a founder of Mango Health, and [co:sonia] has a similar description and industry to [co:mango-health], suggesting a possible connection between the two companies.",0.0,0.0,0.0,0.0,14.5655,22.1569,,0,,,7510,6995,,,,,True,33629
+llama3.1:8b,expand,multihop-korso,multihop,Which other YC companies share a founder or executive with Korso?,Korso shares a founder or executive with: Prism.,"Based on the provided evidence, the following companies share a founder or executive with Korso:
+
+* None are explicitly mentioned in the provided evidence.",0.0,0.0,0.0,0.0,14.6355,21.0619,,0,,,7486,6990,,,,,True,35854
+llama3.1:8b,expand,multihop-opentag,multihop,Which other YC companies share a founder or executive with OpenTag?,OpenTag shares a founder or executive with: Lilac Labs.,"Based on the provided evidence, the following companies share a founder or executive with OpenTag:
+
+* Klaus AI [co:klaus-ai] is similar to OpenTag [co:opentag]
+* Openbenchmarks [co:openbenchmarks] is similar to OpenTag [co:opentag]
+* Open [co:open] is similar to OpenTag [co:opentag]
+* Wilson Nguyen [person:wilson-nguyen] founded OpenTag [co:opentag]",0.0,0.0,0.0,0.0,14.5647,21.3806,,0,,,7487,6993,,,,,True,27485
+llama3.1:8b,expand,multihop-nuntius,multihop,Which other YC companies share a founder or executive with Nuntius?,Nuntius shares a founder or executive with: OpenVector.,"Based on the provided evidence, I found that the following companies share a founder or executive with Nuntius:
+
+* None of the companies in the provided evidence have a direct connection to Nuntius through a shared founder or executive. However, [person:jon-xu] is listed as the founder of Nuntius, but there is no information about him being involved with any other companies in the provided evidence.",0.0,0.0,0.0,0.0,14.589,20.6182,,0,,,7475,6997,,,,,True,36572
+llama3.1:8b,expand,multihop-cohesive,multihop,Which other YC companies share a founder or executive with Cohesive?,Cohesive shares a founder or executive with: truthsystems.,"Based on the provided evidence, I found that Cohesive shares a founder or executive with the following YC companies:
+
+* None, as there is no direct connection between Cohesive and any other YC company in terms of shared founders or executives.",0.014084507042253521,1.0,0.0,0.0,14.582,19.3604,,0,,,7442,6990,,,,,True,25730
+llama3.1:8b,expand,multihop-lilac-labs,multihop,Which other YC companies share a founder or executive with Lilac Labs?,Lilac Labs shares a founder or executive with: OpenTag.,"Based on the provided evidence, the following companies share a founder or executive with Lilac Labs:
+
+* None of the companies in the evidence have a shared founder or executive with Lilac Labs.",0.0,0.0,0.0,0.0,14.4175,19.6671,,0,,,7481,7015,,,,,True,29793
+qwen2.5:14b,expand,open-home-services,exploration,Which YC startups are working on Home Services?,YC startups tagged Home Services: Feldy (Field-First AI for home services); Terrakotta (AI platform for phone-first sellers); Drillbit (Automating Office Work for Residential Contractors.); Serve AI (AI for Field Service Enterprises); Ladder (AI personal assistant for in-home sales); Cactus (All-In-One AI Growth Partner. Built for Trades.); Bravi (AI operating system for home improvement manufacturers); CentralComs (AI agent platform for home services companies.); Kebra (AI For The Skilled Workforce); Bernard (AI employees that run home appliance repair companies); Vestris (AI native platform for real estate closings).,"The YC startups working on Home Services are:
+
+- [co:centralcoms] CentralComs
+- [co:bernard] Bernard
+- [co:noso-labs] NOSO LABS
+- [co:feldy] Feldy
+- [co:kebra] Kebra
+- [co:bravi] Bravi",0.0967741935483871,0.5454545454545454,0.8333333333333334,0.45454545454545453,28.1217,38.1531,,0,,,7459,7003,,,,,True,65899
+qwen2.5:14b,expand,open-procurement,exploration,Which YC startups are working on Procurement?,YC startups tagged Procurement: Hazel (AI-enabled procurement for government); Saldor (Making procurement easy); Dexter (Spend Intelligence for Complex Enterprises); Alara (Procurement Platform for Dental Offices); Waybill (Agentic procurement & inventory for deep tech teams.); Derya (AI Brokers for Industrial Trade).,"The YC startups working on Procurement are:
+
+- [co:waybill] Waybill (Summer 2026)
+- [co:spaceflow-technologies-inc] SpaceFlow Technologies, Inc. (Summer 2026)
+- [co:saldor] Saldor (Summer 2024)
+- [co:derya] Derya (Summer 2026)
+- [co:lumari] Lumari (Spring 2025)
+- [co:salespatriot] SalesPatriot (Winter 2025)
+- [co:donkey] Donkey (Summer 2026)",0.08620689655172414,0.8333333333333334,0.42857142857142855,0.5,27.9956,43.7376,,0,,,7500,6989,,,,,True,44477
+qwen2.5:14b,expand,open-social-network,exploration,Which YC startups are working on Social Network?,YC startups tagged Social Network: Whip (A social feed for interactive AI Creations); Deep24 (AI coach for your entire life); CrowdVolt (The integration layer for live events infrastructure ); Text.ai (Alfi - your group chat with social skills to bring friends closer); Digipals (The future of Social in the age of AI).,"The YC startups working on Social Network are:
+
+- [co:digipals] (Fall 2025)
+- [co:whip] (Winter 2024)
+- [co:text-ai] (Spring 2025)
+- [co:a1zap-by-a1base] (Winter 2025)",0.09375,0.6,0.75,0.6,13.0692,22.5975,,0,,,3815,3366,,,,,False,2710
+qwen2.5:14b,expand,open-recruiting,exploration,Which YC startups are working on Recruiting?,YC startups tagged Recruiting: Alex (Alex is the AI recruiter for hiring great people.); Deep24 (AI coach for your entire life); Matcha (The best way to hire clinical talent.); Outship (Hire amazing engineers by seeing how they use AI); Contrario (AI hiring platform powered by expert recruiters); Elip AI (Cooking something sweet and salty! ); CLODO (Planet-scale people discovery.); Sorce (Tinder for jobs); Dreach (staffing firms with dreach know before they hire.); Tsenta (AI career agent that finds matching jobs & applies on your behalf); Litmus (Evals for humans).,"The YC startups working on Recruiting are:
+
+- [co:perfectly] Perfectly
+- [co:ovlo] Ovlo
+- [co:asendia-ai] Asendia AI
+- [co:alex-com] Alex
+- [co:contrario] Contrario
+- [co:tweeksio] Tweeks.io
+- [co:standout] Standout
+- [co:talentpluto] Pluto
+- [co:lightscreen-ai] Lightscreen AI
+- [co:spott] Spott
+- [co:outship] Outship
+- [co:tryprism] Prism
+- [co:dreach] Dreach
+- [co:vela] Vela",0.1,0.5454545454545454,0.2857142857142857,0.36363636363636365,28.3366,45.5135,,0,,,7540,6996,,,,,True,42210
+qwen2.5:14b,expand,open-sustainability,exploration,Which YC startups are working on Sustainability?,YC startups tagged Sustainability: Vista Power (Batteries and solar for $0 upfront to help businesses save money); Molagri (Resistance free pesticides.); Grip (Robots for waste manipulation).,"The YC startups working on Sustainability based on the provided evidence are:
+
+- [co:vista-power] Vista Power (Winter 2024)
+- [co:aernata] Aernata (Spring 2026)
+- [co:rise-reforming] Rise Reforming (Summer 2026)",0.015151515151515152,0.3333333333333333,0.3333333333333333,0.3333333333333333,27.763,38.076,,0,,,7426,6985,,,,,True,58569
+qwen2.5:14b,expand,open-edge-computing-semiconductors,exploration,Which YC startups are working on Edge Computing Semiconductors?,YC startups tagged Edge Computing Semiconductors: deepsilicon (Software and hardware to run neural networks faster and cheaper); Stellon Labs (Building tiny frontier AI models that run on edge devices); Synapse Semiconductor (New semiconductors that merge compute and vision).,"The YC startups working on Edge Computing Semiconductors are:
+
+- [co:synapse-semiconductor] Synapse Semiconductor
+- [co:stellon-labs] Stellon Labs
+- [co:deepsilicon] deepsilicon (Inactive)",0.046153846153846156,1.0,1.0,1.0,28.6542,38.4247,,0,,,7464,7007,,,,,True,65745
+qwen2.5:14b,expand,open-advanced-materials,exploration,Which YC startups are working on Advanced Materials?,YC startups tagged Advanced Materials: Duranium (Reshoring critical metal production); Kara (Making Diamond Semiconductors); 83 Sciences (AI-native materials discovery powered by unpublished experimental data).,"The YC startups working on Advanced Materials are:
+
+- [co:83-sciences] (Summer 2026)
+- [co:duranium] (Summer 2025)
+- [co:discovered-materials] (Spring 2026)",0.03076923076923077,0.6666666666666666,0.6666666666666666,0.6666666666666666,37.2172,46.9353,,0,,,7442,7007,,,,,True,33933
+qwen2.5:14b,expand,open-search,exploration,Which YC startups are working on Search?,"YC startups tagged Search: Onyx (Open Source AI Chat); Reducto (The complete agentic document platform); Glimmer (AI search for massive PDFs); Trieve (All-in-one API for search, RAG, & recommendations); Lumona (AI-enabled search engine featuring insights from social media.); Undermind (An AI agent for scientific research); Origami (Enter your domain & Origami gets you customers.); Serafis (Deep intelligence for private markets); Pally (Your personal AI Assistant); Captain (Self-tuning search for products and files).","The YC startups working on Search are:
+
+- Captain [co:nimbusly]
+- Trieve [co:trieve]
+- Undermind [co:undermind]
+- Lumona [co:lumona]
+- Wideframe [co:wideframe]
+- Shofo [co:shofo]",0.07017543859649122,0.4,0.5,0.3,36.7805,46.6099,,0,,,7438,6998,,,,,True,64691
+qwen2.5:14b,expand,open-regtech,exploration,Which YC startups are working on Regtech?,YC startups tagged Regtech: ROE (AI for risk and compliance); Arva AI (AI for critical banking operations); Luthor (Real-time governance for enterprise communications); Cardamon (AI compliance co-pilot for regulated financial businesses); TovenAI (AI agents for compliance at institutional trading firms).,"The YC startups working on Regtech are:
+
+- [co:arva-ai] Arva AI
+- [co:roe] ROE
+
+Both companies are listed as working on Regtech and are part of Y Combinator batches.",0.045454545454545456,0.6,1.0,0.4,34.9752,47.9673,,0,,,7432,6999,,,,,True,55349
+qwen2.5:14b,expand,open-electronics,exploration,Which YC startups are working on Electronics?,"YC startups tagged Electronics: Tuesday Labs (Delightful robots); Diode Computers, Inc. (Automate circuit board design using AI); Revise Robotics (Automating refurbishment of $1T in consumer electronics); Steinmetz (Next-Generation Power Electronics); Stillwind (PCB component librarian); Axal (We assemble PCBs in under 48 hours for quantities under 10); NODI Energy (Distributed energy infrastructure unlocking grid power to data centers); Tenet Industries (AI-automated factory for PCBAs); ProvenMetal (AI-native electronics manufacturing for the American industrial base).","The YC startups working on Electronics are:
+
+- Diode Computers, Inc. [co:diode-computers-inc]
+- Steinmetz [co:steinmetz]
+- Axal [co:axal]
+- ProvenMetal [co:provenmetal]
+- Revise Robotics [co:revise-robotics]
+- Ultra [co:ultra]",0.10344827586206896,0.6666666666666666,0.8333333333333334,0.5555555555555556,36.3528,47.0147,,0,,,7464,7007,,,,,True,66950
+qwen2.5:14b,expand,open-restaurant-tech,exploration,Which YC startups are working on Restaurant Tech?,YC startups tagged Restaurant Tech: Forge Rewards (Starbucks app for restaurants); Certus AI (Replacing the restaurant phone line with Voice AI); Marble (The autonomous back-of-house for restaurants.); TryNearby (Local creators for local businesses).,"The YC startups working on Restaurant Tech are:
+
+- [co:trynearby] TryNearby
+- [co:elyra] Elyra
+- [co:joinmarble] Marble
+- [co:certus-ai] Certus AI",0.07017543859649122,1.0,0.75,0.75,36.2466,45.6194,,0,,,7446,7006,,,,,True,46005
+qwen2.5:14b,expand,open-chat,exploration,Which YC startups are working on Chat?,YC startups tagged Chat: assistant-ui (Open Source React.js Library for AI Chat); RowFlow (Replacing forms with AI conversations); Linzumi (Team chat to command all your company's coding agents).,"The YC startups working on Chat are:
+
+- [co:onyx] Onyx: Open Source AI Chat
+- [co:assistant-ui] assistant-ui: Open Source React.js Library for AI Chat",0.017857142857142856,0.3333333333333333,0.5,0.3333333333333333,36.3439,43.757,,0,,,7426,7007,,,,,True,68307
+qwen2.5:14b,expand,multihop-openvector,multihop,Which other YC companies share a founder or executive with OpenVector?,OpenVector shares a founder or executive with: Nuntius.,"Based on the provided evidence, there is no information about any YC companies that share a founder or executive with OpenVector. The evidence only shows similarities in technology or sector but does not provide details about shared founders or executives. [co:openvector] [person:jon-xu] [batch:summer-2026] [co:avea-robotics] [co:dragoneye] [co:dream]",0.0,0.0,0.0,0.0,37.1946,52.2676,,0,,,7505,6985,,,,,True,36819
+qwen2.5:14b,expand,multihop-oxus,multihop,Which other YC companies share a founder or executive with Oxus?,Oxus shares a founder or executive with: General Learning.,"Based on the provided evidence, the YC companies that share a founder or executive with Oxus are not explicitly mentioned. However, companies similar to Oxus include Denki and Moby Analytics [co:denki, co:moby-analytics]. Oxus was founded by Janet Liu [person:janet-liu], but there is no information about other companies she has founded or executive roles she has held.",0.014705882352941176,1.0,0.0,0.0,37.0506,52.2423,,0,,,7511,6988,,,,,True,26864
+qwen2.5:14b,expand,multihop-deepgrove,multihop,Which other YC companies share a founder or executive with DeepGrove?,DeepGrove shares a founder or executive with: Tiny.,"Based on the provided evidence, DeepGrove shares founders with DeepNight and DeepTrace:
+
+- Edward Zhang and Shayaan Emran are founders of DeepGrove [person:edward-zhang, person:shayaan-emran, co:deepgrove].
+- DeepGrove is similar to DeepNight and DeepTrace [co:deepgrove] -SIMILAR_TO-> [co:deepnight], [co:deepgrove] -SIMILAR_TO-> [co:deeptrace].
+
+However, there is no evidence that DeepGrove shares a founder or executive with any other YC company besides DeepNight and DeepTrace.",0.014492753623188406,1.0,0.0,0.0,38.6199,61.4151,,0,,,7596,6992,,,,,True,26229
+qwen2.5:14b,expand,multihop-hey-revia,multihop,Which other YC companies share a founder or executive with Hey Revia?,Hey Revia shares a founder or executive with: Percival.,"Based on the provided evidence, Hey Revia shares founders with the following YC companies:
+
+- [co:opalite-health] (Shaun Wei)
+- [co:carecycle] (David (Wenbo) Zhu) [Note: While David Zhu is listed as a founder of Hey Revia, there's no direct evidence linking him to Carecycle as a founder or executive. The similarity might be due to the companies' focus areas rather than shared founders/executives.]",0.0,0.0,0.0,0.0,37.3965,54.7066,,0,,,7540,6999,,,,,True,37910
+qwen2.5:14b,expand,multihop-gbrain,multihop,Which other YC companies share a founder or executive with GBrain?,GBrain shares a founder or executive with: Mango Health.,"Based on the provided evidence, GBrain shares a founder or executive with Almanac and TryJanet, as they are similar to GBrain [co:gbrain -SIMILAR_TO-> [co:almanac], [co:gbrain] -SIMILAR_TO-> [co:tryjanet]]. There is no direct evidence of shared founders or executives between GBrain and the other companies listed.",0.014705882352941176,1.0,0.0,0.0,38.4954,52.9881,,0,,,7508,6999,,,,,True,31094
+qwen2.5:14b,expand,multihop-onlook,multihop,Which other YC companies share a founder or executive with Onlook?,Onlook shares a founder or executive with: Paradev (formerly Superset).,"Based on the provided evidence, Onlook shares a founder or executive with the following YC companies:
+
+- [co:a0-dev] (Winter 2025 batch)
+- [co:agentic-labs-2] (Winter 2024 batch)
+
+Both Daniel Farrell and Kiet Ho are listed as founders of Onlook, but there is no evidence linking them to other YC companies besides a0.dev.",0.0,0.0,0.0,0.0,37.7145,53.1242,,0,,,7504,6987,,,,,True,37351
+qwen2.5:14b,expand,multihop-mango-health,multihop,Which other YC companies share a founder or executive with Mango Health?,Mango Health shares a founder or executive with: GBrain.,"Based on the provided evidence, Mango Health shares a founder with Sonia. Jamison Mercurio is listed as a founder of Mango Health [person:jamison-mercurio], and there is a similarity relationship between Mango Health and Sonia [co:sonia] -SIMILAR_TO-> [co:mango-health]. No other YC companies share a founder or executive with Mango Health according to the given data.",0.0,0.0,0.0,0.0,37.1105,55.8083,,0,,,7559,6994,,,,,True,33443
+qwen2.5:14b,expand,multihop-korso,multihop,Which other YC companies share a founder or executive with Korso?,Korso shares a founder or executive with: Prism.,"Based on the provided evidence, Korso shares founders with the following YC companies:
+
+- [co:olive] (Founded by Martin Pan and Alex Liu)
+- [co:void] (Founded by Daichi Hiraoka)
+- [co:corsair] (Founded by Alex Liu)",0.0,0.0,0.0,0.0,38.4668,50.8988,,0,,,7471,6984,,,,,True,36173
+qwen2.5:14b,expand,multihop-opentag,multihop,Which other YC companies share a founder or executive with OpenTag?,OpenTag shares a founder or executive with: Lilac Labs.,"Based on the provided evidence, the YC companies that share a founder or executive with OpenTag are:
+
+- [co:diana] (similar to OpenTag and founded by the same person)
+- [co:klaus-ai] (similar to OpenTag)
+- [co:open] (similar to OpenTag and founded by the same person)
+- [co:openwork] (similar to OpenTag)
+- [co:openbenchmarks] (similar to OpenTag and founded by the same person)
+
+Specifically, the founders/executives shared are:
+
+- Shelden Shi [person:shelden-shi] founded both [co:opentag] and [co:openwork].
+- Wilson Nguyen [person:wilson-nguyen] founded both [co:opentag] and [co:openbenchmarks].
+- Tony Kam [person:tony-kam] founded [co:opentag].
+- Shelden Shi also founded [co:open] and [person:shelden-shi] is associated with [co:open].",0.0,0.0,0.0,0.0,37.9369,65.0922,,0,,,7630,6979,,,,,True,28449
+qwen2.5:14b,expand,multihop-nuntius,multihop,Which other YC companies share a founder or executive with Nuntius?,Nuntius shares a founder or executive with: OpenVector.,"Based on the provided evidence, Nuntius shares similarities with Sylvian, Theta, and Petrarch, but there is no information indicating that these companies share a founder or executive with Nuntius. Therefore, there is no evidence to answer the question about which YC companies share a founder or executive with Nuntius. [co:nuntius] [co:sylvian] [co:theta] [co:petrarch]",0.0,0.0,0.0,0.0,38.2932,54.0732,,0,,,7503,6983,,,,,True,33966
+qwen2.5:14b,expand,multihop-cohesive,multihop,Which other YC companies share a founder or executive with Cohesive?,Cohesive shares a founder or executive with: truthsystems.,"Based on the provided evidence, there is no information about other YC companies that share a founder or executive with Cohesive. The evidence only indicates that Nam Nguyen is a founder of Cohesive [co:cohesive], but does not provide any connections to other YC companies through shared founders or executives.",0.0,0.0,0.0,0.0,38.0031,51.003,,0,,,7472,6977,,,,,True,26050
+qwen2.5:14b,expand,multihop-lilac-labs,multihop,Which other YC companies share a founder or executive with Lilac Labs?,Lilac Labs shares a founder or executive with: OpenTag.,"Based on the provided evidence, Lilac Labs shares a founder with Phonely, as both were founded by Shelden Shi [person:shelden-shi]. There is no evidence provided that links Lilac Labs to any other YC company through shared founders or executives beyond this connection.",0.0,0.0,0.0,0.0,37.1863,50.2601,,0,,,7513,7015,,,,,True,34343

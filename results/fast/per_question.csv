@@ -1,0 +1,55 @@
+model,mode,qid,qtype,question,reference,answer,retrieval_precision,retrieval_recall,citation_precision,citation_recall,ttft_s,e2e_latency_s,walk_time_s,walk_iters,walk_iter_p95_s,walk_iter_max_s,total_tokens,context_tokens,full_context_tokens,cypher_valid,cypher_first_try,cypher_non_empty
+llama3.1:8b,walk,comp-junostack,competitors,Which startups compete with JunoStack?,"JunoStack builds vector database for retrieval augmented generation. Competitors building the same thing: OrbitPath, TidalAI, TidalLabs, EmberAI.","Based on the provided evidence, the startups that compete with JunoStack are:
+
+* EchoWorks [co:echoworks] (AI underwriting for small business loans)
+* BeaconWorks [co:beaconworks] (AI underwriting for small business loans)
+* MosaicMind [co:mosaicmind] (AI underwriting for small business loans)
+* IonWorks [co:ionworks] (AI underwriting for small business loans)
+
+These startups are similar to JunoStack based on the ""SIMILAR_TO"" edges in the evidence.",0.3333333333333333,1.0,0.0,0.0,2.5683,9.3625,0.099,12,0.0193,0.0197,1797,1305,15025,,,
+llama3.1:8b,walk,comp-atlasmind,competitors,Which startups compete with AtlasMind?,"AtlasMind builds grid-scale battery analytics. Competitors building the same thing: OrbitAI, LumenLabs, GrovePath.","Based on the provided evidence, the startups that compete with AtlasMind are:
+
+* [co:ionmind] (builds methane leak detection with satellites)
+* [co:orbitio] (builds methane leak detection with satellites)
+* [co:velaio] (builds methane leak detection with satellites)
+
+These startups are similar to AtlasMind based on the ""SIMILAR_TO"" edges in the evidence.",0.08333333333333333,0.3333333333333333,0.0,0.0,2.3205,7.8381,0.1023,12,0.017,0.0175,1629,1170,15868,,,
+llama3.1:8b,walk,comp-onyxworks,competitors,Which startups compete with OnyxWorks?,"OnyxWorks builds treasury management for startups. Competitors building the same thing: GroveStack, KiteGrid.","Based on the evidence, the startups that compete with OnyxWorks are:
+
+* KiteGrid [co:kitegrid] (treasury management for startups)
+* GroveStack [co:grovestack] (treasury management for startups)
+* LatticeWorks [co:latticeworks] (fraud detection for real-time payments)
+* PrismStack [co:prismstack] (fraud detection for real-time payments)
+* IonStack [co:ionstack] (embedded payments API for vertical SaaS)
+
+These startups are identified as similar to OnyxWorks through the SIMILAR_TO edges in the graph.",0.16666666666666666,1.0,0.4,1.0,2.5575,9.7766,0.0922,12,0.01,0.0108,1761,1258,8623,,,
+llama3.1:8b,walk,comp-lumenai,competitors,Which startups compete with LumenAI?,"LumenAI builds prior authorization automation for clinics. Competitors building the same thing: MosaicAI, Velaly, IonForge, FernPath, SableMind, HaloStack, HelixAI.","Based on the provided evidence, the startups that compete with LumenAI are:
+
+* MosaicAI [co:mosaicai] (prior authorization automation for clinics)
+* Velaly [co:velaly] (prior authorization automation for clinics)
+* SableMind [co:sablemind] (prior authorization automation for clinics)
+* HelixAI [co:helixai] (prior authorization automation for clinics)
+* IonForge [co:ionforge] (prior authorization automation for clinics)
+* HaloStack [co:halostack] (prior authorization automation for clinics)
+
+These startups are similar to LumenAI based on the ""SIMILAR_TO"" edges in the evidence.",0.5,0.8571428571428571,1.0,0.8571428571428571,2.5521,10.3297,0.0829,9,0.015,0.0155,1795,1277,11863,,,
+llama3.1:8b,walk,comp-velamind,competitors,Which startups compete with VelaMind?,VelaMind builds AI code review bot. Competitors building the same thing: Driftly.,"Based on the provided evidence, the startups that compete with VelaMind are:
+
+* MosaicAI [co:mosaicai] (prior authorization automation for clinics)
+* HelixAI [co:helixai] (prior authorization automation for clinics)
+* LumenAI [co:lumenai] (prior authorization automation for clinics)
+
+These startups are similar to VelaMind based on the edge [co:lumenai] -SIMILAR_TO-> [co:helixai] and [co:lumenai] -SIMILAR_TO-> [co:mosaicai].",0.08333333333333333,1.0,0.0,0.0,2.304,9.2917,0.1173,12,0.0167,0.0174,1630,1132,13921,,,
+qwen2.5:14b,walk,comp-junostack,competitors,Which startups compete with JunoStack?,"JunoStack builds vector database for retrieval augmented generation. Competitors building the same thing: OrbitPath, TidalAI, TidalLabs, EmberAI.","The evidence does not provide information about a startup named JunoStack or any direct competitors of JunoStack. Therefore, I cannot answer the question based on the given data.",0.3333333333333333,1.0,0.0,0.0,5.1214,12.0562,0.1086,12,0.0186,0.0206,1708,1289,14239,,,
+qwen2.5:14b,walk,comp-atlasmind,competitors,Which startups compete with AtlasMind?,"AtlasMind builds grid-scale battery analytics. Competitors building the same thing: OrbitAI, LumenLabs, GrovePath.","Based on the provided evidence, the startups that compete with AtlasMind are not directly listed. However, JunoStack [co:junostack] and OrbitPath [co:orbitpath] are similar to each other and both are AI Infrastructure startups that build vector databases for retrieval augmented generation, which could imply they compete with AtlasMind if AtlasMind is in the same field. [co:junostack] -SIMILAR_TO-> [co:orbitpath]",0.08333333333333333,0.3333333333333333,0.0,0.0,4.6147,15.8321,0.1121,12,0.0197,0.0218,1621,1146,15868,,,
+qwen2.5:14b,walk,comp-onyxworks,competitors,Which startups compete with OnyxWorks?,"OnyxWorks builds treasury management for startups. Competitors building the same thing: GroveStack, KiteGrid.","Based on the provided evidence, the startups that compete with OnyxWorks are not listed. The evidence does not contain information about OnyxWorks or its competitors. [co:ionstack], [co:grovestack], and [co:prismstack] are similar to each other but there is no direct indication that they compete with OnyxWorks.",0.16666666666666666,1.0,0.3333333333333333,0.5,4.632,14.315,0.1089,12,0.0158,0.0163,1632,1176,10532,,,
+qwen2.5:14b,walk,comp-lumenai,competitors,Which startups compete with LumenAI?,"LumenAI builds prior authorization automation for clinics. Competitors building the same thing: MosaicAI, Velaly, IonForge, FernPath, SableMind, HaloStack, HelixAI.","Based on the provided evidence, the startups that compete with LumenAI are:
+
+- [co:mosaicai] MosaicAI
+- [co:fernpath] FernPath
+- [co:velaly] Velaly
+- [co:helixai] HelixAI
+- [co:halostack] HaloStack
+
+These companies are similar to HelixAI, which is in the same domain as LumenAI, and they all build prior authorization automation for clinics. [co:mosaicai], [co:fernpath], [co:velaly], and [co:halostack] are also similar to HelixAI.",0.4166666666666667,0.7142857142857143,1.0,0.7142857142857143,5.1654,19.6165,0.0896,10,0.0139,0.0142,1789,1269,11863,,,
+qwen2.5:14b,walk,comp-velamind,competitors,Which startups compete with VelaMind?,VelaMind builds AI code review bot. Competitors building the same thing: Driftly.,"The evidence does not provide information about a startup named VelaMind or any competitors of it. Therefore, I cannot determine which startups compete with VelaMind based on the given data. [co:mosaicai], [co:fernpath], and [co:helixai] are similar to each other in the healthcare AI space, but there is no mention of VelaMind.",0.08333333333333333,1.0,0.0,0.0,5.099,15.3292,0.1085,12,0.0186,0.0214,1677,1214,13921,,,

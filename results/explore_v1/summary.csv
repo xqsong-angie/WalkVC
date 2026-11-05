@@ -1,0 +1,5 @@
+model,mode,n,faithfulness,hallucination_rate,answer_relevancy,context_precision,factual_correctness,retrieval_recall,ttft_p50_s,e2e_p50_s,e2e_p95_s,walk_iter_p95_s,walk_iter_under_3s,tokens_mean,context_tokens_mean,full_context_tokens_mean,vram_mb,gpu_used_mb,json_parse_rate,cypher_exec_rate,cypher_first_try_rate,cypher_non_empty_rate,expand_truncated_rate,expand_full_tokens_est,token_savings_vs_full
+llama3.1:8b,expand,24,,,,,,0.4223,33.8616,42.8118,69.6804,,,16080.75,15474.2917,,8717.8,,1.0,,,,0.9583,52253.375,
+llama3.1:8b,walk,24,,,,,,0.2397,4.5658,17.0171,24.584,0.0484,1.0,4536.125,2311.4167,204342.4583,8717.8,,1.0,,,,,,0.9887
+qwen2.5:14b,expand,24,,,,,,0.5757,76.3835,90.6358,120.8561,,,15973.75,15476.7083,,14606.9,,1.0,,,,0.9583,47229.9167,
+qwen2.5:14b,walk,24,,,,,,0.288,10.0041,32.6553,34.7192,0.055,1.0,4492.0,2328.0,196342.4583,14606.9,,1.0,,,,,,0.9881
