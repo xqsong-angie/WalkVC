@@ -108,7 +108,7 @@ Spot-check the generated file before reporting numbers (YC tags can be broad).
 Run `python main.py demo` only if you still want the synthetic graph; it writes to the same Neo4j,
 so clear it first: `MATCH (n) DETACH DELETE n` in the Neo4j browser (http://localhost:7474).
 
-### 3. Evaluation
+## 3. Evaluation
 
 ```bash
 python main.py eval --models llama3.1:8b qwen2.5:14b gpt-4o --modes walk cypher
