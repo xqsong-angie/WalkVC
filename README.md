@@ -1,5 +1,9 @@
 # Agentic KG Exploration via Random Walks for VC Market Intelligence
 
+
+--
+
+
 ```
                  ┌───────────────────── Data Collection Agent (LangGraph) ─────────────────────┐
  YC directory ──▶│ Crawl4AI render ─▶ LLM extraction ─┐                                        │
@@ -18,6 +22,8 @@
                  └──────────────────────────────────────────────────────────────────────────────┘
   Baseline: mode=cypher  (Text-to-Cypher deterministic retrieval)
 ```
+
+--
 
 ## 1. Project layout
 
@@ -42,6 +48,8 @@ vcgraph/reason/agent.py    LangGraph reasoning agent
 vcgraph/eval/run_eval.py   benchmark: models x modes x questions -> RAGAS + system metrics
 tests/test_pipeline.py     offline tests (no Docker / no LLM needed)
 ```
+
+--
 
 ## 2. Quick start
 
