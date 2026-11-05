@@ -1,6 +1,4 @@
-# VCGraph — Agentic KG Exploration via Random Walks for VC Market Intelligence
-
-COMP 580 project prototype (Angie Song, YinHsuan (Sam) Hsu).
+# Agentic KG Exploration via Random Walks for VC Market Intelligence
 
 ```
                  ┌───────────────────── Data Collection Agent (LangGraph) ─────────────────────┐
