@@ -19,7 +19,7 @@
   Baseline: mode=cypher  (Text-to-Cypher deterministic retrieval)
 ```
 
-## Project layout
+## 1. Project layout
 
 ```
 main.py                    CLI: demo | collect | build | ask | eval
@@ -43,7 +43,7 @@ vcgraph/eval/run_eval.py   benchmark: models x modes x questions -> RAGAS + syst
 tests/test_pipeline.py     offline tests (no Docker / no LLM needed)
 ```
 
-## Quick start
+## 2. Quick start
 
 ```bash
 cp .env.example .env
@@ -60,7 +60,7 @@ crawl4ai-setup                             # one-time Playwright browser install
 EMBED_BACKEND=hash pytest -q
 ```
 
-### Option A — synthetic demo graph (fastest way to get end-to-end numbers)
+### 2.1 Option A — synthetic demo graph (fastest way to get end-to-end numbers)
 
 ```bash
 python main.py demo                         # 72 fictional companies -> Neo4j, writes data/demo/questions.jsonl
@@ -73,7 +73,7 @@ Company names come from `data/demo/questions.jsonl` (they are generated determin
 No Docker? `python main.py demo --backend memory` and add `--backend memory` to `ask` / `eval`
 (Cypher mode needs Neo4j).
 
-### Option B — real Y Combinator data (replaces the synthetic demo)
+### 2.2 Option B — real Y Combinator data (replaces the synthetic demo)
 
 ```bash
 # 1) collect: YC list (yc-oss JSON mirror) + crawl each www.ycombinator.com/companies/<slug> page for founders
@@ -108,7 +108,7 @@ Spot-check the generated file before reporting numbers (YC tags can be broad).
 Run `python main.py demo` only if you still want the synthetic graph; it writes to the same Neo4j,
 so clear it first: `MATCH (n) DETACH DELETE n` in the Neo4j browser (http://localhost:7474).
 
-### Evaluation
+### 3. Evaluation
 
 ```bash
 python main.py eval --models llama3.1:8b qwen2.5:14b gpt-4o --modes walk cypher
@@ -124,7 +124,7 @@ Writes `results/<run>/{raw.jsonl, per_question.csv, ragas.csv, summary.csv, syst
 | Resource use | `tokens_mean`, `context_tokens_mean` vs `full_context_tokens_mean` (2-hop dump), `token_savings_vs_full`, `vram_mb` (Ollama `/api/ps`), `gpu_used_mb` |
 | Reliability | `json_parse_rate` (all structured LLM outputs), `cypher_exec_rate`, `cypher_first_try_rate` |
 
-## The random walk (vcgraph/reason/walk.py)
+## 4. The random walk (vcgraph/reason/walk.py)
 
 Transition from `u` to neighbour `v` for sub-query `q`:
 
@@ -144,7 +144,7 @@ P(v|u,q) ∝ exp( [ α·cos(q, e_v) + β·log w_rel(type) + γ·log w_label(labe
 On the synthetic graph (hash embeddings, no LLM), the walk stops after 4–8 iterations on most questions,
 recalls the reference nodes, and uses ~80% fewer context tokens than a 2-hop neighbourhood dump.
 
-## Notes / limitations
+## 5. Limitationstes
 
 * The YC directory is JS-rendered. `hybrid` / `crawl` use Crawl4AI (3 concurrent pages). Keep crawls
   small and for research use; check YC's terms. If YC blocks headless browsers, use `--yc-mode json`.
