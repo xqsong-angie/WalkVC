@@ -1,0 +1,651 @@
+model,mode,qid,qtype,question,reference,answer,retrieval_precision,retrieval_recall,citation_precision,citation_recall,ttft_s,e2e_latency_s,walk_time_s,walk_iters,walk_iter_p95_s,walk_iter_max_s,total_tokens,context_tokens,full_context_tokens,cypher_valid,cypher_first_try,cypher_non_empty,expand_truncated,expand_full_tokens_est
+llama3.1:8b,expand,coinvest-firstcheck-africa,coinvest,Which investors have co-invested with FirstCheck Africa in YC startups?,"FirstCheck Africa invested in Cleva; co-investors in those rounds: 1984 Ventures, BYLD, The Raba Partnership.","Based on the provided evidence, the following investors have co-invested with FirstCheck Africa in YC startups:
+
+* BYLD [inv:byld]
+* The Raba Partnership [inv:raba-partnership]
+* 1984 Ventures [inv:1984]
+
+These investors are listed as having invested in Cleva [co:cleva], which is a YC startup that FirstCheck Africa has also invested in.",0.21428571428571427,1.0,0.75,1.0,6.3403,22.8705,,0,,,1830,1275,,,,,False,1059
+llama3.1:8b,expand,coinvest-moonfire,coinvest,Which investors have co-invested with Moonfire in YC startups?,"Moonfire invested in Pazi, Weave; co-investors in those rounds: 500 Emerging Europe, Agent Fund, Burst Capital, Inovo, IrregEx, Rebel Fund, Standard Capital, Uphonest Capital.","Based on the provided evidence, the following investors have co-invested with Moonfire in YC startups:
+
+* Y Combinator [inv:y-combinator]
+* IrregEx [inv:irregex]
+* Standard Capital [inv:standard]
+* Burst Capital [inv:burst]
+* Agent Fund [inv:agent]
+
+These investors are listed as having invested in Weave [co:weave-3], which is a YC startup co-founded by Adam Cohen [person:adam-cohen] and Andrew Churchill [person:andrew-churchill] and is part of the Winter 2025 batch [batch:winter-2025].",0.3076923076923077,1.0,0.4444444444444444,0.5,9.9693,32.681,,0,,,2653,2024,,,,,False,1543
+llama3.1:8b,expand,coinvest-visionaries,coinvest,Which investors have co-invested with Visionaries in YC startups?,"Visionaries invested in Conveo; co-investors in those rounds: 6 Degrees Capital, Balderton, DST Global Partners, Entourage Capital, Pitchdrive, Syndicate One.","Based on the provided evidence, the following investors have co-invested with Visionaries in YC startups:
+
+* Pitchdrive [inv:pitchdrive]
+* 6 Degrees Capital [inv:6-degrees]
+* Entourage Capital [inv:entourage]
+* DST Global Partners [inv:dst-global]
+* Balderton [inv:balderton]
+* Syndicate One [inv:syndicate-one]
+* Y Combinator [inv:y-combinator]
+
+These investors are listed as having invested in Conveo [co:conveo], which is a YC startup.",0.375,1.0,0.75,1.0,4.7532,22.144,,0,,,1628,1033,,,,,False,763
+llama3.1:8b,expand,coinvest-others,coinvest,Which investors have co-invested with others in YC startups?,"others invested in Icarus, Pipeshift; co-investors in those rounds: Riptide Ventures, SenseAI Ventures.","Here are the investors that have co-invested with others in YC startups:
+
+* [inv:others] co-invested with [inv:senseai] in [co:pipeshift]
+* [inv:others] co-invested with [inv:y-combinator] in [co:pipeshift]
+* [inv:riptide] co-invested with [inv:y-combinator] in [co:icarus]
+
+Note that these are the only instances of co-investment in the provided evidence.",0.07692307692307693,1.0,0.3333333333333333,1.0,10.0471,20.6806,,0,,,2853,2355,,,,,False,1930
+llama3.1:8b,expand,coinvest-nate-matherson,coinvest,Which investors have co-invested with Nate Matherson in YC startups?,"Nate Matherson invested in DryMerge; co-investors in those rounds: Breakpoint Capital, Garage Capital, Goodwater Capital, JJ Fliegelman, Kulveer Taggar, Ritual Capital, Umur Cubukcu.","Based on the provided evidence, the following investors have co-invested with Nate Matherson in YC startups:
+
+* Umur Cubukcu [inv:umur-cubukcu]
+* JJ Fliegelman [inv:jj-fliegelman]
+* Y Combinator [inv:y-combinator]
+* Kulveer Taggar [inv:kulveer-taggar]
+* Breakpoint Capital [inv:breakpoint]
+* Ritual Capital [inv:ritual]
+* Goodwater Capital [inv:goodwater]
+* Garage Capital [inv:garage]
+
+These investors are listed as having invested in DryMerge [co:drymerge], which is a YC startup co-founded by Samuel Brashears [person:samuel-brashears].",0.3888888888888889,1.0,0.7,1.0,5.943,22.1873,,0,,,1950,1362,,,,,False,1072
+llama3.1:8b,expand,coinvest-benchstrength,coinvest,Which investors have co-invested with Benchstrength in YC startups?,"Benchstrength invested in Garage; co-investors in those rounds: FJ Labs, Infinity Ventures, Initialized Capital, Wayfinder Ventures.","Based on the provided evidence, the following investors have co-invested with Benchstrength in YC startups:
+
+* Initialized Capital [inv:initialized]
+* Infinity Ventures [inv:infinity-ventures]
+* FJ Labs [inv:fj-labs]
+* Wayfinder Ventures [inv:wayfinder]
+* Y Combinator [inv:y-combinator]
+
+These investors are listed as having invested in Garage [co:garage-2], which is a YC startup that Benchstrength has also invested in.",0.23529411764705882,1.0,0.5,0.75,5.5597,20.6798,,0,,,1912,1341,,,,,False,1042
+llama3.1:8b,expand,coinvest-a-capital,coinvest,Which investors have co-invested with A Capital in YC startups?,"A Capital invested in Bindwell, Browser Use, Design Arena; co-investors in those rounds: Conviction, Felicis', Astasia Myers, General Catalyst, Index Ventures, Nexus Venture Partners, Paul Graham, Valkyrie.","Based on the provided evidence, the following investors have co-invested with A Capital in YC startups:
+
+* Nexus Venture Partners [inv:nexus] (co-invested with A Capital in [co:browser-use])
+* General Catalyst [inv:general-catalyst] (co-invested with A Capital in [co:bindwell])
+* Index Ventures [inv:index] (co-invested with A Capital in [co:design-arena])
+* Valkyrie [inv:valkyrie] (co-invested with A Capital in [co:design-arena])
+* Conviction [inv:conviction] (co-invested with A Capital in [co:design-arena])
+
+Note that the evidence only shows co-investment relationships between A Capital and these investors in the specified YC startups.",0.18421052631578946,1.0,0.625,0.7142857142857143,14.2961,34.4848,,0,,,4173,3531,,,,,False,2883
+llama3.1:8b,expand,coinvest-venture-capital-investors,coinvest,Which investors have co-invested with venture capital investors in YC startups?,"venture capital investors invested in Crimson; co-investors in those rounds: Amino Capital, Eight Capital, Progressive Ventures, Scale Asia Ventures, Symphony Ventures, Twenty Two Ventures, partners and arbitrators from major law firms.","Based on the provided evidence, the following investors have co-invested with venture capital investors in YC startups:
+
+* Symphony Ventures [inv:symphony] co-invested with Y Combinator [inv:y-combinator] in Crimson [co:crimson]
+* Scale Asia Ventures [inv:scale-asia] co-invested with Y Combinator [inv:y-combinator] in Crimson [co:crimson]
+* Amino Capital [inv:amino] co-invested with Y Combinator [inv:y-combinator] in Crimson [co:crimson]
+* Progressive Ventures [inv:progressive] co-invested with Y Combinator [inv:y-combinator] in Crimson [co:crimson]
+* Twenty Two Ventures [inv:twenty-two] co-invested with Y Combinator [inv:y-combinator] in Crimson [co:crimson]
+* Eight Capital [inv:eight] co-invested with Y Combinator [inv:y-combinator] in Crimson [co:crimson]
+
+Note that the evidence only shows co-investment in Crimson [co:crimson] and does not provide information on co-investment in other YC startups.",0.3888888888888889,1.0,0.75,0.8571428571428571,4.3822,28.4255,,0,,,1762,1040,,,,,False,753
+llama3.1:8b,expand,coinvest-rxr-arden,coinvest,Which investors have co-invested with RXR + Arden in YC startups?,"RXR + Arden invested in Henry; co-investors in those rounds: Brian Chen, Coalition Operators, Joe Teplow, Orange Collective, Pioneer Fund, Rami Essaid, Singularity Capital, Storyhouse Ventures, Unwritten Ventures, Yahya Mokhtarzada.","Unfortunately, the provided evidence does not contain information about RXR + Arden's co-investments with YC startups. The evidence only mentions Arden's similarity to other companies (Oxus, Moby Analytics) and its batch (Spring 2026), but does not provide any information about co-investments.",0.0,0.0,0.0,0.0,28.9815,41.1707,,0,,,7514,6982,,,,,True,30611
+llama3.1:8b,expand,coinvest-mission-street-capital,coinvest,Which investors have co-invested with Mission Street Capital in YC startups?,"Mission Street Capital invested in Bild AI; co-investors in those rounds: Khosla Ventures, Ooshma Garg, Ryan Sutton-Gee.","Based on the provided evidence, the following investors have co-invested with Mission Street Capital in YC startups:
+
+* Khosla Ventures [inv:khosla] (co-invested with Mission Street Capital in Bild AI [co:bild-ai])
+* Ryan Sutton-Gee [inv:ryan-sutton-gee] (co-invested with Mission Street Capital in Bild AI [co:bild-ai])
+* Ooshma Garg [inv:ooshma-garg] (co-invested with Mission Street Capital in Bild AI [co:bild-ai])
+
+Note that the evidence only shows co-investment in Bild AI, and does not provide information on other YC startups co-invested by Mission Street Capital.",0.23076923076923078,1.0,0.75,1.0,4.5873,21.6959,,0,,,1705,1086,,,,,False,867
+llama3.1:8b,expand,coinvest-jpmorgan,coinvest,Which investors have co-invested with JPMorgan in YC startups?,"JPMorgan invested in River Markets; co-investors in those rounds: Citadel, Coinbase Ventures, GV, Haun Ventures, Novig, Nvidia, Qube Research Technologies.","Based on the provided evidence, the following investors have co-invested with JPMorgan in YC startups:
+
+* Y Combinator [inv:y-combinator]
+* Nvidia [inv:nvidia]
+* Citadel [inv:citadel]
+* Novig [inv:novig]
+* Coinbase Ventures [inv:coinbase]
+* Haun Ventures [inv:haun]
+* GV [inv:google]
+* Qube Research Technologies [inv:qube-research]
+
+These investors are listed as having invested in River Markets [co:river-markets], which is a YC startup.",0.4117647058823529,1.0,0.7777777777777778,1.0,4.1045,19.2541,,0,,,1583,996,,,,,False,716
+llama3.1:8b,expand,coinvest-francois-chollet,coinvest,Which investors have co-invested with François Chollet in YC startups?,"François Chollet invested in CTGT; co-investors in those rounds: General Catalyst, Gradient Ventures, Liquid 2 Ventures, Mike Knoop, Paul Graham, Taner Halıcıoğlu.","Based on the provided evidence, François Chollet has co-invested with the following investors in YC startups:
+
+* Y Combinator [inv:y-combinator]
+* Liquid 2 Ventures [inv:liquid-2]
+* Gradient Ventures [inv:gradient]
+* Mike Knoop [inv:mike-knoop]
+* Paul Graham [inv:paul-graham]
+
+These investors are listed as having invested in CTGT [co:ctgt], which is a YC startup co-founded by Cyril Gorlla [person:cyril-gorlla].",0.35294117647058826,1.0,0.5714285714285714,0.6666666666666666,4.8279,15.9919,,0,,,1709,1182,,,,,False,903
+llama3.1:8b,expand,coinvest-paul-copplestone,coinvest,Which investors have co-invested with Paul Copplestone in YC startups?,"Paul Copplestone invested in AgentMail; co-investors in those rounds: Dharmesh Shah, General Catalyst, Karim Atiyeh, Paul Graham, Phosphor Capital.","Based on the provided evidence, the following investors have co-invested with Paul Copplestone in YC startups:
+
+* General Catalyst [inv:general-catalyst]
+* Paul Graham [inv:paul-graham]
+* Phosphor Capital [inv:phosphor]
+* Y Combinator [inv:y-combinator]
+* Dharmesh Shah [inv:dharmesh-shah]
+* Karim Atiyeh [inv:karim-atiyeh]
+
+These investors are listed as having invested in AgentMail [co:agentmail], which is a YC startup co-founded by Adi Singh [person:adi-singh], Haakam Aujla [person:haakam-aujla], and Michael Kim [person:michael-kim].",0.25,1.0,0.5,1.0,5.8857,20.2088,,0,,,2092,1523,,,,,False,1197
+llama3.1:8b,expand,coinvest-formosa-capital,coinvest,Which investors have co-invested with Formosa Capital in YC startups?,"Formosa Capital invested in Trace; co-investors in those rounds: Benjamin Bryant, Goodwater Capital, Kevin Moore, Transpose Platform, WeFunder, Zeno Ventures.","Based on the provided evidence, the following investors have co-invested with Formosa Capital in YC startups:
+
+* Y Combinator [inv:y-combinator]
+* Benjamin Bryant [inv:benjamin-bryant]
+* Transpose Platform [inv:transpose-platform]
+* WeFunder [inv:wefunder]
+* Kevin Moore [inv:kevin-moore]
+* Zeno Ventures [inv:zeno]
+* Goodwater Capital [inv:goodwater]
+
+These investors are listed as having invested in Trace | [co:trace-so], which is a YC startup.",0.375,1.0,0.75,1.0,4.2134,19.1092,,0,,,1610,1023,,,,,False,771
+llama3.1:8b,expand,coinvest-infera-neuro,coinvest,Which investors have co-invested with Infera Neuro in YC startups?,"Infera Neuro invested in Infera; co-investors in those rounds: Goodwall, Roofless Labs.","Based on the provided evidence, the investors who have co-invested with Infera Neuro in YC startups are:
+
+* Goodwall [inv:goodwall]
+* Roofless Labs [inv:roofless-labs]
+
+These investors are connected to Infera Neuro through the ""INVESTED_IN"" edge.",0.15384615384615385,1.0,1.0,1.0,5.4017,14.7695,,0,,,1558,1068,,,,,False,861
+llama3.1:8b,expand,coinvest-devc,coinvest,Which investors have co-invested with DeVC in YC startups?,"DeVC invested in CodeAnt AI; co-investors in those rounds: Entrepreneur First, Transpose Platform, Uncorrelated Ventures, VitalStage Ventures.",DeVC has co-invested with Y Combinator in CodeAnt AI [inv:devc] -INVESTED_IN-> [co:codeant-ai] and [inv:y-combinator] -INVESTED_IN-> [co:codeant-ai].,0.18181818181818182,1.0,0.0,0.0,8.0225,15.1808,,0,,,2628,2164,,,,,False,1769
+llama3.1:8b,expand,coinvest-morningstar-ceo-kunal-kapoor,coinvest,Which investors have co-invested with Morningstar CEO Kunal Kapoor in YC startups?,"Morningstar CEO Kunal Kapoor invested in FINNY AI; co-investors in those rounds: Activant, Crossbeam Ventures, Deel COO Dan Westgarth, Gusto CPO Tomer London, HNVR, Jason Wenk, Liquid 2 Ventures, Maple VC, Venrock, William McNabb.","Based on the provided evidence, the investors who have co-invested with Morningstar CEO Kunal Kapoor in YC startups are:
+
+* William McNabb [inv:william-mcnabb]
+* Gusto CPO Tomer London [inv:gusto-cpo-tomer-london]
+* HNVR [inv:hnvr]
+* Maple VC [inv:maple]
+* Jason Wenk [inv:jason-wenk]
+* Venrock [inv:venrock]
+* Deel COO Dan Westgarth [inv:deel-coo-dan-westgarth]
+* Liquid 2 Ventures [inv:liquid-2]
+* Crossbeam Ventures [inv:crossbeam]
+* Activant [inv:activant]
+
+These investors are listed as having invested in FINNY AI [co:finny-ai], which is a YC startup co-founded by Victoria Toli [person:victoria-toli] and also co-invested in by Morningstar CEO Kunal Kapoor [inv:morningstar-ceo-kunal-kapoor].",0.43478260869565216,1.0,0.7692307692307693,1.0,5.5763,26.3154,,0,,,2144,1446,,,,,False,1015
+llama3.1:8b,expand,coinvest-palmer-luckey,coinvest,Which investors have co-invested with Palmer Luckey in YC startups?,"Palmer Luckey invested in Nox Metals; co-investors in those rounds: Alumni Ventures, DTX Ventures, Hyperion, Jared Friedman, Operator Collective, RoboStrategy.","Based on the provided evidence, the following investors have co-invested with Palmer Luckey in YC startups:
+
+* Y Combinator [inv:y-combinator]
+* RoboStrategy [inv:robostrategy]
+* Hyperion [inv:hyperion]
+* Operator Collective [inv:operator-collective]
+* Jared Friedman [inv:jared-friedman]
+* Alumni Ventures [inv:alumni]
+* DTX Ventures [inv:dtx]
+
+These investors are listed as having invested in Nox Metals [co:nox-metals], which is a YC startup co-founded by Palmer Luckey.",0.3,1.0,0.75,1.0,6.8013,19.8665,,0,,,2302,1738,,,,,False,1369
+llama3.1:8b,expand,coinvest-hubspot-ventures,coinvest,Which investors have co-invested with HubSpot Ventures in YC startups?,"HubSpot Ventures invested in Artisan; co-investors in those rounds: Bayhouse Capital, Day One Ventures, Fellows Fund, Glade Brook Capital, Oliver Jung.","Based on the provided evidence, the following investors have co-invested with HubSpot Ventures in YC startups:
+
+* Day One Ventures [inv:day-one]
+* Fellows Fund [inv:fellows]
+* Glade Brook Capital [inv:glade-brook]
+* Bayhouse Capital [inv:bayhouse]
+* Y Combinator [inv:y-combinator]
+
+These investors are listed as having invested in Artisan [co:artisan], which is a YC startup.",0.21739130434782608,1.0,0.6666666666666666,0.8,8.0566,20.7166,,0,,,2778,2210,,,,,False,1859
+llama3.1:8b,expand,coinvest-angel-investors-from-the-us-and-europe,coinvest,Which investors have co-invested with angel investors from the US and Europe in YC startups?,"angel investors from the US and Europe invested in Alice.tech; co-investors in those rounds: Cherry Ventures, PSV Tech.","Based on the provided evidence, the following investors have co-invested with angel investors from the US and Europe in YC startups:
+
+* [inv:google] (GV) co-invested with angel investors in [co:flick]
+* [inv:true] co-invested with angel investors in [co:flick]
+* [inv:y-combinator] co-invested with angel investors in [co:flick]
+* [inv:lytical] co-invested with angel investors in [co:pennant]
+* [inv:tower-research] co-invested with angel investors in [co:pennant]
+* [inv:south-park-commons] co-invested with angel investors in [co:pennant]
+* [inv:1984] co-invested with angel investors in [co:pennant]
+
+Note that the evidence only provides information on co-investments with angel investors from the US and Europe, and does not provide information on co-investments with angel investors from other regions.",0.0,0.0,0.0,0.0,6.5472,29.6592,,0,,,2519,1772,,,,,False,1357
+llama3.1:8b,expand,sharedinv-diode-computers,shared_investor,"Which other YC companies share an investor with Diode Computers, Inc.?","Diode Computers, Inc. is backed by Andreessen Horowitz, Box Group, Caffeinated Capital; they also backed: Astro Mechanica, Cotool, Forerunner, Reducto, Stilta, Toma.","Based on the provided evidence, the following companies share an investor with Diode Computers, Inc.:
+
+* Diode Computers, Inc. is invested in by [inv:box] (Box Group) and [inv:y-combinator] (Y Combinator).
+* [inv:caffeinated] (Caffeinated Capital) is also an investor in Diode Computers, Inc.
+
+Therefore, the companies that share an investor with Diode Computers, Inc. are:
+
+* None of the other YC companies in the provided evidence have an investor in common with Diode Computers, Inc.",0.0,0.0,0.0,0.0,26.678,38.3213,,0,,,7523,7006,,,,,True,43027
+llama3.1:8b,expand,sharedinv-mem0,shared_investor,Which other YC companies share an investor with Mem0?,"Mem0 is backed by Basis Set, GitHub Fund, Kindred Ventures, Peak XV Partners; they also backed: Alex, Better Auth, Blacksmith, Bluejay, JustAI, Manufact, Pax.","To find which other YC companies share an investor with Mem0, I will look for edges of type INVESTED_IN that connect to Mem0 (co:mem0) and then follow the INVESTED_IN edges from the investor to find other companies.
+
+The investor of Mem0 is Y Combinator [inv:y-combinator]. Following the INVESTED_IN edge from Y Combinator, I find that it has invested in several companies, including:
+
+* Phonely [co:phonely]
+* Malibou [co:malibou]
+* Mica AI [co:mica-ai]
+* Memory Store [co:memory-store]
+* Leaping AI [co:leaping-ai]
+* Calltree [co:calltree]
+* Callab AI [co:callab-ai]
+* Acrely [co:acrely]
+* Terrakotta [co:terrakotta]
+* Memoir [co:memoir]
+* Central [co:central]
+* The Vibe Company [co:the-vibe-company]
+* Modus [co:modus]
+* Scope [co:scope]
+* Smooth [co:smooth]
+* Browser Use [co:browser-use]
+* BrowserOS [co:browseros]
+* Notte [co:notte]
+* Wordware [co:wordware]
+* Clawvisor [co:clawvisor]
+* Cua [co:cua]
+* ProjectX [co:projectx]
+* Lab0 [co:lab0]
+* Dedalus Labs [co:dedalus-labs]
+* Pax [co:pax]
+* Karumi [co:karumi]
+* GhostEye [co:ghosteye]
+* Verbiflow [co:verbiflow]
+* BeeSafe AI [co:beesafe-ai]
+* Wavelength [co:wavelength]
+* Opencall [co:opencall]
+* Magma [co:magma]
+* Rastro [co:rastro]
+* Standout [co:standout]
+* Metorial [co:metorial]
+* Octolane AI [co:octolane-ai]
+* Trim [co:trim]
+* Clarum [co:clarum]
+
+These companies are all YC companies that share an investor with Mem0.",0.013513513513513514,0.14285714285714285,0.02564102564102564,0.14285714285714285,25.7279,59.8432,,0,,,7847,6991,,,,,True,40659
+llama3.1:8b,expand,sharedinv-weave,shared_investor,Which other YC companies share an investor with Weave?,"Weave is backed by Agent Fund, Burst Capital, IrregEx, Moonfire, Standard Capital; they also backed: Momentic, Novoflow, Pazi, Sim.","To find which other YC companies share an investor with Weave, we need to look at the edges labeled ""INVESTED_IN"" that connect to [co:weave-3]. 
+
+The edges labeled ""INVESTED_IN"" that connect to [co:weave-3] are:
+[inv:agent] -INVESTED_IN-> [co:weave-3]
+[inv:irregex] -INVESTED_IN-> [co:weave-3]
+[inv:standard] -INVESTED_IN-> [co:weave-3]
+
+These edges indicate that the investors Agent Fund, IrregEx, and Standard Capital have invested in Weave.
+
+To find other YC companies that share these investors, we need to look at the edges labeled ""INVESTED_IN"" that connect to these investors.
+
+The edges labeled ""INVESTED_IN"" that connect to [inv:agent] are:
+[co:aside] -INVESTED_IN-> [inv:agent]
+[co:browser-use] -INVESTED_IN-> [inv:agent]
+[co:smooth] -INVESTED_IN-> [inv:agent]
+[co:browseros] -INVESTED_IN-> [inv:agent]
+[co:calltree] -INVESTED_IN-> [inv:agent]
+[co:leaping-ai] -INVESTED_IN-> [inv:agent]
+[co:praxim] -INVESTED_IN-> [inv:agent]
+[co:sherpa-labs] -INVESTED_IN-> [inv:agent]
+
+The edges labeled ""INVESTED_IN"" that connect to [inv:irregex] are:
+[co:browser-use] -INVESTED_IN-> [inv:irregex]
+[co:smooth] -INVESTED_IN-> [inv:irregex]
+[co:browseros] -INVESTED_IN-> [inv:irregex]
+[co:calltree] -INVESTED_IN-> [inv:irregex]
+[co:leaping-ai] -INVESTED_IN-> [inv:irregex]
+[co:praxim] -INVESTED_IN-> [inv:irregex]
+[co:sherpa-labs] -INVESTED_IN-> [inv:irregex]
+
+The edges labeled ""INVESTED_IN"" that connect to [inv:standard] are:
+[co:browser-use] -INVESTED_IN-> [inv:standard]
+[co:smooth] -INVESTED_IN-> [inv:standard]
+[co:browseros] -INVESTED_IN-> [inv:standard]
+[co:calltree] -INVESTED_IN-> [inv:standard]
+[co:leaping-ai] -INVESTED_IN-> [inv:standard]
+[co:praxim] -INVESTED_IN-> [",0.0410958904109589,0.75,0.0,0.0,25.201,66.7643,,0,,,7984,6998,,,,,True,42066
+llama3.1:8b,expand,sharedinv-basalt,shared_investor,Which other YC companies share an investor with Basalt?,"Basalt is backed by NEA; they also backed: Centralize, Hamming AI.","Based on the provided evidence, I can see that Basalt [co:basalt] has an investor in common with the following companies:
+
+* None of the companies in the evidence have an investor in common with Basalt [co:basalt] except for one: 
+* [inv:new-enterprise-associates] Investor: NEA is an investor in Basalt [co:basalt] and also in [co:exosat] which is similar to Basalt [co:basalt].",0.0,0.0,0.0,0.0,24.615,35.3475,,0,,,7495,6981,,,,,True,27910
+llama3.1:8b,expand,sharedinv-spur,shared_investor,Which other YC companies share an investor with Spur?,"Spur is backed by Ali Partovi, Arash Ferdowsi, Conviction, Dropbox Ventures, Figma, First Round Capital, Liz Wessel, Mar Hershenson, Matt MacInnis, Mihika Kapoor, Mike Vernal, Neo, Pear VC, Rippling, Sarah Guo; they also backed: Blaxel, Central, David AI, Design Arena, Diana, Gumloop, Momentic, Nozomio, Onyx, Proception Inc, Reducto, Solidroad.","To find which other YC companies share an investor with Spur, I will look for edges of the form [inv:...]-INVESTED_IN->[co:...]. 
+
+One such edge is [inv:liz-wessel]-INVESTED_IN->[co:spur]. I will look for other edges of the form [inv:liz-wessel]-INVESTED_IN->[co:...]. 
+
+I find that [inv:liz-wessel]-INVESTED_IN->[co:calltree]. 
+
+Therefore, the answer is: Calltree.",0.024691358024691357,0.16666666666666666,0.0,0.0,24.5268,34.5672,,0,,,7496,6997,,,,,True,32295
+llama3.1:8b,expand,sharedinv-sygaldry,shared_investor,Which other YC companies share an investor with Sygaldry Technologies?,"Sygaldry Technologies is backed by Breakthrough Energy Ventures, Initialized Capital; they also backed: Garage, Greptile, Orbital Operations, Pax, Spaceium Inc, ZeroEntropy.","Sygaldry Technologies shares an investor with the following YC companies:
+
+* None, as the only investor listed for Sygaldry Technologies is Initialized Capital [inv:initialized].",0.0,0.0,0.0,0.0,24.4552,30.0059,,0,,,7458,7023,,,,,True,34088
+llama3.1:8b,expand,sharedinv-bluejay,shared_investor,Which other YC companies share an investor with Bluejay?,"Bluejay is backed by Deepgram, Floodgate, Hippocratic AI, Homebrew, PathAI, Peak XV Partners; they also backed: Alex, Better Auth, Blacksmith, JustAI, Manufact, Mem0.","Based on the provided evidence, the following companies share an investor with Bluejay:
+
+* Cekura-ai [co:cekura-ai] (invested by Y Combinator [inv:y-combinator])
+* Simple AI [co:simple-ai] (invested by Y Combinator [inv:y-combinator])
+
+Note that Homebrew [inv:homebrew] is also an investor in Bluejay, but there is no evidence of them investing in any other companies in the provided data.",0.0,0.0,0.0,0.0,24.1891,33.7674,,0,,,7487,6997,,,,,True,37850
+llama3.1:8b,expand,sharedinv-laminar,shared_investor,Which other YC companies share an investor with Laminar?,"Laminar is backed by Salesforce Ventures, Tiger Global; they also backed: Carma, Laminar.","To find which other YC companies share an investor with Laminar, we need to look for companies that have the same investor as Laminar. 
+
+From the evidence, we can see that [inv:tiger-global] is an investor for [co:laminar]. 
+
+However, there is no other company that shares the same investor as Laminar.",0.014084507042253521,0.5,0.0,0.0,24.2726,31.7852,,0,,,7461,6998,,,,,True,44580
+llama3.1:8b,expand,sharedinv-nozomio,shared_investor,Which other YC companies share an investor with Nozomio?,"Nozomio is backed by Figma, LocalGlobe, Robinhood Ventures; they also backed: Minicor, Model ML, Spur, Surtr Defense Systems.","Based on the provided evidence, the following companies share an investor with Nozomio:
+
+* Aside [co:aside] - Investor: Figma [inv:figma] and LocalGlobe [inv:localglobe]
+* Phonely [co:phonely] - Investor: Robinhood Ventures [inv:robinhood] and LocalGlobe [inv:localglobe]
+
+Note that the evidence only shows the investors for these companies, and does not provide information on other potential investors.",0.0,0.0,0.0,0.0,24.3986,33.8119,,0,,,7492,6996,,,,,True,25005
+llama3.1:8b,expand,sharedinv-cleva,shared_investor,Which other YC companies share an investor with Cleva?,"Cleva is backed by 1984 Ventures, BYLD, FirstCheck Africa, The Raba Partnership; they also backed: Alex, Munify, Pennant, Tandem.","Based on the provided evidence, the following companies share an investor with Cleva:
+
+* Kontigo [co:kontigo] (investor: [inv:raba-partnership])
+* Central [co:central] (investor: [inv:raba-partnership])
+* Polar [co:polar] (investor: [inv:raba-partnership])
+* Munify [co:munify] (investor: [inv:raba-partnership])
+* Karsa [co:karsa] (investor: [inv:raba-partnership])
+* Ruvo [co:ruvo] (investor: [inv:raba-partnership])
+* Unifold [co:unifold] (investor: [inv:raba-partnership])
+* Arbital [co:arbital] (investor: [inv:raba-partnership])
+
+Note that the investor [inv:raba-partnership] is also an investor in Cleva [co:cleva].",0.013513513513513514,0.25,0.1,0.25,24.4255,40.4697,,0,,,7585,6988,,,,,True,24570
+llama3.1:8b,expand,sharedinv-astro-mechanica,shared_investor,Which other YC companies share an investor with Astro Mechanica?,"Astro Mechanica is backed by Alumni Ventures, Andreessen Horowitz, Giant Step, Lowercarbon, Voyager; they also backed: Albacore Inc., Central, Cotool, Diode Computers, Inc., Forerunner, Nox Metals, Reducto, Stilta, Toma.","To find other YC companies that share an investor with Astro Mechanica, I will look for companies that have the same investor as Astro Mechanica.
+
+From the evidence, I can see that [inv:voyager] is an investor of [co:astro-mechanica]. I will look for other companies that have [inv:voyager] as an investor.
+
+Here are the companies that share an investor with Astro Mechanica:
+
+* [co:icarus] has [inv:voyager] as an investor.
+* [co:zephyr-fusion] has [inv:voyager] as an investor.
+* [co:dispatch] has [inv:voyager] as an investor.
+
+These companies are all part of the YC Winter 2024 batch, which is the same batch as Astro Mechanica.",0.015873015873015872,0.1111111111111111,0.0,0.0,24.4195,37.8008,,0,,,7573,7017,,,,,True,31298
+llama3.1:8b,expand,sharedinv-uplane,shared_investor,Which other YC companies share an investor with Uplane?,"Uplane is backed by 20VC, Multimodal Ventures, Play Ventures, Rebel Fund; they also backed: Besimple AI, Central, Circleback, IRBC, LightSprint, Minicor, Moritz, OffDeal, Orbital Operations, Pazi, Structured AI.","To find other YC companies that share an investor with Uplane, I will look for companies that have the same investor as Uplane, which is [inv:y-combinator].
+
+Here are the companies that share an investor with Uplane:
+
+* [co:malibou] (has the same investor as Uplane)
+* [co:phonely] (has the same investor as Uplane)
+* [co:aside] (has the same investor as Uplane)
+* [co:tell-if-ai] (has the same investor as Uplane)
+* [co:imagine-ai] (has the same investor as Uplane)
+* [co:getcrux] (has the same investor as Uplane)
+
+These companies all have Y Combinator as an investor, which is the same investor as Uplane.",0.014285714285714285,0.09090909090909091,0.0,0.0,24.3678,37.6223,,0,,,7541,6986,,,,,True,40122
+llama3.1:8b,expand,sharedinv-tandem,shared_investor,Which other YC companies share an investor with Tandem?,"Tandem is backed by 1984 Ventures, Collide Capital; they also backed: Alex, Cleva, Pennant.","To find which other YC companies share an investor with Tandem, I will look for companies that have the same investor as Tandem, which is Y Combinator [inv:y-combinator].
+
+Here are the companies that share an investor with Tandem:
+
+* Ryse [co:ryse] (similar to Tandem)
+* AveryIQ [co:averyiq] (similar to Tandem)
+* Central [co:central] (similar to Tandem)
+* The Vibe Company [co:the-vibe-company] (similar to Tandem)
+* Modus [co:modus] (similar to Tandem)
+* Leaping AI [co:leaping-ai] (similar to Tandem)
+* Notte [co:notte] (similar to Tandem)
+* Browser Use [co:browser-use] (similar to Tandem)
+* BrowserOS [co:browseros] (similar to Tandem)
+* Laminar [co:laminar] (similar to Tandem)
+* Party [co:party] (similar to Tandem)
+* Rescript [co:rescript] (similar to Tandem)
+* Stempad [co:stempad] (similar to Tandem)
+* Invaria [co:invaria] (similar to Tandem)
+* Pulse [co:pulse-3] (similar to Tandem)
+* Dench.com [co:dench-com] (similar to Tandem)
+* Sharpe [co:sharpe] (similar to Tandem)
+* Polymet [co:polymet] (similar to Tandem)
+* Elayne [co:elayne] (similar to Tandem)
+
+Note that some of these companies may not be exact matches, but they are similar to Tandem in some way.",0.0,0.0,0.0,0.0,24.3802,52.1839,,0,,,7795,7010,,,,,True,36056
+llama3.1:8b,expand,sharedinv-nexus,shared_investor,Which other YC companies share an investor with Nexus?,"Nexus is backed by Nexus Venture Partners; they also backed: Browser Use, FurtherAI, Leaping AI, Naïve.","Based on the provided evidence, the following companies share an investor with Nexus (co:gpt):
+
+* Solari AI (co:solari-ai) - [co:solari-ai] -SIMILAR_TO-> [co:gpt]
+* Minimal AI (co:minimal-ai) - [co:minimal-ai] -SIMILAR_TO-> [co:gpt]
+
+These companies are similar to Nexus in terms of their technology and industry, and they share an investor, Nexus Venture Partners, as indicated by the edge [inv:nexus] -INVESTED_IN-> [co:gpt].",0.029411764705882353,0.5,0.0,0.0,24.9846,36.9406,,0,,,7529,6995,,,,,True,27551
+llama3.1:8b,expand,sharedinv-vera-health,shared_investor,Which other YC companies share an investor with Vera Health?,"Vera Health is backed by Gradient Ventures, Mantis VC, Optum Ventures, SV Angel, Threshold Ventures; they also backed: CTGT, Fazeshift, FirstWork, Forge, KERNEL, ROE, Reducto, Respan, Sim.","Based on the provided evidence, the following companies share an investor with Vera Health:
+
+* [co:mdhub] (Gradient Ventures and Mantis VC are also investors in mdhub)
+* [co:pharos] (Gradient Ventures and SV Angel are also investors in Pharos)
+* [co:sonia] (Gradient Ventures and SV Angel are also investors in Sonia)
+* [co:eos-ai] (Gradient Ventures is also an investor in Eos AI)
+
+Note that Gradient Ventures and Mantis VC are also investors in Vera Health, as mentioned in the edges section.",0.10344827586206896,0.6666666666666666,0.0,0.0,24.4866,34.7471,,0,,,7526,7020,,,,,True,41757
+llama3.1:8b,expand,sharedinv-eloquent-ai,shared_investor,Which other YC companies share an investor with Eloquent AI?,"Eloquent AI is backed by Duke Capital Partners, EJF Ventures, Foundation Capital, Zeno Ventures; they also backed: RetailReady, Saturn, Trace.","Eloquent AI shares an investor with the following YC companies:
+
+* Robby [co:robby]
+* Verdict Machine [co:verdict-machine]
+* Clarum [co:clarum]
+* Fenrock AI [co:fenrock-ai]
+* Runtime [co:runtime]
+* Levocred AI [co:levocred-ai]
+* Rex [co:rex-inc]
+* Elevate [co:elevate-2]
+* Moby Analytics [co:moby-analytics]
+* Billow AI Labs [co:billow-ai-labs]
+
+These companies all have an investor in common with Eloquent AI, which is EJF Ventures [inv:ejf].",0.028169014084507043,0.6666666666666666,0.0,0.0,24.6672,37.1028,,0,,,7543,7009,,,,,True,46704
+llama3.1:8b,expand,sharedinv-respan,shared_investor,Which other YC companies share an investor with Respan?,"Respan is backed by Alpen Capital, Antigravity Capital, Gradient Ventures, Hat-Trick Capital, Xiaoxiao Fund; they also backed: CTGT, Fazeshift, FirstWork, Forge, ROE, Vera Health.","Respan shares an investor with the following YC companies:
+
+* Confident AI [co:confident-ai] (similar to Respan)
+* Ressl AI [co:ressl-ai] (similar to Respan)
+* Kestrel AI [co:kestrel-ai] (similar to Respan)
+
+All three companies are in the B2B sector and are in the early stage.",0.0,0.0,0.0,0.0,25.1323,33.4839,,0,,,7456,6985,,,,,True,41641
+llama3.1:8b,expand,sharedinv-luel,shared_investor,Which other YC companies share an investor with Luel?,"Luel is backed by Lightspeed; they also backed: Emergent, Flick.","To find which other YC companies share an investor with Luel, I will look for companies that have the same investor as Luel, which is [inv:lightspeed].
+
+Here are the companies that share an investor with Luel:
+
+* None of the companies in the evidence have an edge to [inv:lightspeed] and [co:luel] at the same time.
+
+However, I can look for companies that have [inv:lightspeed] as an investor. 
+
+* [co:leaping-ai] has [inv:lightspeed] as an investor.",0.0,0.0,0.0,0.0,24.6364,35.0125,,0,,,7478,6976,,,,,True,35013
+llama3.1:8b,expand,sharedinv-centralize,shared_investor,Which other YC companies share an investor with Centralize?,"Centralize is backed by NEA; they also backed: Basalt, Hamming AI.","Based on the provided evidence, the following companies share an investor with Centralize:
+
+* Phonely [co:phonely]
+* Malibou [co:malibou]
+* Aside [co:aside]
+* Stratify [co:stratify]
+* Crustdata [co:crustdata]
+* Clidey [co:clidey]
+* PartnerHQ [co:partnerhq]
+
+These companies are all listed as being invested in by New Enterprise Associates (NEA) [inv:new-enterprise-associates], which is also an investor in Centralize [co:centralize].",0.0,0.0,0.0,0.0,25.0136,35.6648,,0,,,7495,6988,,,,,True,30004
+llama3.1:8b,expand,sharedinv-design-arena,shared_investor,Which other YC companies share an investor with Design Arena?,"Design Arena is backed by A Capital, Conviction, Index Ventures, Valkyrie; they also backed: Bindwell, Browser Use, Parallel, Spur.","To find other YC companies that share an investor with Design Arena, I will look for companies that have an edge to [inv:conviction], [inv:index], or [inv:a], which are the investors of Design Arena.
+
+Here are the results:
+
+* [co:coarena] has an edge to [inv:conviction]
+* [co:musicarena] has an edge to [inv:conviction]
+* [co:ai-2] has an edge to [inv:conviction]
+* [co:phonely] has an edge to [inv:index]
+* [co:malibou] has an edge to [inv:index]
+* [co:autosana] has an edge to [inv:a]
+* [co:lanesurf] has an edge to [inv:a]
+* [co:procindex] has an edge to [inv:a]
+
+These companies are the ones that share an investor with Design Arena.",0.03508771929824561,0.5,0.0,0.0,25.18,40.4776,,0,,,7577,6999,,,,,True,33231
+qwen2.5:14b,expand,coinvest-firstcheck-africa,coinvest,Which investors have co-invested with FirstCheck Africa in YC startups?,"FirstCheck Africa invested in Cleva; co-investors in those rounds: 1984 Ventures, BYLD, The Raba Partnership.","Based on the provided evidence, the investors who have co-invested with FirstCheck Africa in YC startups are:
+
+- [inv:raba-partnership] The Raba Partnership [inv:raba-partnership]
+- [inv:1984] 1984 Ventures [inv:1984]
+- [inv:byld] BYLD [inv:byld]
+
+These investors co-invested with FirstCheck Africa in the YC startup Cleva [co:cleva].",0.21428571428571427,1.0,0.75,1.0,8.9334,26.2312,,0,,,1790,1275,,,,,False,1059
+qwen2.5:14b,expand,coinvest-moonfire,coinvest,Which investors have co-invested with Moonfire in YC startups?,"Moonfire invested in Pazi, Weave; co-investors in those rounds: 500 Emerging Europe, Agent Fund, Burst Capital, Inovo, IrregEx, Rebel Fund, Standard Capital, Uphonest Capital.","The investors who have co-invested with Moonfire in YC startups are:
+
+- [inv:standard] Standard Capital
+- [inv:agent] Agent Fund
+- [inv:irregex] IrregEx
+- [inv:burst] Burst Capital
+- [inv:inovo] Inovo
+- [inv:500-emerging-europe] 500 Emerging Europe
+- [inv:uphonest] Uphonest Capital
+- [inv:rebel] Rebel Fund
+
+These investors co-invested with Moonfire in the YC startups Weave and Pazi. [inv:moonfire] [co:weave-3] [co:pazi]",0.3076923076923077,1.0,0.7272727272727273,1.0,14.5141,35.0726,,0,,,2571,2024,,,,,False,1543
+qwen2.5:14b,expand,coinvest-visionaries,coinvest,Which investors have co-invested with Visionaries in YC startups?,"Visionaries invested in Conveo; co-investors in those rounds: 6 Degrees Capital, Balderton, DST Global Partners, Entourage Capital, Pitchdrive, Syndicate One.","The investors who have co-invested with Visionaries in YC startups are:
+
+- Syndicate One [inv:syndicate-one]
+- Entourage Capital [inv:entourage]
+- DST Global Partners [inv:dst-global]
+- Balderton [inv:balderton]
+- Pitchdrive [inv:pitchdrive]
+- 6 Degrees Capital [inv:6-degrees]",0.375,1.0,1.0,1.0,7.7055,22.0908,,0,,,1523,1033,,,,,False,763
+qwen2.5:14b,expand,coinvest-others,coinvest,Which investors have co-invested with others in YC startups?,"others invested in Icarus, Pipeshift; co-investors in those rounds: Riptide Ventures, SenseAI Ventures.","Based on the provided evidence, the investors who have co-invested with others in YC startups are:
+
+- Y Combinator [inv:y-combinator] in Pipeshift [co:pipeshift]
+- SenseAI Ventures [inv:senseai] in Pipeshift [co:pipeshift]
+- Riptide Ventures [inv:riptide] in Icarus [co:icarus]
+
+These are the only co-investments with other investors mentioned in the evidence provided.",0.07692307692307693,1.0,0.4,1.0,16.0218,33.1926,,0,,,2858,2355,,,,,False,1930
+qwen2.5:14b,expand,coinvest-nate-matherson,coinvest,Which investors have co-invested with Nate Matherson in YC startups?,"Nate Matherson invested in DryMerge; co-investors in those rounds: Breakpoint Capital, Garage Capital, Goodwater Capital, JJ Fliegelman, Kulveer Taggar, Ritual Capital, Umur Cubukcu.","The investors who have co-invested with Nate Matherson in YC startups are:
+
+- Umur Cubukcu [inv:umur-cubukcu]
+- JJ Fliegelman [inv:jj-fliegelman]
+- Ritual Capital [inv:ritual]
+- Goodwater Capital [inv:goodwater]
+- Kulveer Taggar [inv:kulveer-taggar]
+- Garage Capital [inv:garage]
+- Breakpoint Capital [inv:breakpoint]",0.3888888888888889,1.0,1.0,1.0,9.4302,27.2274,,0,,,1883,1362,,,,,False,1072
+qwen2.5:14b,expand,coinvest-benchstrength,coinvest,Which investors have co-invested with Benchstrength in YC startups?,"Benchstrength invested in Garage; co-investors in those rounds: FJ Labs, Infinity Ventures, Initialized Capital, Wayfinder Ventures.","The investors who have co-invested with Benchstrength in YC startups are:
+
+- Initialized Capital [inv:initialized-capital]
+- Initialized [inv:initialized]
+- Infinity Ventures [inv:infinity-ventures]
+- Infinity [inv:infinity]
+- FJ Labs [inv:fj-labs]
+- Wayfinder Ventures [inv:wayfinder]",0.23529411764705882,1.0,0.6666666666666666,1.0,9.5147,23.8491,,0,,,1824,1341,,,,,False,1042
+qwen2.5:14b,expand,coinvest-a-capital,coinvest,Which investors have co-invested with A Capital in YC startups?,"A Capital invested in Bindwell, Browser Use, Design Arena; co-investors in those rounds: Conviction, Felicis', Astasia Myers, General Catalyst, Index Ventures, Nexus Venture Partners, Paul Graham, Valkyrie.","Based on the provided evidence, the investors who have co-invested with A Capital in YC startups are:
+
+- Nexus Venture Partners [inv:nexus]
+- Paul Graham [inv:paul-graham]
+- Conviction [inv:conviction]
+- Valkyrie [inv:valkyrie]
+- Index Ventures [inv:index]
+- General Catalyst [inv:general-catalyst]",0.18421052631578946,1.0,1.0,0.8571428571428571,25.6744,42.692,,0,,,4022,3531,,,,,False,2883
+qwen2.5:14b,expand,coinvest-venture-capital-investors,coinvest,Which investors have co-invested with venture capital investors in YC startups?,"venture capital investors invested in Crimson; co-investors in those rounds: Amino Capital, Eight Capital, Progressive Ventures, Scale Asia Ventures, Symphony Ventures, Twenty Two Ventures, partners and arbitrators from major law firms.","The investors who have co-invested with venture capital investors in YC startups include:
+
+- Eight Capital [inv:eight]
+- Partners and arbitrators from major law firms [inv:and-arbitrators-from-major-law-firms]
+- Twenty Two Ventures [inv:twenty-two]
+- Progressive Ventures [inv:progressive]
+- Symphony Ventures [inv:symphony]
+- Scale Asia Ventures [inv:scale-asia]
+- Amino Capital [inv:amino]",0.3888888888888889,1.0,1.0,1.0,8.3215,26.8053,,0,,,1550,1040,,,,,False,753
+qwen2.5:14b,expand,coinvest-rxr-arden,coinvest,Which investors have co-invested with RXR + Arden in YC startups?,"RXR + Arden invested in Henry; co-investors in those rounds: Brian Chen, Coalition Operators, Joe Teplow, Orange Collective, Pioneer Fund, Rami Essaid, Singularity Capital, Storyhouse Ventures, Unwritten Ventures, Yahya Mokhtarzada.",The evidence provided does not contain information about which investors have co-invested with RXR + Arden in YC startups. [co:arden],0.0,0.0,0.0,0.0,57.7163,70.8146,,0,,,7441,6993,,,,,True,30181
+qwen2.5:14b,expand,coinvest-mission-street-capital,coinvest,Which investors have co-invested with Mission Street Capital in YC startups?,"Mission Street Capital invested in Bild AI; co-investors in those rounds: Khosla Ventures, Ooshma Garg, Ryan Sutton-Gee.","Based on the provided evidence, the investors who have co-invested with Mission Street Capital in YC startups are:
+
+- Khosla Ventures [inv:khosla]
+- Ryan Sutton-Gee [inv:ryan-sutton-gee]
+- Ooshma Garg [inv:ooshma-garg]
+
+These investors all co-invested with Mission Street Capital in Bild AI [co:bild-ai].",0.23076923076923078,1.0,0.75,1.0,9.4056,26.1922,,0,,,1581,1086,,,,,False,867
+qwen2.5:14b,expand,coinvest-jpmorgan,coinvest,Which investors have co-invested with JPMorgan in YC startups?,"JPMorgan invested in River Markets; co-investors in those rounds: Citadel, Coinbase Ventures, GV, Haun Ventures, Novig, Nvidia, Qube Research Technologies.","Based on the provided evidence, the investors who have co-invested with JPMorgan in YC startups are:
+
+- Qube Research Technologies [inv:qube-research]
+- Y Combinator [inv:y-combinator]
+- Novig [inv:novig]
+- Coinbase Ventures [inv:coinbase]
+- Nvidia [inv:nvidia]
+- Haun Ventures [inv:haun]
+- Citadel [inv:citadel]
+- GV [inv:google]",0.4117647058823529,1.0,0.875,1.0,7.4802,24.4575,,0,,,1504,996,,,,,False,716
+qwen2.5:14b,expand,coinvest-francois-chollet,coinvest,Which investors have co-invested with François Chollet in YC startups?,"François Chollet invested in CTGT; co-investors in those rounds: General Catalyst, Gradient Ventures, Liquid 2 Ventures, Mike Knoop, Paul Graham, Taner Halıcıoğlu.","Based on the provided evidence, the only YC startup co-founded by François Chollet is Ndea [co:ndea-com], which is part of the Winter 2026 batch. There is no information about other investors who have co-invested with François Chollet in YC startups. [co:arc-prize-foundation] is also related to François Chollet but is not a YC startup. Therefore, the answer to the question cannot be determined from the given information.",0.0,0.0,0.0,0.0,7.287,24.579,,0,,,1497,975,,,,,False,824
+qwen2.5:14b,expand,coinvest-paul-copplestone,coinvest,Which investors have co-invested with Paul Copplestone in YC startups?,"Paul Copplestone invested in AgentMail; co-investors in those rounds: Dharmesh Shah, General Catalyst, Karim Atiyeh, Paul Graham, Phosphor Capital.","Based on the provided evidence, the investors who have co-invested with Paul Copplestone in YC startups are:
+
+- Phosphor Capital [inv:phosphor]
+- Karim Atiyeh [inv:karim-atiyeh]
+- General Catalyst [inv:general-catalyst]
+- Dharmesh Shah [inv:dharmesh-shah]
+- Y Combinator [inv:y-combinator]",0.25,1.0,0.8,0.8,11.12,26.8995,,0,,,2023,1523,,,,,False,1197
+qwen2.5:14b,expand,coinvest-formosa-capital,coinvest,Which investors have co-invested with Formosa Capital in YC startups?,"Formosa Capital invested in Trace; co-investors in those rounds: Benjamin Bryant, Goodwater Capital, Kevin Moore, Transpose Platform, WeFunder, Zeno Ventures.","The investors who have co-invested with Formosa Capital in YC startups are:
+
+- Goodwater Capital [inv:goodwater]
+- Benjamin Bryant [inv:benjamin-bryant]
+- Y Combinator [inv:y-combinator]
+- Transpose Platform [inv:transpose-platform]
+- Zeno Ventures [inv:zeno]
+- WeFunder [inv:wefunder]
+- Kevin Moore [inv:kevin-moore]",0.375,1.0,0.8571428571428571,1.0,8.0832,24.9982,,0,,,1525,1023,,,,,False,771
+qwen2.5:14b,expand,coinvest-infera-neuro,coinvest,Which investors have co-invested with Infera Neuro in YC startups?,"Infera Neuro invested in Infera; co-investors in those rounds: Goodwall, Roofless Labs.","The investors who have co-invested with Infera Neuro in YC startups are Roofless Labs and Goodwall [inv:roofless-labs, inv:goodwall].",0.15384615384615385,1.0,0.0,0.0,7.8684,18.6621,,0,,,1519,1068,,,,,False,861
+qwen2.5:14b,expand,coinvest-devc,coinvest,Which investors have co-invested with DeVC in YC startups?,"DeVC invested in CodeAnt AI; co-investors in those rounds: Entrepreneur First, Transpose Platform, Uncorrelated Ventures, VitalStage Ventures.","The investors who have co-invested with DeVC in YC startups are:
+
+- Y Combinator [inv:y-combinator]
+- Entrepreneur First [inv:entrepreneur-first]
+- VitalStage Ventures [inv:vitalstage]
+- Transpose Platform [inv:transpose-platform]
+- Uncorrelated Ventures [inv:uncorrelated]",0.18181818181818182,1.0,0.8,1.0,15.2557,29.4576,,0,,,2648,2164,,,,,False,1769
+qwen2.5:14b,expand,coinvest-morningstar-ceo-kunal-kapoor,coinvest,Which investors have co-invested with Morningstar CEO Kunal Kapoor in YC startups?,"Morningstar CEO Kunal Kapoor invested in FINNY AI; co-investors in those rounds: Activant, Crossbeam Ventures, Deel COO Dan Westgarth, Gusto CPO Tomer London, HNVR, Jason Wenk, Liquid 2 Ventures, Maple VC, Venrock, William McNabb.","The investors who have co-invested with Morningstar CEO Kunal Kapoor in YC startups are:
+
+- Maple VC [inv:maple]
+- Activant [inv:activant]
+- Jason Wenk [inv:jason-wenk]
+- Crossbeam Ventures [inv:crossbeam]
+- Gusto CPO Tomer London [inv:gusto-cpo-tomer-london]
+- Y Combinator [inv:y-combinator]
+- Liquid 2 Ventures [inv:liquid-2]
+- Venrock [inv:venrock]
+- Deel COO Dan Westgarth [inv:deel-coo-dan-westgarth]
+- William McNabb [inv:william-mcnabb]
+- HNVR [inv:hnvr]",0.43478260869565216,1.0,0.9090909090909091,1.0,10.3798,36.82,,0,,,2057,1446,,,,,False,1015
+qwen2.5:14b,expand,coinvest-palmer-luckey,coinvest,Which investors have co-invested with Palmer Luckey in YC startups?,"Palmer Luckey invested in Nox Metals; co-investors in those rounds: Alumni Ventures, DTX Ventures, Hyperion, Jared Friedman, Operator Collective, RoboStrategy.","Based on the provided evidence, the investors who have co-invested with Palmer Luckey in YC startups are:
+
+- DTX Ventures [inv:dtx]
+- Hyperion [inv:hyperion]
+- Alumni Ventures [inv:alumni]
+- Jared Friedman [inv:jared-friedman]
+- RoboStrategy [inv:robostrategy]
+- Operator Collective [inv:operator-collective]",0.3,1.0,1.0,1.0,12.3668,28.4272,,0,,,2239,1738,,,,,False,1369
+qwen2.5:14b,expand,coinvest-hubspot-ventures,coinvest,Which investors have co-invested with HubSpot Ventures in YC startups?,"HubSpot Ventures invested in Artisan; co-investors in those rounds: Bayhouse Capital, Day One Ventures, Fellows Fund, Glade Brook Capital, Oliver Jung.","The investors who have co-invested with HubSpot Ventures in YC startups include:
+
+- Bayhouse Capital [inv:bayhouse]
+- Glade Brook Capital [inv:glade-brook]
+- Day One Ventures [inv:day-one]
+- Y Combinator [inv:y-combinator]
+- Fellows Fund [inv:fellows]
+- Oliver Jung [inv:oliver-jung]",0.21739130434782608,1.0,0.8333333333333334,1.0,18.5918,36.0507,,0,,,2705,2210,,,,,False,1859
+qwen2.5:14b,expand,coinvest-angel-investors-from-the-us-and-europe,coinvest,Which investors have co-invested with angel investors from the US and Europe in YC startups?,"angel investors from the US and Europe invested in Alice.tech; co-investors in those rounds: Cherry Ventures, PSV Tech.","Based on the provided evidence, the investors who have co-invested with angel investors from the US and Europe in YC startups are:
+
+- 1984 Ventures [inv:1984]
+- Tower Research Ventures [inv:tower-research]
+- South Park Commons [inv:south-park-commons]
+- Lytical Ventures [inv:lytical]
+- True Ventures [inv:true]
+- GV (Google Ventures) [inv:google]
+- Lightspeed [inv:lightspeed]
+
+These investors have invested in YC startups like Pennant and Flick, alongside angel investors. [co:pennant, co:flick]",0.0,0.0,0.0,0.0,15.1515,46.2525,,0,,,2413,1772,,,,,False,1357
+qwen2.5:14b,expand,sharedinv-diode-computers,shared_investor,"Which other YC companies share an investor with Diode Computers, Inc.?","Diode Computers, Inc. is backed by Andreessen Horowitz, Box Group, Caffeinated Capital; they also backed: Astro Mechanica, Cotool, Forerunner, Reducto, Stilta, Toma.","Based on the provided evidence, the only YC company that shares an investor with Diode Computers, Inc. is not explicitly stated beyond Y Combinator itself. Diode Computers, Inc. is invested in by Y Combinator [inv:y-combinator], but no other YC company's investor information is provided that would indicate a shared investor beyond Y Combinator.",0.0,0.0,0.0,0.0,51.8864,67.7793,,0,,,7475,6992,,,,,True,43927
+qwen2.5:14b,expand,sharedinv-mem0,shared_investor,Which other YC companies share an investor with Mem0?,"Mem0 is backed by Basis Set, GitHub Fund, Kindred Ventures, Peak XV Partners; they also backed: Alex, Better Auth, Blacksmith, Bluejay, JustAI, Manufact, Pax.",The evidence does not provide information about shared investors between Mem0 and other YC companies. [co:mem0],0.0,0.0,0.0,0.0,55.1971,63.8207,,0,,,7401,6985,,,,,True,40285
+qwen2.5:14b,expand,sharedinv-weave,shared_investor,Which other YC companies share an investor with Weave?,"Weave is backed by Agent Fund, Burst Capital, IrregEx, Moonfire, Standard Capital; they also backed: Momentic, Novoflow, Pazi, Sim.","Based on the provided evidence, Weave shares investors with the following YC companies:
+
+- Moonfire: Invested in [co:weave-3] and potentially other companies in the same batch or sector, but no other specific company is mentioned.
+- IrregEx: Invested in [co:weave-3] and potentially other companies in the same batch or sector, but no other specific company is mentioned.
+- Burst Capital: Invested in [co:weave-3] and potentially other companies in the same batch or sector, but no other specific company is mentioned.
+
+No other YC companies are explicitly mentioned as sharing an investor with Weave. [co:camfer] and [co:bilanc] are similar to Weave but do not have shared investors listed. [co:weave-3] is the only company with shared investors listed. [1]",0.0,0.0,0.0,0.0,60.4635,89.4209,,0,,,7574,7000,,,,,True,40764
+qwen2.5:14b,expand,sharedinv-basalt,shared_investor,Which other YC companies share an investor with Basalt?,"Basalt is backed by NEA; they also backed: Centralize, Hamming AI.","Based on the provided evidence, the only YC company that shares an investor with Basalt is Basalt itself, as the evidence only shows that New Enterprise Associates (NEA) has invested in Basalt [inv:new-enterprise-associates] -INVESTED_IN-> [co:basalt]. There is no information about other YC companies sharing an investor with Basalt.",0.02702702702702703,1.0,0.0,0.0,56.1339,72.2974,,0,,,7451,6981,,,,,True,25876
+qwen2.5:14b,expand,sharedinv-spur,shared_investor,Which other YC companies share an investor with Spur?,"Spur is backed by Ali Partovi, Arash Ferdowsi, Conviction, Dropbox Ventures, Figma, First Round Capital, Liz Wessel, Mar Hershenson, Matt MacInnis, Mihika Kapoor, Mike Vernal, Neo, Pear VC, Rippling, Sarah Guo; they also backed: Blaxel, Central, David AI, Design Arena, Diana, Gumloop, Momentic, Nozomio, Onyx, Proception Inc, Reducto, Solidroad.","The YC companies that share an investor with Spur are:
+
+- Aside [co:aside] (invested in by First Round Capital [inv:first-round], Pear VC [inv:pear], Mihika Kapoor [inv:mihika-kapoor], Mike Vernal [inv:mike-vernal], Figma [inv:figma], and Arash Ferdowsi [inv:arash-ferdowsi])
+- Phonely [co:phonely] (invested in by First Round Capital [inv:first-round], Pear VC [inv:pear], Mihika Kapoor [inv:mihika-kapoor], Mike Vernal [inv:mike-vernal], Figma [inv:figma], and Arash Ferdowsi [inv:arash-ferdowsi])
+
+Note: The evidence provided does not specify which investors Aside and Phonely share with Spur, but they share the same set of investors as Spur.",0.10344827586206896,0.75,0.0,0.0,62.6161,94.2591,,0,,,7583,6995,,,,,True,29958
+qwen2.5:14b,expand,sharedinv-sygaldry,shared_investor,Which other YC companies share an investor with Sygaldry Technologies?,"Sygaldry Technologies is backed by Breakthrough Energy Ventures, Initialized Capital; they also backed: Garage, Greptile, Orbital Operations, Pax, Spaceium Inc, ZeroEntropy.","Based on the provided evidence, Sygaldry Technologies shares investors with Conductor Quantum and Zettascale Computing, as they are similar companies [co:sygaldry-technologies] -SIMILAR_TO-> [co:conductor-quantum], [co:sygaldry-technologies] -SIMILAR_TO-> [co:zettascale-computing]. However, specific shared investors between Sygaldry Technologies and these companies are not explicitly stated. The evidence shows that Breakthrough Energy Ventures and Initialized Capital have invested in Sygaldry Technologies [inv:breakthrough-energy] -INVESTED_IN-> [co:sygaldry-technologies], [inv:initialized] -INVESTED_IN-> [co:sygaldry-technologies], but it does not specify if these investors have also invested in Conductor Quantum or Zettascale Computing.",0.0196078431372549,0.16666666666666666,0.0,0.0,61.1452,95.2255,,0,,,7609,7020,,,,,True,36967
+qwen2.5:14b,expand,sharedinv-bluejay,shared_investor,Which other YC companies share an investor with Bluejay?,"Bluejay is backed by Deepgram, Floodgate, Hippocratic AI, Homebrew, PathAI, Peak XV Partners; they also backed: Alex, Better Auth, Blacksmith, JustAI, Manufact, Mem0.","The YC companies that share an investor with Bluejay are:
+
+- Aside [inv:floodgate]
+- Phonely [inv:deepgram]
+- Malibou [inv:hippocratic-ai]
+
+These companies share at least one investor with Bluejay, which is Floodgate for Aside, Deepgram for Phonely, and Hippocratic AI for Malibou. [co:aside][co:phonely][co:malibou]",0.02631578947368421,0.3333333333333333,0.0,0.0,64.0127,83.0954,,0,,,7474,6990,,,,,True,36340
+qwen2.5:14b,expand,sharedinv-laminar,shared_investor,Which other YC companies share an investor with Laminar?,"Laminar is backed by Salesforce Ventures, Tiger Global; they also backed: Carma, Laminar.","Based on the provided evidence, Laminar shares an investor, Tiger Global, with no other YC companies listed except for itself. Therefore, there are no other YC companies that share an investor with Laminar according to the given data. [inv:tiger-global] [co:laminar]",0.013888888888888888,0.5,0.0,0.0,64.8189,81.4945,,0,,,7448,6990,,,,,True,44343
+qwen2.5:14b,expand,sharedinv-nozomio,shared_investor,Which other YC companies share an investor with Nozomio?,"Nozomio is backed by Figma, LocalGlobe, Robinhood Ventures; they also backed: Minicor, Model ML, Spur, Surtr Defense Systems.","Based on the provided evidence, Nozomio shares investors with the following YC companies:
+
+- [co:aside] (Invested in by [inv:robinhood])
+- [co:phonely] (Invested in by [inv:robinhood])
+- [co:costream] (Invested in by [inv:robinhood])
+
+However, the evidence does not specify which of these companies are also invested in by [inv:figma]. Therefore, the only confirmed shared investors are those from [inv:robinhood].",0.0273972602739726,0.5,0.0,0.0,71.4655,98.3915,,0,,,7507,6987,,,,,True,24333
+qwen2.5:14b,expand,sharedinv-cleva,shared_investor,Which other YC companies share an investor with Cleva?,"Cleva is backed by 1984 Ventures, BYLD, FirstCheck Africa, The Raba Partnership; they also backed: Alex, Munify, Pennant, Tandem.","The YC companies that share an investor with Cleva are:
+
+- Aside [inv:raba-partnership]
+- Phonely [inv:raba-partnership]
+- Malibou [inv:raba-partnership]
+
+These companies share the investor The Raba Partnership [inv:raba-partnership] with Cleva [co:cleva]. [co:cleva][inv:raba-partnership]",0.014285714285714285,0.25,0.0,0.0,65.6319,91.1348,,0,,,7470,6982,,,,,True,26021
+qwen2.5:14b,expand,sharedinv-astro-mechanica,shared_investor,Which other YC companies share an investor with Astro Mechanica?,"Astro Mechanica is backed by Alumni Ventures, Andreessen Horowitz, Giant Step, Lowercarbon, Voyager; they also backed: Albacore Inc., Central, Cotool, Diode Computers, Inc., Forerunner, Nox Metals, Reducto, Stilta, Toma.","The YC companies that share an investor with Astro Mechanica are:
+
+- [co:zephyr-fusion] (Invested in by [inv:lowercarbon])
+- [co:elodin] (Invested in by [inv:lowercarbon])
+- [co:cosmic-robotics] (Invested in by [inv:lowercarbon])
+
+Note: Cosmic Robotics and Elodin are also in the Winter 2024 batch like Astro Mechanica, but the evidence only confirms Lowercarbon's investment in these companies.",0.0,0.0,0.0,0.0,67.3002,92.6669,,0,,,7509,7002,,,,,True,34519
+qwen2.5:14b,expand,sharedinv-uplane,shared_investor,Which other YC companies share an investor with Uplane?,"Uplane is backed by 20VC, Multimodal Ventures, Play Ventures, Rebel Fund; they also backed: Besimple AI, Central, Circleback, IRBC, LightSprint, Minicor, Moritz, OffDeal, Orbital Operations, Pazi, Structured AI.","Based on the provided evidence, Uplane shares an investor, Rebel Fund [inv:rebel], with no other YC companies listed. Therefore, there are no other YC companies that share an investor with Uplane according to the given data.",0.0136986301369863,0.09090909090909091,0.0,0.0,61.9914,76.2412,,0,,,7431,6981,,,,,True,38452
+qwen2.5:14b,expand,sharedinv-tandem,shared_investor,Which other YC companies share an investor with Tandem?,"Tandem is backed by 1984 Ventures, Collide Capital; they also backed: Alex, Cleva, Pennant.","Based on the provided evidence, Tandem shares investors with no other YC companies listed. Tandem's investors are Y Combinator and 1984 Ventures, but there is no information indicating that these investors also fund other YC companies mentioned in the evidence. [co:tandem-2] [inv:y-combinator] [inv:1984]",0.0,0.0,0.0,0.0,62.6492,80.5426,,0,,,7479,6999,,,,,True,37137
+qwen2.5:14b,expand,sharedinv-nexus,shared_investor,Which other YC companies share an investor with Nexus?,"Nexus is backed by Nexus Venture Partners; they also backed: Browser Use, FurtherAI, Leaping AI, Naïve.","The evidence provided does not specify any shared investors between Nexus and other YC companies. Therefore, I cannot answer which YC companies share an investor with Nexus based on the given information.",0.02857142857142857,0.5,0.0,0.0,61.1409,73.0696,,0,,,7426,6992,,,,,True,26003
+qwen2.5:14b,expand,sharedinv-vera-health,shared_investor,Which other YC companies share an investor with Vera Health?,"Vera Health is backed by Gradient Ventures, Mantis VC, Optum Ventures, SV Angel, Threshold Ventures; they also backed: CTGT, Fazeshift, FirstWork, Forge, KERNEL, ROE, Reducto, Respan, Sim.","The YC companies that share an investor with Vera Health are:
+
+- EOS AI [co:eos-ai] (invested in by SV Angel [inv:sv-angel])
+- mdhub [co:mdhub] (invested in by SV Angel [inv:sv-angel])
+- Sonia [co:sonia] (invested in by SV Angel [inv:sv-angel])
+
+Note: EOS AI is also similar to Vera Health, but the shared investor is SV Angel, not Threshold Ventures. [co:eos-ai, co:mdhub, co:sonia]",0.04918032786885246,0.3333333333333333,0.0,0.0,60.242,82.5693,,0,,,7522,7007,,,,,True,40545
+qwen2.5:14b,expand,sharedinv-eloquent-ai,shared_investor,Which other YC companies share an investor with Eloquent AI?,"Eloquent AI is backed by Duke Capital Partners, EJF Ventures, Foundation Capital, Zeno Ventures; they also backed: RetailReady, Saturn, Trace.","Based on the provided evidence, Eloquent AI shares investors with the following YC companies:
+
+- [co:runtime]
+- [co:billow-ai-labs]
+- [co:levocred-ai]
+- [co:fenrock-ai]
+- [co:elevate-2]
+
+These companies are similar to Eloquent AI and share at least one investor with it, as indicated by the evidence. [inv:foundation] and [inv:duke] are explicitly listed as investors for Eloquent AI, but the evidence does not specify which other companies they have invested in. However, the similarity relationships suggest these companies share at least one investor with Eloquent AI.",0.0,0.0,0.0,0.0,59.5336,84.4534,,0,,,7567,7031,,,,,True,48583
+qwen2.5:14b,expand,sharedinv-respan,shared_investor,Which other YC companies share an investor with Respan?,"Respan is backed by Alpen Capital, Antigravity Capital, Gradient Ventures, Hat-Trick Capital, Xiaoxiao Fund; they also backed: CTGT, Fazeshift, FirstWork, Forge, ROE, Vera Health.","Based on the provided evidence, Respan shares investors with no other YC companies listed. The investors for Respan are Hat-Trick Capital, Antigravity Capital, Alpen Capital, and Xiaoxiao Fund, but none of these investors are shown to have invested in any other YC company mentioned in the evidence. [co:respan] [inv:hat-trick] [inv:antigravity] [inv:alpen] [inv:xiaoxiao]",0.0,0.0,0.0,0.0,60.7731,80.0353,,0,,,7480,6990,,,,,True,41116
+qwen2.5:14b,expand,sharedinv-luel,shared_investor,Which other YC companies share an investor with Luel?,"Luel is backed by Lightspeed; they also backed: Emergent, Flick.","Based on the provided evidence, Luel shares an investor with other YC companies if Lightspeed has invested in any other YC companies listed. However, the evidence only shows that Lightspeed has invested in Luel [co:luel] and does not provide information about other YC companies that Lightspeed has invested in. Therefore, there is no information to determine which other YC companies share an investor with Luel.",0.0,0.0,0.0,0.0,72.5171,92.2976,,0,,,7471,6983,,,,,True,34785
+qwen2.5:14b,expand,sharedinv-centralize,shared_investor,Which other YC companies share an investor with Centralize?,"Centralize is backed by NEA; they also backed: Basalt, Hamming AI.","Based on the provided evidence, Centralize shares an investor, NEA [inv:new-enterprise-associates], with no other YC companies listed. Therefore, there are no other YC companies that share an investor with Centralize.",0.0,0.0,0.0,0.0,68.5327,83.2214,,0,,,7451,7000,,,,,True,29984
+qwen2.5:14b,expand,sharedinv-design-arena,shared_investor,Which other YC companies share an investor with Design Arena?,"Design Arena is backed by A Capital, Conviction, Index Ventures, Valkyrie; they also backed: Bindwell, Browser Use, Parallel, Spur.","The YC companies that share an investor with Design Arena are:
+
+- MusicArena [co:musicarena] (Invested in by Valkyrie [inv:valkyrie])
+- CoArena [co:coarena] (Invested in by Valkyrie [inv:valkyrie])
+
+Note: MusicArena and CoArena share an investor (Valkyrie) with Design Arena, but they may not be the only ones. The provided evidence does not list all investors for these companies, so there could be other shared investors not mentioned here.",0.03125,0.5,0.0,0.0,71.2568,94.4118,,0,,,7500,6995,,,,,True,29712

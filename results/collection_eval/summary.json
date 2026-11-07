@@ -1,0 +1,57 @@
+{
+  "pitchbook_companies": 45,
+  "mapped_to_graph": 43,
+  "pitchbook_investment_deals": 107,
+  "gold_investor_edges": 324,
+  "companies_with_extracted_news": 12,
+  "edges_all": {
+    "tp": 13,
+    "fp": 3,
+    "fn": 311,
+    "precision": 0.812,
+    "recall": 0.04,
+    "f1": 0.076
+  },
+  "edges_excluding_yc": {
+    "tp": 9,
+    "fp": 3,
+    "fn": 273,
+    "precision": 0.75,
+    "recall": 0.032,
+    "f1": 0.061
+  },
+  "edges_companies_with_news": {
+    "tp": 13,
+    "fp": 3,
+    "fn": 168,
+    "precision": 0.812,
+    "recall": 0.072,
+    "f1": 0.132
+  },
+  "edges_companies_with_news_excl_yc": {
+    "tp": 9,
+    "fp": 3,
+    "fn": 161,
+    "precision": 0.75,
+    "recall": 0.053,
+    "f1": 0.099
+  },
+  "lead_precision": 1.0,
+  "lead_recall": 0.4,
+  "precision_by_source": {
+    "rss": {
+      "pred_edges": 1,
+      "precision": 1.0
+    },
+    "yc_page": {
+      "pred_edges": 15,
+      "precision": 0.8
+    }
+  },
+  "rounds": {
+    "pitchbook_rounds": 49,
+    "matched": 11,
+    "round_recall": 0.224,
+    "amount_within_15pct": 1.0
+  }
+}

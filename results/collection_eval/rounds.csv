@@ -1,0 +1,52 @@
+pb_company_id,company,deal_id,date,type,round,amount_usd,mapped,matched,extracted_amount,extracted_round,source_url
+1366587-19,Zymbly,335184-67T,2025-01-01,Early Stage VC,nan,,True,False,,,
+1162123-21,Zoa Research,313118-65T,NaT,Angel (individual),Angel (individual),,True,False,,,
+1162123-21,Zoa Research,324484-03T,NaT,Early Stage VC,nan,,True,False,,,
+1389041-38,Zibra Labs,337545-10T,2026-07-01,Seed Round,Seed,,True,False,,,
+639962-65,Zettascale Computing,272627-56T,2024-09-01,Early Stage VC,nan,,True,False,,,
+1325707-12,ZeroSettle,333174-61T,2026-01-01,Early Stage VC,nan,,True,False,,,
+601957-72,ZeroPath,273996-01T,2026-03-23,Seed Round,Seed,7030000.0,True,True,,Seed,https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTFUWDQxbFF3cGQwcDlXSm01TW1pUWtUT3BaUE9fNkhTWUFYNlUyc0VRN0RzV1lsU1dEaWgwQVdNa215aUY5bloyZHVLem1CdWlrYmU0S2NScHlOcTVXamdQMEtWMW96TzJDQVlrMG1td3ZFcnpRM19ockV1My1OdUxWSVU0YzZpY0FqajdHV09YSXhIbm0yRGNuN3l4TFNqb1JpWVNDclNicTZnT1pnOU1rVQ?oc=5
+706882-69,Zeroframe,324547-84T,2024-01-01,Early Stage VC,nan,,True,False,,,
+706882-69,Zeroframe,324549-55T,NaT,Early Stage VC,nan,,True,False,,,
+608302-99,&AI,284354-38T,2025-02-06,Seed Round,Seed,6500000.0,True,True,6500000.0,,https://news.google.com/rss/articles/CBMipgFBVV95cUxQVjh4VWZMa01EOWJBQUJ1UTU1b1ZPRWxrN2xBdzFjWmFCNUVFUFFBMUE2MWt4blZWQ3JBWko5UVhDelVHbmxYc0xIM3BIdnFfMFI0X1NpdmgzWE9seW81Mjc3cXhMSjhoWUd1MXRmN0g3Uk1yNUw2MmFBSEVNdjl2V3VISnNEWmxOR2EydnNPMmFiSk1iNFBXdEJ3OVlETG5kZkE3aGtn?oc=5
+589192-30,10x Dental,303066-64T,NaT,Early Stage VC,nan,,False,False,,,
+1366629-49,10x Science,328597-66T,2026-04-22,Seed Round,Seed,4800000.0,True,True,4800000.0,Seed,https://news.google.com/rss/articles/CBMizAFBVV95cUxPeUdiR0JlaTk5dTFlNlBaZ0xIVVlxX205bmVNekh0LU5IVU02V0tRQkNQbXpNWmxDbzEtS3h2ZVdUak1fZHRqZWkwZmV3ZkZwX0h0b0UxY2tMQnpPUHZtSmtST3Byd3V3SVZ3Q3kzM2VnRjROeHV2YVVJY3ZmM0xQZFo5b0otbDRTaGtsdlZOMW9YR2pDOVpsaXdwWmMtZWJaZVdNOTFGREtjbS1rcXZIdk9VSm1Eb182cDBTSHA5LVpndnpzT1hKOGwzREw?oc=5
+640018-18,1849 bio,271914-13T,2024-10-15,Seed Round,Seed,,True,False,,,
+831806-83,21st,295579-45T,2025-03-01,Seed Round,Seed,,True,False,,,
+831806-83,21st,326756-89T,2026-03-25,Seed Round,Seed,,True,False,,,
+1415117-35,6thSense,337875-49T,2026-09-22,Early Stage VC,nan,,True,False,,,
+1456001-47,83 Sciences,347603-95T,2026-09-10,Seed Round,Seed,,True,False,,,
+895663-36,9 Mothers,301280-23T,2025-06-30,Early Stage VC,nan,,True,False,,,
+895663-36,9 Mothers,336894-40T,2026-08-11,Early Stage VC,nan,,True,False,,,
+895663-36,9 Mothers,337833-37T,2024-07-16,Seed Round,Seed,700000.0,True,False,,,
+739928-98,a0.dev,288501-04T,2025-03-08,Seed Round,Seed,,True,False,,,
+595895-59,Abel (San Francisco),274960-90T,2024-10-17,Seed Round,Seed,5000000.0,True,False,,,
+718485-58,ZeroEntropy,295222-42T,2025-03-12,Seed Round,Seed,4200000.0,True,True,4200000.0,Seed,https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/
+1165529-35,Zephyr Fusion,315082-99T,2025-12-08,Seed Round,Seed,,True,False,,,
+539323-75,Zep (Software Development Applications),248413-24T,2023-12-27,Seed Round,Seed,1800000.0,False,False,,,
+821497-06,Zeon Systems,299961-01T,2025-07-02,Early Stage VC,nan,,True,False,,,
+639966-79,Zeit AI,282694-24T,2024-01-01,Seed Round,Seed,4370000.0,True,True,,Seed,https://news.google.com/rss/articles/CBMimgFBVV95cUxQQzRzTDFGdmZNdVZPOWI2QVVfM1M0MmNvaTVTUUVoM3JLTVFnQ1IxU2VJT3RTTnJwZ3dlTERXQlVoUi1QSzR6V0VpMXlNNDlvZWVnemVSR0tuRXRtejFDTVBJaHpZUExSWF8xczZ3emE3UUkyUmtfUFozNy1mTkxGMDJtMDU0Y3A5cWk4eVBDYkU3SXkySGhCN2N3?oc=5
+639966-79,Zeit AI,344818-00T,2026-09-03,Seed Round,Seed,5800000.0,True,True,,Seed,https://news.google.com/rss/articles/CBMimgFBVV95cUxQQzRzTDFGdmZNdVZPOWI2QVVfM1M0MmNvaTVTUUVoM3JLTVFnQ1IxU2VJT3RTTnJwZ3dlTERXQlVoUi1QSzR6V0VpMXlNNDlvZWVnemVSR0tuRXRtejFDTVBJaHpZUExSWF8xczZ3emE3UUkyUmtfUFozNy1mTkxGMDJtMDU0Y3A5cWk4eVBDYkU3SXkySGhCN2N3?oc=5
+533481-22,Zaymo,233903-98T,2023-08-16,Seed Round,Seed,700000.0,True,True,700000.0,Pre-Seed,https://www.techbuzz.news/zaymo-raises-700k-pre-seed-round/
+717008-86,Zavo (YC F25),313817-77T,2025-12-18,Early Stage VC,nan,,True,False,,,
+1320079-51,Zatanna,323450-65T,2025-01-01,Early Stage VC,nan,,True,False,,,
+1421615-26,Zaplar,336136-24T,2026-06-18,Angel (individual),Angel (individual),320000.0,True,False,,,
+1131634-27,Zalos,313543-45T,2026-03-24,Seed Round,Seed,3600000.0,True,True,3600000.0,,https://www.forbes.com/sites/ilonalimonta-volkova/2026/03/24/zalos-raises-36m-to-bring-computer-agents-to-the-cfos-office/
+619113-43,YouShift,289687-33T,2025-03-17,Seed Round,Seed,,True,False,,,
+619858-63,YouLearn,299957-23T,NaT,Early Stage VC,nan,,True,False,,,
+1241408-17,YouArt,338600-98T,2026-06-18,Seed Round,Seed,,True,False,,,
+551392-93,Yoneda Labs,257734-63T,2024-05-15,Seed Round,Seed,4000000.0,True,True,4000000.0,Seed,https://venturebeat.com/ai/yoneda-labs-raises-4m-from-khosla-ventures-to-build-the-openai-for-chemistry/
+593033-95,Yondu,261243-37T,2024-09-16,Seed Round,Seed,,True,False,,,
+591517-54,Yenmo,257737-87T,2024-03-31,Seed Round,Seed,,True,False,,,
+591517-54,Yenmo,287184-61T,2025-06-30,Seed Round,Seed,1070000.0,True,False,,,
+593002-99,Yarn,257731-12T,2024-03-13,Seed Round,Seed,,True,False,,,
+639938-17,XTraffic,274289-41T,2024-09-01,Seed Round,Seed,,True,False,,,
+528793-48,Wuri,225419-86T,2023-03-01,Early Stage VC,nan,,True,False,,,
+528793-48,Wuri,227724-40T,2022-08-02,Angel (individual),Angel (individual),90000.0,True,False,,,
+739924-84,Woz,282641-32T,2024-01-01,Seed Round,Seed,120000.0,True,False,,,
+739924-84,Woz,310065-58T,2025-10-15,Seed Round,Seed,6000000.0,True,True,6000000.0,,https://news.google.com/rss/articles/CBMisgFBVV95cUxOMXk1MC1EVTR3MGd5dGd2OUQwZGpzODBzWHo4dDE3WWJrRHMyamJCSWx5MGJkdUV1YmhKajVmaDJ1TVRobHpLNy1UTUxuQ3VaQUhJbHo3dWdGZXdPQnZ0NmFEcTh6emFJVXg5UTlOUHpvQTdvQzNIaEtHR0FkbVdqTHBlY1Nscksxdk14eDJGOENOQ29tQ0pqd1V3bms4enNuVjhCdGtYX19IYTlNWUNtV0tB?oc=5
+483819-22,Wordware,189240-22T,2022-01-01,Early Stage VC,Series A,1400000.0,True,False,,,
+483819-22,Wordware,270827-56T,2024-10-02,Early Stage VC,Series A1,30000000.0,True,True,30000000.0,Seed,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/
+483819-22,Wordware,293491-09T,2024-09-03,Angel (individual),Angel (individual),,True,False,,,
+1482667-30,WonderTx,343929-43T,2025-01-01,Early Stage VC,nan,,True,False,,,
+1461768-49,Wondering,347322-52T,2026-09-23,Early Stage VC,nan,3500000.0,True,False,,,

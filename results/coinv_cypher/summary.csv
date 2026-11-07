@@ -1,0 +1,3 @@
+model,mode,n,faithfulness,hallucination_rate,answer_relevancy,context_precision,factual_correctness,retrieval_recall,ttft_p50_s,e2e_p50_s,e2e_p95_s,walk_iter_p95_s,walk_iter_under_3s,tokens_mean,context_tokens_mean,full_context_tokens_mean,vram_mb,gpu_used_mb,json_parse_rate,cypher_exec_rate,cypher_first_try_rate,cypher_non_empty_rate,expand_truncated_rate,expand_full_tokens_est
+llama3.1:8b,cypher,40,,,,,,,0.1877,4.2439,7.5484,,,745.075,7.0,,8795.5,,,0.95,0.925,0.0,,
+qwen2.5:14b,cypher,40,,,,,,,0.3693,8.6677,23.1465,,,888.95,183.825,,14606.9,,,0.975,0.975,0.35,,

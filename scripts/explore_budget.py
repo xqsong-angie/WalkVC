@@ -9,6 +9,7 @@
 Usage (from the WalkVC folder, Docker + Ollama running):
     python scripts/explore_budget.py              # run what's missing, then compare
     python scripts/explore_budget.py --no-run     # only compare existing results
+    python scripts/explore_budget.py --questions data/yc/questions_coinvest.jsonl --tag coinv   # another set
 """
 import argparse
 import json
@@ -21,16 +22,22 @@ sys.path.insert(0, str(ROOT))
 os.chdir(ROOT)
 
 QUESTIONS = "data/yc/questions_explore.jsonl"
+TAG = "explore"
 MODELS = ["llama3.1:8b", "qwen2.5:14b"]
 
-# run name -> (label for walk-mode rows, label for expand-mode rows, env needed to reproduce it)
-RUNS = {
-    "explore_anchor_only": ("anchor_only", None, {"WALK_MAX_ITERS": "0", "WALK_TOP_NODES": "12"}),
-    "explore_v1": ("walk_12", "expand_16k", {"WALK_TOP_NODES": "12", "EXPAND_MAX_TOKENS": "16000"}),
-    "explore_expand_2500": (None, "expand_2.5k", {"EXPAND_MAX_TOKENS": "2500"}),
-    "explore_expand_7000": (None, "expand_7k", {"EXPAND_MAX_TOKENS": "7000"}),
-    "explore_walk_40": ("walk_40", None, {"WALK_TOP_NODES": "40"}),
-}
+
+def make_runs(tag: str) -> dict:
+    """run name -> (label for walk-mode rows, label for expand-mode rows, env needed to reproduce it)"""
+    return {
+        f"{tag}_anchor_only": ("anchor_only", None, {"WALK_MAX_ITERS": "0", "WALK_TOP_NODES": "12"}),
+        f"{tag}_v1": ("walk_12", "expand_16k", {"WALK_TOP_NODES": "12", "EXPAND_MAX_TOKENS": "16000"}),
+        f"{tag}_expand_2500": (None, "expand_2.5k", {"EXPAND_MAX_TOKENS": "2500"}),
+        f"{tag}_expand_7000": (None, "expand_7k", {"EXPAND_MAX_TOKENS": "7000"}),
+        f"{tag}_walk_40": ("walk_40", None, {"WALK_TOP_NODES": "40"}),
+    }
+
+
+RUNS = make_runs(TAG)
 ORDER = ["anchor_only", "walk_12", "expand_2.5k", "expand_7k", "walk_40", "expand_16k"]
 
 
@@ -42,10 +49,11 @@ def run_missing():
         if (ROOT / "results" / run / "raw.jsonl").exists():
             continue
         modes = [m for m, lab in (("walk", walk_label), ("expand", expand_label)) if lab]
+        modes_env = {**os.environ, **env}
         cmd = [sys.executable, "main.py", "eval", "--questions", QUESTIONS, "--models", *MODELS,
                "--modes", *modes, "--no-ragas", "--run-name", run]
         print(f"\n>>> running {run}  env={env}  modes={modes}")
-        subprocess.run(cmd, env={**os.environ, **env}, check=True)
+        subprocess.run(cmd, env=modes_env, check=True)
 
 
 def load_rows():
@@ -131,9 +139,13 @@ def plot(df, path):
 
 
 def main():
+    global QUESTIONS, RUNS
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-run", action="store_true", help="don't run missing experiments")
+    ap.add_argument("--questions", default=QUESTIONS, help="question file to evaluate on")
+    ap.add_argument("--tag", default=TAG, help="prefix of the run names, e.g. 'coinv' -> coinv_walk_40 ...")
     args = ap.parse_args()
+    QUESTIONS, RUNS = args.questions, make_runs(args.tag)
     if not args.no_run:
         run_missing()
 
@@ -148,12 +160,12 @@ def main():
     overall = df.groupby(["model", "method"], observed=True)[cols].mean().round(3)
     by_kind = df.groupby(["kind", "model", "method"], observed=True)[cols].mean().round(3)
     pd.set_option("display.width", 160)
-    print("\n=== overall (24 questions per model) ===")
+    print(f"\n=== overall ({df.groupby('model').qid.nunique().max()} questions per model) ===")
     print(overall.to_string())
     print("\n=== by question kind ===")
     print(by_kind.to_string())
 
-    out = ROOT / "results" / "explore_budget"
+    out = ROOT / "results" / f"{args.tag}_budget"
     out.mkdir(parents=True, exist_ok=True)
     overall.to_csv(out / "overall.csv")
     by_kind.to_csv(out / "by_kind.csv")

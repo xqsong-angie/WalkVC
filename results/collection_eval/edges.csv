@@ -1,0 +1,328 @@
+company,entity_id,investor_key,gold_name,pred_name,status,is_yc,gold_lead,pred_lead,source_url,via,company_has_news
+Zymbly,co:zymbly,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zymbly,co:zymbly,multimodal,Multimodal Ventures,,FN,False,False,False,,,False
+Zuni,co:zuni,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zomma,co:zomma,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zolvo,co:zolvo,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zoa Research,co:zoa-research,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zoa Research,co:zoa-research,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+Zoa Research,co:zoa-research,lauren rothwell,Lauren Rothwell,,FN,False,False,False,,,False
+Zibra Labs,co:zibra-labs,hof,HOF Capital,,FN,False,False,False,,,False
+Zibra Labs,co:zibra-labs,team ignite,Team Ignite Ventures,,FN,False,False,False,,,False
+Zibra Labs,co:zibra-labs,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zibra Labs,co:zibra-labs,tower research,Tower Research Ventures,,FN,False,False,False,,,False
+Zibra Labs,co:zibra-labs,founder factor,Founder Factor,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,outbound,Outbound Capital,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,climate,Climate Capital,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,soma,Soma Capital,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,geek,Geek Ventures,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,ventioneers,Ventioneers Capital,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,transpose platform,Transpose Platform Management,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,olive tree,Olive Tree Capital,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,wave,Wave Ventures,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zettascale Computing,co:zettascale-computing,multimodal,Multimodal Ventures,,FN,False,False,False,,,False
+Zettascale Computing,co:zettascale-computing,failup,Failup Ventures,,FN,False,False,False,,,False
+ZeroSettle,co:zerosettle,y combinator,Y Combinator,,FN,True,False,False,,,False
+ZeroSettle,co:zerosettle,palm drive,Palm Drive Capital,,FN,False,False,False,,,False
+ZeroPath,co:zeropath,mergus,Mergus Ventures,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,hof,HOF Capital,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,surgepoint,SurgePoint Capital,,FN,False,True,False,,,True
+ZeroPath,co:zeropath,orange collective,Orange Collective,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,paul graham,Paul Graham,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,transpose platform,Transpose Platform Management,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,olive tree,Olive Tree Capital,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,y combinator,Y Combinator,,FN,True,False,False,,,True
+ZeroPath,co:zeropath,multimodal,Multimodal Ventures,,FN,False,False,False,,,True
+ZeroPath,co:zeropath,crosspoint,Crosspoint Capital Partners,,FN,False,False,False,,,True
+Zeroframe,co:zeroframe,transpose platform,Transpose Platform Management,,FN,False,False,False,,,False
+Zeroframe,co:zeroframe,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zeroframe,co:zeroframe,fundersclub,FundersClub,,FN,False,False,False,,,False
+&AI,co:ai-2,joel fliegelman,Joel Fliegelman,,FN,False,False,False,,,True
+&AI,co:ai-2,richard aberman,Richard Aberman,,FN,False,False,False,,,True
+&AI,co:ai-2,sv angel,SV Angel,,FN,False,False,False,,,True
+&AI,co:ai-2,kulveer taggar,Kulveer Taggar,,FN,False,False,False,,,True
+&AI,co:ai-2,boxgroup,BoxGroup,,FN,False,False,False,,,True
+&AI,co:ai-2,y combinator,Y Combinator,,FN,True,False,False,,,True
+&AI,co:ai-2,first round,First Round Capital,,FN,False,True,False,,,True
+10x Science,co:10x-science,initialized,Initialized Capital,,FN,False,True,False,,,True
+10x Science,co:10x-science,y combinator,Y Combinator,,FN,True,False,False,,,True
+10x Science,co:10x-science,founder factor,Founder Factor,,FN,False,False,False,,,True
+10x Science,co:10x-science,civilization,Civilization Ventures,,FN,False,False,False,,,True
+1849 bio,co:1849-bio,monte carlo,Monte Carlo Capital,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,unpopular,Unpopular Ventures,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,positive,Positive Ventures,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,d3 jubilee,D3 Jubilee Partners,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,sbxi,SBXi,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,soma,Soma Capital,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,sunna,Sunna Ventures,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,batch,Batch Ventures (California),,FN,False,False,False,,,False
+1849 bio,co:1849-bio,springcamp,Springcamp,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,futureplay,FuturePlay,,FN,False,False,False,,,False
+1849 bio,co:1849-bio,y combinator,Y Combinator,,FN,True,False,False,,,False
+1849 bio,co:1849-bio,collaborative,Collaborative Fund,,FN,False,False,False,,,False
+21st,co:21st,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+21st,co:21st,s16vc,S16VC,,FN,False,False,False,,,False
+21st,co:21st,hustle,Hustle Fund,,FN,False,False,False,,,False
+21st,co:21st,exitfund,Exitfund,,FN,False,False,False,,,False
+21st,co:21st,first peak,First Peak Ventures,,FN,False,False,False,,,False
+21st,co:21st,transpose platform,Transpose Platform Management,,FN,False,False,False,,,False
+21st,co:21st,aal,AAL Management,,FN,False,False,False,,,False
+21st,co:21st,aloniq,Aloniq,,FN,False,False,False,,,False
+21st,co:21st,y combinator,Y Combinator,,FN,True,False,False,,,False
+21st,co:21st,trac,TRAC VC,,FN,False,False,False,,,False
+6thSense,co:6thsense,krew,Krew Capital,,FN,False,False,False,,,False
+6thSense,co:6thsense,y combinator,Y Combinator,,FN,True,False,False,,,False
+6thSense,co:6thsense,great wave,Great Wave Ventures,,FN,False,False,False,,,False
+6thSense,co:6thsense,team ignite,Team Ignite Ventures,,FN,False,False,False,,,False
+83 Sciences,co:83-sciences,lrsvc,LRSvc,,FN,False,False,False,,,False
+83 Sciences,co:83-sciences,y combinator,Y Combinator,,FN,True,False,False,,,False
+83 Sciences,co:83-sciences,gaingels,Gaingels,,FN,False,False,False,,,False
+83 Sciences,co:83-sciences,founder factor,Founder Factor,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,streamlined,Streamlined Ventures Management,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,daft,Daft Capital,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,rsquared,Rsquared,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,gaingels,Gaingels,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,y combinator,Y Combinator,,FN,True,False,False,,,False
+9 Mothers,co:9-mothers-corporation,batch,Batch Ventures (California),,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,palm drive,Palm Drive Capital,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,ovp,OVP Venture Partners,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,sterling road,Sterling Road,,FN,False,False,False,,,False
+9 Mothers,co:9-mothers-corporation,theory forge,Theory Forge Ventures,,FN,False,False,False,,,False
+a0.dev,co:a0-dev,collab,Collab Capital,,FN,False,False,False,,,False
+a0.dev,co:a0-dev,lobster,Lobster Capital,,FN,False,False,False,,,False
+a0.dev,co:a0-dev,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+a0.dev,co:a0-dev,team ignite,Team Ignite Ventures,,FN,False,False,False,,,False
+a0.dev,co:a0-dev,taro fukuyama,Taro Fukuyama,,FN,False,False,False,,,False
+a0.dev,co:a0-dev,y combinator,Y Combinator,,FN,True,False,False,,,False
+a0.dev,co:a0-dev,kulveer taggar,Kulveer Taggar,,FN,False,False,False,,,False
+Abel,co:abel,1indicator,1Indicator,,FN,False,False,False,,,False
+Abel,co:abel,day one,Day One Ventures,,FN,False,True,False,,,False
+Abel,co:abel,y combinator,Y Combinator,,FN,True,False,False,,,False
+Abel,co:abel,long journey,Long Journey Ventures,,FN,False,False,False,,,False
+ZeroEntropy,co:zeroentropy,a16z scout,,a16z Scout,FP,False,False,False,https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/,yc_page,True
+ZeroEntropy,co:zeroentropy,kima,Kima Ventures,,FN,False,False,False,,,True
+ZeroEntropy,co:zeroentropy,lobster,Lobster Capital,,FN,False,False,False,,,True
+ZeroEntropy,co:zeroentropy,initialized,Initialized Capital,Initialized Capital,TP,False,True,True,https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/,yc_page,True
+ZeroEntropy,co:zeroentropy,batch,Batch Ventures (California),,FN,False,False,False,,,True
+ZeroEntropy,co:zeroentropy,transpose platform,Transpose Platform Management,Transpose Platform,TP,False,False,False,https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/,yc_page,True
+ZeroEntropy,co:zeroentropy,entrepreneurs first,Entrepreneurs First,,FN,False,False,False,,,True
+ZeroEntropy,co:zeroentropy,y combinator,Y Combinator,Y Combinator,TP,True,False,False,https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/,yc_page,True
+ZeroEntropy,co:zeroentropy,andreessen horowitz,Andreessen Horowitz,,FN,False,False,False,,,True
+ZeroEntropy,co:zeroentropy,22,22 Ventures,22 Ventures,TP,False,False,False,https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/,yc_page,True
+ZeroEntropy,co:zeroentropy,founders future,Founders Future,,FN,False,False,False,,,True
+Zephyr Fusion,co:zephyr-fusion,spot,Spot VC,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,sky arc,Sky Arc Capital,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,brimstone hill,Brimstone Hill Capital,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,hypernova,Hypernova Fund,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,syntax,Syntax Ventures,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,sterling road,Sterling Road,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,zaka,ZAKA VC,,FN,False,False,False,,,False
+Zephyr Fusion,co:zephyr-fusion,alumni,Alumni Ventures,,FN,False,False,False,,,False
+Zeon Systems,co:zeon-systems,singularity,Singularity Capital,,FN,False,False,False,,,False
+Zeon Systems,co:zeon-systems,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+Zeon Systems,co:zeon-systems,fundersclub,FundersClub,,FN,False,False,False,,,False
+Zeon Systems,co:zeon-systems,salesforce,Salesforce Ventures,,FN,False,False,False,,,False
+Zeon Systems,co:zeon-systems,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zeit AI,co:zeit-ai,stern stewart,Stern Stewart Ventures,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,charles songhurst,Charles Songhurst,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,companion m,Companion-M,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,mario g tze,Mario Götze,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,hasso plattner,Hasso Plattner Venture Capital,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,university of oxford,University of Oxford,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,robert fink,Robert Fink,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,transpose platform,Transpose Platform Management,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,sequoia,Sequoia Capital,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,christian lindner,Christian Lindner,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,cervin,Cervin Ventures,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,martin schoeller,Martin Schoeller,,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,ace,ACE Ventures (Geneva),,FN,False,False,False,,,True
+Zeit AI,co:zeit-ai,y combinator,Y Combinator,,FN,True,False,False,,,True
+Zeit AI,co:zeit-ai,oxford sa d business school,Oxford Saïd Business School,,FN,False,False,False,,,True
+Zaymo,co:zaymo,element 14,Element 14 Capital,,FN,False,False,False,,,True
+Zaymo,co:zaymo,element,Element Ventures (Utah),,FN,False,False,False,,,True
+Zaymo,co:zaymo,hat trick,Hat-trick Capital,,FN,False,False,False,,,True
+Zaymo,co:zaymo,craig earnshaw,Craig Earnshaw,,FN,False,False,False,,,True
+Zaymo,co:zaymo,michael levinthal,Michael Levinthal,,FN,False,False,False,,,True
+Zaymo,co:zaymo,jon finger,Jon Finger,,FN,False,False,False,,,True
+Zaymo,co:zaymo,orange collective,Orange Collective,,FN,False,False,False,,,True
+Zaymo,co:zaymo,handshake,Handshake Ventures,,FN,False,False,False,,,True
+Zaymo,co:zaymo,phoenix club,Phoenix Investment Club (San Francisco),,FN,False,False,False,,,True
+Zaymo,co:zaymo,fjor,Fjor (US),,FN,False,False,False,,,True
+Zavo,co:zavo,neer,Neer Venture Partners,,FN,False,False,False,,,False
+Zavo,co:zavo,treeo,Treeo VC,,FN,False,False,False,,,False
+Zavo,co:zavo,team ignite,Team Ignite Ventures,,FN,False,False,False,,,False
+Zavo,co:zavo,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+Zavo,co:zavo,transpose platform,Transpose Platform Management,,FN,False,False,False,,,False
+Zavo,co:zavo,rebel,Rebel Fund,,FN,False,False,False,,,False
+Zavo,co:zavo,tibas,TIBAS Ventures,,FN,False,False,False,,,False
+Zavo,co:zavo,plug and play,Plug and Play,,FN,False,False,False,,,False
+Zavo,co:zavo,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zavo,co:zavo,multimodal,Multimodal Ventures,,FN,False,False,False,,,False
+Zatanna,co:zatanna,leapyear,LeapYear (US),,FN,False,False,False,,,False
+Zatanna,co:zatanna,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zarna,co:zarna,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zaplar,co:zaplar,y combinator,Y Combinator,,FN,True,False,False,,,False
+Zaplar,co:zaplar,tom nyman holding,Tom Nyman Holding,,FN,False,False,False,,,False
+Zaplar,co:zaplar,michael ingel g,Michael Ingelög,,FN,False,False,False,,,False
+Zalos,co:zalos,activant,Activant Capital,,FN,False,False,False,,,True
+Zalos,co:zalos,catherine dahl,Catherine Dahl,,FN,False,False,False,,,True
+Zalos,co:zalos,cohen circle,Cohen Circle,,FN,False,False,False,,,True
+Zalos,co:zalos,jon langbert,Jon Langbert,,FN,False,False,False,,,True
+Zalos,co:zalos,jonathan meeks,Jonathan Meeks,,FN,False,False,False,,,True
+Zalos,co:zalos,henri stern,Henri Stern,,FN,False,False,False,,,True
+Zalos,co:zalos,long dinh,Long Dinh,,FN,False,False,False,,,True
+Zalos,co:zalos,20vc,20VC,,FN,False,False,False,,,True
+Zalos,co:zalos,jake klamka,Jake Klamka,,FN,False,False,False,,,True
+Zalos,co:zalos,pablo palafox,Pablo Palafox,,FN,False,False,False,,,True
+Zalos,co:zalos,james beshara,James Beshara,,FN,False,False,False,,,True
+Zalos,co:zalos,ash rush,Ash Rush,,FN,False,False,False,,,True
+Zalos,co:zalos,mandeep singh,Mandeep Singh,,FN,False,False,False,,,True
+Zalos,co:zalos,y combinator,Y Combinator,,FN,True,False,False,,,True
+Zalos,co:zalos,sterling road,Sterling Road,,FN,False,False,False,,,True
+Zalos,co:zalos,scale asia,Scale Asia Ventures,,FN,False,False,False,,,True
+Zalos,co:zalos,chris smoak,Chris Smoak,,FN,False,False,False,,,True
+Zalos,co:zalos,michael lenz,Michael Lenz,,FN,False,False,False,,,True
+Zalos,co:zalos,hasan sukkar,Hasan Sukkar,,FN,False,False,False,,,True
+Zalos,co:zalos,14peaks,14Peaks Capital,,FN,False,True,False,,,True
+Zalos,co:zalos,edward woodford,Edward Woodford,,FN,False,False,False,,,True
+Zalos,co:zalos,minh pham,Minh Pham,,FN,False,False,False,,,True
+Zalos,co:zalos,ripple impact,Ripple Impact Investments,,FN,False,False,False,,,True
+Zalos,co:zalos,long lu,Long Lu,,FN,False,False,False,,,True
+Zalos,co:zalos,ian sutherland,Ian Sutherland,,FN,False,False,False,,,True
+Zalos,co:zalos,ooshma garg,Ooshma Garg,,FN,False,False,False,,,True
+Zalos,co:zalos,thai duong,Thai Duong,,FN,False,False,False,,,True
+Zalos,co:zalos,paul forster,Paul Forster,,FN,False,False,False,,,True
+Zalos,co:zalos,christian sutherland wong,Christian Sutherland-Wong,,FN,False,False,False,,,True
+Zalos,co:zalos,nancy casey,Nancy Casey,,FN,False,False,False,,,True
+YouShift,co:youshift,team ignite,Team Ignite Ventures,,FN,False,False,False,,,False
+YouShift,co:youshift,y combinator,Y Combinator,,FN,True,False,False,,,False
+YouShift,co:youshift,refract,Refract Ventures,,FN,False,False,False,,,False
+YouLearn,co:youlearn,singularity,Singularity Capital,,FN,False,False,False,,,False
+YouLearn,co:youlearn,first peak,First Peak Ventures,,FN,False,False,False,,,False
+YouLearn,co:youlearn,lobster,Lobster Capital,,FN,False,False,False,,,False
+YouLearn,co:youlearn,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+YouLearn,co:youlearn,468,468 Capital,,FN,False,False,False,,,False
+YouLearn,co:youlearn,y combinator,Y Combinator,,FN,True,False,False,,,False
+YouLearn,co:youlearn,true,True Ventures,,FN,False,False,False,,,False
+YouArt,co:youart,transpose platform,Transpose Platform Management,,FN,False,False,False,,,False
+YouArt,co:youart,y combinator,Y Combinator,,FN,True,False,False,,,False
+Yoneda Labs,co:yoneda-labs,unpopular,Unpopular Ventures,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,fundamental,Fundamental Ventures,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,springboard health angels,Springboard Health Angels,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,dg daiwa,DG Daiwa Ventures,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,kevin moore,Kevin Moore,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,ride home,Ride Home Fund,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,olive tree,Olive Tree Capital,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,y combinator,Y Combinator,Y Combinator,TP,True,False,False,https://venturebeat.com/ai/yoneda-labs-raises-4m-from-khosla-ventures-to-build-the-openai-for-chemistry/,yc_page,True
+Yoneda Labs,co:yoneda-labs,kaya,Kaya VC,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,alumni,Alumni Ventures,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,singularity,Singularity Capital,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,e2vc,e2vc,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,fellows,Fellows Fund,,FN,False,False,False,,,True
+Yoneda Labs,co:yoneda-labs,468,468 Capital,468 Capital,TP,False,False,False,https://venturebeat.com/ai/yoneda-labs-raises-4m-from-khosla-ventures-to-build-the-openai-for-chemistry/,yc_page,True
+Yoneda Labs,co:yoneda-labs,khosla,Khosla Ventures,Khosla Ventures,TP,False,True,True,https://venturebeat.com/ai/yoneda-labs-raises-4m-from-khosla-ventures-to-build-the-openai-for-chemistry/,yc_page,True
+Yoneda Labs,co:yoneda-labs,500 emerging europe,,500 Emerging Europe,FP,False,False,False,https://venturebeat.com/ai/yoneda-labs-raises-4m-from-khosla-ventures-to-build-the-openai-for-chemistry/,yc_page,True
+Yondu,co:yondu,y combinator,Y Combinator,,FN,True,False,False,,,False
+Yondu,co:yondu,sbxi,SBXi,,FN,False,False,False,,,False
+Yondu,co:yondu,blue impact supply chain,Blue Impact Supply Chain Ventures,,FN,False,False,False,,,False
+Yondu,co:yondu,link,Link Ventures,,FN,False,False,False,,,False
+Yenmo,co:yenmo,pioneer,Pioneer Fund,,FN,False,False,False,,,True
+Yenmo,co:yenmo,team ignite,Team Ignite Ventures,,FN,False,False,False,,,True
+Yenmo,co:yenmo,007,007 Venture Partners,,FN,False,False,False,,,True
+Yenmo,co:yenmo,y combinator,Y Combinator,Y Combinator,TP,True,True,True,https://news.google.com/rss/articles/CBMihgFBVV95cUxOMnQ2anNUSXNRTzRlUk9mOTQtNTA4cTM4MGdxV0RueS1PQWx4MmRqMEJPTjZ0VnZaSC10cUVxS3djaGZoX0MxVlR3SlZ5NkVwTGNiNUJjeGJzMXJJTVBxYkZrMnpjcm9PN05YZnhtemM2UVNrTXIzaUo0OGVSVDRPWG1HS2pJUdIBhgFBVV95cUxOMnQ2anNUSXNRTzRlUk9mOTQtNTA4cTM4MGdxV0RueS1PQWx4MmRqMEJPTjZ0VnZaSC10cUVxS3djaGZoX0MxVlR3SlZ5NkVwTGNiNUJjeGJzMXJJTVBxYkZrMnpjcm9PN05YZnhtemM2UVNrTXIzaUo0OGVSVDRPWG1HS2pJUQ?oc=5,rss,True
+Yenmo,co:yenmo,zaka,ZAKA VC,,FN,False,False,False,,,True
+Yarn,co:yarn-2,leonis,Leonis Capital,,FN,False,False,False,,,True
+Yarn,co:yarn-2,pioneer,Pioneer Fund,,FN,False,False,False,,,True
+Yarn,co:yarn-2,the pay it forward company,The Pay It Forward Company,,FN,False,False,False,,,True
+Yarn,co:yarn-2,race,Race Capital,,FN,False,False,False,,,True
+Yarn,co:yarn-2,hat trick,Hat-trick Capital,,FN,False,False,False,,,True
+Yarn,co:yarn-2,y combinator,Y Combinator,,FN,True,False,False,,,True
+XTraffic,co:xtraffic,y combinator,Y Combinator,,FN,True,False,False,,,False
+XTraffic,co:xtraffic,pioneer,Pioneer Fund,,FN,False,False,False,,,False
+XTraffic,co:xtraffic,drover,Drover Ventures,,FN,False,False,False,,,False
+xPay,co:xpay,y combinator,Y Combinator,,FN,True,False,False,,,False
+Wuri,co:wuri,y combinator,Y Combinator,,FN,True,False,False,,,False
+Wuri,co:wuri,first cheque,First Cheque,,FN,False,False,False,,,False
+Wuri,co:wuri,anicut,Anicut Capital,,FN,False,False,False,,,False
+Woz,co:woz,unpopular,Unpopular Ventures,,FN,False,False,False,,,True
+Woz,co:woz,sbxi,SBXi,,FN,False,False,False,,,True
+Woz,co:woz,mgv,MGV,,FN,False,False,False,,,True
+Woz,co:woz,kirk lacob,Kirk Lacob,,FN,False,False,False,,,True
+Woz,co:woz,kevin moore,Kevin Moore,,FN,False,False,False,,,True
+Woz,co:woz,golden state warriors,Golden State Warriors,,FN,False,False,False,,,True
+Woz,co:woz,the 23,The 23 Fund,,FN,False,False,False,,,True
+Woz,co:woz,burst,Burst Capital,,FN,False,False,False,,,True
+Woz,co:woz,cervin,Cervin Ventures,,FN,False,True,False,,,True
+Woz,co:woz,y combinator,Y Combinator,,FN,True,False,False,,,True
+Woz,co:woz,untapped,Untapped Ventures,,FN,False,False,False,,,True
+Wordware,co:wordware,ben tossell,Ben Tossell,,FN,False,False,False,,,True
+Wordware,co:wordware,activant,Activant Capital,,FN,False,False,False,,,True
+Wordware,co:wordware,jay reno,Jay Reno,,FN,False,False,False,,,True
+Wordware,co:wordware,brian jacobs,Brian Jacobs,,FN,False,False,False,,,True
+Wordware,co:wordware,chia jeng yang,Chia Jeng Yang,,FN,False,False,False,,,True
+Wordware,co:wordware,jason boehmig,Jason Boehmig,,FN,False,False,False,,,True
+Wordware,co:wordware,silicon valley associates,Silicon Valley Associates,,FN,False,False,False,,,True
+Wordware,co:wordware,nicholas pilkington,Nicholas Pilkington,,FN,False,False,False,,,True
+Wordware,co:wordware,stan boland,Stan Boland,,FN,False,False,False,,,True
+Wordware,co:wordware,jeff hinriod,Jeff Hinriod,,FN,False,False,False,,,True
+Wordware,co:wordware,firestreak,Firestreak Ventures,,FN,False,False,False,,,True
+Wordware,co:wordware,spark,Spark Capital,Spark Capital,TP,False,True,True,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/,yc_page,True
+Wordware,co:wordware,friends and family,Friends & Family Capital,,FN,False,False,False,,,True
+Wordware,co:wordware,andrew milich,Andrew Milich,,FN,False,False,False,,,True
+Wordware,co:wordware,theo theo,Theo Theo,,FN,False,False,False,,,True
+Wordware,co:wordware,paul daugherty,Paul Daugherty,,FN,False,False,False,,,True
+Wordware,co:wordware,terrence rohan,Terrence Rohan,,FN,False,False,False,,,True
+Wordware,co:wordware,thijn lamers,Thijn Lamers,,FN,False,False,False,,,True
+Wordware,co:wordware,neil shah,Neil Shah,,FN,False,False,False,,,True
+Wordware,co:wordware,walter kortschak,Walter Kortschak,,FN,False,False,False,,,True
+Wordware,co:wordware,nicholas elledge,Nicholas Elledge,,FN,False,False,False,,,True
+Wordware,co:wordware,swyx solutions,Swyx Solutions,,FN,False,False,False,,,True
+Wordware,co:wordware,daftcode,DaftCode,,FN,False,False,False,,,True
+Wordware,co:wordware,felicis,Felicis,Felicis Ventures,TP,False,False,False,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/,yc_page,True
+Wordware,co:wordware,tod sacerdoti,Tod Sacerdoti,,FN,False,False,False,,,True
+Wordware,co:wordware,phosphor,Phosphor Capital,,FN,False,False,False,,,True
+Wordware,co:wordware,paul graham,,Paul Graham,FP,False,False,False,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/,yc_page,True
+Wordware,co:wordware,matthew brown,Matthew Brown,,FN,False,False,False,,,True
+Wordware,co:wordware,robin choy,Robin Choy,,FN,False,False,False,,,True
+Wordware,co:wordware,grzegorz kossakowski,Grzegorz Kossakowski,,FN,False,False,False,,,True
+Wordware,co:wordware,donald stalter,Donald Stalter,,FN,False,False,False,,,True
+Wordware,co:wordware,michele grazioli,Michele Grazioli,,FN,False,False,False,,,True
+Wordware,co:wordware,paul stahura,Paul Stahura,,FN,False,False,False,,,True
+Wordware,co:wordware,john cassidy,John Cassidy,,FN,False,False,False,,,True
+Wordware,co:wordware,moai,Moai Capital,,FN,False,False,False,,,True
+Wordware,co:wordware,piotr karwatka,Piotr Karwatka,,FN,False,False,False,,,True
+Wordware,co:wordware,batch,Batch Ventures (California),,FN,False,False,False,,,True
+Wordware,co:wordware,black pearls,Black Pearls VC,,FN,False,False,False,,,True
+Wordware,co:wordware,rahul mehta,Rahul Mehta,,FN,False,False,False,,,True
+Wordware,co:wordware,soleio cuervo,Soleio Cuervo,,FN,False,False,False,,,True
+Wordware,co:wordware,mathilde collin,Mathilde Collin,,FN,False,False,False,,,True
+Wordware,co:wordware,y combinator,Y Combinator,Y Combinator,TP,True,False,False,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/,yc_page,True
+Wordware,co:wordware,tomasz karwatka,Tomasz Karwatka,,FN,False,False,False,,,True
+Wordware,co:wordware,20sales,20SALES,,FN,False,False,False,,,True
+Wordware,co:wordware,flex,Flex Capital,,FN,False,False,False,,,True
+Wordware,co:wordware,theory forge,Theory Forge Ventures,,FN,False,False,False,,,True
+Wordware,co:wordware,vlad magdalin,Vlad Magdalin,Vlad Magdalin,TP,False,False,False,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/,yc_page,True
+Wordware,co:wordware,siqi chen,Siqi Chen,,FN,False,False,False,,,True
+Wordware,co:wordware,catch the tornado,Catch The Tornado,,FN,False,False,False,,,True
+Wordware,co:wordware,bartek pucek,Bartek Pucek,,FN,False,False,False,,,True
+Wordware,co:wordware,jedrzej szezesniak,Jedrzej Szezesniak,,FN,False,False,False,,,True
+Wordware,co:wordware,spot,Spot VC,,FN,False,False,False,,,True
+Wordware,co:wordware,day one,Day One Ventures,Day One Ventures,TP,False,False,False,https://venturebeat.com/ai/how-wordware-30m-seed-round-could-disrupt-the-entire-ai-development-industry/,yc_page,True
+Wordware,co:wordware,kulveer taggar,Kulveer Taggar,,FN,False,False,False,,,True
+Wordware,co:wordware,innovation nest,Innovation Nest,,FN,False,False,False,,,True
+Wordware,co:wordware,azeem azhar,Azeem Azhar,,FN,False,False,False,,,True
+Wordware,co:wordware,kacper szczesniak,Kacper Szczesniak,,FN,False,False,False,,,True
+Wordware,co:wordware,dan westgarth,Dan Westgarth,,FN,False,False,False,,,True
+Wordware,co:wordware,j4,J4.Ventures,,FN,False,False,False,,,True
+WonderTx,co:wondertx,transpose platform,Transpose Platform Management,,FN,False,False,False,,,False
+WonderTx,co:wondertx,xeia,XEIA Venture Partners,,FN,False,False,False,,,False
+WonderTx,co:wondertx,aix,AIX Ventures,,FN,False,False,False,,,False
+WonderTx,co:wondertx,y combinator,Y Combinator,,FN,True,False,False,,,False
+WonderTx,co:wondertx,zaka,ZAKA VC,,FN,False,False,False,,,False
+WonderTx,co:wondertx,ventioneers,Ventioneers Capital,,FN,False,False,False,,,False
+Wondering,co:wondering,y combinator,Y Combinator,,FN,True,False,False,,,False
+Wondering,co:wondering,world solver syndicate,World Solver Syndicate,,FN,False,False,False,,,False

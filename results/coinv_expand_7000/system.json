@@ -1,0 +1,60 @@
+[
+  {
+    "model": "llama3.1:8b",
+    "vram": {
+      "llama3.1:8b": {
+        "size_vram_mb": 8795.5,
+        "size_mb": 8795.5
+      },
+      "nomic-embed-text:latest": {
+        "size_vram_mb": 320.2,
+        "size_mb": 320.2
+      }
+    },
+    "gpu_used_mb": null,
+    "parser": {
+      "decompose:json": {
+        "attempts": 40,
+        "success": 40,
+        "repaired": 0,
+        "rate": 1.0
+      },
+      "decompose": {
+        "attempts": 40,
+        "success": 40,
+        "repaired": 0,
+        "rate": 1.0
+      }
+    },
+    "json_parse_rate": 1.0
+  },
+  {
+    "model": "qwen2.5:14b",
+    "vram": {
+      "qwen2.5:14b": {
+        "size_vram_mb": 14606.9,
+        "size_mb": 14606.9
+      },
+      "nomic-embed-text:latest": {
+        "size_vram_mb": 320.2,
+        "size_mb": 320.2
+      }
+    },
+    "gpu_used_mb": null,
+    "parser": {
+      "decompose:json": {
+        "attempts": 40,
+        "success": 40,
+        "repaired": 0,
+        "rate": 1.0
+      },
+      "decompose": {
+        "attempts": 40,
+        "success": 40,
+        "repaired": 0,
+        "rate": 1.0
+      }
+    },
+    "json_parse_rate": 1.0
+  }
+]

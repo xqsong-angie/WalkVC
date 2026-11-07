@@ -1,0 +1,21 @@
+{
+  "companies_with_news": 12,
+  "all_investors": {
+    "gold_edges": 170,
+    "mentioned_in_text": 12,
+    "source_coverage": 0.071,
+    "extracted_given_mentioned": 9,
+    "extraction_recall": 0.75,
+    "extracted_total": 9,
+    "end_to_end_recall": 0.053
+  },
+  "lead_investors_only": {
+    "gold_edges": 8,
+    "mentioned_in_text": 3,
+    "source_coverage": 0.375,
+    "extracted_given_mentioned": 3,
+    "extraction_recall": 1.0,
+    "extracted_total": 3,
+    "end_to_end_recall": 0.375
+  }
+}

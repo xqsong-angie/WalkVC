@@ -1,0 +1,7 @@
+set,model,cypher,anchor_only,anchor+walk_12,anchor+walk_40,expand_7k,expand_16k
+coinv,llama3.1:8b,0.0,0.012,0.181,0.295,0.411,0.422
+coinv,qwen2.5:14b,0.154,0.019,0.265,0.464,0.429,0.425
+explore,llama3.1:8b,0.0,0.179,0.153,0.319,0.191,0.252
+explore,qwen2.5:14b,0.083,0.185,0.278,0.493,0.265,0.248
+point,llama3.1:8b,0.048,0.836,0.845,,,
+point,qwen2.5:14b,0.442,0.828,0.848,,,

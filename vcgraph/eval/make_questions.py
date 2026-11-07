@@ -165,6 +165,39 @@ def make_questions(entities: list[dict], per_type: int = 6, seed: int = 0,
                          + ", ".join(sorted(name_of[c] for c in others)) + ".",
             "reference_ids": sorted(others)})
 
+    # --- investor networks (2 hops). Y Combinator backs every company, so it is never an anchor or an answer.
+    yc = investor_node_id("Y Combinator")
+    portfolio, inv_name, inv_of_co = defaultdict(set), {}, defaultdict(set)
+    for e in ents:
+        for i in e.get("investors", []):
+            n = i["name"] if isinstance(i, dict) else i
+            nid = investor_node_id(n)
+            if nid == yc:
+                continue
+            portfolio[nid].add(e["entity_id"])
+            inv_name.setdefault(nid, n)
+            inv_of_co[e["entity_id"]].add(nid)
+    # investor -> company -> other investor
+    for nid, cos in portfolio.items():
+        partners = set().union(*(inv_of_co[c] for c in cos)) - {nid}
+        if 2 <= len(partners) <= max_refs + 4:
+            qs["coinvest"].append({
+                "id": f"coinvest-{slugify(inv_name[nid])}", "type": "coinvest",
+                "question": f"Which investors have co-invested with {inv_name[nid]} in YC startups?",
+                "reference": f"{inv_name[nid]} invested in " + ", ".join(sorted(name_of[c] for c in cos))
+                             + "; co-investors in those rounds: " + ", ".join(sorted(inv_name[p] for p in partners)) + ".",
+                "reference_ids": sorted(partners)})
+    # company -> investor -> other company
+    for cid, invs in inv_of_co.items():
+        others = set().union(*(portfolio[i] for i in invs)) - {cid}
+        if 2 <= len(others) <= max_refs + 4:
+            qs["shared_investor"].append({
+                "id": f"sharedinv-{slugify(name_of[cid])}", "type": "shared_investor",
+                "question": f"Which other YC companies share an investor with {name_of[cid]}?",
+                "reference": f"{name_of[cid]} is backed by " + ", ".join(sorted(inv_name[i] for i in invs))
+                             + "; they also backed: " + ", ".join(sorted(name_of[c] for c in others)) + ".",
+                "reference_ids": sorted(others)})
+            
     out = []
     for t, lst in qs.items():
         if kinds and t not in kinds:

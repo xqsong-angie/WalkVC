@@ -206,7 +206,7 @@ def main():
     qq.add_argument("--out", default="data/yc/questions.jsonl")
     qq.add_argument("--per-type", type=int, default=6); qq.add_argument("--seed", type=int, default=0)
     qq.add_argument("--kinds", nargs="+", default=None,
-                    help="subset: competitors founders market_signal funding network investors open multihop")
+                    help="subset: competitors founders market_signal funding network investors open multihop coinvest shared_investor")
     qq.set_defaults(fn=cmd_questions)
 
     q = sub.add_parser("ask"); q.add_argument("question")

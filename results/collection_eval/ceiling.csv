@@ -1,0 +1,171 @@
+company,investor,investor_key,gold_lead,n_articles,article_chars,mentioned_in_text,extracted
+ZeroPath,Crosspoint Capital Partners,crosspoint,False,1,1,False,False
+ZeroPath,HOF Capital,hof,False,1,1,False,False
+ZeroPath,Mergus Ventures,mergus,False,1,1,False,False
+ZeroPath,Multimodal Ventures,multimodal,False,1,1,False,False
+ZeroPath,Olive Tree Capital,olive tree,False,1,1,False,False
+ZeroPath,Orange Collective,orange collective,False,1,1,False,False
+ZeroPath,Paul Graham,paul graham,False,1,1,False,False
+ZeroPath,SurgePoint Capital,surgepoint,True,1,1,False,False
+ZeroPath,Transpose Platform Management,transpose platform,False,1,1,False,False
+&AI,BoxGroup,boxgroup,False,1,1,False,False
+&AI,First Round Capital,first round,True,1,1,False,False
+&AI,Joel Fliegelman,joel fliegelman,False,1,1,False,False
+&AI,Kulveer Taggar,kulveer taggar,False,1,1,False,False
+&AI,Richard Aberman,richard aberman,False,1,1,False,False
+&AI,SV Angel,sv angel,False,1,1,False,False
+10x Science,Civilization Ventures,civilization,False,1,1,False,False
+10x Science,Founder Factor,founder factor,False,1,1,False,False
+10x Science,Initialized Capital,initialized,True,1,1,False,False
+ZeroEntropy,22 Ventures,22,False,1,19327,True,True
+ZeroEntropy,Andreessen Horowitz,andreessen horowitz,False,1,19327,False,False
+ZeroEntropy,Batch Ventures (California),batch,False,1,19327,False,False
+ZeroEntropy,Entrepreneurs First,entrepreneurs first,False,1,19327,False,False
+ZeroEntropy,Founders Future,founders future,False,1,19327,False,False
+ZeroEntropy,Initialized Capital,initialized,True,1,19327,True,True
+ZeroEntropy,Kima Ventures,kima,False,1,19327,False,False
+ZeroEntropy,Lobster Capital,lobster,False,1,19327,False,False
+ZeroEntropy,Transpose Platform Management,transpose platform,False,1,19327,True,True
+Zeit AI,ACE Ventures (Geneva),ace,False,3,5,False,False
+Zeit AI,Companion-M,companion m,False,3,5,False,False
+Zeit AI,Oxford Saïd Business School,oxford sa d business school,False,3,5,False,False
+Zeit AI,Sequoia Capital,sequoia,False,3,5,False,False
+Zeit AI,Stern Stewart Ventures,stern stewart,False,3,5,False,False
+Zeit AI,Transpose Platform Management,transpose platform,False,3,5,False,False
+Zeit AI,Cervin Ventures,cervin,False,3,5,False,False
+Zeit AI,Charles Songhurst,charles songhurst,False,3,5,False,False
+Zeit AI,Christian Lindner,christian lindner,False,3,5,False,False
+Zeit AI,Hasso Plattner Venture Capital,hasso plattner,False,3,5,False,False
+Zeit AI,Mario Götze,mario g tze,False,3,5,False,False
+Zeit AI,Martin Schoeller,martin schoeller,False,3,5,False,False
+Zeit AI,Robert Fink,robert fink,False,3,5,False,False
+Zeit AI,University of Oxford,university of oxford,False,3,5,False,False
+Zaymo,Craig Earnshaw,craig earnshaw,False,1,21936,True,False
+Zaymo,Element 14 Capital,element 14,False,1,21936,False,False
+Zaymo,Element Ventures (Utah),element,False,1,21936,False,False
+Zaymo,Fjor (US),fjor,False,1,21936,False,False
+Zaymo,Handshake Ventures,handshake,False,1,21936,True,False
+Zaymo,Hat-trick Capital,hat trick,False,1,21936,False,False
+Zaymo,Jon Finger,jon finger,False,1,21936,False,False
+Zaymo,Michael Levinthal,michael levinthal,False,1,21936,False,False
+Zaymo,Orange Collective,orange collective,False,1,21936,False,False
+Zaymo,Phoenix Investment Club (San Francisco),phoenix club,False,1,21936,False,False
+Zalos,14Peaks Capital,14peaks,True,1,0,False,False
+Zalos,20VC,20vc,False,1,0,False,False
+Zalos,Activant Capital,activant,False,1,0,False,False
+Zalos,Ash Rush,ash rush,False,1,0,False,False
+Zalos,Catherine Dahl,catherine dahl,False,1,0,False,False
+Zalos,Chris Smoak,chris smoak,False,1,0,False,False
+Zalos,Christian Sutherland-Wong,christian sutherland wong,False,1,0,False,False
+Zalos,Cohen Circle,cohen circle,False,1,0,False,False
+Zalos,Edward Woodford,edward woodford,False,1,0,False,False
+Zalos,Hasan Sukkar,hasan sukkar,False,1,0,False,False
+Zalos,Henri Stern,henri stern,False,1,0,False,False
+Zalos,Ian Sutherland,ian sutherland,False,1,0,False,False
+Zalos,Jake Klamka,jake klamka,False,1,0,False,False
+Zalos,James Beshara,james beshara,False,1,0,False,False
+Zalos,Jon Langbert,jon langbert,False,1,0,False,False
+Zalos,Jonathan Meeks,jonathan meeks,False,1,0,False,False
+Zalos,Long Dinh,long dinh,False,1,0,False,False
+Zalos,Long Lu,long lu,False,1,0,False,False
+Zalos,Mandeep Singh,mandeep singh,False,1,0,False,False
+Zalos,Michael Lenz,michael lenz,False,1,0,False,False
+Zalos,Minh Pham,minh pham,False,1,0,False,False
+Zalos,Nancy Casey,nancy casey,False,1,0,False,False
+Zalos,Ooshma Garg,ooshma garg,False,1,0,False,False
+Zalos,Pablo Palafox,pablo palafox,False,1,0,False,False
+Zalos,Paul Forster,paul forster,False,1,0,False,False
+Zalos,Ripple Impact Investments,ripple impact,False,1,0,False,False
+Zalos,Sterling Road,sterling road,False,1,0,False,False
+Zalos,Thai Duong,thai duong,False,1,0,False,False
+Zalos,Scale Asia Ventures,scale asia,False,1,0,False,False
+Yoneda Labs,468 Capital,468,False,1,7297,True,True
+Yoneda Labs,Alumni Ventures,alumni,False,1,7297,False,False
+Yoneda Labs,DG Daiwa Ventures,dg daiwa,False,1,7297,False,False
+Yoneda Labs,e2vc,e2vc,False,1,7297,False,False
+Yoneda Labs,Fellows Fund,fellows,False,1,7297,False,False
+Yoneda Labs,Fundamental Ventures,fundamental,False,1,7297,False,False
+Yoneda Labs,Kaya VC,kaya,False,1,7297,False,False
+Yoneda Labs,Kevin Moore,kevin moore,False,1,7297,False,False
+Yoneda Labs,Khosla Ventures,khosla,True,1,7297,True,True
+Yoneda Labs,Olive Tree Capital,olive tree,False,1,7297,False,False
+Yoneda Labs,Ride Home Fund,ride home,False,1,7297,False,False
+Yoneda Labs,Singularity Capital,singularity,False,1,7297,False,False
+Yoneda Labs,Springboard Health Angels,springboard health angels,False,1,7297,False,False
+Yoneda Labs,Unpopular Ventures,unpopular,False,1,7297,False,False
+Yenmo,Pioneer Fund,pioneer,False,1,1,False,False
+Yenmo,Team Ignite Ventures,team ignite,False,1,1,False,False
+Yenmo,ZAKA VC,zaka,False,1,1,False,False
+Yenmo,007 Venture Partners,007,False,1,1,False,False
+Yarn,Hat-trick Capital,hat trick,False,1,1,False,False
+Yarn,Leonis Capital,leonis,False,1,1,False,False
+Yarn,Pioneer Fund,pioneer,False,1,1,False,False
+Yarn,Race Capital,race,False,1,1,False,False
+Yarn,The Pay It Forward Company,the pay it forward company,False,1,1,False,False
+Woz,Untapped Ventures,untapped,False,3,5,False,False
+Woz,Burst Capital,burst,False,3,5,False,False
+Woz,Cervin Ventures,cervin,True,3,5,False,False
+Woz,Golden State Warriors,golden state warriors,False,3,5,False,False
+Woz,Kevin Moore,kevin moore,False,3,5,False,False
+Woz,Kirk Lacob,kirk lacob,False,3,5,False,False
+Woz,MGV,mgv,False,3,5,False,False
+Woz,SBXi,sbxi,False,3,5,False,False
+Woz,The 23 Fund,the 23,False,3,5,False,False
+Woz,Unpopular Ventures,unpopular,False,3,5,False,False
+Wordware,Andrew Milich,andrew milich,False,1,19673,False,False
+Wordware,Azeem Azhar,azeem azhar,False,1,19673,False,False
+Wordware,Bartek Pucek,bartek pucek,False,1,19673,False,False
+Wordware,Ben Tossell,ben tossell,False,1,19673,False,False
+Wordware,Brian Jacobs,brian jacobs,False,1,19673,False,False
+Wordware,Chia Jeng Yang,chia jeng yang,False,1,19673,False,False
+Wordware,DaftCode,daftcode,False,1,19673,False,False
+Wordware,Dan Westgarth,dan westgarth,False,1,19673,False,False
+Wordware,Donald Stalter,donald stalter,False,1,19673,False,False
+Wordware,Grzegorz Kossakowski,grzegorz kossakowski,False,1,19673,False,False
+Wordware,J4.Ventures,j4,False,1,19673,False,False
+Wordware,Jay Reno,jay reno,False,1,19673,False,False
+Wordware,Jedrzej Szezesniak,jedrzej szezesniak,False,1,19673,False,False
+Wordware,Jeff Hinriod,jeff hinriod,False,1,19673,False,False
+Wordware,John Cassidy,john cassidy,False,1,19673,False,False
+Wordware,Kacper Szczesniak,kacper szczesniak,False,1,19673,False,False
+Wordware,Kulveer Taggar,kulveer taggar,False,1,19673,False,False
+Wordware,Matthew Brown,matthew brown,False,1,19673,False,False
+Wordware,Michele Grazioli,michele grazioli,False,1,19673,False,False
+Wordware,Moai Capital,moai,False,1,19673,False,False
+Wordware,Neil Shah,neil shah,False,1,19673,False,False
+Wordware,Nicholas Elledge,nicholas elledge,False,1,19673,False,False
+Wordware,Nicholas Pilkington,nicholas pilkington,False,1,19673,False,False
+Wordware,Paul Daugherty,paul daugherty,False,1,19673,False,False
+Wordware,Paul Stahura,paul stahura,False,1,19673,False,False
+Wordware,Piotr Karwatka,piotr karwatka,False,1,19673,False,False
+Wordware,Rahul Mehta,rahul mehta,False,1,19673,False,False
+Wordware,Robin Choy,robin choy,False,1,19673,False,False
+Wordware,Soleio Cuervo,soleio cuervo,False,1,19673,False,False
+Wordware,Stan Boland,stan boland,False,1,19673,False,False
+Wordware,Swyx Solutions,swyx solutions,False,1,19673,False,False
+Wordware,Theo Theo,theo theo,False,1,19673,False,False
+Wordware,Thijn Lamers,thijn lamers,False,1,19673,False,False
+Wordware,Tod Sacerdoti,tod sacerdoti,False,1,19673,False,False
+Wordware,Tomasz Karwatka,tomasz karwatka,False,1,19673,False,False
+Wordware,Walter Kortschak,walter kortschak,False,1,19673,False,False
+Wordware,20SALES,20sales,False,1,19673,False,False
+Wordware,Activant Capital,activant,False,1,19673,False,False
+Wordware,Batch Ventures (California),batch,False,1,19673,False,False
+Wordware,Black Pearls VC,black pearls,False,1,19673,False,False
+Wordware,Day One Ventures,day one,False,1,19673,True,True
+Wordware,Felicis,felicis,False,1,19673,True,True
+Wordware,Firestreak Ventures,firestreak,False,1,19673,False,False
+Wordware,Flex Capital,flex,False,1,19673,False,False
+Wordware,Friends & Family Capital,friends and family,False,1,19673,False,False
+Wordware,Innovation Nest,innovation nest,False,1,19673,False,False
+Wordware,Jason Boehmig,jason boehmig,False,1,19673,False,False
+Wordware,Mathilde Collin,mathilde collin,False,1,19673,False,False
+Wordware,Phosphor Capital,phosphor,False,1,19673,False,False
+Wordware,Silicon Valley Associates,silicon valley associates,False,1,19673,False,False
+Wordware,Siqi Chen,siqi chen,False,1,19673,False,False
+Wordware,Spark Capital,spark,True,1,19673,True,True
+Wordware,Spot VC,spot,False,1,19673,True,False
+Wordware,Theory Forge Ventures,theory forge,False,1,19673,False,False
+Wordware,Vlad Magdalin,vlad magdalin,False,1,19673,True,True
+Wordware,Catch The Tornado,catch the tornado,False,1,19673,False,False
+Wordware,Terrence Rohan,terrence rohan,False,1,19673,False,False

@@ -1,0 +1,574 @@
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+[eval] llama3.1:8b    walk   open-home-services           e2e=26.27s ttft=14.23 R=0.5454545454545454
+[eval] llama3.1:8b    walk   open-procurement             e2e=28.88s ttft=12.8535 R=0.6666666666666666
+[eval] llama3.1:8b    walk   open-social-network          e2e=21.82s ttft=12.2035 R=0.4
+[eval] llama3.1:8b    walk   open-recruiting              e2e=28.08s ttft=13.4357 R=0.45454545454545453
+[eval] llama3.1:8b    walk   open-sustainability          e2e=26.57s ttft=12.3188 R=0.0
+[eval] llama3.1:8b    walk   open-edge-computing-semiconductors e2e=31.53s ttft=16.3372 R=1.0
+[eval] llama3.1:8b    walk   open-advanced-materials      e2e=38.15s ttft=16.1709 R=0.6666666666666666
+[eval] llama3.1:8b    walk   open-search                  e2e=28.27s ttft=12.4601 R=0.4
+[eval] llama3.1:8b    walk   open-regtech                 e2e=28.77s ttft=13.8805 R=0.2
+[eval] llama3.1:8b    walk   open-electronics             e2e=28.22s ttft=14.2053 R=0.4444444444444444
+[eval] llama3.1:8b    walk   open-restaurant-tech         e2e=29.33s ttft=12.8625 R=1.0
+[eval] llama3.1:8b    walk   open-chat                    e2e=32.08s ttft=13.3025 R=0.3333333333333333
+[eval] llama3.1:8b    walk   multihop-openvector          e2e=30.44s ttft=14.8174 R=0.0
+[eval] llama3.1:8b    walk   multihop-oxus                e2e=29.67s ttft=15.1143 R=0.0
+[eval] llama3.1:8b    walk   multihop-deepgrove           e2e=22.83s ttft=12.874 R=1.0
+[eval] llama3.1:8b    walk   multihop-hey-revia           e2e=24.24s ttft=14.4632 R=0.0
+[eval] llama3.1:8b    walk   multihop-gbrain              e2e=24.34s ttft=13.5837 R=1.0
+[eval] llama3.1:8b    walk   multihop-onlook              e2e=28.32s ttft=14.4955 R=1.0
+[eval] llama3.1:8b    walk   multihop-mango-health        e2e=22.94s ttft=14.0388 R=1.0
+[eval] llama3.1:8b    walk   multihop-korso               e2e=29.71s ttft=12.6161 R=1.0
+[eval] llama3.1:8b    walk   multihop-opentag             e2e=28.69s ttft=13.8579 R=0.0
+[eval] llama3.1:8b    walk   multihop-nuntius             e2e=22.73s ttft=12.4529 R=0.0
+[eval] llama3.1:8b    walk   multihop-cohesive            e2e=22.86s ttft=13.6833 R=0.0
+[eval] llama3.1:8b    walk   multihop-lilac-labs          e2e=45.20s ttft=15.6482 R=1.0
+[eval] qwen2.5:14b    walk   open-home-services           e2e=40.31s ttft=23.1263 R=0.36363636363636365
+[eval] qwen2.5:14b    walk   open-procurement             e2e=51.58s ttft=27.5498 R=0.8333333333333334
+[eval] qwen2.5:14b    walk   open-social-network          e2e=40.46s ttft=23.0962 R=0.4
+[eval] qwen2.5:14b    walk   open-recruiting              e2e=49.80s ttft=24.7053 R=0.7272727272727273
+[eval] qwen2.5:14b    walk   open-sustainability          e2e=53.21s ttft=26.6404 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   open-edge-computing-semiconductors e2e=47.99s ttft=28.2531 R=1.0
+[eval] qwen2.5:14b    walk   open-advanced-materials      e2e=48.15s ttft=30.7995 R=1.0
+[eval] qwen2.5:14b    walk   open-search                  e2e=55.78s ttft=29.7405 R=0.5
+[eval] qwen2.5:14b    walk   open-regtech                 e2e=44.46s ttft=27.6032 R=0.6
+[eval] qwen2.5:14b    walk   open-electronics             e2e=50.62s ttft=31.1256 R=0.5555555555555556
+[eval] qwen2.5:14b    walk   open-restaurant-tech         e2e=48.76s ttft=28.6531 R=1.0
+[eval] qwen2.5:14b    walk   open-chat                    e2e=58.42s ttft=28.1941 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   multihop-openvector          e2e=51.64s ttft=29.6418 R=0.0
+[eval] qwen2.5:14b    walk   multihop-oxus                e2e=54.61s ttft=27.7352 R=0.0
+[eval] qwen2.5:14b    walk   multihop-deepgrove           e2e=51.16s ttft=27.2145 R=1.0
+[eval] qwen2.5:14b    walk   multihop-hey-revia           e2e=55.30s ttft=27.0644 R=0.0
+[eval] qwen2.5:14b    walk   multihop-gbrain              e2e=50.24s ttft=27.4065 R=0.0
+[eval] qwen2.5:14b    walk   multihop-onlook              e2e=53.48s ttft=29.2553 R=1.0
+[eval] qwen2.5:14b    walk   multihop-mango-health        e2e=54.37s ttft=29.6239 R=1.0
+[eval] qwen2.5:14b    walk   multihop-korso               e2e=48.51s ttft=27.1846 R=0.0
+[eval] qwen2.5:14b    walk   multihop-opentag             e2e=52.74s ttft=26.922 R=0.0
+[eval] qwen2.5:14b    walk   multihop-nuntius             e2e=54.01s ttft=26.0029 R=0.0
+[eval] qwen2.5:14b    walk   multihop-cohesive            e2e=49.47s ttft=27.8957 R=1.0
+[eval] qwen2.5:14b    walk   multihop-lilac-labs          e2e=54.57s ttft=29.5957 R=1.0
+
+[eval] wrote results/explore_walk40_gain/
+
+      model mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness  retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s  walk_iter_p95_s  walk_iter_under_3s  tokens_mean  context_tokens_mean  full_context_tokens_mean  vram_mb gpu_used_mb  json_parse_rate cypher_exec_rate cypher_first_try_rate cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est  token_savings_vs_full
+llama3.1:8b walk 24         None               None             None              None                None            0.5046     13.7706    28.2946    37.2389           0.0517                 1.0    9124.5833            6904.3333               208767.1667   8795.5        None              1.0             None                  None                  None                  None                   None                 0.9669
+qwen2.5:14b walk 24         None               None             None              None                None            0.5269     27.6692    51.3699    55.7045           0.0514                 1.0    9126.4167            6951.6250               203342.5833  14606.9        None              1.0             None                  None                  None                  None                   None                 0.9658
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+[eval] llama3.1:8b    walk   open-home-services           e2e=26.16s ttft=12.7527 R=0.45454545454545453
+[eval] llama3.1:8b    walk   open-procurement             e2e=28.56s ttft=14.0002 R=0.5
+[eval] llama3.1:8b    walk   open-social-network          e2e=21.20s ttft=12.1251 R=0.6
+[eval] llama3.1:8b    walk   open-recruiting              e2e=32.15s ttft=12.7918 R=0.5454545454545454
+[eval] llama3.1:8b    walk   open-sustainability          e2e=39.34s ttft=11.5009 R=0.0
+[eval] llama3.1:8b    walk   open-edge-computing-semiconductors e2e=25.97s ttft=12.8797 R=0.6666666666666666
+[eval] llama3.1:8b    walk   open-advanced-materials      e2e=41.83s ttft=15.303 R=1.0
+[eval] llama3.1:8b    walk   open-search                  e2e=31.80s ttft=14.1226 R=0.5
+[eval] llama3.1:8b    walk   open-regtech                 e2e=33.34s ttft=13.7934 R=0.4
+[eval] llama3.1:8b    walk   open-electronics             e2e=28.90s ttft=13.4632 R=0.1111111111111111
+[eval] llama3.1:8b    walk   open-restaurant-tech         e2e=28.19s ttft=13.4384 R=0.75
+[eval] llama3.1:8b    walk   open-chat                    e2e=28.54s ttft=12.7751 R=0.3333333333333333
+[eval] llama3.1:8b    walk   multihop-openvector          e2e=31.97s ttft=14.9636 R=0.0
+[eval] llama3.1:8b    walk   multihop-oxus                e2e=32.43s ttft=13.6401 R=0.0
+[eval] llama3.1:8b    walk   multihop-deepgrove           e2e=22.78s ttft=12.9027 R=1.0
+[eval] llama3.1:8b    walk   multihop-hey-revia           e2e=24.19s ttft=15.0979 R=0.0
+[eval] llama3.1:8b    walk   multihop-gbrain              e2e=26.31s ttft=14.2207 R=0.0
+[eval] llama3.1:8b    walk   multihop-onlook              e2e=26.05s ttft=14.8307 R=1.0
+[eval] llama3.1:8b    walk   multihop-mango-health        e2e=25.49s ttft=15.2947 R=1.0
+[eval] llama3.1:8b    walk   multihop-korso               e2e=29.68s ttft=13.6959 R=1.0
+[eval] llama3.1:8b    walk   multihop-opentag             e2e=29.08s ttft=14.4909 R=0.0
+[eval] llama3.1:8b    walk   multihop-nuntius             e2e=30.99s ttft=13.4366 R=0.0
+[eval] llama3.1:8b    walk   multihop-cohesive            e2e=51.12s ttft=14.719 R=0.0
+[eval] llama3.1:8b    walk   multihop-lilac-labs          e2e=34.21s ttft=16.0655 R=1.0
+[eval] qwen2.5:14b    walk   open-home-services           e2e=43.35s ttft=25.116 R=0.5454545454545454
+[eval] qwen2.5:14b    walk   open-procurement             e2e=48.02s ttft=26.9303 R=0.6666666666666666
+[eval] qwen2.5:14b    walk   open-social-network          e2e=41.65s ttft=24.2156 R=0.6
+[eval] qwen2.5:14b    walk   open-recruiting              e2e=49.87s ttft=25.157 R=0.6363636363636364
+[eval] qwen2.5:14b    walk   open-sustainability          e2e=53.17s ttft=28.923 R=0.6666666666666666
+[eval] qwen2.5:14b    walk   open-edge-computing-semiconductors e2e=50.44s ttft=30.3401 R=1.0
+[eval] qwen2.5:14b    walk   open-advanced-materials      e2e=47.48s ttft=31.6831 R=1.0
+[eval] qwen2.5:14b    walk   open-search                  e2e=47.02s ttft=25.6066 R=0.5
+[eval] qwen2.5:14b    walk   open-regtech                 e2e=47.44s ttft=30.3931 R=0.8
+[eval] qwen2.5:14b    walk   open-electronics             e2e=43.13s ttft=25.8878 R=0.2222222222222222
+[eval] qwen2.5:14b    walk   open-restaurant-tech         e2e=46.07s ttft=28.0059 R=1.0
+[eval] qwen2.5:14b    walk   open-chat                    e2e=56.20s ttft=28.7596 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   multihop-openvector          e2e=57.68s ttft=33.9122 R=0.0
+[eval] qwen2.5:14b    walk   multihop-oxus                e2e=52.46s ttft=27.9691 R=0.0
+[eval] qwen2.5:14b    walk   multihop-deepgrove           e2e=52.95s ttft=27.8476 R=1.0
+[eval] qwen2.5:14b    walk   multihop-hey-revia           e2e=56.48s ttft=27.9915 R=0.0
+[eval] qwen2.5:14b    walk   multihop-gbrain              e2e=51.02s ttft=26.4047 R=1.0
+[eval] qwen2.5:14b    walk   multihop-onlook              e2e=52.61s ttft=29.0742 R=1.0
+[eval] qwen2.5:14b    walk   multihop-mango-health        e2e=55.13s ttft=29.3507 R=1.0
+[eval] qwen2.5:14b    walk   multihop-korso               e2e=47.66s ttft=25.9115 R=0.0
+[eval] qwen2.5:14b    walk   multihop-opentag             e2e=49.91s ttft=27.2653 R=0.0
+[eval] qwen2.5:14b    walk   multihop-nuntius             e2e=47.21s ttft=24.7024 R=0.0
+[eval] qwen2.5:14b    walk   multihop-cohesive            e2e=50.01s ttft=27.0677 R=1.0
+[eval] qwen2.5:14b    walk   multihop-lilac-labs          e2e=52.59s ttft=30.4065 R=1.0
+
+[eval] wrote results/explore_walk40_fixed/
+
+      model mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness  retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s  walk_iter_p95_s  walk_iter_under_3s  tokens_mean  context_tokens_mean  full_context_tokens_mean  vram_mb gpu_used_mb  json_parse_rate cypher_exec_rate cypher_first_try_rate cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est  token_savings_vs_full
+llama3.1:8b walk 24         None               None             None              None                None            0.4525     13.7447    28.9883    41.4604           0.0515                 1.0     9138.000            6879.9167               205321.0417   8795.5        None              1.0             None                  None                  None                  None                   None                 0.9665
+qwen2.5:14b walk 24         None               None             None              None                None            0.5821     27.9083    49.9573    56.4372           0.0586                 1.0     9022.125            6864.2083               198803.1250  14606.9        None              1.0             None                  None                  None                  None                   None                 0.9655
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+[eval] llama3.1:8b    walk   open-home-services           e2e=23.08s ttft=11.3788 R=0.2727272727272727
+[eval] llama3.1:8b    walk   open-procurement             e2e=30.61s ttft=13.655 R=0.6666666666666666
+[eval] llama3.1:8b    walk   open-social-network          e2e=24.50s ttft=11.6706 R=0.6
+[eval] llama3.1:8b    walk   open-recruiting              e2e=31.24s ttft=14.0009 R=0.5454545454545454
+[eval] llama3.1:8b    walk   open-sustainability          e2e=45.97s ttft=12.6651 R=0.0
+[eval] llama3.1:8b    walk   open-edge-computing-semiconductors e2e=27.40s ttft=15.25 R=1.0
+[eval] llama3.1:8b    walk   open-advanced-materials      e2e=39.94s ttft=16.6095 R=1.0
+[eval] llama3.1:8b    walk   open-search                  e2e=30.97s ttft=13.0849 R=0.4
+[eval] llama3.1:8b    walk   open-regtech                 e2e=26.82s ttft=13.4155 R=0.2
+[eval] llama3.1:8b    walk   open-electronics             e2e=27.54s ttft=12.6419 R=0.2222222222222222
+[eval] llama3.1:8b    walk   open-restaurant-tech         e2e=33.39s ttft=13.6762 R=1.0
+[eval] llama3.1:8b    walk   open-chat                    e2e=34.67s ttft=12.7361 R=0.3333333333333333
+[eval] llama3.1:8b    walk   multihop-openvector          e2e=32.45s ttft=14.6967 R=0.0
+[eval] llama3.1:8b    walk   multihop-oxus                e2e=47.98s ttft=14.2344 R=0.0
+[eval] llama3.1:8b    walk   multihop-deepgrove           e2e=23.18s ttft=13.6526 R=1.0
+[eval] llama3.1:8b    walk   multihop-hey-revia           e2e=23.81s ttft=14.9037 R=0.0
+[eval] llama3.1:8b    walk   multihop-gbrain              e2e=21.95s ttft=14.015 R=1.0
+[eval] llama3.1:8b    walk   multihop-onlook              e2e=27.96s ttft=14.7408 R=1.0
+[eval] llama3.1:8b    walk   multihop-mango-health        e2e=24.84s ttft=14.6276 R=1.0
+[eval] llama3.1:8b    walk   multihop-korso               e2e=29.61s ttft=12.7482 R=0.0
+[eval] llama3.1:8b    walk   multihop-opentag             e2e=28.56s ttft=14.3798 R=0.0
+[eval] llama3.1:8b    walk   multihop-nuntius             e2e=26.69s ttft=13.0544 R=0.0
+[eval] llama3.1:8b    walk   multihop-cohesive            e2e=23.16s ttft=14.3609 R=0.0
+[eval] llama3.1:8b    walk   multihop-lilac-labs          e2e=51.57s ttft=15.5662 R=0.0
+[eval] qwen2.5:14b    walk   open-home-services           e2e=44.25s ttft=25.8206 R=0.5454545454545454
+[eval] qwen2.5:14b    walk   open-procurement             e2e=41.21s ttft=25.6036 R=0.5
+[eval] qwen2.5:14b    walk   open-social-network          e2e=41.20s ttft=25.0847 R=0.4
+[eval] qwen2.5:14b    walk   open-recruiting              e2e=53.17s ttft=26.7309 R=0.7272727272727273
+[eval] qwen2.5:14b    walk   open-sustainability          e2e=48.19s ttft=26.4207 R=0.0
+[eval] qwen2.5:14b    walk   open-edge-computing-semiconductors e2e=48.53s ttft=29.1429 R=1.0
+[eval] qwen2.5:14b    walk   open-advanced-materials      e2e=49.97s ttft=32.4404 R=1.0
+[eval] qwen2.5:14b    walk   open-search                  e2e=50.48s ttft=28.3374 R=0.5
+[eval] qwen2.5:14b    walk   open-regtech                 e2e=44.77s ttft=28.4851 R=0.6
+[eval] qwen2.5:14b    walk   open-electronics             e2e=50.07s ttft=30.8597 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   open-restaurant-tech         e2e=48.03s ttft=28.1527 R=0.5
+[eval] qwen2.5:14b    walk   open-chat                    e2e=48.46s ttft=29.1617 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   multihop-openvector          e2e=55.61s ttft=30.6866 R=0.0
+[eval] qwen2.5:14b    walk   multihop-oxus                e2e=53.83s ttft=28.0146 R=0.0
+[eval] qwen2.5:14b    walk   multihop-deepgrove           e2e=51.50s ttft=28.1358 R=1.0
+[eval] qwen2.5:14b    walk   multihop-hey-revia           e2e=56.71s ttft=28.6275 R=0.0
+[eval] qwen2.5:14b    walk   multihop-gbrain              e2e=50.62s ttft=28.6967 R=1.0
+[eval] qwen2.5:14b    walk   multihop-onlook              e2e=52.62s ttft=29.8461 R=1.0
+[eval] qwen2.5:14b    walk   multihop-mango-health        e2e=51.33s ttft=28.4309 R=1.0
+[eval] qwen2.5:14b    walk   multihop-korso               e2e=54.26s ttft=26.145 R=0.0
+[eval] qwen2.5:14b    walk   multihop-opentag             e2e=54.78s ttft=28.804 R=0.0
+[eval] qwen2.5:14b    walk   multihop-nuntius             e2e=50.53s ttft=26.0939 R=0.0
+[eval] qwen2.5:14b    walk   multihop-cohesive            e2e=50.00s ttft=28.1632 R=1.0
+[eval] qwen2.5:14b    walk   multihop-lilac-labs          e2e=52.76s ttft=31.1095 R=1.0
+
+[eval] wrote results/explore_walk40_eps15/
+
+      model mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness  retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s  walk_iter_p95_s  walk_iter_under_3s  tokens_mean  context_tokens_mean  full_context_tokens_mean  vram_mb gpu_used_mb  json_parse_rate cypher_exec_rate cypher_first_try_rate cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est  token_savings_vs_full
+llama3.1:8b walk 24         None               None             None              None                None            0.4267     13.8385     28.260    47.6747           0.0595                 1.0    9136.7083            6861.9583                202808.125   8795.5        None              1.0             None                  None                  None                  None                   None                 0.9662
+qwen2.5:14b walk 24         None               None             None              None                None            0.5183     28.3841     50.504    55.4862           0.0632                 1.0    9050.3333            6893.5833                200754.875  14606.9        None              1.0             None                  None                  None                  None                   None                 0.9657
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+[eval] llama3.1:8b    walk   coinvest-firstcheck-africa   e2e=25.98s ttft=8.3762 R=1.0
+[eval] llama3.1:8b    walk   coinvest-moonfire            e2e=25.92s ttft=6.2848 R=0.875
+[eval] llama3.1:8b    walk   coinvest-visionaries         e2e=40.80s ttft=4.1692 R=0.8333333333333334
+[eval] llama3.1:8b    walk   coinvest-others              e2e=22.20s ttft=3.4349 R=1.0
+[eval] llama3.1:8b    walk   coinvest-nate-matherson      e2e=26.04s ttft=8.1031 R=0.42857142857142855
+[eval] llama3.1:8b    walk   coinvest-benchstrength       e2e=30.45s ttft=4.2254 R=0.75
+[eval] llama3.1:8b    walk   coinvest-a-capital           e2e=35.40s ttft=4.3146 R=0.7142857142857143
+[eval] llama3.1:8b    walk   coinvest-venture-capital-investors e2e=38.16s ttft=4.2047 R=1.0
+[eval] llama3.1:8b    walk   coinvest-rxr-arden           e2e=21.19s ttft=7.6778 R=0.2
+[eval] llama3.1:8b    walk   coinvest-mission-street-capital e2e=22.26s ttft=6.4539 R=1.0
+[eval] llama3.1:8b    walk   coinvest-jpmorgan            e2e=21.24s ttft=6.2417 R=0.8571428571428571
+[eval] llama3.1:8b    walk   coinvest-francois-chollet    e2e=23.53s ttft=4.9991 R=0.8333333333333334
+[eval] llama3.1:8b    walk   coinvest-paul-copplestone    e2e=22.05s ttft=4.6382 R=1.0
+[eval] llama3.1:8b    walk   coinvest-formosa-capital     e2e=23.25s ttft=7.0153 R=0.6666666666666666
+[eval] llama3.1:8b    walk   coinvest-infera-neuro        e2e=19.76s ttft=6.758 R=1.0
+[eval] llama3.1:8b    walk   coinvest-devc                e2e=18.33s ttft=5.8992 R=1.0
+[eval] llama3.1:8b    walk   coinvest-morningstar-ceo-kunal-kapoor e2e=24.25s ttft=5.7396 R=0.6
+[eval] llama3.1:8b    walk   coinvest-palmer-luckey       e2e=21.37s ttft=6.6917 R=0.8333333333333334
+[eval] llama3.1:8b    walk   coinvest-hubspot-ventures    e2e=45.51s ttft=7.9812 R=1.0
+[eval] llama3.1:8b    walk   coinvest-angel-investors-from-the-us-and-europe e2e=43.83s ttft=4.9332 R=1.0
+[eval] llama3.1:8b    walk   sharedinv-diode-computers    e2e=27.31s ttft=15.7406 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-mem0               e2e=24.03s ttft=14.6044 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-weave              e2e=23.11s ttft=14.4489 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-basalt             e2e=27.63s ttft=16.4046 R=0.5
+[eval] llama3.1:8b    walk   sharedinv-spur               e2e=23.11s ttft=15.0343 R=0.08333333333333333
+[eval] llama3.1:8b    walk   sharedinv-sygaldry           e2e=24.70s ttft=15.7945 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-bluejay            e2e=47.44s ttft=15.0792 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-laminar            e2e=24.72s ttft=14.9413 R=0.5
+[eval] llama3.1:8b    walk   sharedinv-nozomio            e2e=26.61s ttft=14.5277 R=0.25
+[eval] llama3.1:8b    walk   sharedinv-cleva              e2e=25.84s ttft=15.2214 R=0.25
+[eval] llama3.1:8b    walk   sharedinv-astro-mechanica    e2e=32.79s ttft=16.7007 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-uplane             e2e=25.91s ttft=16.927 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-tandem             e2e=52.08s ttft=15.8234 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-nexus              e2e=26.85s ttft=14.6062 R=0.5
+[eval] llama3.1:8b    walk   sharedinv-vera-health        e2e=25.47s ttft=15.8148 R=0.1111111111111111
+[eval] llama3.1:8b    walk   sharedinv-eloquent-ai        e2e=24.09s ttft=15.5186 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-respan             e2e=49.73s ttft=14.7945 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-luel               e2e=35.79s ttft=14.5348 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-centralize         e2e=50.98s ttft=15.5135 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-design-arena       e2e=23.69s ttft=14.1451 R=0.5
+[eval] qwen2.5:14b    walk   coinvest-firstcheck-africa   e2e=33.77s ttft=10.6315 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-moonfire            e2e=34.31s ttft=10.9878 R=0.875
+[eval] qwen2.5:14b    walk   coinvest-visionaries         e2e=39.37s ttft=10.6134 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-others              e2e=49.54s ttft=9.2618 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-nate-matherson      e2e=36.63s ttft=8.7621 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-benchstrength       e2e=31.23s ttft=10.5332 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-a-capital           e2e=29.16s ttft=8.2711 R=0.8571428571428571
+[eval] qwen2.5:14b    walk   coinvest-venture-capital-investors e2e=33.76s ttft=9.4268 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-rxr-arden           e2e=37.29s ttft=10.5177 R=0.6
+[eval] qwen2.5:14b    walk   coinvest-mission-street-capital e2e=52.46s ttft=9.3213 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-jpmorgan            e2e=30.53s ttft=7.8399 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-francois-chollet    e2e=32.20s ttft=8.2783 R=0.8333333333333334
+[eval] qwen2.5:14b    walk   coinvest-paul-copplestone    e2e=34.58s ttft=8.8097 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-formosa-capital     e2e=31.81s ttft=8.7887 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-infera-neuro        e2e=29.75s ttft=7.9769 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-devc                e2e=37.33s ttft=10.3697 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-morningstar-ceo-kunal-kapoor e2e=35.26s ttft=10.5075 R=0.7
+[eval] qwen2.5:14b    walk   coinvest-palmer-luckey       e2e=36.23s ttft=8.3291 R=0.8333333333333334
+[eval] qwen2.5:14b    walk   coinvest-hubspot-ventures    e2e=31.40s ttft=10.6077 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-angel-investors-from-the-us-and-europe e2e=48.48s ttft=8.7844 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-diode-computers    e2e=58.12s ttft=32.8083 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-mem0               e2e=37.11s ttft=16.058 R=0.14285714285714285
+[eval] qwen2.5:14b    walk   sharedinv-weave              e2e=43.94s ttft=14.262 R=0.25
+[eval] qwen2.5:14b    walk   sharedinv-basalt             e2e=37.05s ttft=16.055 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-spur               e2e=36.10s ttft=12.2116 R=0.08333333333333333
+[eval] qwen2.5:14b    walk   sharedinv-sygaldry           e2e=49.55s ttft=30.6741 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-bluejay            e2e=48.15s ttft=29.1815 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-laminar            e2e=38.52s ttft=18.947 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-nozomio            e2e=37.79s ttft=14.8415 R=0.5
+[eval] qwen2.5:14b    walk   sharedinv-cleva              e2e=36.31s ttft=15.111 R=0.5
+[eval] qwen2.5:14b    walk   sharedinv-astro-mechanica    e2e=56.11s ttft=32.3415 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-uplane             e2e=48.21s ttft=20.4965 R=0.09090909090909091
+[eval] qwen2.5:14b    walk   sharedinv-tandem             e2e=53.32s ttft=31.0256 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-nexus              e2e=36.02s ttft=16.0385 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-vera-health        e2e=36.06s ttft=13.6951 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-eloquent-ai        e2e=46.45s ttft=19.8701 R=0.6666666666666666
+[eval] qwen2.5:14b    walk   sharedinv-respan             e2e=36.59s ttft=13.1742 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-luel               e2e=35.61s ttft=16.0077 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-centralize         e2e=41.25s ttft=18.2466 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-design-arena       e2e=43.06s ttft=15.6856 R=0.5
+
+[eval] wrote results/coinv_walk40_fixed/
+
+      model mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness  retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s  walk_iter_p95_s  walk_iter_under_3s  tokens_mean  context_tokens_mean  full_context_tokens_mean  vram_mb gpu_used_mb  json_parse_rate cypher_exec_rate cypher_first_try_rate cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est  token_savings_vs_full
+llama3.1:8b walk 40         None               None             None              None                None            0.4822     11.2607    25.8751    49.7888           0.0469                 1.0     7385.500             5048.575                  184852.9   8795.5        None              1.0             None                  None                  None                  None                   None                 0.9727
+qwen2.5:14b walk 40         None               None             None              None                None            0.6608     11.5997    36.8411    53.4597           0.0430                 1.0     5820.575             3588.300                  121028.2  14606.9        None              1.0             None                  None                  None                  None                   None                 0.9704
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+[eval] llama3.1:8b    walk   coinvest-firstcheck-africa   e2e=29.19s ttft=8.2926 R=1.0
+[eval] llama3.1:8b    walk   coinvest-moonfire            e2e=23.29s ttft=5.747 R=0.875
+[eval] llama3.1:8b    walk   coinvest-visionaries         e2e=22.51s ttft=4.3121 R=1.0
+[eval] llama3.1:8b    walk   coinvest-others              e2e=36.79s ttft=5.7226 R=1.0
+[eval] llama3.1:8b    walk   coinvest-nate-matherson      e2e=21.03s ttft=9.6528 R=0.8571428571428571
+[eval] llama3.1:8b    walk   coinvest-benchstrength       e2e=22.10s ttft=5.4662 R=1.0
+[eval] llama3.1:8b    walk   coinvest-a-capital           e2e=29.36s ttft=5.2354 R=0.7142857142857143
+[eval] llama3.1:8b    walk   coinvest-venture-capital-investors e2e=33.78s ttft=5.1775 R=1.0
+[eval] llama3.1:8b    walk   coinvest-rxr-arden           e2e=23.48s ttft=7.6327 R=0.2
+[eval] llama3.1:8b    walk   coinvest-mission-street-capital e2e=25.45s ttft=6.3877 R=1.0
+[eval] llama3.1:8b    walk   coinvest-jpmorgan            e2e=23.57s ttft=7.3215 R=0.8571428571428571
+[eval] llama3.1:8b    walk   coinvest-francois-chollet    e2e=23.15s ttft=4.8346 R=1.0
+[eval] llama3.1:8b    walk   coinvest-paul-copplestone    e2e=22.68s ttft=4.5565 R=1.0
+[eval] llama3.1:8b    walk   coinvest-formosa-capital     e2e=21.33s ttft=5.9739 R=0.6666666666666666
+[eval] llama3.1:8b    walk   coinvest-infera-neuro        e2e=20.45s ttft=7.4885 R=1.0
+[eval] llama3.1:8b    walk   coinvest-devc                e2e=33.85s ttft=3.9948 R=1.0
+[eval] llama3.1:8b    walk   coinvest-morningstar-ceo-kunal-kapoor e2e=22.42s ttft=5.778 R=0.8
+[eval] llama3.1:8b    walk   coinvest-palmer-luckey       e2e=21.56s ttft=7.7551 R=1.0
+[eval] llama3.1:8b    walk   coinvest-hubspot-ventures    e2e=27.05s ttft=7.28 R=1.0
+[eval] llama3.1:8b    walk   coinvest-angel-investors-from-the-us-and-europe e2e=31.97s ttft=5.4669 R=1.0
+[eval] llama3.1:8b    walk   sharedinv-diode-computers    e2e=26.14s ttft=15.3136 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-mem0               e2e=25.80s ttft=13.5058 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-weave              e2e=24.70s ttft=14.7382 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-basalt             e2e=27.39s ttft=16.3985 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-spur               e2e=22.94s ttft=13.7682 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-sygaldry           e2e=24.64s ttft=14.4681 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-bluejay            e2e=24.66s ttft=14.8331 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-laminar            e2e=24.56s ttft=14.7974 R=0.5
+[eval] llama3.1:8b    walk   sharedinv-nozomio            e2e=24.43s ttft=13.7558 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-cleva              e2e=30.93s ttft=16.0213 R=0.25
+[eval] llama3.1:8b    walk   sharedinv-astro-mechanica    e2e=25.51s ttft=16.0652 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-uplane             e2e=23.73s ttft=16.2936 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-tandem             e2e=26.99s ttft=15.9983 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-nexus              e2e=23.38s ttft=13.0924 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-vera-health        e2e=30.93s ttft=14.8769 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-eloquent-ai        e2e=40.65s ttft=15.6528 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-respan             e2e=24.77s ttft=15.112 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-luel               e2e=24.39s ttft=14.7479 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-centralize         e2e=50.92s ttft=15.3038 R=0.0
+[eval] llama3.1:8b    walk   sharedinv-design-arena       e2e=26.68s ttft=14.016 R=0.0
+[eval] qwen2.5:14b    walk   coinvest-firstcheck-africa   e2e=32.35s ttft=12.1346 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-moonfire            e2e=35.67s ttft=9.3757 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-visionaries         e2e=33.97s ttft=8.8677 R=0.8333333333333334
+[eval] qwen2.5:14b    walk   coinvest-others              e2e=37.84s ttft=8.8655 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-nate-matherson      e2e=36.00s ttft=10.5852 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-benchstrength       e2e=32.91s ttft=9.6155 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-a-capital           e2e=30.61s ttft=8.8459 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-venture-capital-investors e2e=46.20s ttft=8.0941 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-rxr-arden           e2e=34.64s ttft=10.4924 R=0.7
+[eval] qwen2.5:14b    walk   coinvest-mission-street-capital e2e=69.40s ttft=8.0149 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-jpmorgan            e2e=28.20s ttft=8.1316 R=0.8571428571428571
+[eval] qwen2.5:14b    walk   coinvest-francois-chollet    e2e=51.58s ttft=8.2374 R=0.8333333333333334
+[eval] qwen2.5:14b    walk   coinvest-paul-copplestone    e2e=32.77s ttft=8.0014 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-formosa-capital     e2e=33.37s ttft=9.329 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-infera-neuro        e2e=27.72s ttft=7.5868 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-devc                e2e=33.19s ttft=8.919 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-morningstar-ceo-kunal-kapoor e2e=38.61s ttft=14.3913 R=0.8
+[eval] qwen2.5:14b    walk   coinvest-palmer-luckey       e2e=61.68s ttft=8.2578 R=0.8333333333333334
+[eval] qwen2.5:14b    walk   coinvest-hubspot-ventures    e2e=40.30s ttft=8.8806 R=1.0
+[eval] qwen2.5:14b    walk   coinvest-angel-investors-from-the-us-and-europe e2e=54.28s ttft=9.3631 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-diode-computers    e2e=53.10s ttft=31.8135 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-mem0               e2e=42.24s ttft=15.7956 R=0.14285714285714285
+[eval] qwen2.5:14b    walk   sharedinv-weave              e2e=36.66s ttft=14.5136 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-basalt             e2e=40.40s ttft=16.0308 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-spur               e2e=43.17s ttft=13.3106 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-sygaldry           e2e=49.85s ttft=30.6506 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   sharedinv-bluejay            e2e=50.94s ttft=30.4687 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-laminar            e2e=36.66s ttft=20.0164 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-nozomio            e2e=42.81s ttft=17.757 R=0.75
+[eval] qwen2.5:14b    walk   sharedinv-cleva              e2e=40.47s ttft=16.8396 R=0.75
+[eval] qwen2.5:14b    walk   sharedinv-astro-mechanica    e2e=59.84s ttft=32.3401 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-uplane             e2e=49.71s ttft=17.104 R=0.18181818181818182
+[eval] qwen2.5:14b    walk   sharedinv-tandem             e2e=51.95s ttft=30.4617 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-nexus              e2e=37.10s ttft=15.9962 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-vera-health        e2e=35.97s ttft=13.9852 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   sharedinv-eloquent-ai        e2e=45.64s ttft=20.2394 R=0.3333333333333333
+[eval] qwen2.5:14b    walk   sharedinv-respan             e2e=35.94s ttft=14.353 R=0.0
+[eval] qwen2.5:14b    walk   sharedinv-luel               e2e=40.41s ttft=18.4296 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-centralize         e2e=36.33s ttft=17.019 R=1.0
+[eval] qwen2.5:14b    walk   sharedinv-design-arena       e2e=33.05s ttft=15.0011 R=0.5
+
+[eval] wrote results/coinv_walk40_eps15/
+
+      model mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness  retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s  walk_iter_p95_s  walk_iter_under_3s  tokens_mean  context_tokens_mean  full_context_tokens_mean  vram_mb gpu_used_mb  json_parse_rate cypher_exec_rate cypher_first_try_rate cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est  token_savings_vs_full
+llama3.1:8b walk 40         None               None             None              None                None            0.4680     11.3726    24.6822    36.9783           0.0455                 1.0      7382.75             5094.050                189312.975   8795.5        None              1.0             None                  None                  None                  None                   None                 0.9731
+qwen2.5:14b walk 40         None               None             None              None                None            0.6795     13.6479    38.2219    59.9324           0.0465                 1.0      5879.75             3611.275                125406.850  14606.9        None              1.0             None                  None                  None                  None                   None                 0.9712
+
+>>> explore_walk40_gain (info_gain) env={'WALK_TOP_NODES': '40'}
+
+>>> explore_walk40_fixed (fixed_12) env={'WALK_TOP_NODES': '40', 'WALK_GAIN_EPS': '0'}
+
+>>> explore_walk40_eps15 (aggressive) env={'WALK_TOP_NODES': '40', 'WALK_GAIN_EPS': '0.15'}
+
+>>> coinv_walk40_fixed (fixed_12) env={'WALK_TOP_NODES': '40', 'WALK_GAIN_EPS': '0'}
+
+>>> coinv_walk40_eps15 (aggressive) env={'WALK_TOP_NODES': '40', 'WALK_GAIN_EPS': '0.15'}
+
+=== all questions ===
+                        recall  iterations  stopped_by_gain  walk_s  nodes_touched  ctx_tokens   e2e_s  ttft_s
+model       rule                                                                                              
+llama3.1:8b info_gain    0.517      24.844            0.217   0.427        473.547    5738.047  36.682  15.662
+            fixed_12     0.471      25.500            0.000   0.418        470.141    5735.328  29.745  11.822
+            aggressive   0.453      15.344            1.000   0.292        316.344    5757.016  28.235  11.791
+qwen2.5:14b info_gain    0.593      25.359            0.297   0.383        449.109    4803.812  46.767  21.554
+            fixed_12     0.631      25.875            0.000   0.404        446.703    4816.766  43.437  19.598
+            aggressive   0.619      15.438            1.000   0.285        289.562    4842.141  44.631  19.799
+
+=== by set ===
+                                recall  iterations  walk_s  nodes_touched
+set     model       rule                                                 
+coinv   llama3.1:8b info_gain    0.524      27.350   0.430        492.075
+                    fixed_12     0.482      28.200   0.417        495.000
+                    aggressive   0.468      17.125   0.290        345.775
+        qwen2.5:14b info_gain    0.633      23.575   0.324        339.975
+                    fixed_12     0.661      24.600   0.355        346.075
+                    aggressive   0.680      14.675   0.252        227.450
+explore llama3.1:8b info_gain    0.505      20.667   0.424        442.667
+                    fixed_12     0.453      21.000   0.421        428.708
+                    aggressive   0.427      12.375   0.295        267.292
+        qwen2.5:14b info_gain    0.527      28.333   0.482        631.000
+                    fixed_12     0.582      28.000   0.486        614.417
+                    aggressive   0.518      16.708   0.338        393.083
+
+=== recall difference, paired bootstrap 95% CI ===
+      model             comparison  n recall_diff (mean, lo, hi)
+llama3.1:8b   info_gain - fixed_12 64     (0.046, -0.007, 0.104)
+llama3.1:8b info_gain - aggressive 64      (0.064, 0.012, 0.126)
+qwen2.5:14b   info_gain - fixed_12 64      (-0.038, -0.085, 0.0)
+qwen2.5:14b info_gain - aggressive 64     (-0.026, -0.08, 0.023)
+
+saved -> /Users/sxq/Desktop/RICE/academic/comp 580/project/WalkVC/results/stopping_ablation/summary.csv, bootstrap.csv
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+[eval] llama3.1:8b    cypher open-home-services           e2e=6.23s ttft=0.2276 R=0.0
+[eval] llama3.1:8b    cypher open-procurement             e2e=4.71s ttft=0.1896 R=0.0
+[eval] llama3.1:8b    cypher open-social-network          e2e=4.72s ttft=0.1892 R=0.0
+[eval] llama3.1:8b    cypher open-recruiting              e2e=4.89s ttft=0.194 R=0.0
+[eval] llama3.1:8b    cypher open-sustainability          e2e=25.95s ttft=0.2164 R=0.0
+[eval] llama3.1:8b    cypher open-edge-computing-semiconductors e2e=6.62s ttft=0.1879 R=0.0
+[eval] llama3.1:8b    cypher open-advanced-materials      e2e=5.10s ttft=0.1938 R=0.0
+[eval] llama3.1:8b    cypher open-search                  e2e=4.00s ttft=0.1912 R=0.0
+[eval] llama3.1:8b    cypher open-regtech                 e2e=5.63s ttft=0.1934 R=0.0
+[eval] llama3.1:8b    cypher open-electronics             e2e=3.57s ttft=0.1902 R=0.0
+[eval] llama3.1:8b    cypher open-restaurant-tech         e2e=4.71s ttft=0.1913 R=0.0
+[eval] llama3.1:8b    cypher open-chat                    e2e=8.21s ttft=0.1894 R=0.0
+[eval] llama3.1:8b    cypher multihop-openvector          e2e=4.66s ttft=0.1884 R=0.0
+[eval] llama3.1:8b    cypher multihop-oxus                e2e=4.44s ttft=0.1891 R=0.0
+[eval] llama3.1:8b    cypher multihop-deepgrove           e2e=4.34s ttft=0.1857 R=0.0
+[eval] llama3.1:8b    cypher multihop-hey-revia           e2e=4.75s ttft=0.1863 R=0.0
+[eval] llama3.1:8b    cypher multihop-gbrain              e2e=4.36s ttft=0.1901 R=0.0
+[eval] llama3.1:8b    cypher multihop-onlook              e2e=4.51s ttft=0.1915 R=0.0
+[eval] llama3.1:8b    cypher multihop-mango-health        e2e=4.44s ttft=0.1903 R=0.0
+[eval] llama3.1:8b    cypher multihop-korso               e2e=4.32s ttft=0.1918 R=0.0
+[eval] llama3.1:8b    cypher multihop-opentag             e2e=4.32s ttft=0.1906 R=0.0
+[eval] llama3.1:8b    cypher multihop-nuntius             e2e=4.46s ttft=0.1846 R=0.0
+[eval] llama3.1:8b    cypher multihop-cohesive            e2e=4.30s ttft=0.1852 R=0.0
+[eval] llama3.1:8b    cypher multihop-lilac-labs          e2e=4.54s ttft=0.1864 R=0.0
+[eval] qwen2.5:14b    cypher open-home-services           e2e=6.81s ttft=0.4072 R=0.0
+[eval] qwen2.5:14b    cypher open-procurement             e2e=5.94s ttft=0.3396 R=0.0
+[eval] qwen2.5:14b    cypher open-social-network          e2e=6.52s ttft=0.3401 R=0.0
+[eval] qwen2.5:14b    cypher open-recruiting              e2e=6.53s ttft=0.3448 R=0.0
+[eval] qwen2.5:14b    cypher open-sustainability          e2e=6.51s ttft=0.3392 R=0.0
+[eval] qwen2.5:14b    cypher open-edge-computing-semiconductors e2e=6.63s ttft=0.3446 R=0.0
+[eval] qwen2.5:14b    cypher open-advanced-materials      e2e=5.00s ttft=0.3402 R=0.0
+[eval] qwen2.5:14b    cypher open-search                  e2e=6.24s ttft=0.3388 R=0.0
+[eval] qwen2.5:14b    cypher open-regtech                 e2e=5.37s ttft=0.3402 R=0.0
+[eval] qwen2.5:14b    cypher open-electronics             e2e=6.46s ttft=0.3393 R=0.0
+[eval] qwen2.5:14b    cypher open-restaurant-tech         e2e=5.23s ttft=0.3402 R=0.0
+[eval] qwen2.5:14b    cypher open-chat                    e2e=6.23s ttft=0.3383 R=0.0
+[eval] qwen2.5:14b    cypher multihop-openvector          e2e=8.83s ttft=0.3493 R=0.0
+[eval] qwen2.5:14b    cypher multihop-oxus                e2e=10.75s ttft=0.4152 R=0.0
+[eval] qwen2.5:14b    cypher multihop-deepgrove           e2e=7.54s ttft=0.3349 R=0.0
+[eval] qwen2.5:14b    cypher multihop-hey-revia           e2e=8.36s ttft=0.3323 R=0.0
+[eval] qwen2.5:14b    cypher multihop-gbrain              e2e=9.04s ttft=0.3574 R=0.0
+[eval] qwen2.5:14b    cypher multihop-onlook              e2e=9.00s ttft=0.3416 R=0.0
+[eval] qwen2.5:14b    cypher multihop-mango-health        e2e=6.91s ttft=0.3411 R=0.0
+[eval] qwen2.5:14b    cypher multihop-korso               e2e=7.48s ttft=0.3405 R=0.0
+[eval] qwen2.5:14b    cypher multihop-opentag             e2e=7.48s ttft=0.3416 R=0.0
+[eval] qwen2.5:14b    cypher multihop-nuntius             e2e=8.78s ttft=0.3316 R=0.0
+[eval] qwen2.5:14b    cypher multihop-cohesive            e2e=9.18s ttft=0.3291 R=0.0
+[eval] qwen2.5:14b    cypher multihop-lilac-labs          e2e=10.13s ttft=0.3307 R=0.0
+
+[eval] wrote results/explore_cypher/
+
+      model   mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s walk_iter_p95_s walk_iter_under_3s  tokens_mean  context_tokens_mean full_context_tokens_mean  vram_mb gpu_used_mb json_parse_rate  cypher_exec_rate  cypher_first_try_rate  cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est
+llama3.1:8b cypher 24         None               None             None              None                None             None      0.1901      4.601     7.9755            None               None     746.9167               7.0000                     None   8795.5        None            None               1.0                 0.9583                 0.0000                  None                   None
+qwen2.5:14b cypher 24         None               None             None              None                None             None      0.3402      6.860     9.9886            None               None     669.2083              11.7083                     None  14606.9        None            None               1.0                 1.0000                 0.0833                  None                   None
+/Applications/anaconda3/envs/walkvc/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+Received notification from DBMS server: <GqlStatusObject gql_status='01N42', status_description="One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: by)", position=<SummaryInputPosition line=1, column=103, offset=102>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/', '_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'column': 103, 'offset': 102, 'line': 1}}> for query: "MATCH (i1:Investor {name: 'Moonfire'}), (c:Company)-[:INVESTED_IN]->(i2:Investor), (c)-[:INVESTED_IN {by: 'Moonfire'}]->(i1)\nRETURN DISTINCT i2.name, i2.id\nLIMIT 25"
+[eval] llama3.1:8b    cypher coinvest-firstcheck-africa   e2e=5.42s ttft=0.2269 R=0.0
+[eval] llama3.1:8b    cypher coinvest-moonfire            e2e=4.46s ttft=0.1856 R=0.0
+[eval] llama3.1:8b    cypher coinvest-visionaries         e2e=4.45s ttft=0.1868 R=0.0
+[eval] llama3.1:8b    cypher coinvest-others              e2e=7.38s ttft=0.1895 R=0.0
+[eval] llama3.1:8b    cypher coinvest-nate-matherson      e2e=6.02s ttft=0.1866 R=0.0
+[eval] llama3.1:8b    cypher coinvest-benchstrength       e2e=5.59s ttft=0.1863 R=0.0
+[eval] llama3.1:8b    cypher coinvest-a-capital           e2e=4.45s ttft=0.1873 R=0.0
+[eval] llama3.1:8b    cypher coinvest-venture-capital-investors e2e=10.76s ttft=0.1904 R=0.0
+[eval] llama3.1:8b    cypher coinvest-rxr-arden           e2e=5.36s ttft=0.1892 R=0.0
+[eval] llama3.1:8b    cypher coinvest-mission-street-capital e2e=5.60s ttft=0.1869 R=0.0
+[eval] llama3.1:8b    cypher coinvest-jpmorgan            e2e=6.17s ttft=0.1874 R=0.0
+[eval] llama3.1:8b    cypher coinvest-francois-chollet    e2e=5.36s ttft=0.1872 R=0.0
+[eval] llama3.1:8b    cypher coinvest-paul-copplestone    e2e=4.14s ttft=0.1871 R=0.0
+[eval] llama3.1:8b    cypher coinvest-formosa-capital     e2e=4.91s ttft=0.1879 R=0.0
+[eval] llama3.1:8b    cypher coinvest-infera-neuro        e2e=4.48s ttft=0.1853 R=0.0
+[eval] llama3.1:8b    cypher coinvest-devc                e2e=4.45s ttft=0.1867 R=0.0
+[eval] llama3.1:8b    cypher coinvest-morningstar-ceo-kunal-kapoor e2e=4.92s ttft=0.1904 R=0.0
+[eval] llama3.1:8b    cypher coinvest-palmer-luckey       e2e=4.88s ttft=0.1858 R=0.0
+[eval] llama3.1:8b    cypher coinvest-hubspot-ventures    e2e=6.33s ttft=0.1866 R=0.0
+[eval] llama3.1:8b    cypher coinvest-angel-investors-from-the-us-and-europe e2e=14.20s ttft=0.2113 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-diode-computers    e2e=3.85s ttft=0.189 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-mem0               e2e=3.59s ttft=0.192 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-weave              e2e=3.60s ttft=0.1908 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-basalt             e2e=3.59s ttft=0.1898 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-spur               e2e=3.84s ttft=0.1902 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-sygaldry           e2e=4.35s ttft=0.186 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-bluejay            e2e=3.96s ttft=0.1905 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-laminar            e2e=3.88s ttft=0.1861 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-nozomio            e2e=3.69s ttft=0.1874 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-cleva              e2e=3.90s ttft=0.1854 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-astro-mechanica    e2e=3.94s ttft=0.1868 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-uplane             e2e=3.80s ttft=0.1914 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-tandem             e2e=4.13s ttft=0.1861 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-nexus              e2e=3.58s ttft=0.188 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-vera-health        e2e=3.63s ttft=0.1902 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-eloquent-ai        e2e=3.88s ttft=0.1852 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-respan             e2e=3.82s ttft=0.1908 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-luel               e2e=3.82s ttft=0.1888 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-centralize         e2e=3.83s ttft=0.1898 R=0.0
+[eval] llama3.1:8b    cypher sharedinv-design-arena       e2e=3.58s ttft=0.1895 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-firstcheck-africa   e2e=8.34s ttft=0.4172 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-moonfire            e2e=6.87s ttft=0.3473 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-visionaries         e2e=6.55s ttft=0.3481 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-others              e2e=11.12s ttft=2.8439 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-nate-matherson      e2e=6.19s ttft=0.4054 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-benchstrength       e2e=6.01s ttft=0.3331 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-a-capital           e2e=9.19s ttft=0.4271 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-venture-capital-investors e2e=24.22s ttft=7.3601 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-rxr-arden           e2e=21.68s ttft=0.414 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-mission-street-capital e2e=5.65s ttft=0.3333 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-jpmorgan            e2e=8.12s ttft=0.3905 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-francois-chollet    e2e=7.69s ttft=0.3372 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-paul-copplestone    e2e=5.67s ttft=0.3342 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-formosa-capital     e2e=10.18s ttft=0.7779 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-infera-neuro        e2e=9.14s ttft=0.3343 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-devc                e2e=9.96s ttft=0.7194 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-morningstar-ceo-kunal-kapoor e2e=7.89s ttft=0.3362 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-palmer-luckey       e2e=5.63s ttft=0.3316 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-hubspot-ventures    e2e=8.80s ttft=0.395 R=0.0
+[eval] qwen2.5:14b    cypher coinvest-angel-investors-from-the-us-and-europe e2e=9.58s ttft=0.338 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-diode-computers    e2e=8.54s ttft=0.337 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-mem0               e2e=9.83s ttft=0.3415 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-weave              e2e=23.19s ttft=4.1077 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-basalt             e2e=7.66s ttft=0.4027 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-spur               e2e=8.22s ttft=0.3432 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-sygaldry           e2e=13.15s ttft=1.2994 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-bluejay            e2e=12.05s ttft=4.987 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-laminar            e2e=9.81s ttft=0.404 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-nozomio            e2e=9.73s ttft=0.8406 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-cleva              e2e=9.64s ttft=0.3339 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-astro-mechanica    e2e=10.96s ttft=1.8423 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-uplane             e2e=8.99s ttft=0.4026 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-tandem             e2e=23.14s ttft=4.5172 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-nexus              e2e=7.51s ttft=0.4022 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-vera-health        e2e=8.96s ttft=0.342 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-eloquent-ai        e2e=7.25s ttft=0.3313 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-respan             e2e=7.56s ttft=0.3425 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-luel               e2e=6.48s ttft=0.34 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-centralize         e2e=7.70s ttft=0.342 R=0.0
+[eval] qwen2.5:14b    cypher sharedinv-design-arena       e2e=7.71s ttft=0.3419 R=0.0
+
+[eval] wrote results/coinv_cypher/
+
+      model   mode  n faithfulness hallucination_rate answer_relevancy context_precision factual_correctness retrieval_recall  ttft_p50_s  e2e_p50_s  e2e_p95_s walk_iter_p95_s walk_iter_under_3s  tokens_mean  context_tokens_mean full_context_tokens_mean  vram_mb gpu_used_mb json_parse_rate  cypher_exec_rate  cypher_first_try_rate  cypher_non_empty_rate expand_truncated_rate expand_full_tokens_est
+llama3.1:8b cypher 40         None               None             None              None                None             None      0.1877     4.2439     7.5484            None               None      745.075                7.000                     None   8795.5        None            None             0.950                  0.925                   0.00                  None                   None
+qwen2.5:14b cypher 40         None               None             None              None                None             None      0.3693     8.6677    23.1465            None               None      888.950              183.825                     None  14606.9        None            None             0.975                  0.975                   0.35                  None                   None
+
+>>> explore_cypher
+
+>>> coinv_cypher
+
+=== answer recall (share of gold entities named or cited in the final answer) ===
+method               cypher  anchor_only  anchor+walk_12  anchor+walk_40  expand_7k  expand_16k
+set     model                                                                                  
+coinv   llama3.1:8b   0.000        0.012           0.181           0.295      0.411       0.422
+        qwen2.5:14b   0.154        0.019           0.265           0.464      0.429       0.425
+explore llama3.1:8b   0.000        0.179           0.153           0.319      0.191       0.252
+        qwen2.5:14b   0.083        0.185           0.278           0.493      0.265       0.248
+point   llama3.1:8b   0.048        0.836           0.845             NaN        NaN         NaN
+        qwen2.5:14b   0.442        0.828           0.848             NaN        NaN         NaN
+
+=== by kind ===
+method                 cypher  anchor_only  anchor+walk_12  anchor+walk_40  expand_7k  expand_16k
+kind      model                                                                                  
+coinvest  llama3.1:8b   0.000        0.000           0.325           0.552      0.777       0.782
+          qwen2.5:14b   0.170        0.000           0.393           0.757      0.833       0.825
+comp      llama3.1:8b   0.025        0.290           0.326             NaN        NaN         NaN
+          qwen2.5:14b   0.168        0.210           0.245             NaN        NaN         NaN
+emerging  llama3.1:8b   0.000        0.952           0.941             NaN        NaN         NaN
+          qwen2.5:14b   0.000        0.989           0.941             NaN        NaN         NaN
+founder   llama3.1:8b   0.250        1.000           1.000             NaN        NaN         NaN
+          qwen2.5:14b   0.250        1.000           1.000             NaN        NaN         NaN
+funding   llama3.1:8b   0.000        0.875           0.906             NaN        NaN         NaN
+          qwen2.5:14b   0.438        1.000           1.000             NaN        NaN         NaN
+inv       llama3.1:8b   0.000        1.000           1.000             NaN        NaN         NaN
+          qwen2.5:14b   1.000        1.000           1.000             NaN        NaN         NaN
+multihop  llama3.1:8b   0.000        0.000           0.000           0.167      0.000       0.000
+          qwen2.5:14b   0.167        0.000           0.167           0.417      0.000       0.000
+network   llama3.1:8b   0.000        0.938           0.938             NaN        NaN         NaN
+          qwen2.5:14b   0.938        0.812           0.938             NaN        NaN         NaN
+open      llama3.1:8b   0.000        0.357           0.305           0.471      0.382       0.504
+          qwen2.5:14b   0.000        0.371           0.389           0.569      0.530       0.496
+sharedinv llama3.1:8b   0.000        0.025           0.038           0.038      0.045       0.062
+          qwen2.5:14b   0.138        0.038           0.138           0.171      0.025       0.025
+
+saved -> /Users/sxq/Desktop/RICE/academic/comp 580/project/WalkVC/results/answer_recall/per_question.csv, summary.csv

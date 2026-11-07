@@ -1,0 +1,5 @@
+model,comparison,n,"recall_diff (mean, lo, hi)"
+llama3.1:8b,info_gain - fixed_12,64,"(0.046, -0.007, 0.104)"
+llama3.1:8b,info_gain - aggressive,64,"(0.064, 0.012, 0.126)"
+qwen2.5:14b,info_gain - fixed_12,64,"(-0.038, -0.085, 0.0)"
+qwen2.5:14b,info_gain - aggressive,64,"(-0.026, -0.08, 0.023)"
