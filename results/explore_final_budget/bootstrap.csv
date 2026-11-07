@@ -1,0 +1,19 @@
+model,kind,comparison,n,mean_diff,ci95_low,ci95_high,wins,ties,losses
+llama3.1:8b,all,walk_40 - expand_7k,24,-0.02,-0.19,0.143,5,13,6
+llama3.1:8b,multihop,walk_40 - expand_7k,12,-0.083,-0.333,0.167,1,9,2
+llama3.1:8b,open,walk_40 - expand_7k,12,0.043,-0.134,0.227,4,4,4
+qwen2.5:14b,all,walk_40 - expand_7k,24,-0.107,-0.362,0.15,5,10,9
+qwen2.5:14b,multihop,walk_40 - expand_7k,12,-0.167,-0.667,0.333,4,2,6
+qwen2.5:14b,open,walk_40 - expand_7k,12,-0.048,-0.123,0.008,1,8,3
+llama3.1:8b,all,walk_12 - expand_2.5k,24,-0.009,-0.173,0.16,5,14,5
+llama3.1:8b,multihop,walk_12 - expand_2.5k,12,0.083,-0.167,0.333,2,9,1
+llama3.1:8b,open,walk_12 - expand_2.5k,12,-0.101,-0.283,0.068,3,5,4
+qwen2.5:14b,all,walk_12 - expand_2.5k,24,-0.012,-0.2,0.186,4,13,7
+qwen2.5:14b,multihop,walk_12 - expand_2.5k,12,0.083,-0.25,0.417,3,7,2
+qwen2.5:14b,open,walk_12 - expand_2.5k,12,-0.108,-0.212,-0.007,1,6,5
+llama3.1:8b,all,walk_40 - expand_16k,24,0.091,-0.05,0.249,6,14,4
+llama3.1:8b,multihop,walk_40 - expand_16k,12,0.167,0.0,0.417,2,10,0
+llama3.1:8b,open,walk_40 - expand_16k,12,0.016,-0.191,0.219,4,4,4
+qwen2.5:14b,all,walk_40 - expand_16k,24,-0.059,-0.278,0.163,6,11,7
+qwen2.5:14b,multihop,walk_40 - expand_16k,12,-0.083,-0.5,0.333,3,5,4
+qwen2.5:14b,open,walk_40 - expand_16k,12,-0.035,-0.14,0.06,3,6,3

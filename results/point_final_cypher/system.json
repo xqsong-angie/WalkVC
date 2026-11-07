@@ -1,0 +1,48 @@
+[
+  {
+    "model": "llama3.1:8b",
+    "vram": {
+      "llama3.1:8b": {
+        "size_vram_mb": 8795.5,
+        "size_mb": 8795.5
+      },
+      "nomic-embed-text:latest": {
+        "size_vram_mb": 320.2,
+        "size_mb": 320.2
+      }
+    },
+    "gpu_used_mb": null,
+    "parser": {
+      "cypher": {
+        "attempts": 47,
+        "success": 46,
+        "repaired": 0,
+        "rate": 0.9787234042553191
+      }
+    },
+    "json_parse_rate": null
+  },
+  {
+    "model": "qwen2.5:14b",
+    "vram": {
+      "qwen2.5:14b": {
+        "size_vram_mb": 14524.8,
+        "size_mb": 14524.8
+      },
+      "nomic-embed-text:latest": {
+        "size_vram_mb": 320.2,
+        "size_mb": 320.2
+      }
+    },
+    "gpu_used_mb": null,
+    "parser": {
+      "cypher": {
+        "attempts": 46,
+        "success": 46,
+        "repaired": 0,
+        "rate": 1.0
+      }
+    },
+    "json_parse_rate": null
+  }
+]

@@ -1,0 +1,447 @@
+model,mode,qid,qtype,question,reference,answer,retrieval_precision,retrieval_recall,citation_precision,citation_recall,ttft_s,e2e_latency_s,walk_time_s,walk_iters,walk_iter_p95_s,walk_iter_max_s,total_tokens,context_tokens,full_context_tokens,cypher_valid,cypher_first_try,cypher_non_empty,expand_truncated,expand_full_tokens_est
+llama3.1:8b,walk,comp-groundcontrol,competitors,Which startups compete with GroundControl?,"GroundControl (Vertical AI for highly-regulated manufacturing). Startups in the same YC sub-industry (Industrials -> Aviation and Space) with overlapping focus (aerospace, manufacturing): Reditus Space (Reusable Satellites).","Based on the provided evidence, the startups that compete with GroundControl are:
+
+* Control Seat [co:control-seat] (similar to GroundControl in terms of workflow automation and industrial applications)
+* Neuron Industries [co:neuron-industries] (similar to Control Seat and GroundControl in terms of industrial automation and robotics)
+* General Aviation Company [co:general-aviation-company] (similar to GroundControl in terms of aerospace and aviation applications)
+* Gander [co:gander] (similar to GroundControl in terms of aerospace and aviation applications)
+
+Note that the similarity edges ([co:groundcontrol] -SIMILAR_TO-> [co:control-seat], [co:control-seat] -SIMILAR_TO-> [co:neuron-industries], [co:gander] -SIMILAR_TO-> [co:groundcontrol], [co:groundcontrol] -SIMILAR_TO-> [co:general-aviation-company], [co:gander] -SIMILAR_TO-> [co:general-aviation-company]) indicate that these companies have similar technologies or applications, which suggests competition with GroundControl.",0.0,0.0,0.0,0.0,2.1219,16.3701,0.0001,0,,,2636,970,184006,,,,,
+llama3.1:8b,walk,comp-nebusec,competitors,Which startups compete with NebuSec?,"NebuSec (Autonomous AI defense system for cyber attack). Startups in the same YC sub-industry (B2B -> Security) with overlapping focus (cybersecurity, security): PromptArmor (LLM Security and Compliance); ZeroPath (Automatically find and fix your software vulnerabilities); Gecko Security (Security that understands your company); Cotool (Security operations optimized for agents.); Veria Labs (Continuous AI pentesting that finds and fixes vulnerabilities); Trident (Autonomous offensive security agents. The best defense is offense); Traceforce (CrowdStrike for AI Agents).","Based on the evidence, the startups that compete with NebuSec are:
+
+* CodeAnt AI [co:codeant-ai] (similar to NebuSec)
+* Veria Labs [co:veria-labs] (similar to NebuSec)
+* Palisade [co:palisade-2] (similar to NebuSec)
+* Winfunc [co:winfunc] (similar to Palisade and Veria Labs)
+
+Note that the similarity edge indicates that these companies have similar technologies or offerings, but it does not necessarily mean they are direct competitors.",0.14285714285714285,0.14285714285714285,0.25,0.14285714285714285,2.2792,12.1152,0.0001,0,,,2704,1059,182858,,,,,
+llama3.1:8b,walk,comp-lucis,competitors,Which startups compete with Lucis?,"Lucis (Function Health for Europe ). Startups in the same YC sub-industry (Healthcare -> Consumer Health and Wellness) with overlapping focus (digital health, health & wellness): Amby Health (The health coach that texts you first); Nori (AI health coach in your pocket).","Based on the provided evidence, the startups that compete with Lucis are:
+
+* Juno-Chat [co:juno-chat] (similar to Lucis in terms of AI-powered health assistance)
+* Nori [co:nori] (similar to Lucis in terms of AI-powered health coaching)
+* Illume Labs [co:illume-labs] (similar to Lucis in terms of AI-powered health and wellness companion)
+
+These companies are identified as similar to Lucis through the ""SIMILAR_TO"" edges in the evidence.",0.14285714285714285,0.5,0.3333333333333333,0.5,2.3083,12.825,0.0002,0,,,2726,1152,194674,,,,,
+llama3.1:8b,walk,comp-hybrd,competitors,Which startups compete with HYBRD?,"HYBRD (coaching agents for athletes). Startups in the same YC sub-industry (Consumer) with overlapping focus (digital health, fitness): Adapted (AI physical therapy for athletes).","Based on the provided evidence, the startups that compete with HYBRD are:
+
+* Imperfect [co:imperfect] (adaptive training coach for runners, cyclists, and triathletes)
+* Cora [co:cora] (AI fitness coach)
+* Adapted [co:adapted] (AI physical therapist for athletes)
+* Amby Health [co:amby-health] (health coach that texts users first)
+
+These companies are similar to HYBRD [co:hybrd] in terms of their focus on health and wellness, fitness, and AI-powered coaching.",0.125,1.0,0.2,1.0,2.8407,13.4348,0.0001,0,,,3270,1341,160881,,,,,
+llama3.1:8b,walk,comp-dodo,competitors,Which startups compete with Dodo?,"Dodo (AI agents that handle communications for clinics). Startups in the same YC sub-industry (Healthcare -> Healthcare IT) with overlapping focus (call center, conversational ai, dental, health tech): Arini (The single platform to run all healthcare operations); Careforce (AI Workers for Healthcare Orgs to Find, Call & Schedule More Patients.); Toothy AI (AI for insurance verification & billing at dental clinics).","Based on the evidence, the startups that compete with Dodo are:
+
+* 10x [co:10x] (similar to Dodo in handling communications for clinics)
+* Toothy AI [co:toothy-ai] (similar to Dodo in handling patient insurance)
+* CareCycle [co:carecycle] (similar to Dodo in handling client communication)
+* Sage Care [co:sagecare] (similar to Dodo in automating home care agency operations)
+* Dime [co:dime-2] (similar to Dodo in automating administrative work in healthcare clinics)
+* Patientdesk.ai [co:patientdeskai] (similar to Dodo in handling bookings and payments)
+
+Note that the similarity relationships are based on the edges labeled ""SIMILAR_TO"".",0.125,0.3333333333333333,0.16666666666666666,0.3333333333333333,2.7613,14.6983,0.0001,0,,,3274,1325,167796,,,,,
+llama3.1:8b,walk,comp-blindpay,competitors,Which startups compete with BlindPay?,"BlindPay (Stablecoin API for global payments). Startups in the same YC sub-industry (Fintech -> Payments) with overlapping focus (crypto / web3, payments): Blaze (Agentic Finance for your Life and Business).","Based on the provided evidence, the startups that compete with BlindPay are:
+
+* Infinite [co:infinite] (similar_to [co:blindpay])
+* Consul [co:consul] (similar_to [co:blindpay])
+* SpotPay [co:spotpay] (similar_to [co:blindpay])
+
+These companies are all involved in fintech and payments, and have similar features and offerings to BlindPay.",0.0,0.0,0.0,0.0,2.0505,10.6103,0.0001,0,,,2535,991,141695,,,,,
+llama3.1:8b,walk,comp-lumari,competitors,Which startups compete with Lumari?,"Lumari (AI Digital Workers for Supply Chain ). Startups in the same YC sub-industry (B2B -> Supply Chain and Logistics) with overlapping focus (manufacturing, operations, supply chain): Distro (The AI co-pilot for sales reps at industrial wholesale distributors.); No Logo (Turn ideas into physical products); Haladir (Operational Intelligence for Global Logistics); Donkey (The AI-native trading company: factory prices, delivered, one number); SpaceFlow Technologies, Inc. (AI-native procurement services for the physical economy).","Based on the provided evidence, the startups that compete with Lumari are:
+
+* Whitespace [co:whitespace] (AI Operating System for Wholesale Distribution)
+* Haladir [co:haladir] (Operational Intelligence for Global Logistics)
+* Waybill [co:waybill] (Agentic procurement & inventory for deep tech teams)
+* Lunavo [co:lunavo] (AI assistant for carriers)
+* Derya [co:derya] (AI Brokers for Industrial Trade)
+
+These startups are similar to Lumari in terms of their focus on supply chain and logistics, and are therefore considered competitors.",0.125,0.2,0.2,0.2,2.8674,13.6882,0.0001,0,,,3348,1379,204712,,,,,
+llama3.1:8b,walk,comp-sample,competitors,Which startups compete with Sample?,"Sample (Flexible systems for clinical reasoning.). Startups in the same YC sub-industry (Healthcare -> Healthcare IT) with overlapping focus (health tech, healthcare it): Careforce (AI Workers for Healthcare Orgs to Find, Call & Schedule More Patients.); Harbera (AI Healthcare Provider Credentialing Software); Kaigo Health (AI outpatient care workforce); LunaBill (AI Voice callers for healthcare billing teams).","Based on the provided evidence, the startups that compete with Sample are:
+
+* Entropy [co:entropy] (similar_to [co:sample])
+* Attunement [co:attunement] (similar_to [co:sample])
+* Eos AI [co:eos-ai] (similar_to [co:sample])
+
+These companies are in the same subindustry (Healthcare -> Healthcare IT) and have similar descriptions, indicating that they may be competing with Sample in the healthcare IT space.",0.0,0.0,0.0,0.0,2.2166,11.0571,0.0001,0,,,2679,1061,177153,,,,,
+llama3.1:8b,walk,founder-freesolo,founders,Who founded Freesolo?,"Freesolo was founded by Eric Mao (Founder/CEO), Tom Zheng (Founder/CTO).",The founder of Freesolo is Eric Mao [person:eric-mao] and Tom Zheng [person:tom-zheng].,0.2222222222222222,1.0,1.0,1.0,1.8462,7.5617,0.0001,0,,,1961,738,81817,,,,,
+llama3.1:8b,walk,founder-instinct,founders,Who founded Instinct?,"Instinct was founded by Joon Won Song (Founder/CEO), Eunju Moon (Founder/CTO).",The founder of Instinct is Eunju Moon [person:eunju-moon] and Joon Won Song [person:joon-won-song].,0.2,1.0,1.0,1.0,2.0987,8.3203,0.0001,0,,,2237,876,51958,,,,,
+llama3.1:8b,walk,founder-redapto,founders,Who founded Redapto?,Redapto was founded by Anirudh Pupneja (Founder/CTO).,"According to the evidence, Anirudh Pupneja founded Redapto [person:anirudh-pupneja] -FOUNDED-> [co:redapto].",0.125,1.0,0.5,1.0,0.8995,5.9039,0.0001,0,,,1103,303,77128,,,,,
+llama3.1:8b,walk,founder-presti-ai,founders,Who founded Presti AI?,Presti AI was founded by Nabil Toumi (Founder/CEO).,The founder of Presti AI is Nabil Toumi [person:nabil-toumi]. This is indicated by the edge [person:nabil-toumi] -FOUNDED-> [co:presti-ai].,0.14285714285714285,1.0,0.5,1.0,0.6702,5.7798,0.0001,0,,,1060,280,79645,,,,,
+llama3.1:8b,walk,founder-onecli,founders,Who founded OneCLI?,"OneCLI was founded by Jonathan Fishner (Founder/CEO), Guy Ben Aharon (Founder/CTO).",The founders of OneCLI are Guy Ben Aharon [person:guy-ben-aharon] and Jonathan Fishner [person:jonathan-fishner].,0.2857142857142857,1.0,1.0,1.0,0.9005,5.309,0.0001,0,,,1086,303,74319,,,,,
+llama3.1:8b,walk,founder-tegore,founders,Who founded Tegore?,Tegore was founded by Ende Shen (Founder/CTO).,The founder of Tegore is Ende Shen [person:ende-shen]. This is indicated by the edge [person:ende-shen] -FOUNDED-> [co:tegore].,0.14285714285714285,1.0,0.5,1.0,0.6645,5.4195,0.0001,0,,,1015,261,28359,,,,,
+llama3.1:8b,walk,founder-logical,founders,Who founded Logical?,Logical was founded by Sam Karu (Founder/CEO).,The founder of Logical is Sam Karu [person:sam-karu]. This is directly stated by the edge [person:sam-karu] -FOUNDED-> [co:logical].,0.125,1.0,0.5,1.0,0.9543,5.9797,0.0001,0,,,1188,351,68557,,,,,
+llama3.1:8b,walk,founder-nuntius,founders,Who founded Nuntius?,Nuntius was founded by Jon Xu.,The founder of Nuntius is Jon Xu [person:jon-xu] - FOUNDED -> [co:nuntius].,0.14285714285714285,1.0,0.5,1.0,0.6513,4.9001,0.0001,0,,,941,231,79225,,,,,
+llama3.1:8b,walk,emerging-real-estate-and-construction-fall-2024,market_signal,"What Real Estate and Construction startups are in the YC Fall 2024 batch, and what are they building?",YC Fall 2024 Real Estate and Construction startups: Karmen (Your AI scheduling assistant for construction); PermitPortal (AI Operating System for Pre-construction); Fresco (AI copilot for construction estimators); ArchiLabs (AI Data Center Design).,"Here are the Real Estate and Construction startups in the YC Fall 2024 batch, along with what they are building:
+
+* ArchiLabs: building the data center project OS
+* Karmen: AI scheduling assistant for construction
+* PermitPortal: AI Operating System for Pre-construction
+* Fresco: AI-powered takeoff and estimating for Division 8 construction (doors, frames, and hardware)
+
+These companies are all part of the YC Fall 2024 batch and are working on various solutions in the Real Estate and Construction sector.",0.3076923076923077,1.0,0.0,0.0,2.2931,16.1285,0.0003,0,,,2967,1121,415071,,,,,
+llama3.1:8b,walk,emerging-healthcare-fall-2025,market_signal,"What Healthcare startups are in the YC Fall 2025 batch, and what are they building?","YC Fall 2025 Healthcare startups: Nori (AI health coach in your pocket); Remedy (AI Agents for Pharmacies); Norra (The AI equipment manager for post-acute care); Kaigo Health (AI outpatient care workforce); Paceline Bio (Biospecimen logistics & operations layer to accelerate drug dev); Nucleo (The first Agentic platform for Oncology); Anto Biosciences (A Foundation Model for Microbial Communities.); Exonic (Exonic is an AI-native cell and gene therapeutics company. ); Rovi Health (AI healthcare concierge for employees); Layers (Improve your appearance by measuring, understanding, and tracking…); LunaBill (AI Voice callers for healthcare billing teams).","Here are the Healthcare startups in the YC Fall 2025 batch, along with a brief description of what they are building:
+
+* Kaigo Health: AI-powered outpatient care management platform for Medicare patients
+* Norra: AI equipment manager for post-acute care
+* LunaBill: AI Voice callers for healthcare billing teams
+* Remedy: AI Agents for Pharmacies
+* Exonic: AI-native cell and gene therapeutics company
+* Nucleo: Agentic platform for Oncology
+* Nori: AI health coach in your pocket
+* Paceline Bio: Biospecimen logistics & operations layer to accelerate drug development
+* Anto Biosciences: Foundation Model for Microbial Communities
+* Rovi Health: AI healthcare concierge for employees",0.6111111111111112,1.0,0.0,0.0,4.4117,20.7781,0.0002,0,,,4475,2215,453312,,,,,
+llama3.1:8b,walk,emerging-fintech-fall-2025,market_signal,"What Fintech startups are in the YC Fall 2025 batch, and what are they building?",YC Fall 2025 Fintech startups: Autonomous Technologies Group (Superintelligent financial advisor); Fernstone (AI-native insurance brokerage. ); Selfin (Institutional liquidity across prediction markets); Casey (Casey is an AI-native commercial insurance brokerage); Sava Trust Company (Building the future of trusts); Freeport Markets (Trade Anything); Amera (Automating claims processing workflows for health insurance payers.).,"Here are the Fintech startups in the YC Fall 2025 batch, along with a brief description of what they're building:
+
+* Selfin: Institutional liquidity for event-driven exposure across prediction markets.
+* Freeport Markets: A trading platform for pre-IPO shares, equities, crypto, and perpetual futures, with AI analysts providing real-time market-moving news and actionable trade ideas.
+* Sava Trust Company: Building the future of trusts, with a focus on trusts and estates attorneys, RIAs, fintech, and family offices.
+* Casey: An AI-native commercial insurance brokerage, automating operational work behind the scenes.
+* Amera: Automating claims processing for health insurance payers, turning messy claim inputs into structured data.
+* Fernstone: An AI-native insurance brokerage, combining AI with licensed brokers to obtain complex insurance faster and at better terms.
+* Autonomous Technologies Group: A superintelligent financial advisor at 0% advisory fees, managing money with AI.
+
+These startups are all part of the YC Fall 2025 batch and are working on various Fintech-related projects.",0.4117647058823529,1.0,0.0,0.0,3.7015,21.4724,0.0002,0,,,4258,1751,441833,,,,,
+llama3.1:8b,walk,emerging-consumer-summer-2026,market_signal,"What Consumer startups are in the YC Summer 2026 batch, and what are they building?","YC Summer 2026 Consumer startups: Tsenta (AI career agent that finds matching jobs & applies on your behalf); tash (The S&P of Trading Cards); Moonshot (agents for the rest of us); Egoist Machines (Your personal context, securely portable across every AI app.); Jcode (High performance coding agents); General Context Labs (Building Products and Datasets for Frontier Models); Mochi (Watch and create anime); Grocalo (AI brain for creators that runs their social content); Wondering (Duolingo for learning anything).","Here are the Consumer startups in the YC Summer 2026 batch, along with a brief description of what they're building:
+
+* Grocalo [co:grocalo]: AI brain for creators that runs their social content
+* Mochi [co:mochi]: AI anime app where fans can create and publish stories
+* Wondering [co:wondering]: AI-powered learning platform that turns any topic into a path of three-minute lessons
+* Tash [co:tash]: Investment platform for sports and trading cards
+* Egoist Machines [co:egoist-machines]: Infrastructure for personal context management, allowing users to securely port their personal data across AI apps
+* Moonshot [co:moonshot-computer]: AI agents for the masses, aiming to bring proactive and personal AI to a billion people
+* General Context Labs [co:general-context-labs]: Building products and datasets that push the limits of frontier models, including an interactive app-generation platform
+* Tsenta [co:tsenta]: AI career agent that matches users with jobs and applies automatically
+* Jcode [co:jcode]: High-performance coding-agent harness for developers to scale up multi-agent workflows",0.5294117647058824,1.0,1.0,1.0,3.8826,23.3799,0.0002,0,,,4273,1926,480822,,,,,
+llama3.1:8b,walk,emerging-consumer-fall-2024,market_signal,"What Consumer startups are in the YC Fall 2024 batch, and what are they building?","YC Fall 2024 Consumer startups: Streamable (Powering the biggest IRL streamers today.); Candle (Candle helps friends and couples grow closer daily in just 5 minutes.); ISSEN (AI realtime voice companion for language learning); HYBRD (coaching agents for athletes); Charm (Charm is the universal payments app — send money to anyone.); Stewdio (All-in-one AI creative platform); Innate (Personal AI Robots); Diffusion Studio (Turn your agent into a professional video editor); Biblo (Your personal AI fitness coach, over iMessage.); Vaya (Discover your next vacation for less.); Freestyle (The AI Assistant for Gmail).","Here are the Consumer startups in the YC Fall 2024 batch, along with a brief description of what they are building:
+
+* Streamable: Powering the biggest IRL streamers today.
+* Diffusion Studio: Turn your agent into a professional video editor.
+* Innate: Personal AI Robots.
+* Biblo: Your personal AI fitness coach, over iMessage.
+* Candle: Helps friends and couples grow closer daily in just 5 minutes.
+* Withcharm: The universal payments app — send money to anyone.
+* Stewdio: All-in-one AI creative platform.
+* HYBRD: Coaching agents for athletes.
+* Vaya: Discover your next vacation for less.
+* Freestyle: The AI Assistant for Gmail.
+* ISSEN: AI realtime voice companion for language learning.
+
+These companies are all part of the YC Fall 2024 batch and are working on various consumer-focused projects.",0.6111111111111112,1.0,0.0,0.0,4.2101,20.8682,0.0002,0,,,4394,2090,461890,,,,,
+llama3.1:8b,walk,emerging-industrials-fall-2024,market_signal,"What Industrials startups are in the YC Fall 2024 batch, and what are they building?","YC Fall 2024 Industrials startups: Curo (Electric fleets park and charge anywhere with Curo); Consus (The fastest and cheapest way to use AI with ITAR or CUI data. ); Forerunner (Quick-turn bent tube shop for aerospace, energy, industrials); Loombotic (Wire Harnesses in as little as 7 days); Apolink (24/7 satellite connectivity in low Earth orbit).","Here are the Industrials startups in the YC Fall 2024 batch, along with a brief description of what they are building:
+
+* Forerunner [co:forerunner]: Building precision bent-tubes for aerospace, defense, energy, and industrials using AI-native factory.
+* Consus [co:consus]: Providing a secure and compliant API for aerospace and defense companies to access the latest AI models.
+* Apolink [co:apolink]: Developing a next-generation data relay network for satellites in low Earth orbit.
+* Loombotic [co:loombotic]: Automating wire harness manufacturing.
+
+These companies are all part of the YC Fall 2024 batch and are working on various projects in the Industrials sector.",0.29411764705882354,1.0,1.0,0.8,2.8189,18.101,0.0002,0,,,3542,1399,475674,,,,,
+llama3.1:8b,walk,emerging-real-estate-and-construction-fall-2025,market_signal,"What Real Estate and Construction startups are in the YC Fall 2025 batch, and what are they building?",YC Fall 2025 Real Estate and Construction startups: Goldbridge (Ramp for Real Estate); Structured AI (The AI drawing review platform for architects and engineers.); Brickwise (AI property manager for landlords and estate agents); Helonic (Automatic Construction Drawing Clash Detection ); Automax.ai (AI native real-estate appraisal firm).,"Here are the Real Estate and Construction startups in the YC Fall 2025 batch, along with a brief description of what they are building:
+
+* Automax.ai: AI native real-estate appraisal firm that uses LiDAR and computer vision to capture property details automatically.
+* Brickwise: AI property manager that automates maintenance requests, handling tenant calls and messages 24/7.
+* Helonic: Automatic Construction Drawing Clash Detection platform that analyzes PDF plans and detects clashes and inconsistencies.
+* Structured AI: AI-powered QA/QC platform for drawing packages that works across both PDF drawings and native Revit models.
+* Goldbridge: Financial operating system for the real estate industry, aiming to unlock idle rent flows.
+
+These startups are all part of the YC Fall 2025 batch and are working on various solutions in the Real Estate and Construction sector.",0.3333333333333333,1.0,0.0,0.0,2.8045,19.5888,0.0002,0,,,3595,1405,444351,,,,,
+llama3.1:8b,walk,emerging-consumer-summer-2025,market_signal,"What Consumer startups are in the YC Summer 2025 batch, and what are they building?","YC Summer 2025 Consumer startups: Pingo (Your personal AI for language learning); Design Arena (World's largest crowdsourced benchmark for AI-generated design); Kestroll (AI video editor); cocreate (video production software); OneStop (The local internet for NYC.); Costream (Indexing human dialogue through digital products); Epicenter (ChatGPT's memory feature in an open, portable format); Nozomio (creators of folk.com); Opennote (The notebook that thinks with you.); RealRoots (IRL friendship app for women); Blue (AI rebuilt coding. We’re rebuilding the phone).","Here are the Consumer startups in the YC Summer 2025 batch, along with a brief description of what they're building:
+
+* Cocreate: Video production software
+* RealRoots: IRL friendship app for women
+* Blue: AI rebuilt phone
+* Opennote: Notebook with an AI thinking partner
+* Design Arena: World's largest crowdsourced benchmark for AI-generated design
+* OneStop: Local classifieds network for New York City
+* Epicenter: Ecosystem of open-source, local-first apps that share a memory
+* Kestroll: AI video editing agent
+* Costream: Indexing human dialogue through digital products
+* Pingo: AI language learning app
+* Nozomio: Creators of folk.com (AI-powered platform)
+
+These companies are all part of the YC Summer 2025 batch and are working on various projects in the Consumer sector.",0.6111111111111112,1.0,0.0,0.0,4.1066,21.531,0.0002,0,,,4288,1851,470590,,,,,
+llama3.1:8b,walk,funding-orbital-operations,lookup,How much has Orbital Operations raised according to its SEC Form D filings?,"Orbital Operations reported $519,500 sold across 1 Form D filing(s): 0002054774-25-000001 $519,500 (first sale 2025-01-16).","According to the SEC Form D filing [filing:0002054774-25-000001], Orbital Operations has raised a total of $519,500.00.",0.11764705882352941,1.0,1.0,0.5,2.5432,11.1155,0.0002,0,,,3092,1265,181212,,,,,
+llama3.1:8b,walk,funding-malibou,lookup,How much has malibou raised according to its SEC Form D filings?,"malibou reported $8,114,995 sold across 3 Form D filing(s): 0002005726-24-000004 $5,399,995 (first sale 2024-12-12); 0002005726-24-000003 $1,125,000 (first sale 2024-03-21); 0002005726-24-000002 $1,590,000 (first sale 2023-12-12).","According to the SEC Form D filing [filing:0002005726-24-000004], malibou has raised a total of $5,399,995. This is the most recent filing related to malibou and is dated 2024-12-20.",0.3333333333333333,1.0,1.0,0.25,2.5487,10.4066,0.0001,0,,,2989,1222,80030,,,,,
+llama3.1:8b,walk,funding-modelence,lookup,How much has Modelence raised according to its SEC Form D filings?,"Modelence reported $8,250,000 sold across 3 Form D filing(s): 0002071552-25-000001 $550,000 (first sale 2025-05-23); 0002071552-25-000004 $3,850,000 (first sale 2025-05-23); 0002071552-25-000005 $3,850,000 (first sale 2025-05-23).","According to the SEC Form D filings, Modelence has raised a total of $8,250,000. This is based on the total_raised value in the [co:modelence] node, which is 8250000.0.",0.4444444444444444,1.0,1.0,0.25,2.0775,8.9395,0.0001,0,,,2513,991,79577,,,,,
+llama3.1:8b,walk,funding-exin-therapeutics,lookup,How much has Exin Therapeutics raised according to its SEC Form D filings?,"Exin Therapeutics reported $2,162,300 sold across 1 Form D filing(s): 0002109179-26-000001 $2,162,300 (first sale 2024-11-18).","According to the SEC Form D filing [filing:0002109179-26-000001], Exin Therapeutics has raised a total of $2,162,300.0. This is also reflected in the company's node [co:exin-therapeutics] with the attribute total_raised=2162300.0.",0.125,1.0,1.0,1.0,2.2623,11.7766,0.0002,0,,,2835,1120,66986,,,,,
+llama3.1:8b,walk,funding-schemeflow,lookup,How much has SchemeFlow raised according to its SEC Form D filings?,"SchemeFlow reported $366,766 sold across 1 Form D filing(s): 0001997814-23-000002 $366,766 (first sale 2023-10-04).","According to the SEC Form D filing [filing:0001997814-23-000002], SchemeFlow has raised a total of $366,766.0. This is the earliest and only relevant filing for SchemeFlow in the provided evidence.",0.2,1.0,1.0,0.5,1.9727,8.8734,0.0001,0,,,2333,900,50916,,,,,
+llama3.1:8b,walk,funding-autarc,lookup,How much has autarc raised according to its SEC Form D filings?,"autarc reported $8,823,627 sold across 1 Form D filing(s): 0002050380-24-000001 $8,823,627 (first sale 2024-12-12).","According to the SEC Form D filing [filing:0002050380-24-000001], autarc has raised a total of $8,823,627. This is also reflected in the company's node [co:autarc] with the attribute total_raised=8823627.0.",0.2,1.0,1.0,1.0,2.0558,9.4854,0.0001,0,,,2547,1001,72555,,,,,
+llama3.1:8b,walk,funding-haplotype-labs,lookup,How much has Haplotype Labs raised according to its SEC Form D filings?,"Haplotype Labs reported $1,100,000 sold across 1 Form D filing(s): 0002017857-24-000001 $1,100,000 (first sale 2024-03-29).","According to the SEC Form D filings, Haplotype Labs has raised a total of $110,000.00 in [filing:0002017857-24-000001] and $931,5640.00 in [filing:0002026937-24-000001].",0.13333333333333333,1.0,0.5,0.5,1.9311,10.6719,0.0002,0,,,2440,927,71861,,,,,
+llama3.1:8b,walk,funding-struct,lookup,How much has Struct raised according to its SEC Form D filings?,"Struct reported $300,000 sold across 1 Form D filing(s): 0002138576-26-000001 $300,000 (first sale 2026-06-10).","According to the SEC Form D filing [filing:0002138576-26-000001], Struct has raised a total of $300,000.00. This is also confirmed by the company's profile [co:struct-ai], which lists the total raised as $300,000.",0.18181818181818182,1.0,1.0,1.0,2.0504,9.3155,0.0001,0,,,2558,1010,83769,,,,,
+llama3.1:8b,walk,network-brianna-lin,founders,Which companies is Brianna Lin connected to?,"Brianna Lin is linked to: Copperlane, Q2Q.","Brianna Lin is connected to the following companies:
+
+* Copperlane [co:copperlane] (founded by her)
+* Q2Q [co:q2q] (founded by her)",0.25,1.0,1.0,1.0,1.2035,6.6166,0.0001,0,,,1350,420,6728,,,,,
+llama3.1:8b,walk,network-alex-liu,founders,Which companies is Alex Liu connected to?,"Alex Liu is linked to: Korso, Prism.","Alex Liu is connected to the following companies:
+
+* Korso [co:korso] (founded by him)
+* Prism [co:prism] (founded by him)
+
+This is based on the edge [person:alex-liu] -FOUNDED-> [co:prism] and [person:alex-liu] -FOUNDED-> [co:korso].",0.25,1.0,0.6666666666666666,1.0,0.9549,7.7418,0.0001,0,,,1233,346,8341,,,,,
+llama3.1:8b,walk,network-adi-singh,founders,Which companies is Adi Singh connected to?,"Adi Singh is linked to: AgentMail, Reason Machines.","Adi Singh is connected to the following companies:
+
+* Reason Machines [co:reason-machines] (co-founded)
+* AgentMail [co:agentmail] (co-founded)",0.25,1.0,1.0,1.0,1.2396,6.2084,0.0002,0,,,1362,432,10591,,,,,
+llama3.1:8b,walk,network-jamison-mercurio,founders,Which companies is Jamison Mercurio connected to?,"Jamison Mercurio is linked to: GBrain, Mango Health.","Jamison Mercurio is connected to the following companies:
+
+* Mango Health [co:mango-health] (founded by him)
+* GBrain [co:gbrain] (founded by him)
+
+This is based on the edges in the evidence, specifically the ""FOUNDED->"" relationships between Jamison Mercurio [person:jamison-mercurio] and the two companies.",0.25,1.0,0.6666666666666666,1.0,1.2235,8.2361,0.0001,0,,,1418,431,7067,,,,,
+llama3.1:8b,walk,network-janet-liu,founders,Which companies is Janet Liu connected to?,"Janet Liu is linked to: General Learning, Oxus.","Janet Liu is connected to the following companies:
+
+* General Learning [co:general-learning] (founded by her)
+* Oxus [co:oxus] (founded by her)
+
+Note that the evidence does not indicate any other connections between Janet Liu and other companies or individuals.",0.25,1.0,1.0,1.0,1.2239,7.1572,0.0001,0,,,1389,434,6384,,,,,
+llama3.1:8b,walk,network-nam-nguyen,founders,Which companies is Nam Nguyen connected to?,"Nam Nguyen is linked to: Cohesive, truthsystems.","Nam Nguyen is connected to the following companies:
+
+* [co:truthsystems] (founded by Nam Nguyen)
+* [co:cohesive] (founded by Nam Nguyen)",0.25,1.0,1.0,1.0,1.2168,6.2592,0.0001,0,,,1354,428,7468,,,,,
+llama3.1:8b,walk,network-spencer-brown,founders,Which companies is Spencer Brown connected to?,"Spencer Brown is linked to: Callback, Chestnut.","Spencer Brown is connected to the following companies:
+
+* Chestnut [co:chestnut] (founded by him)
+* No other companies are explicitly mentioned in the evidence as being connected to Spencer Brown.
+
+Note that the edge [person:spencer-brown] -RELATED_TO_FILING-> [filing:0002034760-24-000001] indicates that Spencer Brown is related to the filing, but it does not imply a connection to a company.",0.125,0.5,0.3333333333333333,0.5,0.9267,8.1326,0.0001,0,,,1329,388,8315,,,,,
+llama3.1:8b,walk,network-edward-zhang,founders,Which companies is Edward Zhang connected to?,"Edward Zhang is linked to: DeepGrove, Tiny.","Edward Zhang is connected to the following companies:
+
+* Tiny [co:tiny] (founded by Edward Zhang)
+* DeepGrove [co:deepgrove] (founded by Edward Zhang)",0.25,1.0,1.0,1.0,0.9506,5.9346,0.0001,0,,,1212,358,6521,,,,,
+llama3.1:8b,walk,inv-async,investors,Which investors have backed Async?,Async is backed by Y Combinator.,Async has been backed by Y Combinator [inv:y-combinator].,0.14285714285714285,1.0,1.0,1.0,0.655,4.6524,0.0001,0,,,956,242,181427,,,,,
+llama3.1:8b,walk,inv-proception,investors,Which investors have backed Proception Inc?,"Proception Inc is backed by BoxGroup, First Round Capital, Y Combinator.","Proception Inc has been backed by the following investors:
+
+* Y Combinator [inv:y-combinator]
+* First Round Capital [inv:first-round]
+* BoxGroup [inv:boxgroup]",0.2,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.9236,6.3117,0.0001,0,,,1131,312,83818,,,,,
+llama3.1:8b,walk,inv-f2,investors,Which investors have backed F2?,"F2 is backed by Left Lane Capital, NFX, Y Combinator.","F2 has been backed by the following investors:
+
+* NFX [inv:nfx]
+* Left Lane Capital [inv:left-lane]
+* Y Combinator [inv:y-combinator]",0.2222222222222222,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.8891,5.9588,0.0001,0,,,1087,292,114908,,,,,
+llama3.1:8b,walk,inv-garage,investors,Which investors have backed Garage?,"Garage is backed by FJ Labs, Infinity Ventures, Initialized Capital, Y Combinator.","The investors who have backed Garage are:
+
+• Wayfinder Ventures [inv:wayfinder]
+• Infinity Ventures [inv:infinity]
+• Benchstrength [inv:benchstrength]
+• Y Combinator [inv:y-combinator]
+• Initialized Capital [inv:initialized]
+• FJ Labs [inv:fj-labs]",0.16666666666666666,0.5,0.3333333333333333,0.5,0.9284,7.039,0.0001,0,,,1312,396,89200,,,,,
+llama3.1:8b,walk,inv-sazabi,investors,Which investors have backed Sazabi?,"Sazabi is backed by Harrison Chase, Ivan Burazin, Matt Biilmann, Merrill Lutsky, Paul Klein.","The investors who have backed Sazabi are:
+
+• Y Combinator [inv:y-combinator]
+• J2 Ventures [inv:j2]
+• Harrison Chase [inv:harrison-chase]
+• Paul Klein [inv:paul-klein]
+• Merrill Lutsky [inv:merrill-lutsky]
+• Matt Biilmann [inv:matt-biilmann]
+• Ivan Burazin [inv:ivan-burazin]",0.35714285714285715,1.0,0.7142857142857143,1.0,1.2858,8.9906,0.0001,0,,,1536,490,103601,,,,,
+llama3.1:8b,walk,inv-induction-labs,investors,Which investors have backed Induction Labs?,Induction Labs is backed by Y Combinator.,"According to the evidence, the following investors have backed Induction Labs:
+
+* Y Combinator [inv:y-combinator]
+* IA Ventures [inv:ia]
+* Pioneer AI Fund [inv:pioneer-ai]
+* Inception Fund [inv:inception]
+* FJ Labs [inv:fj-labs]
+* Breakthrough Energy Ventures [inv:breakthrough-energy]",0.1111111111111111,1.0,0.16666666666666666,1.0,0.8923,7.884,0.0003,0,,,1123,292,102973,,,,,
+qwen2.5:14b,walk,comp-groundcontrol,competitors,Which startups compete with GroundControl?,"GroundControl (Vertical AI for highly-regulated manufacturing). Startups in the same YC sub-industry (Industrials -> Aviation and Space) with overlapping focus (aerospace, manufacturing): Reditus Space (Reusable Satellites).","Based on the provided evidence, the startups that compete with GroundControl are:
+
+- [co:gander] Gander: Builds AI-powered technology for private jet operators.
+- [co:general-aviation-company] General Aviation Company: Solves air traffic control issues with remote ATC towers.
+- [co:control-seat] Control Seat: Provides hardware and software solutions for industrial operations, though it's more focused on general industrial operations rather than aerospace manufacturing.
+
+These companies are tagged as similar to GroundControl [co:groundcontrol] [1], indicating they operate in related or overlapping markets.",0.0,0.0,0.0,0.0,4.4388,23.8191,0.0002,0,,,2692,1118,203341,,,,,
+qwen2.5:14b,walk,comp-nebusec,competitors,Which startups compete with NebuSec?,"NebuSec (Autonomous AI defense system for cyber attack). Startups in the same YC sub-industry (B2B -> Security) with overlapping focus (cybersecurity, security): PromptArmor (LLM Security and Compliance); ZeroPath (Automatically find and fix your software vulnerabilities); Gecko Security (Security that understands your company); Cotool (Security operations optimized for agents.); Veria Labs (Continuous AI pentesting that finds and fixes vulnerabilities); Trident (Autonomous offensive security agents. The best defense is offense); Traceforce (CrowdStrike for AI Agents).","Based on the provided evidence, the startups that compete with NebuSec are:
+
+- [co:veria-labs] Veria Labs
+- [co:palisade-2] Palisade
+- [co:casco] Casco
+
+These companies are similar to NebuSec in their focus on cybersecurity and AI, as indicated by the SIMILAR_TO edges in the knowledge graph. [co:codeant-ai] is also similar to NebuSec but is not listed as a direct competitor in the context provided.",0.2222222222222222,0.2857142857142857,0.25,0.14285714285714285,6.0346,25.9325,0.0002,0,,,3319,1455,243348,,,,,
+qwen2.5:14b,walk,comp-lucis,competitors,Which startups compete with Lucis?,"Lucis (Function Health for Europe ). Startups in the same YC sub-industry (Healthcare -> Consumer Health and Wellness) with overlapping focus (digital health, health & wellness): Amby Health (The health coach that texts you first); Nori (AI health coach in your pocket).","Based on the provided evidence, the startups that compete with Lucis are:
+
+- [co:juno-chat] Juno, as they both focus on AI-driven health solutions for consumer health and wellness.
+- [co:nori] Nori, due to its similarity to Juno and its focus on AI health coaching.
+- [co:aminoanalytica] AminoAnalytica, as it is similar to Lucis in the healthcare diagnostics space, though their specific focus areas differ.
+- [co:osseus] Osseus, due to its similarity to Lucis in the application of AI to healthcare, although Osseus focuses more on B2B and biomedical research.",0.125,0.5,0.25,0.5,4.9357,25.5108,0.0002,0,,,3008,1261,220183,,,,,
+qwen2.5:14b,walk,comp-hybrd,competitors,Which startups compete with HYBRD?,"HYBRD (coaching agents for athletes). Startups in the same YC sub-industry (Consumer) with overlapping focus (digital health, fitness): Adapted (AI physical therapy for athletes).","Startups that compete with HYBRD based on the provided evidence are:
+
+- [co:cora] Cora: An AI fitness coach that provides personalized fitness coaching using health and wearable data.
+- [co:adapted] Adapted: An AI physical therapist for athletes that builds personalized programs to rehab and prevent injuries.
+- [co:imperfect] Imperfect: An adaptive training coach for runners, cyclists, and triathletes that adapts training, recovery, and nutrition based on how the body is responding.
+- [co:amby-health] Amby Health: A health coach that texts users with personalized advice based on their wearable data.",0.1111111111111111,1.0,0.25,1.0,5.9605,27.2717,0.0002,0,,,3339,1520,164482,,,,,
+qwen2.5:14b,walk,comp-dodo,competitors,Which startups compete with Dodo?,"Dodo (AI agents that handle communications for clinics). Startups in the same YC sub-industry (Healthcare -> Healthcare IT) with overlapping focus (call center, conversational ai, dental, health tech): Arini (The single platform to run all healthcare operations); Careforce (AI Workers for Healthcare Orgs to Find, Call & Schedule More Patients.); Toothy AI (AI for insurance verification & billing at dental clinics).","Based on the provided evidence, the startups that compete with Dodo are:
+
+- Toothy AI [co:toothy-ai]
+- 10x [co:10x]
+- CareCycle [co:carecycle]
+- Sage Care [co:sagecare]",0.125,0.3333333333333333,0.25,0.3333333333333333,5.5259,20.0597,0.0001,0,,,3165,1325,166220,,,,,
+qwen2.5:14b,walk,comp-blindpay,competitors,Which startups compete with BlindPay?,"BlindPay (Stablecoin API for global payments). Startups in the same YC sub-industry (Fintech -> Payments) with overlapping focus (crypto / web3, payments): Blaze (Agentic Finance for your Life and Business).","Based on the provided evidence, the startups that compete with BlindPay are:
+
+- [co:infinite] [Infinite]
+- [co:consul] [Consul]
+- [co:spotpay] [SpotPay]",0.0,0.0,0.0,0.0,4.1128,18.0414,0.0002,0,,,2511,991,141767,,,,,
+qwen2.5:14b,walk,comp-lumari,competitors,Which startups compete with Lumari?,"Lumari (AI Digital Workers for Supply Chain ). Startups in the same YC sub-industry (B2B -> Supply Chain and Logistics) with overlapping focus (manufacturing, operations, supply chain): Distro (The AI co-pilot for sales reps at industrial wholesale distributors.); No Logo (Turn ideas into physical products); Haladir (Operational Intelligence for Global Logistics); Donkey (The AI-native trading company: factory prices, delivered, one number); SpaceFlow Technologies, Inc. (AI-native procurement services for the physical economy).","Based on the provided evidence, the startups that compete with Lumari are:
+
+- [co:derya] Derya
+- [co:lunavo] Lunavo
+- [co:whitespace] Whitespace
+- [co:haladir] Haladir
+- [co:waybill] Waybill
+
+These companies are similar to Lumari in their focus on AI and supply chain/logistics operations. [co:derya] is particularly similar, as it also focuses on supply chain automation and procurement, which aligns closely with Lumari's AI-powered procurement automation platform.",0.1,0.2,0.2,0.2,7.2995,28.6885,0.0002,0,,,3822,1681,246060,,,,,
+qwen2.5:14b,walk,comp-sample,competitors,Which startups compete with Sample?,"Sample (Flexible systems for clinical reasoning.). Startups in the same YC sub-industry (Healthcare -> Healthcare IT) with overlapping focus (health tech, healthcare it): Careforce (AI Workers for Healthcare Orgs to Find, Call & Schedule More Patients.); Harbera (AI Healthcare Provider Credentialing Software); Kaigo Health (AI outpatient care workforce); LunaBill (AI Voice callers for healthcare billing teams).","Based on the provided evidence, the startups that compete with Sample are:
+
+- [co:attunement] [co:entropy]
+- [co:eos-ai] (indirectly similar through [co:sample] and [co:eos-ai])
+
+These companies are similar to Sample in their focus on healthcare IT and automation within the healthcare industry.",0.0,0.0,0.0,0.0,5.544,21.771,0.0002,0,,,3158,1391,187785,,,,,
+qwen2.5:14b,walk,founder-freesolo,founders,Who founded Freesolo?,"Freesolo was founded by Eric Mao (Founder/CEO), Tom Zheng (Founder/CTO).","The founders of Freesolo are:
+- Eric Mao [person:eric-mao]
+- Tom Zheng [person:tom-zheng]",0.2222222222222222,1.0,1.0,1.0,3.4622,14.2293,0.0001,0,,,1958,737,84143,,,,,
+qwen2.5:14b,walk,founder-instinct,founders,Who founded Instinct?,"Instinct was founded by Joon Won Song (Founder/CEO), Eunju Moon (Founder/CTO).","The founders of Instinct are [person:eunju-moon] and [person:joon-won-song]. [co:instinct-xyz] -FOUNDED-> [person:eunju-moon], [person:joon-won-song] -FOUNDED-> [co:instinct-xyz] [co:nimbusly]",0.2222222222222222,1.0,0.5,1.0,4.5627,19.2886,0.0001,0,,,2235,855,51171,,,,,
+qwen2.5:14b,walk,founder-redapto,founders,Who founded Redapto?,Redapto was founded by Anirudh Pupneja (Founder/CTO).,The founder of Redapto is Anirudh Pupneja [person:anirudh-pupneja].,0.1,1.0,1.0,1.0,4.6261,16.1064,0.001,0,,,2110,813,77196,,,,,
+qwen2.5:14b,walk,founder-presti-ai,founders,Who founded Presti AI?,Presti AI was founded by Nabil Toumi (Founder/CEO).,The founder of Presti AI is Nabil Toumi [person:nabil-toumi].,0.06666666666666667,1.0,1.0,1.0,7.4054,20.1795,0.0002,0,,,3829,1676,74148,,,,,
+qwen2.5:14b,walk,founder-onecli,founders,Who founded OneCLI?,"OneCLI was founded by Jonathan Fishner (Founder/CEO), Guy Ben Aharon (Founder/CTO).","The founders of OneCLI are Guy Ben Aharon and Jonathan Fishner [person:guy-ben-aharon], [person:jonathan-fishner].",0.16666666666666666,1.0,1.0,1.0,4.7281,16.6194,0.0008,0,,,2145,830,76011,,,,,
+qwen2.5:14b,walk,founder-tegore,founders,Who founded Tegore?,Tegore was founded by Ende Shen (Founder/CTO).,The founder of Tegore is Ende Shen [person:ende-shen].,0.09090909090909091,1.0,1.0,1.0,4.4804,14.7665,0.0004,0,,,2549,1038,33801,,,,,
+qwen2.5:14b,walk,founder-logical,founders,Who founded Logical?,Logical was founded by Sam Karu (Founder/CEO).,"Based on the provided evidence, Sam Karu founded Logical [person:sam-karu].",0.1111111111111111,1.0,1.0,1.0,3.2961,12.4401,0.0001,0,,,2014,775,67015,,,,,
+qwen2.5:14b,walk,founder-nuntius,founders,Who founded Nuntius?,Nuntius was founded by Jon Xu.,The founder of Nuntius is Jon Xu [person:jon-xu].,0.07692307692307693,1.0,1.0,1.0,4.4287,14.8946,0.0001,0,,,2639,1083,80541,,,,,
+qwen2.5:14b,walk,emerging-real-estate-and-construction-fall-2024,market_signal,"What Real Estate and Construction startups are in the YC Fall 2024 batch, and what are they building?",YC Fall 2024 Real Estate and Construction startups: Karmen (Your AI scheduling assistant for construction); PermitPortal (AI Operating System for Pre-construction); Fresco (AI copilot for construction estimators); ArchiLabs (AI Data Center Design).,"The Real Estate and Construction startups in the YC Fall 2024 batch are:
+
+- **ArchiLabs** [co:archilabs]: Building an AI data center project OS.
+- **Karmen** [co:karmen]: An AI scheduling assistant for construction.
+- **PermitPortal** [co:permitportal]: An AI OS for pre-construction, accelerating the process of finding and closing development sites to getting a building permit faster.
+- **Fresco** [co:fresco]: An AI-powered takeoff and estimating tool for Division 8 construction (doors, frames, and hardware).",0.3333333333333333,1.0,1.0,1.0,5.52,31.6447,0.0003,0,,,3451,1369,295484,,,,,
+qwen2.5:14b,walk,emerging-healthcare-fall-2025,market_signal,"What Healthcare startups are in the YC Fall 2025 batch, and what are they building?","YC Fall 2025 Healthcare startups: Nori (AI health coach in your pocket); Remedy (AI Agents for Pharmacies); Norra (The AI equipment manager for post-acute care); Kaigo Health (AI outpatient care workforce); Paceline Bio (Biospecimen logistics & operations layer to accelerate drug dev); Nucleo (The first Agentic platform for Oncology); Anto Biosciences (A Foundation Model for Microbial Communities.); Exonic (Exonic is an AI-native cell and gene therapeutics company. ); Rovi Health (AI healthcare concierge for employees); Layers (Improve your appearance by measuring, understanding, and tracking…); LunaBill (AI Voice callers for healthcare billing teams).","- **Kaigo Health** [co:kaigo-health]: Building an AI-powered outpatient care management platform for Medicare patients.
+- **Norra** [co:norra]: Tackling operational chaos in skilled nursing facilities with AI equipment management.
+- **LunaBill** [co:lunabill]: Developing AI voice callers for healthcare billing teams to handle insurance claim follow-ups.
+- **Remedy** [co:remedy]: Creating AI agents for pharmacies to streamline prescription refills and reduce workload.
+- **Exonic** [co:exonic]: Programming DNA sequences to be context-aware for new genetic therapies.
+- **Nucleo** [co:nucleo]: Extracting insights from CT scans to support tumor characterization and treatment.
+- **Layers** [co:layers]: Improving health and appearance through personalized health and wellness plans.
+- **Nori** [co:nori]: Offering a concierge-level AI health coach to analyze health data and provide personalized daily plans.
+- **Paceline Bio** [co:paceline-bio]: Running research and clinical operations for biotech and pharma companies.
+- **Anto Biosciences** [co:anto-biosciences]: Building a foundation model for microbial communities to predict drug toxicity and efficacy.
+- **Rovi Health** [co:rovi-health]: Delivering high-quality, cost-effective healthcare to employees through text-based AI agents.",0.6111111111111112,1.0,1.0,1.0,9.9518,45.6449,0.0002,0,,,4746,2417,396431,,,,,
+qwen2.5:14b,walk,emerging-fintech-fall-2025,market_signal,"What Fintech startups are in the YC Fall 2025 batch, and what are they building?",YC Fall 2025 Fintech startups: Autonomous Technologies Group (Superintelligent financial advisor); Fernstone (AI-native insurance brokerage. ); Selfin (Institutional liquidity across prediction markets); Casey (Casey is an AI-native commercial insurance brokerage); Sava Trust Company (Building the future of trusts); Freeport Markets (Trade Anything); Amera (Automating claims processing workflows for health insurance payers.).,"The Fintech startups in the YC Fall 2025 batch and what they are building are:
+
+- **Selfin** [co:selfin]: Institutional liquidity across prediction markets.
+- **Freeport Markets** [co:freeport-markets]: A trading platform for pre-IPO shares, equities, crypto, and perpetual futures, with AI analysts providing market-moving news and trade ideas.
+- **Sava Trust Company** [co:sava-trust-company]: Building the future of trusts.
+- **Casey** [co:casey]: An AI-native commercial insurance brokerage.
+- **Amera** [co:amera]: Automating claims processing workflows for health insurance payers.
+- **Fernstone** [co:fernstone]: An AI-native insurance brokerage for complex insurance needs.
+- **Autonomous Technologies Group** [co:autonomous-technologies-group]: A superintelligent financial advisor at 0% advisory fees.",0.4117647058823529,1.0,1.0,1.0,7.8442,39.3976,0.0006,0,,,4279,1976,329692,,,,,
+qwen2.5:14b,walk,emerging-consumer-summer-2026,market_signal,"What Consumer startups are in the YC Summer 2026 batch, and what are they building?","YC Summer 2026 Consumer startups: Tsenta (AI career agent that finds matching jobs & applies on your behalf); tash (The S&P of Trading Cards); Moonshot (agents for the rest of us); Egoist Machines (Your personal context, securely portable across every AI app.); Jcode (High performance coding agents); General Context Labs (Building Products and Datasets for Frontier Models); Mochi (Watch and create anime); Grocalo (AI brain for creators that runs their social content); Wondering (Duolingo for learning anything).","- **Grocalo** [co:grocalo]: Building an AI brain that runs content for creators, understanding their audiences and personalizing and distributing content.
+- **Mochi** [co:mochi]: An app for AI anime where fans can create and watch anime, growing rapidly with 20K+ creators publishing 2K+ series monthly.
+- **Wondering** [co:wondering]: Turning any topic into a path of three-minute lessons with visuals, podcasts, and interactive exercises.
+- **Tash** [co:tash]: Building an investment platform for sports and trading cards, creating professionally constructed portfolios of iconic, investment-grade cards.
+- **Egoist Machines** [co:egoist-machines]: Building infrastructure for a world where personal context is portable across AI apps.
+- **Moonshot** [co:moonshot-computer]: Bringing proactive and personal AI agents to a billion people.
+- **General Context Labs** [co:general-context-labs]: Building products and datasets that push the limits of frontier models, with an interactive app-generation platform.
+- **Tsenta** [co:tsenta]: An AI career agent that matches users with jobs and applies automatically.
+- **Jcode** [co:jcode]: A high-performance coding-agent harness that enables developers to scale up multi-agent/swarm workflows.",0.5294117647058824,1.0,1.0,1.0,8.6403,44.1909,0.0002,0,,,4264,1943,490500,,,,,
+qwen2.5:14b,walk,emerging-consumer-fall-2024,market_signal,"What Consumer startups are in the YC Fall 2024 batch, and what are they building?","YC Fall 2024 Consumer startups: Streamable (Powering the biggest IRL streamers today.); Candle (Candle helps friends and couples grow closer daily in just 5 minutes.); ISSEN (AI realtime voice companion for language learning); HYBRD (coaching agents for athletes); Charm (Charm is the universal payments app — send money to anyone.); Stewdio (All-in-one AI creative platform); Innate (Personal AI Robots); Diffusion Studio (Turn your agent into a professional video editor); Biblo (Your personal AI fitness coach, over iMessage.); Vaya (Discover your next vacation for less.); Freestyle (The AI Assistant for Gmail).","- **Streamable** [co:streamable]: Powering the biggest IRL streamers today.
+- **Diffusion Studio** [co:diffusion-studio]: Turn your agent into a professional video editor.
+- **Innate** [co:innate]: Personal AI Robots.
+- **Biblo** [co:biblo]: Your personal AI fitness coach, over iMessage.
+- **Candle** [co:candle]: Candle helps friends and couples grow closer daily in just 5 minutes.
+- **Charm** [co:withcharm]: Charm is the universal payments app — send money to anyone.
+- **Stewdio** [co:stewdio]: All-in-one AI creative platform.
+- **HYBRD** [co:hybrd]: coaching agents for athletes.
+- **Vaya** [co:vaya]: Discover your next vacation for less.
+- **Freestyle** [co:freestyle-ai]: The AI Assistant for Gmail.
+- **ISSEN** [co:issen]: AI realtime voice companion for language learning.",0.6111111111111112,1.0,1.0,1.0,8.9109,40.5311,0.0002,0,,,4533,2236,408663,,,,,
+qwen2.5:14b,walk,emerging-industrials-fall-2024,market_signal,"What Industrials startups are in the YC Fall 2024 batch, and what are they building?","YC Fall 2024 Industrials startups: Curo (Electric fleets park and charge anywhere with Curo); Consus (The fastest and cheapest way to use AI with ITAR or CUI data. ); Forerunner (Quick-turn bent tube shop for aerospace, energy, industrials); Loombotic (Wire Harnesses in as little as 7 days); Apolink (24/7 satellite connectivity in low Earth orbit).","The Industrials startups in the YC Fall 2024 batch are:
+
+- **Forerunner** [co:forerunner]: Building precision bent-tubes for aerospace, defense, energy, and industrials using AI.
+- **Consus** [co:consus]: An API that routes AI requests to secure and compliant infrastructure for aerospace and defense companies.
+- **Apolink** [co:apolink]: A data relay network providing real-time, low-latency connectivity for satellites in low Earth orbit.
+- **Loombotic** [co:loombotic]: Automating wire harness manufacturing.
+- **Curo** [co:curo]: An electric fleet charging and parking marketplace (acquired by Inspiration Mobility Group).
+
+These companies are building solutions in manufacturing, robotics, aerospace, and satellite connectivity. [co:forerunner], [co:consus], [co:apolink], [co:loombotic], [co:curo]",0.29411764705882354,1.0,1.0,1.0,8.6814,41.2393,0.0003,0,,,4481,2140,433580,,,,,
+qwen2.5:14b,walk,emerging-real-estate-and-construction-fall-2025,market_signal,"What Real Estate and Construction startups are in the YC Fall 2025 batch, and what are they building?",YC Fall 2025 Real Estate and Construction startups: Goldbridge (Ramp for Real Estate); Structured AI (The AI drawing review platform for architects and engineers.); Brickwise (AI property manager for landlords and estate agents); Helonic (Automatic Construction Drawing Clash Detection ); Automax.ai (AI native real-estate appraisal firm).,"The Real Estate and Construction startups in the YC Fall 2025 batch are:
+
+- **Automax.ai** [co:automax-ai]: Building an AI-native real estate appraisal firm that uses LiDAR and computer vision to capture property details automatically.
+- **Brickwise** [co:brickwise]: Developing an AI property manager that automates maintenance requests and handles tenant interactions 24/7.
+- **Helonic** [co:helonic]: Creating an AI solution to detect construction drawing clashes and inconsistencies before construction starts.
+- **Structured AI** [co:structured-ai]: Developing an AI-powered QA/QC platform for drawing packages, working across PDF drawings and native Revit models.
+- **Goldbridge** [co:goldbridge]: Building a financial operating system for real estate, focusing on optimizing rent flows and idle resources.",0.3333333333333333,1.0,1.0,1.0,8.4065,40.359,0.0003,0,,,4049,1758,357534,,,,,
+qwen2.5:14b,walk,emerging-consumer-summer-2025,market_signal,"What Consumer startups are in the YC Summer 2025 batch, and what are they building?","YC Summer 2025 Consumer startups: Pingo (Your personal AI for language learning); Design Arena (World's largest crowdsourced benchmark for AI-generated design); Kestroll (AI video editor); cocreate (video production software); OneStop (The local internet for NYC.); Costream (Indexing human dialogue through digital products); Epicenter (ChatGPT's memory feature in an open, portable format); Nozomio (creators of folk.com); Opennote (The notebook that thinks with you.); RealRoots (IRL friendship app for women); Blue (AI rebuilt coding. We’re rebuilding the phone).","- **Cocreate** [co:cocreate]: Building video production software.
+- **RealRoots** [co:realroots]: Building an IRL friendship app for women.
+- **Blue** [co:blue]: Rebuilding the phone with AI.
+- **OpenNote** [co:opennote]: Creating a notebook with an AI thinking partner.
+- **Design Arena** [co:design-arena]: Developing the world's largest crowdsourced benchmark for AI-generated design.
+- **OneStop** [co:onestop]: Creating a local classifieds network for New York City.
+- **Epicenter** [co:epicenter]: Building an ecosystem of open-source, local-first apps that share a memory.
+- **Kestroll** [co:kestroll]: Developing an AI video editing agent.
+- **Pingo** [co:pingo]: Creating an AI language learning app.
+- **Nozomio** [co:nozomio]: Creators of folk.com.",0.6111111111111112,1.0,1.0,0.9090909090909091,7.858,38.8791,0.0003,0,,,4237,1853,485476,,,,,
+qwen2.5:14b,walk,funding-orbital-operations,lookup,How much has Orbital Operations raised according to its SEC Form D filings?,"Orbital Operations reported $519,500 sold across 1 Form D filing(s): 0002054774-25-000001 $519,500 (first sale 2025-01-16).","According to the SEC Form D filings, Orbital Operations has raised $519,500 [filing:0002054774-25-000001].",0.125,1.0,1.0,0.5,5.9169,20.3888,0.0002,0,,,2743,1113,70163,,,,,
+qwen2.5:14b,walk,funding-malibou,lookup,How much has malibou raised according to its SEC Form D filings?,"malibou reported $8,114,995 sold across 3 Form D filing(s): 0002005726-24-000004 $5,399,995 (first sale 2024-12-12); 0002005726-24-000003 $1,125,000 (first sale 2024-03-21); 0002005726-24-000002 $1,590,000 (first sale 2023-12-12).","According to the SEC Form D filings, Malibou has raised a total of $8,114,995. This amount is derived from the sum of the total_amount_sold from the relevant filings: $1,590,000 from [filing:0002005726-24-000002], $1,125,000 from [filing:0002005726-24-000003], and $5,399,995 from [filing:0002005726-24-000004].",0.3333333333333333,1.0,1.0,0.75,6.9927,29.413,0.0001,0,,,3033,1223,80525,,,,,
+qwen2.5:14b,walk,funding-modelence,lookup,How much has Modelence raised according to its SEC Form D filings?,"Modelence reported $8,250,000 sold across 3 Form D filing(s): 0002071552-25-000001 $550,000 (first sale 2025-05-23); 0002071552-25-000004 $3,850,000 (first sale 2025-05-23); 0002071552-25-000005 $3,850,000 (first sale 2025-05-23).","According to the SEC Form D filings, Modelence has raised a total of $7,700,000. This is derived from the filings [filing:0002071552-25-000004] and [filing:0002071552-25-000001], which show total amounts sold of $3,850,000 and $550,000 respectively. [filing:0002071552-25-000004] [filing:0002071552-25-000001]",0.4444444444444444,1.0,1.0,0.5,4.9887,26.1742,0.0004,0,,,2566,993,78554,,,,,
+qwen2.5:14b,walk,funding-exin-therapeutics,lookup,How much has Exin Therapeutics raised according to its SEC Form D filings?,"Exin Therapeutics reported $2,162,300 sold across 1 Form D filing(s): 0002109179-26-000001 $2,162,300 (first sale 2024-11-18).","According to the SEC Form D filing [filing:0002109179-26-000001], Exin Therapeutics has raised $2,162,300. [co:exin-therapeutics] [filing:0002109179-26-000001]",0.2,1.0,1.0,1.0,5.4097,22.0169,0.0001,0,,,2639,1047,55782,,,,,
+qwen2.5:14b,walk,funding-schemeflow,lookup,How much has SchemeFlow raised according to its SEC Form D filings?,"SchemeFlow reported $366,766 sold across 1 Form D filing(s): 0001997814-23-000002 $366,766 (first sale 2023-10-04).","According to the SEC Form D filing [filing:0001997814-23-000002], SchemeFlow has raised $366,766. [filing:0001997814-23-000002]",0.15384615384615385,1.0,1.0,0.5,6.5944,23.0387,0.0002,0,,,2625,1179,53245,,,,,
+qwen2.5:14b,walk,funding-autarc,lookup,How much has autarc raised according to its SEC Form D filings?,"autarc reported $8,823,627 sold across 1 Form D filing(s): 0002050380-24-000001 $8,823,627 (first sale 2024-12-12).","According to the SEC Form D filings, autarc has raised a total of $8,823,627. This information is based on the filing [filing:0002050380-24-000001].",0.2,1.0,1.0,0.5,4.929,18.9135,0.0003,0,,,2522,1001,72179,,,,,
+qwen2.5:14b,walk,funding-haplotype-labs,lookup,How much has Haplotype Labs raised according to its SEC Form D filings?,"Haplotype Labs reported $1,100,000 sold across 1 Form D filing(s): 0002017857-24-000001 $1,100,000 (first sale 2024-03-29).","According to the SEC Form D filing [filing:0002017857-24-000001], Haplotype Labs raised $1,100,000. [co:haplotype-labs] [filing:0002017857-24-000001]",0.2222222222222222,1.0,1.0,1.0,4.4581,21.4492,0.0002,0,,,2269,853,63289,,,,,
+qwen2.5:14b,walk,funding-struct,lookup,How much has Struct raised according to its SEC Form D filings?,"Struct reported $300,000 sold across 1 Form D filing(s): 0002138576-26-000001 $300,000 (first sale 2026-06-10).","According to the SEC Form D filing [filing:0002138576-26-000001], Struct has raised $300,000. [co:nimbusly] is not mentioned in the evidence provided, so it is not relevant to the answer.",0.16666666666666666,1.0,0.5,0.5,5.3726,21.2419,0.0002,0,,,2657,1104,84213,,,,,
+qwen2.5:14b,walk,network-brianna-lin,founders,Which companies is Brianna Lin connected to?,"Brianna Lin is linked to: Copperlane, Q2Q.","Brianna Lin is connected to the following companies:
+- Copperlane [co:copperlane]
+- Q2Q [co:q2q]",0.25,1.0,1.0,1.0,2.3133,12.4871,0.0002,0,,,1353,419,7165,,,,,
+qwen2.5:14b,walk,network-alex-liu,founders,Which companies is Alex Liu connected to?,"Alex Liu is linked to: Korso, Prism.","Alex Liu is connected to the following companies:
+- Prism [co:prism]
+- Korso [co:korso]",0.25,1.0,1.0,1.0,1.8474,11.5563,0.0001,0,,,1194,345,8101,,,,,
+qwen2.5:14b,walk,network-adi-singh,founders,Which companies is Adi Singh connected to?,"Adi Singh is linked to: AgentMail, Reason Machines.","Adi Singh is connected to the following companies:
+- Reason Machines [co:reason-machines]
+- AgentMail [co:agentmail]",0.25,1.0,1.0,1.0,2.3954,12.5956,0.0002,0,,,1361,427,12666,,,,,
+qwen2.5:14b,walk,network-jamison-mercurio,founders,Which companies is Jamison Mercurio connected to?,"Jamison Mercurio is linked to: GBrain, Mango Health.","Based on the provided evidence, Jamison Mercurio is connected to the following companies:
+
+- [co:mango-health] Mango Health
+- [co:gbrain] GBrain",0.25,1.0,1.0,1.0,3.6923,16.0538,0.0003,0,,,1922,699,109067,,,,,
+qwen2.5:14b,walk,network-janet-liu,founders,Which companies is Janet Liu connected to?,"Janet Liu is linked to: General Learning, Oxus.","Janet Liu is connected to the following companies:
+- General Learning [co:general-learning]
+- Oxus [co:oxus]",0.18181818181818182,1.0,1.0,1.0,2.4268,12.9003,0.0002,0,,,1384,455,9295,,,,,
+qwen2.5:14b,walk,network-nam-nguyen,founders,Which companies is Nam Nguyen connected to?,"Nam Nguyen is linked to: Cohesive, truthsystems.",The provided evidence does not contain information about companies that Nam Nguyen is connected to. [person:nam-nguyen],0.0,0.0,0.0,0.0,0.8225,9.5845,0.0004,0,,,699,105,8443,,,,,
+qwen2.5:14b,walk,network-spencer-brown,founders,Which companies is Spencer Brown connected to?,"Spencer Brown is linked to: Callback, Chestnut.","Based on the provided evidence, Spencer Brown is connected to the company Chestnut, which he founded [person:spencer-brown] -FOUNDED-> [co:chestnut].",0.125,0.5,0.5,0.5,1.8721,13.6194,0.0003,0,,,1299,384,49557,,,,,
+qwen2.5:14b,walk,network-edward-zhang,founders,Which companies is Edward Zhang connected to?,"Edward Zhang is linked to: DeepGrove, Tiny.","Edward Zhang is connected to the following companies:
+- Tiny [co:tiny]
+- DeepGrove [co:deepgrove]",0.25,1.0,1.0,1.0,1.8173,11.2057,0.0001,0,,,1216,358,5776,,,,,
+qwen2.5:14b,walk,inv-async,investors,Which investors have backed Async?,Async is backed by Y Combinator.,"The investors that have backed Async are:
+
+- Y Combinator [inv:y-combinator]
+- Other details suggest angel investors, but specific names are not provided in the evidence. [inv:other-angel-investors] [inv:strategic-technology-angel-investors] [inv:execs-from-nvidia] [inv:sony-innovation]",0.1,1.0,0.2,1.0,2.3476,15.577,0.0002,0,,,1281,434,289989,,,,,
+qwen2.5:14b,walk,inv-proception,investors,Which investors have backed Proception Inc?,"Proception Inc is backed by BoxGroup, First Round Capital, Y Combinator.","The investors who have backed Proception Inc are:
+- First Round Capital [inv:first-round]
+- Y Combinator [inv:y-combinator]
+- BoxGroup [inv:boxgroup]",0.18181818181818182,0.6666666666666666,0.6666666666666666,0.6666666666666666,1.8153,14.0288,0.0002,0,,,1173,322,178728,,,,,
+qwen2.5:14b,walk,inv-f2,investors,Which investors have backed F2?,"F2 is backed by Left Lane Capital, NFX, Y Combinator.","The investors that have backed F2 are:
+- Left Lane Capital [inv:left-lane]
+- NFX [inv:nfx]
+- Y Combinator [inv:y-combinator]",0.16666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,1.7996,12.9636,0.0003,0,,,1146,319,190095,,,,,
+qwen2.5:14b,walk,inv-garage,investors,Which investors have backed Garage?,"Garage is backed by FJ Labs, Infinity Ventures, Initialized Capital, Y Combinator.","The investors who have backed Garage are:
+- [inv:infinity] Infinity Ventures
+- [inv:benchstrength] Benchstrength
+- [inv:initialized] Initialized Capital
+- [inv:wayfinder] Wayfinder Ventures
+- [inv:fj-labs] FJ Labs
+- [inv:y-combinator] Y Combinator",0.15384615384615385,0.5,0.3333333333333333,0.5,2.3016,14.071,0.0001,0,,,1361,416,83079,,,,,
+qwen2.5:14b,walk,inv-sazabi,investors,Which investors have backed Sazabi?,"Sazabi is backed by Harrison Chase, Ivan Burazin, Matt Biilmann, Merrill Lutsky, Paul Klein.","The investors who have backed Sazabi are:
+- Y Combinator [inv:y-combinator]
+- J2 Ventures [inv:j2]
+- Harrison Chase [inv:harrison-chase]
+- Paul Klein [inv:paul-klein]
+- Merrill Lutsky [inv:merrill-lutsky]
+- Matt Biilmann [inv:matt-biilmann]
+- Ivan Burazin [inv:ivan-burazin]",0.35714285714285715,1.0,0.7142857142857143,1.0,2.365,16.4929,0.0002,0,,,1538,490,103644,,,,,
+qwen2.5:14b,walk,inv-induction-labs,investors,Which investors have backed Induction Labs?,Induction Labs is backed by Y Combinator.,"The investors who have backed Induction Labs are:
+
+- Y Combinator [inv:y-combinator]
+- Pioneer AI Fund [inv:pioneer-ai]
+- Roofless Labs [inv:roofless-labs]
+- IA Ventures [inv:ia]
+- Breakthrough Energy Ventures [inv:breakthrough-energy]
+- FJ Labs [inv:fj-labs]
+- General Catalyst [inv:general-catalyst]
+- Employees of ElevenLabs [inv:employees-of-elevenlabs]
+- Chemistry [inv:chemistry]",0.09090909090909091,1.0,0.1111111111111111,1.0,1.7971,17.6439,0.0002,0,,,1199,320,195044,,,,,
