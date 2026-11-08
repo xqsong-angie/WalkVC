@@ -152,7 +152,7 @@ P(v|u,q) ∝ exp( [ α·cos(q, e_v) + β·log w_rel(type) + γ·log w_label(labe
 On the synthetic graph (hash embeddings, no LLM), the walk stops after 4–8 iterations on most questions,
 recalls the reference nodes, and uses ~80% fewer context tokens than a 2-hop neighbourhood dump.
 
-## 5. Limitationstes
+## 5. Limitations
 
 * The YC directory is JS-rendered. `hybrid` / `crawl` use Crawl4AI (3 concurrent pages). Keep crawls
   small and for research use; check YC's terms. If YC blocks headless browsers, use `--yc-mode json`.
