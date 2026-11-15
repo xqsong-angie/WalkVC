@@ -1,0 +1,24 @@
+# Production override: ports bound to localhost only, passwords taken from .env.
+#   export COMPOSE_FILE=docker-compose.yml:docker-compose.prod.yml   (needs Docker Compose >= 2.24)
+#   docker compose up -d
+services:
+  neo4j:
+    ports: !override
+      - "127.0.0.1:7474:7474"
+      - "127.0.0.1:7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}
+    restart: unless-stopped
+
+  mongo:
+    ports: !override
+      - "127.0.0.1:27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER:?set MONGO_ROOT_USER in .env}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:?set MONGO_ROOT_PASSWORD in .env}
+    restart: unless-stopped
+
+  ollama:
+    ports: !override
+      - "127.0.0.1:11434:11434"
+    restart: unless-stopped

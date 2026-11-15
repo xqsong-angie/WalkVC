@@ -1,5 +1,7 @@
 # Agentic KG Exploration via Random Walks for VC Market Intelligence
 
+> Deploying this project? See [DEPLOY.md](DEPLOY.md) (restore the data from a backup, no re-crawling needed).
+
 
 --
 
@@ -163,3 +165,29 @@ recalls the reference nodes, and uses ~80% fewer context tokens than a 2-hop nei
 * Form D does not list investors, so `INVESTED_IN` edges in real data only come from investors the LLM
   extracts from crawled pages; the demo graph has synthetic investors.
 * Measure TTFT after the warm-up call (`run_eval` does this) so model load time is excluded.
+
+## 6. TODO (for deployment)
+
+The two agents are currently **not connected**. The reasoning agent only searches the graph it was given:
+when its sufficiency check fails, it walks the *same* graph again, and it cannot tell that a company is missing
+and needs to be collected. The collection agent is an offline batch pipeline
+(`plan → yc → sec → opencorporates → resolve → load_kg`) run from the CLI. Decide whether production needs the
+loop closed:
+
+- [ ] **Decide if on-demand collection is needed.** If users only ask about the companies already in the graph,
+      skip everything below and refresh the graph periodically with `collect` / `investors` + `scripts/backup.sh`.
+- [ ] **Trigger.** Start a targeted collection when `resolve_anchors` finds no node for a named company, or when
+      `check_sufficiency` reports missing facts about an entity (`vcgraph/reason/agent.py`, `n_seed` / `n_check`).
+- [ ] **Targeted collection for one company.** YC (`--yc-mode json` is fastest) + SEC Form D + funding news, then
+      entity resolution against the existing `entities` in Mongo, instead of a whole-batch run.
+- [ ] **Incremental graph write.** `upsert_nodes` / `upsert_edges` already use `MERGE`, so writes are idempotent,
+      but `build_graph` (`vcgraph/kg/builder.py`) re-embeds every entity it is given and computes `SIMILAR_TO`
+      only among them. An incremental path needs to: embed only the new nodes; find `SIMILAR_TO` neighbours of
+      new companies against the existing ones via the vector index; refresh `degree` only on touched nodes
+      (instead of the global `finalize()`).
+- [ ] **Latency.** A targeted crawl takes seconds to tens of seconds. Prefer answering "not in the graph yet"
+      immediately and queueing the collection in the background, over blocking the request.
+- [ ] **Data quality and safety.** Facts extracted at query time are unreviewed. Mark them (e.g. a `sources` /
+      `collected_at` property) so they can be audited or rolled back, and rate-limit SEC (≤10 req/s) and YC.
+- [ ] **Reproducibility.** Keep on-demand collection switchable (env flag, off by default) and turn it off for
+      evaluation, otherwise the graph changes between runs and results stop matching the report.
