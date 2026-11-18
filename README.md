@@ -10,10 +10,11 @@
   <img src="https://img.shields.io/badge/License-MIT-70C1B3?style=for-the-badge" alt="License">
 </a>
 
+## 1. Project Architecture
 <img width="960" height="540" alt="architecture" src="https://github.com/user-attachments/assets/e0c457d9-bda5-45c0-8807-177be8a76f30" />
 
 
-## 1. Quick start
+## 2. Quick start
 
 ```bash
 cp .env.example .env
@@ -30,7 +31,7 @@ crawl4ai-setup                             # one-time Playwright browser install
 EMBED_BACKEND=hash pytest -q
 ```
 
-### 1.1 Option A: synthetic demo graph
+### 2.1 Option A: synthetic demo graph
 
 ```bash
 python main.py demo                         # 72 fictional companies -> Neo4j, writes data/demo/questions.jsonl
@@ -41,7 +42,7 @@ python main.py ask "Which investors are most active in Fintech startups?" --mode
 
 Note: Company names come from `data/demo/questions.jsonl`, you can choose company names from the file.
 
-### 1.2 Option B: real Y Combinator data
+### 2.2 Option B: real Y Combinator data
 
 ```bash
 # 1) collect: YC list (yc-oss JSON mirror) + crawl each www.ycombinator.com/companies/<slug> page for founders
@@ -75,7 +76,7 @@ the walk and of the embedding-derived `SIMILAR_TO` edges:
 Note: Spot-check the generated file before reporting numbers (YC tags can be broad), since the answers are synthetic.
 
 
-## 2. Evaluation
+## 3. Evaluation
 
 1.Run
 ```bash
@@ -104,7 +105,7 @@ All `eval` flags (a flag is an option starting with `--`; leave it out to get th
 | `--no-ragas` | off | skip the RAGAS judge: faster, no OpenAI key | RAGAS columns in `summary.csv` stay empty |
 | `--no-check` | off | skip the evidence-sufficiency check (one fewer LLM call) | no follow-up retrieval when evidence is missing; recall can drop |
 
-## 3. Project layout
+## 4. Project layout
 ```
 WalkVC/
 ├── main.py                    # CLI: demo | collect | build | export-list | investors | questions | ask | eval  (+)
