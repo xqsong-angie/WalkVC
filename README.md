@@ -9,7 +9,8 @@
 <a href="LICENSE">
   <img src="https://img.shields.io/badge/License-MIT-70C1B3?style=for-the-badge" alt="License">
 </a>
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4667a4a9-db78-4ca1-b67b-2d8e270bff69" />
+
+<img width="960" height="540" alt="architecture" src="https://github.com/user-attachments/assets/e0c457d9-bda5-45c0-8807-177be8a76f30" />
 
 
 ## 1. Quick start
