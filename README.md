@@ -97,7 +97,7 @@ All `eval` flags (a flag is an option starting with `--`; leave it out to get th
 | `--questions PATH` | `data/demo/questions.jsonl` | question set to evaluate | set it explicitly for the YC graph |
 | `--models M [M ...]` | `llama3.1:8b qwen2.5:14b gpt-4o` | models under test | `gpt-4o` needs `OPENAI_API_KEY`; runtime grows with each model |
 | `--modes X [X ...]` | `walk cypher` | retrieval: `walk`, `cypher` (Text-to-Cypher baseline), `expand` | `cypher` needs Neo4j (skipped on `memory`) |
-| `--backend neo4j\|memory` | `neo4j` | `memory` runs without Docker | run `demo --backend memory` first; no `cypher` |
+| `--backend neo4j\|memory` | `neo4j` | `memory` runs without Docker | run `demo --backend memory` first; no `cypher`, memory holds only the synthetic demo graph |
 | `--run-name NAME` | `run-YYYYMMDD-HHMMSS` | output folder `results/NAME/` | an existing folder is overwritten |
 | `--limit N` | all | first N questions only (smoke test) | not a random sample; don't report these numbers |
 | `--no-ragas` | off | skip the RAGAS judge: faster, no OpenAI key | RAGAS columns in `summary.csv` stay empty |
@@ -105,9 +105,35 @@ All `eval` flags (a flag is an option starting with `--`; leave it out to get th
 
 ## 3. Project layout
 ```
-├── main.py                    # CLI: demo | collect | build | ask | eval
+WalkVC/
+├── main.py                    # CLI: demo | collect | build | export-list | investors | questions | ask | eval  (+)
+├── requirements.txt           
+├── pytest.ini                 
+├── .env.example               # template for .env (keys, DB passwords, model names)  
+├── docker-compose.yml         # Neo4j 5.20 + MongoDB 7 for local development  
+├── docker-compose.prod.yml    # production override: localhost-only ports, passwords from .env  
+├── DEPLOY.md                  # deployment handoff: restore the exported data, no re-crawl  
 ├── tests/
-│   └── test_pipeline.py       # offline tests (no Docker / no LLM needed)
+│   ├── test_pipeline.py       # offline tests (no Docker / no LLM needed)
+│   ├── test_anchors.py        # anchoring / pinning / intersection on a small YC-shaped graph  
+│   └── test_investors.py      # funding-news harvesting and investor extraction  
+├── scripts/                   
+│   ├── final_rerun.py         # re-run the main configurations on the final graph (G2-final)
+│   ├── answer_recall.py       # answer-level recall for every method, incl. the Cypher baseline
+│   ├── explore_budget.py      # recall vs token budget + paired bootstrap + figure
+│   ├── two_hop_summary.py     # pooled two-hop comparison + size-aware router simulation
+│   ├── stopping_ablation.py   # info-gain stopping vs fixed / aggressive stopping
+│   ├── eval_collection.py     # news-extracted investor edges vs PitchBook golden set
+│   ├── collection_ceiling.py  # investor recall = source coverage x extraction recall
+│   ├── check_pb_matches.py    # check YC -> PitchBook "Upload a List" matches
+│   ├── backup.sh              # export Mongo + Neo4j to backups/
+│   ├── restore.sh             # load a backup (overwrites local databases)
+│   └── _dbutil.sh             # shared helpers for backup.sh / restore.sh
+├── data/                      
+│   ├── demo/                  # synthetic entities.json + questions.jsonl
+│   ├── yc/                    # YC question sets: questions / questions_explore / questions_coinvest
+│   └── pitchbook/             # PitchBook exports, used only by the collection-layer evaluation
+├── results/                   # one folder per run; see results/README.md  
 └── vcgraph/
     ├── config.py              # settings from .env
     ├── llm.py                 # unified Ollama/OpenAI client, streaming TTFT, token counting, embeddings, VRAM probe
@@ -119,6 +145,7 @@ All `eval` flags (a flag is an option starting with `--`; leave it out to get th
     ├── collect/
     │   ├── sources.py         # YC (Crawl4AI / JSON mirror), SEC EDGAR Form D, OpenCorporates
     │   ├── extract.py         # LLM page -> CompanyProfile extraction
+    │   ├── investors.py       # funding news -> LLM FundingEvent -> normalized investor edges  
     │   ├── resolve.py         # entity resolution
     │   └── agent.py           # LangGraph collection pipeline
     ├── kg/
@@ -126,9 +153,13 @@ All `eval` flags (a flag is an option starting with `--`; leave it out to get th
     │   └── demo.py            # synthetic ecosystem + ground-truth questions
     ├── reason/
     │   ├── walk.py            # ★ guided random walk with restart + info-gain stopping
+    │   ├── anchors.py         # exact-name anchoring, anchor-conditioned query, pinned neighbours 
     │   ├── decompose.py       # query decomposition / sufficiency check
     │   ├── cypher.py          # Text-to-Cypher baseline
     │   └── agent.py           # LangGraph reasoning agent
     └── eval/
+        ├── make_questions.py  # real-data question sets with ground truth from YC / SEC facts 
+        ├── metrics.py         # node-id precision/recall, cited ids, percentiles, GPU probe 
         └── run_eval.py        # benchmark: models x modes x questions -> RAGAS + system metrics
+
 ```
