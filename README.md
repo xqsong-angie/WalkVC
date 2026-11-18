@@ -5,52 +5,40 @@
 
 --
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4667a4a9-db78-4ca1-b67b-2d8e270bff69" />
 
-```
-                 ┌───────────────────── Data Collection Agent (LangGraph) ─────────────────────┐
- YC directory ──▶│ Crawl4AI render ─▶ LLM extraction ─┐                                        │
- SEC EDGAR    ──▶│ Form D search + XML parse ─────────┼─▶ MongoDB (raw_pages, records)          │
- OpenCorporates─▶│ legal-entity search ───────────────┘        │                               │
-                 │                              entity resolution (fuzzy + domain + union-find)│
-                 └──────────────────────────────────────────────┼──────────────────────────────┘
-                                                                ▼
-                                   Neo4j 5 (KG structure + vector index on :Entity.embedding)
-                                                                ▲
-                 ┌───────────────────── Graph Reasoning Agent (LangGraph) ─────────────────────┐
-  NL question ──▶│ decompose ─▶ seed (vector + name) ─▶ guided random walks ─▶ subgraph context  │
-                 │      ▲                                   (stop on marginal info gain)  │      │
-                 │      └──────── follow-up sub-query ◀── sufficiency check ◀─────────────┘      │
-                 │                                                     ─▶ streamed answer + [citations]
-                 └──────────────────────────────────────────────────────────────────────────────┘
-  Baseline: mode=cypher  (Text-to-Cypher deterministic retrieval)
-```
 
 --
 
 ## 1. Project layout
-
 ```
-main.py                    CLI: demo | collect | build | ask | eval
-vcgraph/config.py          settings from .env
-vcgraph/llm.py             unified Ollama/OpenAI client, streaming TTFT, token counting, embeddings, VRAM probe
-vcgraph/jsonparse.py       robust JSON parsing + parser success-rate counters (Reliability metric)
-vcgraph/schema.py          pydantic schemas (CompanyProfile, Decomposition, ...)
-vcgraph/storage/mongo.py   raw/landing store
-vcgraph/storage/graph.py   Neo4jGraph + InMemoryGraph (same interface)
-vcgraph/collect/sources.py YC (Crawl4AI / JSON mirror), SEC EDGAR Form D, OpenCorporates
-vcgraph/collect/extract.py LLM page -> CompanyProfile extraction
-vcgraph/collect/resolve.py entity resolution
-vcgraph/collect/agent.py   LangGraph collection pipeline
-vcgraph/kg/builder.py      entities -> nodes/edges/embeddings (+ derived SIMILAR_TO)
-vcgraph/kg/demo.py         synthetic ecosystem + ground-truth questions
-vcgraph/reason/walk.py     ★ guided random walk with restart + info-gain stopping
-vcgraph/reason/decompose.py query decomposition / sufficiency check
-vcgraph/reason/cypher.py   Text-to-Cypher baseline
-vcgraph/reason/agent.py    LangGraph reasoning agent
-vcgraph/eval/run_eval.py   benchmark: models x modes x questions -> RAGAS + system metrics
-tests/test_pipeline.py     offline tests (no Docker / no LLM needed)
+├── main.py                    # CLI: demo | collect | build | ask | eval
+├── tests/
+│   └── test_pipeline.py       # offline tests (no Docker / no LLM needed)
+└── vcgraph/
+    ├── config.py              # settings from .env
+    ├── llm.py                 # unified Ollama/OpenAI client, streaming TTFT, token counting, embeddings, VRAM probe
+    ├── jsonparse.py           # robust JSON parsing + parser success-rate counters (Reliability metric)
+    ├── schema.py              # pydantic schemas (CompanyProfile, Decomposition, ...)
+    ├── storage/
+    │   ├── mongo.py           # raw/landing store
+    │   └── graph.py           # Neo4jGraph + InMemoryGraph (same interface)
+    ├── collect/
+    │   ├── sources.py         # YC (Crawl4AI / JSON mirror), SEC EDGAR Form D, OpenCorporates
+    │   ├── extract.py         # LLM page -> CompanyProfile extraction
+    │   ├── resolve.py         # entity resolution
+    │   └── agent.py           # LangGraph collection pipeline
+    ├── kg/
+    │   ├── builder.py         # entities -> nodes/edges/embeddings (+ derived SIMILAR_TO)
+    │   └── demo.py            # synthetic ecosystem + ground-truth questions
+    ├── reason/
+    │   ├── walk.py            # ★ guided random walk with restart + info-gain stopping
+    │   ├── decompose.py       # query decomposition / sufficiency check
+    │   ├── cypher.py          # Text-to-Cypher baseline
+    │   └── agent.py           # LangGraph reasoning agent
+    └── eval/
+        └── run_eval.py        # benchmark: models x modes x questions -> RAGAS + system metrics
 ```
-
 --
 
 ## 2. Quick start
